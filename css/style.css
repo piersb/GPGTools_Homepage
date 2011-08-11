@@ -358,10 +358,6 @@ div#navigation ul li {
 ul.sub {
     margin:2em;
 }
-ul {
-    margin:1em;
-    margin-left:3em;
-}
 ul#projects, ul.projects {
     list-style-type: none;
     color:#aaa;
