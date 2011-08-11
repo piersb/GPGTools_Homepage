@@ -58,5 +58,10 @@
 </form><br/>
 <a href="http://flattr.com/thing/319097/GPGTools" target="_blank">
 <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+            <h3>List of sponsors</h3>
+            <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
+            <ul class="sub">
+              <li>Just created this list. Therefore, it is empty.</li>
+            </ul>
         </div>
 {/block}
