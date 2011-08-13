@@ -15,10 +15,10 @@
             <h3>How to help?</h3>
             <p>If you like what we're doing please consider to help us:</p>
             <h4>Donate time</h4>
-            <p>Spread the word! At the bottom of the page, click on the buttons 
-			to share us with your social networks. You can also tell your 
-			friends and co-workers about GPGTools, or even ask media to write 
-			articles about OpenPGP based security. You can support other 
+            <p>Spread the word! At the bottom of the page, click on the buttons
+			to share us with your social networks. You can also tell your
+			friends and co-workers about GPGTools, or even ask media to write
+			articles about OpenPGP based security. You can support other
 			users by answering questions via
             <a href="about.php">mailing list or twitter</a>. Furthermore, you
             could <a href="http://www.apple.com/feedback/macosx.html">recommend for
@@ -61,8 +61,18 @@
             <h3>List of sponsors</h3>
             <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
             <p>We've just created this list. Therefore, it is almost empty.</p>
-            <ul class="sub">
-              <li>Ken van Wyk</li>
-            </ul>
+            <div class="table left">
+                <h4>Private Persons</h4>
+                <ul class="sub">
+                  <li>Ken van Wyk</li>
+                </ul>
+            </div>
+            <div class="table right">
+                <h4>Companies</h4>
+                <ul class="sub">
+                  <li>NORDUNet</li>
+                </ul>
+            </div>
+
         </div>
 {/block}

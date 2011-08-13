@@ -11,13 +11,12 @@
             <p>Thank you very much for your donation! Your money will help
             us to bring secure OpenPGP based communication to Apple OS X
             and beyond.</p>
-            <p>Again, we really appreciate your contribution to our
-            project. Please help us spread the word by telling a few of
-            your friends.</p>
+            <p>As a token of appreciation we would like to publish your
+            name (or company) at our list of sponsors. Please let us
+            know in case you accept this offer.</p>
             <ul class="sub"></ul>
             <p>
             Sincerely Yours, GPGTools Project Team
             </p>
-
         </div>
 {/block}
