@@ -64,6 +64,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+                  <li>Guillaume Destuynder (Mozilla)</li>
                   <li>Christer Klasson</li>
                   <li>laradji Nacer</li>
                   <li>Jessica Stolz</li>
