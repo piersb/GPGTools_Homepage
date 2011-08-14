@@ -60,7 +60,6 @@
 <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
             <h3>List of sponsors</h3>
             <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
-            <p>We've just created this list. Therefore, it is almost empty.</p>
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
