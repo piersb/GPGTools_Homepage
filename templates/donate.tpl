@@ -67,6 +67,7 @@
                   <li>Christer Klasson</li>
                   <li>laradji Nacer</li>
                   <li>Jessica Stolz</li>
+                  <li>Claudius Wettstein</li>
                   <li>Ken van Wyk</li>
                 </ul>
             </div>
