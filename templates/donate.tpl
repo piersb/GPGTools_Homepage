@@ -64,6 +64,8 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+                  <li>Christer Klasson</li>
+                  <li>laradji Nacer</li>
                   <li>Jessica Stolz</li>
                   <li>Ken van Wyk</li>
                 </ul>
