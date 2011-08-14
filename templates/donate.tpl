@@ -63,24 +63,24 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
-                  <li>Guillaume Destuynder (Mozilla)</li>
-                  <li>Christer Klasson</li>
-                  <li>Wilbert Leeper</li>
-                  <li>laradji Nacer</li>
                   <li>Beat Stehrenberger</li>
-                  <li>Jessica Stolz</li>
+                  <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
+                  <li>Guillaume Destuynder (Mozilla)</li>
+                  <li>Jessica Stolz</li>
                   <li>Ken van Wyk</li>
+                  <li>Laradji Nacer</li>
+                  <li>Wilbert Leeper</li>
                 </ul>
             </div>
             <div class="table right">
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li class="premium">NORDUNet</li>
-                  <li>Sepher Software</li>
+                  <li>Loosh Labs LLC</li>
                   <li>Rayzon Technologies Ltd</li>
+                  <li>Sepher Software</li>
                 </ul>
             </div>
-
         </div>
 {/block}
