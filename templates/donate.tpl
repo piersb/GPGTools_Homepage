@@ -73,7 +73,9 @@
             <div class="table right">
                 <h4>Companies</h4>
                 <ul class="sub">
-                  <li>NORDUNet</li>
+                  <li class="premium">NORDUNet</li>
+                  <li>Sepher Software</li>
+                  <li>Rayzon Technologies Ltd</li>
                 </ul>
             </div>
 
