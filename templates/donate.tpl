@@ -65,6 +65,7 @@
                 <ul class="sub">
                   <li>Guillaume Destuynder (Mozilla)</li>
                   <li>Christer Klasson</li>
+                  <li>Wilbert Leeper</li>
                   <li>laradji Nacer</li>
                   <li>Beat Stehrenberger</li>
                   <li>Jessica Stolz</li>
