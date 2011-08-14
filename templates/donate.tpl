@@ -70,14 +70,15 @@
                   <li>Jessica Stolz</li>
                   <li>Ken van Wyk</li>
                   <li>Laradji Nacer</li>
+                  <li>Robert Vaessen</li>
                   <li>Wilbert Leeper</li>
                 </ul>
             </div>
             <div class="table right">
                 <h4>Companies</h4>
                 <ul class="sub">
-                  <li class="premium">NORDUNet</li>
                   <li>Loosh Labs LLC</li>
+                  <li class="premium">NORDUNet</li>
                   <li>Rayzon Technologies Ltd</li>
                   <li>Sepher Software</li>
                 </ul>
