@@ -67,6 +67,7 @@
                   <li>Guillaume Destuynder (Mozilla)</li>
                   <li>Christer Klasson</li>
                   <li>laradji Nacer</li>
+                  <li>Beat Stehrenberger</li>
                   <li>Jessica Stolz</li>
                   <li>Claudius Wettstein</li>
                   <li>Ken van Wyk</li>
