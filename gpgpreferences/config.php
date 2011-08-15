@@ -1,7 +1,8 @@
 <?php /*compileIgnore*/
 
 
-$version="0.6";
+$version='0.7';
+$release['0.7'] = mktime(12, 0, 0, 8, 15, 2011);
 $release['0.6'] = mktime(11, 28, 0, 01, 27, 2011);
 $current = $release[$version];
 
@@ -13,11 +14,11 @@ $theSite->assign('url_dl', "GPGPreferences-$version.dmg");
 $theSite->assign('url_sig', "GPGPreferences-$version.dmg.sig");
 $theSite->assign('url_beta', '');
 $theSite->assign('url_wiki', '');
-$theSite->assign('date',     date("d. F Y", $current));
+$theSite->assign('date',     date('d. F Y', $current));
 $theSite->assign('version',  "$version");
-$theSite->assign('month',  date("m", $current));
-$theSite->assign('day',  date("d", $current));
-$theSite->assign('year',  date("Y", $current));
+$theSite->assign('month',  date('m', $current));
+$theSite->assign('day',  date('d', $current));
+$theSite->assign('year',  date('Y', $current));
 $theSite->assign('reqs', 'OS X 10.5/Intel');
 
 $theSite->assign('overview', '
@@ -27,10 +28,10 @@ $theSite->assign('overview', '
 $theSite->assign('short_description', 'The GPGTools preferences pane will replace the old GPGPreferences pane in the future. By now you can fix broken GPG and GPGMail installations (e.g. after an OS X update).');
 
 $theSite->assign('lighthouse', '66966');
-$theSite->assign('macupdate', "");
-$theSite->assign('iusethis', "");
-$theSite->assign('heise', "");
-$theSite->assign('cnet', "3000-2092_4-25028");
+$theSite->assign('macupdate', '');
+$theSite->assign('iusethis', '');
+$theSite->assign('heise', '');
+$theSite->assign('cnet', '3000-2092_4-25028');
 
 $limitations = array(
 '1' => 'The old GPGPreferences are not included, yet',
@@ -50,24 +51,33 @@ $screenshots = array(
 'images/gpgmail.png' => array('images/gpgmail-small.png', 'Fix GPGMail (e.g. after an OS update)')
 );
 $theSite->assign('screenshots', $screenshots);
-$theSite->assign('screencasts', "");
+$theSite->assign('screencasts', '');
 
 $changelog = array(
-    '0.6' => array(date("d. F Y", $release['0.6']), array(
+	'0.7' => array(date('d. F Y', $release['0.7']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.7']),
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.7.dmg',
+		'sparkle_sig' => '',
+		'sparkle_size' => '354724',
+		'sparkle_minOS' => '10.6',
+		'a' => 'Support for Mac OS X 10.7',
+		'sha' => 'Checksum: 3ca614f5d3c223136431a4297dcedba6b4366632 (SHA-1)',
+	)),
+    '0.6' => array(date('d. F Y', $release['0.6']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['0.6']),
-        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.6.dmg",
-        'sparkle_sig' => "",
-        'sparkle_size' => "656746",
-        "a" => "Updates for OS X 10.6.7",
-        "b" => "Added uninstaller",
-        "c" => "Updated DMG generation script",
-        'sha' => "Checksum: 93f076f06561dbfdc7a7d1f5c680d899d8667f5a (SHA-1)",
+        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.6.dmg',
+        'sparkle_sig' => '',
+        'sparkle_size' => '656746',
+        'a' => 'Updates for OS X 10.6.7',
+        'b' => 'Added uninstaller',
+        'c' => 'Updated DMG generation script',
+        'sha' => 'Checksum: 93f076f06561dbfdc7a7d1f5c680d899d8667f5a (SHA-1)',
     )),
     '0.5' => array('26. January 2011', array(
-        "a" => "Added GPG fix",
+        'a' => 'Added GPG fix',
     )),
     '0.4' => array('24. January 2011', array(
-        "a" => "Initial update for GPGTools integration"
+        'a' => 'Initial update for GPGTools integration'
     ))
 );
 $theSite->assign('changelog', $changelog);
