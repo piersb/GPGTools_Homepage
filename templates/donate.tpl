@@ -66,10 +66,18 @@
                   <li>Beat Stehrenberger</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
+                  <li>Dave Diemer</li>
+                  <li>Dirk Pape</li>
+                  <li>Dmitry Nedospasov</li>
                   <li>Guillaume Destuynder (Mozilla)</li>
+                  <li>Ignacio Lorenzo Subirá Otal</li>
                   <li>Jessica Stolz</li>
+                  <li>Karl Pietrzak</li>
+                  <li>Ken Joy</li>
                   <li>Ken van Wyk</li>
                   <li>Laradji Nacer</li>
+		  <li>Mark Harrigan</li>
+                  <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
                   <li>Wilbert Leeper</li>
                 </ul>
@@ -78,10 +86,13 @@
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
+                  <li class="premium">Clockwork Active Media Systems</li>
                   <li>Loosh Labs LLC</li>
+                  <li>Matta</li>
                   <li class="premium">NORDUNet</li>
                   <li>Rayzon Technologies Ltd</li>
                   <li>Sepher Software</li>
+                  <li>Silvexis</li>
                 </ul>
             </div>
         </div>
