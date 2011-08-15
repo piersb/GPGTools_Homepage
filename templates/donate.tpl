@@ -32,7 +32,7 @@
             <li><a href="https://github.com/GPGTools/">All the sources</a></li>
             <li><a href="http://gpgtools.lighthouseapp.com/tickets/">All the issues</a></li>
             <li><a href="https://github.com/GPGTools/GPGTools/wiki/How-to-build">How to build</a></li>
-            <li><a href="https://github.com/GPGTools/GPGTools/wiki/How-to-build">How to localize</a></li>
+            <li><a href="https://github.com/GPGTools/GPGTools/wiki/Localization">How to localize</a></li>
             <li><a href="http://gpgtools.lighthouseapp.com/events.atom">How to keep up to date with all issues</a></li>
             <li><a href="https://github.com/GPGTools/GPGTools/wiki/">How to get more information</a></li>
             <li><a href="about.php">How to get in contact</a></li>
