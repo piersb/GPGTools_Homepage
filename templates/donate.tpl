@@ -87,10 +87,10 @@
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
                   <li class="premium">Clockwork Active Media Systems</li>
-                  <li>Loosh Labs LLC</li>
+                  <li>Loosh Labs</li>
                   <li>Matta</li>
                   <li class="premium">NORDUNet</li>
-                  <li>Rayzon Technologies Ltd</li>
+                  <li>Rayzon Technologies</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
                 </ul>
