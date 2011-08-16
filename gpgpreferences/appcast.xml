@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>GPGTools - GPGPreferences - Changelog</title><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgpreferences/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGPreferences version 0.7</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Mon, 15 Aug 2011 12:00:00 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.7.dmg</guid> <description><![CDATA[<ul><li>Support for Mac OS X 10.7.</li><li>Checksum: 3ca614f5d3c223136431a4297dcedba6b4366632 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.7.dmg"
+sparkle:version="0.7"
+sparkle:dsaSignature=""
+length="354724"
+type="application/octet-stream" /> </item> <item><title>GPGPreferences version 0.6</title> <pubDate>Thu, 27 Jan 2011 11:28:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.6.dmg</guid> <description><![CDATA[<ul><li>Updates for OS X 10.6.7.</li><li>Added uninstaller.</li><li>Updated DMG generation script.</li><li>Checksum: 93f076f06561dbfdc7a7d1f5c680d899d8667f5a (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.6.dmg"
+sparkle:version="0.6"
+sparkle:dsaSignature=""
+length="656746"
+type="application/octet-stream" /> </item> <item><title>GPGPreferences version 0.5</title> <pubDate></pubDate> <guid></guid> <description><![CDATA[<ul><li>Added GPG fix.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url=""
+sparkle:version="0.5"
+sparkle:dsaSignature=""
+length=""
+type="application/octet-stream" /> </item> <item><title>GPGPreferences version 0.4</title> <pubDate></pubDate> <guid></guid> <description><![CDATA[<ul><li>Initial update for GPGTools integration.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url=""
+sparkle:version="0.4"
+sparkle:dsaSignature=""
+length=""
+type="application/octet-stream" /> </item></channel>
+</rss>
