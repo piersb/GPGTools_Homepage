@@ -63,6 +63,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+                  <li>Anton Umnitsyn</li>
                   <li>Beat Stehrenberger</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
