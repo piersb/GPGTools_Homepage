@@ -73,6 +73,7 @@
                   <li>Guillaume Destuynder (Mozilla)</li>
                   <li>Ignacio Lorenzo Subirá Otal</li>
                   <li>Jessica Stolz</li>
+                  <li>Joël Brogniart</li>
                   <li>Karl Pietrzak</li>
                   <li>Ken Joy</li>
                   <li>Ken van Wyk</li>
