@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
 $version='1.3.3';
+$release['2.0a2'] = mktime(21, 35, 0, 8, 19, 2011);
 $release['2.0a1'] = mktime(12, 0, 0, 8, 6, 2011);
 $release['1.3.3'] = mktime(12, 0, 0, 03, 22, 2011);
 $release['1.3.2'] = mktime(12, 0, 0, 03, 02, 2011);
@@ -66,6 +67,16 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '2.0a2' => array(date('d. F Y', $release['2.0a2']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['2.0a2']),
+        'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a2.zip',
+        'sparkle_sig' => 'MCwCFFboZcQHP0j6CVH8SYDRBmFs9fA2AhRYxSU3dgFNPXoVMJwnKcGxjad/0w==',
+        'sparkle_size' => '1946022',
+        'sparkle_minOS' => '10.7',
+        'a' => 'Second alpha for 10.7',
+        'b' => 'Fixed over 50 major and minor issues',
+        'sha' => 'Checksum: 0d7b8e9d53d4d122f790146515de4f043e3c8458 (SHA-1)',
+        )),
     '2.0a1' => array(date('d. F Y', $release['2.0a1']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a1']),
         'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a1.mailbundle.zip',
