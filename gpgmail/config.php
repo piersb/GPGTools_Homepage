@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
 $version='1.3.3';
+$release['2.0a3'] = mktime(14, 23, 0, 8, 21, 2011);
 $release['2.0a2'] = mktime(21, 35, 0, 8, 19, 2011);
 $release['2.0a1'] = mktime(12, 0, 0, 8, 6, 2011);
 $release['1.3.3'] = mktime(12, 0, 0, 03, 22, 2011);
@@ -15,7 +16,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGMail');
 $theSite->assign('url_dl', "GPGMail-$version.dmg");
 $theSite->assign('url_sig', "GPGMail-$version.dmg.sig");
-$theSite->assign('url_beta', '');
+$theSite->assign('url_beta', 'GPGMail-2.0a3.dmg');
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('version', $version);
 $theSite->assign('date',     date('d. F Y', $current));
@@ -67,6 +68,15 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '2.0a3' => array(date('d. F Y', $release['2.0a3']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['2.0a3']),
+        'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a3.zip',
+        'sparkle_sig' => 'MCwCFAkO9b3aqEX4PYpOsz2/sbZ8bQUFAhQhmnTKXr37yE3Ov+kFsbTd1BQtGA==',
+        'sparkle_size' => '1936168',
+        'sparkle_minOS' => '10.7',
+        'a' => 'Third alpha for 10.7',
+        'sha' => 'Checksum: 3f21326824fa108bae0c97c4c22716e6b485b824 (SHA-1)',
+        )),
     '2.0a2' => array(date('d. F Y', $release['2.0a2']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a2']),
         'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a2.zip',
