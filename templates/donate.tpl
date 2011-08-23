@@ -64,6 +64,7 @@
                 <h4>Private Persons</h4>
                 <ul class="sub">
                   <li>Anton Umnitsyn</li>
+                  <li>Aurimas Mikalauskas</li>
                   <li>Beat Stehrenberger</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
