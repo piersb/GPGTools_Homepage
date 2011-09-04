@@ -72,7 +72,7 @@ $changelog = array(
     '2.0a4' => array(date('d. F Y', $release['2.0a4']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a4']),
         'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip',
-        'sparkle_sig' => 'MCwCFDsYv5/EiBOpn+i2GTyZr52CRU90AhQeZL/MIiNG2ewsOPoRRZ1L9AWnNQ==',
+        'sparkle_sig' => 'MCwCFB0X4UZ5O6lxmc7DwEBaqYv5njoSAhQNkP9QjXiAQsfDcPRBZlkuw5ZmRg==',
         'sparkle_size' => '1955283',
         'sparkle_minOS' => '10.7',
         'a' => 'Fourth alpha for 10.7',

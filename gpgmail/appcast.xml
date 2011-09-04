@@ -3,11 +3,11 @@
 <channel>
 <title>GPGTools - GPGMail - Changelog</title><link>http://www.gpgtools.org/gpgmail/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgmail/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgmail/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGMail version 2.0a4</title> <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion> <pubDate>Sun, 04 Sep 2011 14:23:00 +0200</pubDate> <guid>https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip</guid> <description><![CDATA[<ul><li>Fourth alpha for 10.7.</li><li>Closed <a
 href="http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4">38 tickets</a>.</li><li>Submitted <a
-href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>.</li><li>Checksum: 3f21326824fa108bae0c97c4c22716e6b485b824 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
+href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>.</li><li>Checksum: 91463d97da7a302cca2fbc93695ad980485b9264 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip"
 sparkle:version="2.0a4"
-sparkle:dsaSignature="MCwCFAkO9b3aqEX4PYpOsz2/sbZ8bQUFAhQhmnTKXr37yE3Ov+kFsbTd1BQtGA=="
-length="1936168"
+sparkle:dsaSignature="MCwCFB0X4UZ5O6lxmc7DwEBaqYv5njoSAhQNkP9QjXiAQsfDcPRBZlkuw5ZmRg=="
+length="1955283"
 type="application/octet-stream" /> </item> <item><title>GPGMail version 2.0a3</title> <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion> <pubDate>Sun, 21 Aug 2011 14:23:00 +0200</pubDate> <guid>https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a3.zip</guid> <description><![CDATA[<ul><li>Third alpha for 10.7.</li><li>Checksum: 3f21326824fa108bae0c97c4c22716e6b485b824 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a3.zip"
 sparkle:version="2.0a3"
