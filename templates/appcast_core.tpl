@@ -23,6 +23,7 @@
 		        </sparkle:releaseNotesLink>
 		        <enclosure url="{$changes[1]['sparkle_url']}"
 		               sparkle:version="{if ($changes[1]['sparkle_version'])}{$changes[1]['sparkle_version']}{else}{$changes@key}{/if}"
+					   sparkle:shortVersionString="{$changes@key}"
 					   sparkle:dsaSignature="{$changes[1]['sparkle_sig']}"
 		               length="{$changes[1]['sparkle_size']}"
 		               type="application/octet-stream" />
