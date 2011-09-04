@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
 $version='1.3.3';
+$release['2.0a4'] = mktime(14, 23, 0, 9, 4, 2011);
 $release['2.0a3'] = mktime(14, 23, 0, 8, 21, 2011);
 $release['2.0a2'] = mktime(21, 35, 0, 8, 19, 2011);
 $release['2.0a1'] = mktime(12, 0, 0, 8, 6, 2011);
@@ -16,7 +17,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGMail');
 $theSite->assign('url_dl', "GPGMail-$version.dmg");
 $theSite->assign('url_sig', "GPGMail-$version.dmg.sig");
-$theSite->assign('url_beta', 'GPGMail-2.0a3.dmg');
+$theSite->assign('url_beta', 'GPGMail-2.0a4.dmg');
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('version', $version);
 $theSite->assign('date',     date('d. F Y', $current));
@@ -68,6 +69,17 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '2.0a4' => array(date('d. F Y', $release['2.0a4']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['2.0a4']),
+        'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip',
+        'sparkle_sig' => 'MCwCFDsYv5/EiBOpn+i2GTyZr52CRU90AhQeZL/MIiNG2ewsOPoRRZ1L9AWnNQ==',
+        'sparkle_size' => '1955283',
+        'sparkle_minOS' => '10.7',
+        'a' => 'Fourth alpha for 10.7',
+        'b' => 'Closed <a href="http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4">38 tickets</a>',
+        'c' => 'Submitted <a href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>',
+        'sha' => 'Checksum: 91463d97da7a302cca2fbc93695ad980485b9264 (SHA-1)',
+        )),
     '2.0a3' => array(date('d. F Y', $release['2.0a3']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a3']),
         'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a3.zip',
