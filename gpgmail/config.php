@@ -75,6 +75,7 @@ $changelog = array(
         'sparkle_sig' => 'MCwCFB0X4UZ5O6lxmc7DwEBaqYv5njoSAhQNkP9QjXiAQsfDcPRBZlkuw5ZmRg==',
         'sparkle_size' => '1955283',
         'sparkle_minOS' => '10.7',
+        'sparkle_version' => '21 (a4)',
         'a' => 'Fourth alpha for 10.7',
         'b' => 'Closed <a href="http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4">38 tickets</a>',
         'c' => 'Submitted <a href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>',
