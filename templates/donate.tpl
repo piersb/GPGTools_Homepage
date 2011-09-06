@@ -79,6 +79,7 @@
                   <li>Ken Joy</li>
                   <li>Ken van Wyk</li>
                   <li>Laradji Nacer</li>
+                  <li>Laurens Bonnema</li>
 		  <li>Mark Harrigan</li>
 		  <li>Michael Prewitt</li>
                   <li>Robert Tirrell</li>
