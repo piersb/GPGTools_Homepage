@@ -438,22 +438,6 @@ div#spacer {
     border-bottom:1px solid #aaa;
 }
 
-/*
-footer {
-    background: #dadada;
-    background: linear-gradient(top, #dadada, #ededed);
-    background: -moz-linear-gradient(top, #dadada, #ededed);
-    background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#ededed));
-    height:1.7em;
-    border-top:1px solid #aaa;
-    border-bottom:1px solid #aaa;
-    margin-top:3em;
-    clear:both;
-    -webkit-box-shadow: 0px -2px 5px #aaa;
-    -moz-box-shadow: 0px -2px 5px #aaa;
-    box-shadow: 0px -2px 5px #aaa;
-}
-*/
 html { background:#eee;}
 html.white { background:#fff;}
 #main {
@@ -486,19 +470,47 @@ div#info {
     border:1px solid #ccc;
 }
 
+/*
+footer {
+    background: #dadada;
+    background: linear-gradient(top, #dadada, #ededed);
+    background: -moz-linear-gradient(top, #dadada, #ededed);
+    background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#ededed));
+    height:1.7em;
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    margin-top:3em;
+    clear:both;
+    -webkit-box-shadow: 0px -2px 5px #aaa;
+    -moz-box-shadow: 0px -2px 5px #aaa;
+    box-shadow: 0px -2px 5px #aaa;
+}
 footer div {
     max-width:70em;
     padding-left:1em;
     margin-left: auto;
     margin-right: auto;
 }
-
 footer h3 {
     display:inline;
     font-size:100%;
     color: #444;
 }
-
+footer {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+footer {
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 2px 5px #aaa;
+    -moz-box-shadow: 0px 2px 5px #aaa;
+    box-shadow: 0px 2px 5px #aaa;
+}
+*/
 
 div#main {
     margin-top: 3em;

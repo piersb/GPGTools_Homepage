@@ -25,6 +25,11 @@
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="{$root}/js/libs/modernizr-1.6.min.js"></script>
   <script src="{$root}/js/mail.js"></script>
+  <!-- social bookmarks -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+  <script type="text/javascript" src="{$root}/js/socialshareprivacy/jquery.socialshareprivacy.min.js"></script>
+  <script type="text/javascript" src="{$root}/js/socialshareprivacy/gpgtools.js"></script>
+  <!-- social bookmarks -->
 </head>
 
 <body>

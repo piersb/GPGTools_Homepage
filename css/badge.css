@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-header, div#overview, div#spacer, footer {
+header, div#overview, div#spacer {
     width:98%;
     /*max-width:70em;*/
     margin-left: auto;
@@ -27,13 +27,6 @@ div#spacer {
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-radius-bottomright: 5px;
     -moz-border-radius-bottomleft: 5px;
-}
-
-footer {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    margin-bottom: 1em;
 }
 
 
