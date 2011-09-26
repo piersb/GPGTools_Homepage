@@ -29,10 +29,11 @@
                 <li>Browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
                 <li>Download our key: <a href="./files/gpgtools.asc" title="The GPGTools Project OpenGPG key">0x76D78F0500D026C4</a><br />Fingerprint: 85E3 8F69 046B 44C1 EC9F B07B 76D7 8F05 00D0 26C4</li>
                 <li>Drop us a line:
-                    <form action="http://www.gpgtools.org/mail.php" method="post">
+                    <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
                         Your <b>message</b>: <input type="text" name="message" />
                         and <b>mail</b> (optional): <input type="email" name="mail" />
-                        <input type="submit" value="send feedback" />
+			<input type="hidden" name="encrypted" />
+                        <input type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" />
                     </form>
                 </li>
             </ul>

@@ -25,54 +25,6 @@
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="{$root}/js/libs/modernizr-1.6.min.js"></script>
   <script src="{$root}/js/mail.js"></script>
-  <!-- social bookmarks -->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
-  <script type="text/javascript" src="{$root}/js/socialshareprivacy/jquery.socialshareprivacy.min.js"></script>
-  <script type="text/javascript">
-    txt_info='2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).';
-    txt_help='When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).';
-    jQuery(document).ready(function($){
-      if($('#socialshareprivacy').length > 0){
-$('#socialshareprivacy').socialSharePrivacy({
-  services : {
-    facebook : {
-        'perma_option': 'off',
-        'status' : 'on',
-        'language' : 'en',
-        'dummy_img' : '{$root}/js/socialshareprivacy/images/dummy_facebook_en.png',
-        'app_id'      : '217173161670898',
-        'txt_fb_off' : 'not connected with Facebook',
-        'txt_fb_on' : 'connected with Facebook',
-        'txt_info' : txt_info,
-    },
-    twitter : {
-        'perma_option': 'off',
-        'status' : 'on',
-        'language' : 'en',
-        'dummy_img' : '{$root}/js/socialshareprivacy/images/dummy_twitter.png',
-        'txt_twitter_off' : 'not connected with Twitter',
-        'txt_twitter_on' : 'connected with Twitter',
-        'txt_info' : txt_info,
-    },
-    gplus : {
-        'perma_option': 'off',
-        'status' : 'on',
-        'language' : 'en',
-        'dummy_img' : '{$root}/js/socialshareprivacy/images/dummy_gplus.png',
-        'txt_gplus_off' : 'not connected with Google+',
-        'txt_gplus_on' : 'connected with Google+',
-        'txt_info' : txt_info,
-    }
-  },
-  'cookie_domain' : 'gpgtools.org',
-  'settings_perma' : 'Agree to activate the social buttons permanently',
-  'css_path' : '{$root}/js/socialshareprivacy/socialshareprivacy.css',
-  'txt_help' : txt_help,
-});
-      }
-    });
-  </script>
-  <!-- social bookmarks -->
 </head>
 
 <body>
