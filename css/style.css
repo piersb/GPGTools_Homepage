@@ -552,6 +552,7 @@ div#info img {
     float:left;
     padding-bottom:0em;
 }
+img#bitcoins {vertical-align:middle; margin-right:0.5em;}
 img#64bit {height:34px; width:35px;}
 img#secure {height:50px; width:35px;}
 img#download {height:80px; width:80px; margin-bottom:1em;}

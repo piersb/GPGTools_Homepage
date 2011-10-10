@@ -40,8 +40,8 @@
             <h4>Donate money</h4>
             <p>The donation will be used for the development of the
             GPGTools project: developer accounts, marketing, design, etc.
-            There are several ways to donate. Currently, we offer PayPal and
-            Flattr donations only, but if you want to use another service please
+            There are several ways to donate. Currently, we offer PayPal,
+            Flattr and Bitcon donations only, but if you want to use another service please
             <a href="about.php">let us know</a>.</p>
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -58,6 +58,8 @@
 </form><br/>
 <a href="http://flattr.com/thing/319097/GPGTools" target="_blank">
 <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+<br/><br/>
+<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
             <h3>List of sponsors</h3>
             <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
             <div class="table left">
