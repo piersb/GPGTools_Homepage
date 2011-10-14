@@ -2,7 +2,7 @@
 
 
 $version="20110711";
-$release['20110822'] = mktime(12, 0, 0, 8, 22, 2011);
+$release['20111014'] = mktime(12, 0, 0, 10, 14, 2011);
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
@@ -73,20 +73,20 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-    '20110822' => array(date("d. F Y", $release['20110822']), array(
-        'sparkle_date' => date(DATE_RFC2822, $release['20110822']),
-        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110822.dmg",
+    '20111014' => array(date("d. F Y", $release['20111014']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['20111014']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111014.dmg",
         'sparkle_sig' => "",
-        'sparkle_size' => "23172130",
+        'sparkle_size' => "24826589",
         '82' => 'Update: GPGToolsPreferences 0.7',
         '76' => 'Update: Enigmail 1.2.1 for Thunderbird 5',
-        '69' => 'Added: GPGMail for 10.7 (Lion) - Alpha3',
-        '83' => 'Added: Enigmail 1.3 for Thunderbird 6',
+        '83' => 'Added: Enigmail 1.3.2 for Thunderbird 6 and 7',
+        '69' => 'Added: GPGMail for 10.7 (Lion) - Alpha4',
         '79' => 'Added: GPGTools public OpenPGP key',
         '85' => 'Added: GPGTools autofixes',
         '77' => 'Fix: Wrong permissons for Enigmail plugin',
         '78' => 'Fix: Enhanced Thunderbird detection',
-        'sha' => "Checksum: 2f18d4a0b9eb409b93f495430c236accfe6d772b (SHA-1)",
+        'sha' => "Checksum: 8f57848b38f15cfd53865492612cdd9cb94fd3a3 (SHA-1)",
         )),
     '20110711' => array(date("d. F Y", $release['20110711']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110711']),
