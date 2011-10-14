@@ -1,8 +1,8 @@
 <?php /*compileIgnore*/
 
-
+$bversion="20111014";
 $version="20110711";
-$release['20111014'] = mktime(12, 0, 0, 10, 14, 2011);
+$release["$bversion"] = mktime(12, 0, 0, 10, 14, 2011);
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
@@ -21,7 +21,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl',   "GPGTools-$version.dmg");
 $theSite->assign('url_sig',  "GPGTools-$version.dmg.sig");
-$theSite->assign('url_beta',  "GPGTools-20110822.dmg");
+$theSite->assign('url_beta',  "GPGTools-$bversion.dmg");
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('version',  date("Y.m.d", $current));
@@ -73,9 +73,9 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-    '20111014' => array(date("d. F Y", $release['20111014']), array(
-        'sparkle_date' => date(DATE_RFC2822, $release['20111014']),
-        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111014.dmg",
+    "$bversion" => array(date("d. F Y", $release["$bversion"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["$bversion"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-$bversion.dmg",
         'sparkle_sig' => "",
         'sparkle_size' => "24826589",
         '82' => 'Update: GPGToolsPreferences 0.7',
