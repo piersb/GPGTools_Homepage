@@ -78,6 +78,7 @@
                   <li>Ignacio Lorenzo Subirá Otal</li>
                   <li>Jessica Stolz</li>
                   <li>Joël Brogniart</li>
+                  <li>Jonathan Care</li>
                   <li>Karl Pietrzak</li>
                   <li>Ken Joy</li>
                   <li>Ken van Wyk</li>
