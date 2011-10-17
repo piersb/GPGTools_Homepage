@@ -1,7 +1,8 @@
 <?php /*compileIgnore*/
 
 
-$version='0.7';
+$version='0.8';
+$release['0.8'] = mktime(12, 0, 0, 10, 17, 2011);
 $release['0.7'] = mktime(12, 0, 0, 8, 15, 2011);
 $release['0.6'] = mktime(11, 28, 0, 01, 27, 2011);
 $current = $release[$version];
@@ -10,8 +11,8 @@ $theSite->assign('title', 'GPGPreferences');
 $theSite->assign('name', 'gpgpreferences');
 $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools_Preferences');
-$theSite->assign('url_dl', "GPGPreferences-$version.dmg");
-$theSite->assign('url_sig', "GPGPreferences-$version.dmg.sig");
+$theSite->assign('url_dl', "GPGTools_Preferences-$version.dmg");
+$theSite->assign('url_sig', "GPGTools_Preferences-$version.dmg.sig");
 $theSite->assign('url_beta', '');
 $theSite->assign('url_wiki', '');
 $theSite->assign('date',     date('d. F Y', $current));
@@ -19,7 +20,7 @@ $theSite->assign('version',  "$version");
 $theSite->assign('month',  date('m', $current));
 $theSite->assign('day',  date('d', $current));
 $theSite->assign('year',  date('Y', $current));
-$theSite->assign('reqs', 'OS X 10.5/Intel');
+$theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', '
 	<p>The GPGTools preferences pane will replace the old GPGPreferences pane in the future.
@@ -54,6 +55,16 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', '');
 
 $changelog = array(
+	'0.8' => array(date('d. F Y', $release['0.8']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.8']),
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.8.dmg',
+		'sparkle_sig' => '',
+		'sparkle_size' => '364262',
+		'sparkle_minOS' => '10.6',
+		'20' => 'Fixed support for Mac OS X 10.7.2',
+		'a' => 'GUI cleanup',
+		'sha' => 'Checksum: 73abbd8d3711b50d306743bc387c0dbc3f8d5b43 (SHA-1)',
+	)),
 	'0.7' => array(date('d. F Y', $release['0.7']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.7']),
 		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.7.dmg',
