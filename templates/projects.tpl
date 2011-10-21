@@ -45,7 +45,6 @@
             <ul class="sub">
                 <li><a href="https://github.com/GPGTools/GPGPreferences">GPGPreferences</a>: Edit GnuPG's options file with a GUI preference pane (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/ABKey">ABKey</a>: GPG for the OS X address book (state: we need a maintainer).</li>
-                <li><a href="https://github.com/GPGTools/GPGMail_Preferences">GPGTools/GPGMail Preferences</a>: A system wide preference pane for the GPGTools (state: needs more work).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Spotlight">Spotlight Plugin</a>: OS X Spotlight Plugin to search within encrypted mails (state: needs a maintainer, not implemented yet).</li>
                 <li><a href="#incubator">QuickLook Plugin</a>: OS X QuickLook Plugin to see details of OpenPGP data (state: needs a maintainer, not implemented yet).</li>
                 <li><a href="#incubator">Quicksilver Plugin</a>: Quicksilver Plugin to sign/encrypt/validate/decrypt OpenPGP data (state: needs a maintainer, not implemented yet).</li>
