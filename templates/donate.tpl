@@ -85,6 +85,7 @@
                   <li>Laradji Nacer</li>
                   <li>Laurens Bonnema</li>
 		  <li>Mark Harrigan</li>
+		  <li>Michael Dierck</li>
 		  <li>Michael Prewitt</li>
                   <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
