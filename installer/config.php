@@ -1,8 +1,8 @@
 <?php /*compileIgnore*/
 
-$bversion="20111014";
+$bversion="20111025";
 $version="20110711";
-$release["$bversion"] = mktime(12, 0, 0, 10, 14, 2011);
+$release["$bversion"] = mktime(12, 0, 0, 10, 25, 2011);
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
@@ -78,7 +78,9 @@ $changelog = array(
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-$bversion.dmg",
         'sparkle_sig' => "",
         'sparkle_size' => "24826589",
-        '82' => 'Update: GPGToolsPreferences 0.7',
+        'c' => 'Click on "pre-release" to download this version',
+        'b' => 'Update: GPG Keychain Access 1.0a4',
+        '82' => 'Update: GPGToolsPreferences 0.7a2',
         '76' => 'Update: Enigmail 1.2.1 for Thunderbird 5',
         '83' => 'Added: Enigmail 1.3.2 for Thunderbird 6 and 7',
         '69' => 'Added: GPGMail for 10.7 (Lion) - Alpha4',
@@ -86,7 +88,8 @@ $changelog = array(
         '85' => 'Added: GPGTools autofixes',
         '77' => 'Fix: Wrong permissons for Enigmail plugin',
         '78' => 'Fix: Enhanced Thunderbird detection',
-        'sha' => "Checksum: 8f57848b38f15cfd53865492612cdd9cb94fd3a3 (SHA-1)",
+        'a' => 'Many other small fixes',
+        'sha' => "Checksum: 7b3a87d97979ad8e0fe7438d65434727624e58bc (SHA-1)",
         )),
     '20110711' => array(date("d. F Y", $release['20110711']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110711']),
