@@ -7,29 +7,15 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <h3>Announcement</h3>
+            <h3>Announcement (October 2011)</h3>
             <ul id="announcement" class="sub">
               <li>
                 <img src="./images/lion.png" alt="lion compatible" title="lion compatible" class="icon" />
-                Yes, almost all components of the current GPGTools package run
-                under OS X Lion. However, <a href="gpgmail/index.php">GPGMail</a>
-                is not yet compatbile and will be disabled by Apple Mail on
-                first startup after updating to Mac OS X Lion. This is how
-                Apple deals with third-party plugins.
-                Nevertheless, we're
-                <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on an update</a>
-                of GPGMail that will run under Mac OS X Lion and it will be
-                available soon (see our <a href="faq.php#3.4">FAQ</a>).
+                Yes, all components of the current GPGTools package run under OS X Lion. However, we're still fixing some bugs.
+                In case you want to speed up the process, please download the latest <b>pre-release</b> of the <a href="installer/index.php">GPGTools Installer</a> and provide some feedback - or
+                <a href="donate.php">support us by another way</a>.
                 You will be notified via this website and
-                <a href="about.php">our other channels</a> once the update is
-                available.
-                In case you want to speed up the process,
-                <a href="donate.php">why not support us</a>?
-                In the meantime you could
-                <a href="http://www.apple.com/feedback/macosx.html">ask Apple</a>
-                to support Mail bundles officially and use
-                <a href="gpgservices/index.php">GPGServices</a> to handle
-                encrypted messages.
+                <a href="about.php">our other channels</a> once the final release is available.
                 </li>
             </ul>
             <hr/>
