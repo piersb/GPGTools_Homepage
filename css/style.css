@@ -559,6 +559,8 @@ img#download {height:80px; width:80px; margin-bottom:1em;}
 img#gpgtoolslogo {height:128px; width:128px;}
 img.screenshot, video.screenshot {height:100px; vertical-align:middle; margin-top:1em;}
 img.logo {height:128px; width:128px;}
+img.logo2 {height:64px;}
+.hint {font-size:smaller; color:#666;}
 
 #sn {list-style-type:none; margin:0;}
 #sn li {display:inline;}
