@@ -1,6 +1,6 @@
 <?php /*compileIgnore*/
 
-$bversion="20111025";
+$bversion="20111108";
 $version="20110711";
 $release["$bversion"] = mktime(12, 0, 0, 10, 25, 2011);
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
@@ -80,14 +80,17 @@ $changelog = array(
         'sparkle_size' => "24826589",
         'c' => 'Click on "pre-release" to download this version',
         'b' => 'Update: GPG Keychain Access 1.0a4',
-        '82' => 'Update: GPGToolsPreferences 0.7a2',
-        '76' => 'Update: Enigmail 1.2.1 for Thunderbird 5',
-        '83' => 'Added: Enigmail 1.3.2 for Thunderbird 6 and 7',
+        'd' => 'Added: Enigmail 1.3.3 for Thunderbird 7 and 8',
+        '83' => 'Added: Enigmail 1.3.2 for Thunderbird 6',
         '69' => 'Added: GPGMail for 10.7 (Lion) - Alpha4',
         '79' => 'Added: GPGTools public OpenPGP key',
         '85' => 'Added: GPGTools autofixes',
+        '82' => 'Update: GPGToolsPreferences 0.8',
+        '76' => 'Update: Enigmail 1.2.1 for Thunderbird 5',
         '77' => 'Fix: Wrong permissons for Enigmail plugin',
         '78' => 'Fix: Enhanced Thunderbird detection',
+        '64' => 'Fix: Update GPG Keychain Access when it was moved',
+        '63' => 'Fix: MacGPG2 on NFS volumes',
         'a' => 'Many other small fixes',
         'sha' => "Checksum: 7b3a87d97979ad8e0fe7438d65434727624e58bc (SHA-1)",
         )),
