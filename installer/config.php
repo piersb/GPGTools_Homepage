@@ -1,8 +1,8 @@
 <?php /*compileIgnore*/
 
-$bversion="20111108";
+$bversion="20111109";
 $version="20110711";
-$release["$bversion"] = mktime(12, 0, 0, 10, 25, 2011);
+$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
