@@ -92,7 +92,7 @@ $changelog = array(
         '64' => 'Fix: Update GPG Keychain Access when it was moved',
         '63' => 'Fix: MacGPG2 on NFS volumes',
         'a' => 'Many other small fixes',
-        'sha' => "Checksum: 7b3a87d97979ad8e0fe7438d65434727624e58bc (SHA-1)",
+        'sha' => "Checksum: d3e1e23579bbff8b9d6d68720ce7c4b4143384c9 (SHA-1)",
         )),
     '20110711' => array(date("d. F Y", $release['20110711']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110711']),
