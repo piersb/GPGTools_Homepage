@@ -12,7 +12,7 @@
 			<link>http://www.gpgtools.org/appcast.xml</link>
 			<title>GPGTools</title>
 		</image>
-<item><title>Installer version 20111109</title> <pubDate>Wed, 09 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111109.dmg</guid> <description><![CDATA[<ul><li>Click on "pre-release" to download this version.</li><li>Update: GPG Keychain Access 1.0a4.</li><li>Added: Enigmail 1.3.3 for Thunderbird 7 and 8.</li><li><a
+<item><title>Installer version 20111109</title> <pubDate>Wed, 09 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111109.dmg</guid> <description><![CDATA[<ul><li>Update: GPG Keychain Access 1.0a4.</li><li>Added: Enigmail 1.3.3 for Thunderbird 7 and 8.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/83'>Issue 83</a>: Added: Enigmail 1.3.2 for Thunderbird 6.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/69'>Issue 69</a>: Added: GPGMail for 10.7 (Lion) - Alpha4.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/79'>Issue 79</a>: Added: GPGTools public OpenPGP key.</li><li><a

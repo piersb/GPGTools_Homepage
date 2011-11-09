@@ -7,16 +7,12 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <h3>Announcement (October 2011)</h3>
+            <h3>Announcement (November 2011)</h3>
             <ul id="announcement" class="sub">
               <li>
                 <img src="./images/lion.png" alt="lion compatible" title="lion compatible" class="icon" />
-                Yes, all components of the current GPGTools package run under OS X Lion. However, we're still fixing some bugs.
-                In case you want to speed up the process, please download the latest <b>pre-release</b> of the <a href="installer/index.php">GPGTools Installer</a> and provide some feedback - or
-                <a href="donate.php">support us by another way</a>.
-                You will be notified via this website and
-                <a href="about.php">our other channels</a> once the final release is available.
-                </li>
+                Finally, we have released a new <a href="installer/index.php">GPGTools Installer</a> for OS X Lion and
+                it contains a compatible version of GPGMail.</li>
             </ul>
             <hr/>
             <h3>About</h3>
