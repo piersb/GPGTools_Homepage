@@ -56,9 +56,8 @@ $theSite->assign('features', $features);
 
 $screenshots = array(
 'images/preferences.png' => array('images/preferences-small.png', 'Preferences'),
-'images/compose.png' => array('images/compose-small.png', 'Composing a message'),
-'images/encrypted.png' => array('images/encrypted-small.png', 'Encrypted message'),
-'images/decrypted.png' => array('images/decrypted-small.png', 'Decrypted message')
+'images/compose.png' => array('images/compose-small.png', 'Encrypting and signing a message'),
+'images/decrypted.png' => array('images/decrypted-small.png', 'Decrypted and validated message')
 );
 $theSite->assign('screenshots', $screenshots);
 
