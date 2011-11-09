@@ -27,7 +27,7 @@ $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs', 'OS X >= 10.5');
+$theSite->assign('reqs', 'OS X >= 10.5<br/>(get old release for: <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess%20(old).tbz2">10.4</a>)');
 
 $theSite->assign('overview', '
 	GPG Keychain Access is an open source application for Mac OS X.
