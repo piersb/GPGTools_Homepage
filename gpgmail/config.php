@@ -1,6 +1,6 @@
 <?php /*compileIgnore*/
 
-$version='1.3.3';
+$version='2.0a4';
 $release['2.0a4'] = mktime(14, 23, 0, 9, 4, 2011);
 $release['2.0a3'] = mktime(14, 23, 0, 8, 21, 2011);
 $release['2.0a2'] = mktime(21, 35, 0, 8, 19, 2011);
@@ -17,14 +17,14 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGMail');
 $theSite->assign('url_dl', "GPGMail-$version.dmg");
 $theSite->assign('url_sig', "GPGMail-$version.dmg.sig");
-$theSite->assign('url_beta', 'GPGMail-2.0a4.dmg');
+$theSite->assign('url_beta', '');
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('version', $version);
 $theSite->assign('date',     date('d. F Y', $current));
 $theSite->assign('month',  date('m', $current));
 $theSite->assign('day',  date('d', $current));
 $theSite->assign('year',  date('Y', $current));
-$theSite->assign('reqs', 'OS X 10.6<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>)');
+$theSite->assign('reqs', 'OS X 10.7<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.3.3.dmg">10.6</a>)');
 
 $theSite->assign('overview', '
 	<p>GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.</p>
@@ -40,20 +40,17 @@ $theSite->assign('heise', '74690');
 $theSite->assign('cnet', '3000-2144_4-7335');
 
 $limitations = array(
-'94' => 'E-Mails are empty',
-'11' => 'Unread count goes out of sync',
-'17' => 'Sometimes the message "E-Mail was encrypted but not PGP signed" prevents decryption',
+'' => 'Currently GPGMail for Lion is an early alpha version under development',
 '107' => 'Automatic update is not compatible with system wide installations (/L/M/B/)',
-'135' => 'Plugin is not compatible to OS X Lion, yet',
 );
 $theSite->assign('limitations', $limitations);
 
 $features = array(
+    "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
+    "$root/images/64bit.jpg" => array('The bundle is 64-bit ready', '64 bit'),
     "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
     "$root/images/secure.jpg" => array('Sign, encrypt, decrypt, and verify all your mails', 'mail security'),
     "$root/images/update.png" => array("Integrated update mechanism and installer can <a href='$root/faq.php#3.2'>auto-fix the current installation</a> after an OS update", 'update mechanism'),
-    "$root/images/64bit.jpg" => array('The bundle is 64-bit and Snow Leopard ready', 'Snow Leopard')
-
 );
 $theSite->assign('features', $features);
 
