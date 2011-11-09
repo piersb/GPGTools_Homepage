@@ -77,7 +77,7 @@ $changelog = array(
         'sparkle_date' => date(DATE_RFC2822, $release["$bversion"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-$bversion.dmg",
         'sparkle_sig' => "",
-        'sparkle_size' => "24826589",
+        'sparkle_size' => "28973271",
         'c' => 'Click on "pre-release" to download this version',
         'b' => 'Update: GPG Keychain Access 1.0a4',
         'd' => 'Added: Enigmail 1.3.3 for Thunderbird 7 and 8',
@@ -92,7 +92,7 @@ $changelog = array(
         '64' => 'Fix: Update GPG Keychain Access when it was moved',
         '63' => 'Fix: MacGPG2 on NFS volumes',
         'a' => 'Many other small fixes',
-        'sha' => "Checksum: d3e1e23579bbff8b9d6d68720ce7c4b4143384c9 (SHA-1)",
+        'sha' => "Checksum: 183b5cccf160276a9ee055aaa9db49da1280ff78 (SHA-1)",
         )),
     '20110711' => array(date("d. F Y", $release['20110711']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110711']),
