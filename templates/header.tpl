@@ -21,11 +21,11 @@
   <link rel="apple-touch-icon" href="{$root}/apple-touch-icon.png">
   <link rel="stylesheet" media="all" href="{$root}/css/style.css?v=2">
   <!--[if (gt IE 9)|!(IE)]><!-->   <link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="{$root}/css/badge.css?v=2" /> <!--<![endif]-->
+  <link rel="stylesheet" media="all" href="{$root}/css/video-js.css">
   <link href="http://twitter.com/statuses/user_timeline/170783148.rss" rel="alternate" title="recent tweets" type="application/rss+xml" />
   <link href="appcast.xml" rel="alternate" title="recent releases" type="application/rss+xml" />
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="{$root}/js/libs/modernizr-1.6.min.js"></script>
-  <script src="{$root}/js/mail.js"></script>
 </head>
 
 <body>
