@@ -69,11 +69,11 @@ $screenshots = array(
 );
 $theSite->assign('screenshots', $screenshots);
 
-$screencasts = array(
+/*$screencasts = array(
 'install_gpgtools.m4v' => 'Install GPGTools'
 );
 $theSite->assign('screencasts', $screencasts);
-
+*/
 $changelog = array(
     "20111110" => array(date("d. F Y", $release["20111110"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20111110"]),

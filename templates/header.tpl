@@ -26,6 +26,19 @@
   <link href="appcast.xml" rel="alternate" title="recent releases" type="application/rss+xml" />
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="{$root}/js/libs/modernizr-1.6.min.js"></script>
+<style>
+.table {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+}
+ul#horizontal-list {
+        list-style: none;
+        }
+        ul#horizontal-list li {
+        display: inline-block;
+        }
+        </style>
+
 </head>
 
 <body>

@@ -36,12 +36,27 @@
             <a href="faq.php#5.3" title="How you can contribute">contributions</a> or
             <a href="donate.php" title="How you can donate">donations</a>.</p>
             <ul class="sub"></ul>
+
             <div class="project2">
+                <div class="table">
+                                <ul id="horizontal-list">
+
+                <li>
                 <a href="installer/index.php" title="The all-in-one installer">
                     <img src="{$root}/installer/images/logo-128px.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" />
                     <br/>
                     Download GPGTools Installer
                 </a>
+                </li>
+                <li>
+                <a href="screencast.php" title="Screencast">
+                    <img src="{$root}/images/screencast.png" alt="Screencast" title="Screencast" />
+                    <br/>
+                    Show GPGTools Screencast
+                </a>
+                </li>
+                </ul>
+                </div>
             </div>
             </div>
 {/block}

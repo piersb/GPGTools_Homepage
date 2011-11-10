@@ -8,7 +8,7 @@
     <div id="main">
         <div id="m_content">
             <h3>Introduction</h3>
-            <p>A short screencast (2:39, 70MB) to show you what GPGTools is and how it works:</p>
+            <p>A short screencast (2:39, 70MB) to show you what GPGTools is and how it works (you might need to pause the video first to fill the playback buffer):</p>
             <ul class="sub"></ul><p></p>
         </div>
         <div class="video-js-box">
@@ -17,7 +17,7 @@
           <object id="flash_fallback_1" class="vjs-flash-fallback" width="680" height="400" type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
             <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
             <param name="allowfullscreen" value="true" />
-            <param name="flashvars" value='config={ldelim}"playlist":["http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.png", {ldelim}"url": "http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.m4v","autoPlay":false,"autoBuffering":false{rdelim}]{rdelim}' />
+            <param name="flashvars" value='config={ldelim}"playlist":["http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.png", {ldelim}"url": "http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.m4v","autoPlay":false,"autoBuffering":true{rdelim}]{rdelim}' />
             <img style="border:1px solid black; height:4em; padding: 1em;" src="http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.png" width="680" height="400" alt="Poster Image" title="No video playback capabilities." />
           </object>
         </video>
