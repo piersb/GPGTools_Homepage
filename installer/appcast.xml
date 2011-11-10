@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20111109</title> <pubDate>Wed, 09 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111109.dmg</guid> <description><![CDATA[<ul><li>Update: GPG Keychain Access 1.0a4.</li><li>Added: Enigmail 1.3.3 for Thunderbird 7 and 8.</li><li><a
+<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20111110</title> <pubDate>Thu, 10 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111110.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/86'>Issue 86</a>: Fix: Missing GPGPreferences.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/87'>Issue 87</a>: Fix: Broken Enigmail for Thunderbird 3.1.</li><li>Checksum: c748d54b2b1111b85118d2083769a7fbdfe5b913 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111110.dmg"
+sparkle:version="20111110"
+sparkle:shortVersionString="20111110"
+sparkle:dsaSignature=""
+length="28973271"
+type="application/octet-stream" /> </item> <item><title>Installer version 20111109</title> <pubDate>Wed, 09 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111109.dmg</guid> <description><![CDATA[<ul><li>Update: GPG Keychain Access 1.0a4.</li><li>Added: Enigmail 1.3.3 for Thunderbird 7 and 8.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/83'>Issue 83</a>: Added: Enigmail 1.3.2 for Thunderbird 6.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/69'>Issue 69</a>: Added: GPGMail for 10.7 (Lion) - Alpha4.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/79'>Issue 79</a>: Added: GPGTools public OpenPGP key.</li><li><a
