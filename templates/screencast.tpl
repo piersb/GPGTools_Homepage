@@ -8,7 +8,7 @@
     <div id="main">
         <div id="m_content">
             <h3>Introduction</h3>
-            <p>A short screencast (2:39, 70MB) to show you what GPGTools is and how it works (you might need to pause the video first to fill the playback buffer):</p>
+            <p>A short screencast (2:39, 70MB) to show you what GPGTools is and how it works:<br />(<a href="http://youtu.be/alIGcDsVGXk">alternative YouTube link</a>)</p>
             <ul class="sub"></ul><p></p>
         </div>
         <div class="video-js-box">
