@@ -27,7 +27,7 @@
           <strong>Download Video:</strong>
           <a href="http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.m4v">MP4</a> |
           <a href="http://videojs.com">HTML5 Video Player</a> by VideoJS |
-          <a href="http://soehngen.bandcamp.com/album/how-do-you-do">Shut Up Dub</a>, by Christoph Soehngen
+          <a href="http://soehngen.bandcamp.com/album/how-do-you-do">Music</a> (Shut Up Dub), by Soehngen
         </p>
 
 {/block}
