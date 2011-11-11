@@ -651,8 +651,26 @@ ul#horizontal-list {
         }
 
 
+.youtube-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:640px;
+    max-width:95%;
+}
 .youtube-player {
+    padding:.5em;
+    background-color:#000;
+    max-width:95%;
     width:640px;
     height:385px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+    -moz-border-radius:0px; /* Firefox doesn't show iframe with round borders */
     border:1px solid black;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    -khtml-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
 }

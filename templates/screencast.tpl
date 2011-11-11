@@ -19,12 +19,10 @@
             </ul>
             <ul class="sub"></ul><p></p>
         </div>
-<div>
-<iframe class="youtube-player" src="http://www.youtube.com/embed/Rt4MFkbr6co"></iframe>
-</div>
-        <div>
-          <br />
-          <strong>Credits:</strong>
-          <a href="http://soehngen.bandcamp.com/album/how-do-you-do">Music</a> (Shut Up Dub), by Soehngen
+        <div class="youtube-video">
+            <iframe class="youtube-player" src="http://www.youtube.com/embed/Rt4MFkbr6co"></iframe>
+            <br /><br />
+            <strong>Credits:</strong>
+            <a href="http://soehngen.bandcamp.com/album/how-do-you-do">Music</a> (Shut Up Dub), by Soehngen
         </div>
 {/block}
