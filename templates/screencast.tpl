@@ -11,21 +11,20 @@
             <p>A short screencast (2:40) to show you what GPGTools is and how it works:</p>
             <ul>
             <li>0:00: Install GPGTools</li>
-            <li>0:22: Create a new key</li>
-            <li>0:52: Have a look at the preferences</li>
-            <li>1:13: Write a secured mail</li>
-            <li>1:27: Work with services</li>
-            <li>2:23: Closing</li>
+            <li>0:24: Create a new key</li>
+            <li>0:55: Have a look at the preferences</li>
+            <li>1:05: Write a secured mail</li>
+            <li>1:19: Work with services</li>
+            <li>2:15: Work via CLI</li>
             </ul>
             <ul class="sub"></ul><p></p>
         </div>
 <div>
-<iframe class="youtube-player" src="http://www.youtube.com/embed/alIGcDsVGXk"></iframe>
+<iframe class="youtube-player" src="http://www.youtube.com/embed/fSupSbS8fuE"></iframe>
 </div>
         <div>
           <br />
-          <strong>Download Video:</strong>
-          <a href="http://dl.dropbox.com/u/1358485/gpgtools/GPGTools.m4v">MP4</a> |
+          <strong>Credits:</strong>
           <a href="http://soehngen.bandcamp.com/album/how-do-you-do">Music</a> (Shut Up Dub), by Soehngen
         </div>
 {/block}
