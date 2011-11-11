@@ -92,9 +92,5 @@ $('#socialshareprivacy').socialSharePrivacy({
         <script src="{$root}/js/openpgp/core.js" type="text/javascript" charset="utf-8" defer="defer"></script>
         <script src="{$root}/js/openpgp/gpgtools.js" type="text/javascript" charset="utf-8" defer="defer"></script>
   <!-- openPGP -->
-  <!-- video -->
-  <script src="{$root}/js/video.js"></script>
-  <script type="text/javascript">VideoJS.setupAllWhenReady();</script>
-  <!-- video -->
 </body>
 </html>

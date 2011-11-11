@@ -12,7 +12,7 @@
   <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Security, Apple, OS X, Mail, Keychain, Digital Signatures">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="all" />
-  <link href="https://plus.google.com/114902699475020542041/" rel="publisher" />
+  <link href="https://plus.google.com/114902699475020542041/" rel="author" />
   {if $prefetch neq ''}
   <link rel="prerender" href="{$prefetch}">
   <link rel="prefetch" href="{$prefetch}">
@@ -21,24 +21,10 @@
   <link rel="apple-touch-icon" href="{$root}/apple-touch-icon.png">
   <link rel="stylesheet" media="all" href="{$root}/css/style.css?v=2">
   <!--[if (gt IE 9)|!(IE)]><!-->   <link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="{$root}/css/badge.css?v=2" /> <!--<![endif]-->
-  <link rel="stylesheet" media="all" href="{$root}/css/video-js.css">
   <link href="http://twitter.com/statuses/user_timeline/170783148.rss" rel="alternate" title="recent tweets" type="application/rss+xml" />
   <link href="appcast.xml" rel="alternate" title="recent releases" type="application/rss+xml" />
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="{$root}/js/libs/modernizr-1.6.min.js"></script>
-<style>
-.table {
-        display: table;   /* Allow the centering to work */
-        margin: 0 auto;
-}
-ul#horizontal-list {
-        list-style: none;
-        }
-        ul#horizontal-list li {
-        display: inline-block;
-        }
-        </style>
-
 </head>
 
 <body>

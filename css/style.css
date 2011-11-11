@@ -625,8 +625,6 @@ li:target {
 iframe {
     border: none;
     overflow: hidden;
-    height:20px;
-
 }
 iframe#gplus {width:70px;}
 iframe#facebook {width:120px;}
@@ -639,4 +637,22 @@ iframe#twitter {width:110px;}
 
 h3:target {
     color:#c33;
+}
+
+.table {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+}
+ul#horizontal-list {
+        list-style: none;
+        }
+        ul#horizontal-list li {
+        display: inline-block;
+        }
+
+
+.youtube-player {
+    width:640px;
+    height:385px;
+    border:1px solid black;
 }
