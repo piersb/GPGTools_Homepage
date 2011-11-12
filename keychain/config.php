@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='0.8.13';
+$version='1.0b1';
 
+$release['1.0b1'] = mktime(12, 0, 0, 11, 12, 2011);
 $release['0.8.13'] = mktime(12, 0, 0, 7, 11, 2011);
 $release['0.8.10'] = mktime(12, 0, 0, 4, 29, 2011);
 $release['0.8.7'] = mktime(12, 0, 0, 3, 24, 2011);
@@ -27,7 +28,7 @@ $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs', 'OS X >= 10.5<br/>(get old release for: <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess%20(old).tbz2">10.4</a>)');
+$theSite->assign('reqs', 'OS X >= 10.6<br/>(get old release for: <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess%20(old).tbz2">10.4</a>)');
 
 $theSite->assign('overview', '
 	GPG Keychain Access is an open source application for Mac OS X.
@@ -65,6 +66,16 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'1.0b1' => array(date('d. F Y', $release['1.0b1']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['1.0b1']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b1.dmg',
+		'sparkle_sig' => 'MCwCFC9h2fRuhyjK86yLvmcM+DaZLfJ7AhRT5fFi826H1Tem/5wwPOwTmrOdxQ==',
+		'sparkle_size' => '1569975',
+		'a' => 'Use Libmacgpg.',
+		'b' => 'Better keyserver support.',
+		'c' => 'Better error messages.',
+		'sha' => 'Checksum: 086e8aa88d7d34176631867e8d6986308b3a1332 (SHA-1)'
+		)),
 	'0.8.13' => array(date('d. F Y', $release['0.8.13']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.13']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.13.dmg',
