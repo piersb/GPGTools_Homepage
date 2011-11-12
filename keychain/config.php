@@ -68,7 +68,7 @@ $theSite->assign('screencasts', $screencasts);
 $changelog = array(
 	'1.0b1' => array(date('d. F Y', $release['1.0b1']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b1']),
-		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b1.dmg',
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-1.0b1.dmg',
 		'sparkle_sig' => 'MCwCFC9h2fRuhyjK86yLvmcM+DaZLfJ7AhRT5fFi826H1Tem/5wwPOwTmrOdxQ==',
 		'sparkle_size' => '1569975',
 		'a' => 'Use Libmacgpg',
@@ -78,7 +78,7 @@ $changelog = array(
 		)),
 	'0.8.13' => array(date('d. F Y', $release['0.8.13']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.13']),
-		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.13.dmg',
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg',
 		'sparkle_sig' => 'MCwCFCZhBce+cV1NZiERCAMAyjGcsZjnAhR9DL9aQgEMlXgghuSjix+XhZa3vQ==',
 		'sparkle_size' => '1409076',
 		'51' => 'Subkey selection bug fixed',
@@ -87,7 +87,7 @@ $changelog = array(
 		)),
 	'0.8.10' => array(date('d. F Y', $release['0.8.10']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.10']),
-		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.10.dmg',
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.10.dmg',
 		'sparkle_sig' => 'MC0CFErZFkgCBVyCOIg1poI/POR8QNywAhUAhXmsNF266rFUDWPAC2KxpXiEHyY=',
 		'sparkle_size' => '1518043',
 		'a' => 'Added *.gpg to Drag & Drop file types',
@@ -97,7 +97,7 @@ $changelog = array(
 		)),
 	'0.8.7' => array(date('d. F Y', $release['0.8.7']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.7']),
-		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg',
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.7.dmg',
 		'sparkle_sig' => 'MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==',
 		'sparkle_size' => '1516862',
 		'a' => 'Fixed crash on startup',
@@ -106,7 +106,7 @@ $changelog = array(
 		)),
 	'0.8.6' => array(date('d. F Y', $release['0.8.6']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.6']),
-		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg',
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.6.dmg',
 		'sparkle_sig' => 'MCwCFAFcJaNuFoTiADilH/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA==',
 		'sparkle_size' => '1517149',
 		'a' => 'French localization',
