@@ -71,9 +71,9 @@ $changelog = array(
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b1.dmg',
 		'sparkle_sig' => 'MCwCFC9h2fRuhyjK86yLvmcM+DaZLfJ7AhRT5fFi826H1Tem/5wwPOwTmrOdxQ==',
 		'sparkle_size' => '1569975',
-		'a' => 'Use Libmacgpg.',
-		'b' => 'Better keyserver support.',
-		'c' => 'Better error messages.',
+		'a' => 'Use Libmacgpg',
+		'b' => 'Better keyserver support',
+		'c' => 'Better error messages',
 		'sha' => 'Checksum: 086e8aa88d7d34176631867e8d6986308b3a1332 (SHA-1)'
 		)),
 	'0.8.13' => array(date('d. F Y', $release['0.8.13']), array(
@@ -81,8 +81,8 @@ $changelog = array(
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.13.dmg',
 		'sparkle_sig' => 'MCwCFCZhBce+cV1NZiERCAMAyjGcsZjnAhR9DL9aQgEMlXgghuSjix+XhZa3vQ==',
 		'sparkle_size' => '1409076',
-		'51' => 'Subkey selection bug fixed.',
-		'c' => 'Some fixes in the localizations.',
+		'51' => 'Subkey selection bug fixed',
+		'c' => 'Some fixes in the localizations',
 		'sha' => 'Checksum: 36454c5a72d062c8b0c3ffc473008811b456cabe (SHA-1)'
 		)),
 	'0.8.10' => array(date('d. F Y', $release['0.8.10']), array(
