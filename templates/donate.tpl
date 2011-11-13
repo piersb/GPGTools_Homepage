@@ -89,6 +89,7 @@
 		  <li>Michael Prewitt</li>
                   <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
+                  <li>Thomas Gillier</li>
                   <li>Wilbert Leeper</li>
                 </ul>
             </div>
