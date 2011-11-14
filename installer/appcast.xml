@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20111110</title> <pubDate>Thu, 10 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111110.dmg</guid> <description><![CDATA[<ul><li><a
+<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20111114</title> <pubDate>Mon, 14 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111114.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/90'>Issue 90</a>: Updated: GPG Keychain Access 1.0b1.</li><li>Checksum: b4f3bd6191fe93737e37b9c64e007f11c27dafed (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111114.dmg"
+sparkle:version="20111114"
+sparkle:shortVersionString="20111114"
+sparkle:dsaSignature=""
+length="28973271"
+type="application/octet-stream" /> </item> <item><title>Installer version 20111110</title> <pubDate>Thu, 10 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111110.dmg</guid> <description><![CDATA[<ul><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/86'>Issue 86</a>: Fix: Missing GPGPreferences.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/87'>Issue 87</a>: Fix: Broken Enigmail for Thunderbird 3.1.</li><li>Checksum: c748d54b2b1111b85118d2083769a7fbdfe5b913 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111110.dmg"

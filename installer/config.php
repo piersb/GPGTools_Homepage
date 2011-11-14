@@ -4,7 +4,8 @@
 //$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $theSite->assign('url_beta',  "");//"GPGTools-$bversion.dmg");
 
-$version="20111110";
+$version="20111114";
+$release['20111114'] = mktime(12, 0, 0, 11, 14, 2011);
 $release['20111110'] = mktime(12, 0, 0, 11, 10, 2011);
 $release['20111109'] = mktime(12, 0, 0, 11, 9, 2011);
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
@@ -75,6 +76,14 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', $screencasts);
 */
 $changelog = array(
+    "20111114" => array(date("d. F Y", $release["20111114"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["20111114"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111114.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "28973271",
+        '90' => 'Updated: GPG Keychain Access 1.0b1',
+        'sha' => "Checksum: b4f3bd6191fe93737e37b9c64e007f11c27dafed (SHA-1)",
+        )),
     "20111110" => array(date("d. F Y", $release["20111110"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20111110"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111110.dmg",
