@@ -18,11 +18,10 @@
             <h3 id="contactus">How to contact us</h3>
             <p>We would be pleased to hear from you! Since we're an open source project, all your comments will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
-                <li><div class="project"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a></div></li>
+                <li><div class="project"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a><br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)</div></li>
                 <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Bug Tracker</a></div></li>
                 <li><div class="project"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
                 <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" title="google+"><img src="{$root}/images/gplus-64.png" title="google+" alt="google+" /><br/>Google</a></div></li>
-                <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');" title="mail support"><img src="{$root}/images/mail.png" title="mail support" alt="mail support" /><br/>Mail</a></div></li>
                 <!--
                 <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.vtfstAmjtut/hqhuppmt/psh');" title="write to our user mailing list"><img src="{$root}/images/mail.png" title="write to our user mailing list" alt="mail" /><br/>Mail to users</a></div></li>
                 <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.efwfmAmjtut/hqhuppmt/psh');" title="write to our developer mailing list"><img src="{$root}/images/mail.png" title="write to our developer mailing list" alt="mail" /><br/>Mail to developers</a></div></li>
