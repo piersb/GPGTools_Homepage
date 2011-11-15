@@ -40,7 +40,7 @@
 
             <p class="clear"><br/></p>
             <h3 id="contactyou">How to keep up to date</h3>
-            <p>To stay up to date you have several options:</p>
+            <p>To stay up to date and to get involved you have several options:</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="http://twitter.com/gpgtools" title="follow us on twitter"><img src="{$root}/images/twitter.png" title="follow us on twitter" alt="twitter" /><br/>Follow us</a></div></li>
                 <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" title="google+"><img src="{$root}/images/gplus-64.png" title="google+" alt="google+" /><br/>Circle us</a></div></li>
