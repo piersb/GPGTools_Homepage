@@ -16,13 +16,20 @@
             </ul>
 
             <h3 id="contactus">How to contact us</h3>
-            <p>We would be pleased to hear from you! Here are your options:</p>
+            <p>We would be pleased to hear from you! Since we're an open source project, all your comments will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
-                <li><div class="project"><a href="http://twitter.com/gpgtools" title="twitter use"><img src="{$root}/images/twitter.png" title="twitter us" alt="twitter" /><br/>Twitter us</a></div></li>
+                <li><div class="project"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a></div></li>
+                <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Bug Tracker</a></div></li>
+                <li><div class="project"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
+                <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" title="google+"><img src="{$root}/images/gplus-64.png" title="google+" alt="google+" /><br/>Google</a></div></li>
+                <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');" title="mail support"><img src="{$root}/images/mail.png" title="mail support" alt="mail support" /><br/>Mail</a></div></li>
+                <!--
                 <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.vtfstAmjtut/hqhuppmt/psh');" title="write to our user mailing list"><img src="{$root}/images/mail.png" title="write to our user mailing list" alt="mail" /><br/>Mail to users</a></div></li>
                 <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.efwfmAmjtut/hqhuppmt/psh');" title="write to our developer mailing list"><img src="{$root}/images/mail.png" title="write to our developer mailing list" alt="mail" /><br/>Mail to developers</a></div></li>
-                <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Report a bug</a></div></li>
+                -->
             </ul>
+            <p class="clear"><br/></p>
+            <p>If you want to send us a private mail, please drop us a line:</p>
             <p class="clear"><br/></p>
                     <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
                         Your <b>message</b>: <input type="text" name="message" />
@@ -35,10 +42,10 @@
             <h3 id="contactyou">How to keep up to date</h3>
             <p>To stay up to date you have several options:</p>
             <ul class="sub projects">
-                <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" style="text-decoration: none;"><img src="https://ssl.gstatic.com/images/icons/gplus-64.png" width="64" height="64" style="border: 0;" /><br/>Circle us</a></div></li>
-                <li><div class="project"><a href="http://twitter.com/gpgtools" title="follow us on twitter"><img src="{$root}/images/twitter.png" title="follow us on twitter" alt="twitter" /><br/>Follow us</a></div></li>
                 <li><div class="project"><a href="http://twitter.com/statuses/user_timeline/170783148.rss" title="subscribe our twitter feed"><img src="{$root}/images/rss.png" title="subscribe our twitter feed" alt="rss" /><br/>Twitter Feed</a></div></li>
                 <li><div class="project"><a href="appcast.xml" title="subscribe our appcast feed"><img src="{$root}/images/rss.png" title="subscribe our appcast feed" alt="rss" /><br/>Appcast Feed</a></div></li>
+                <li><div class="project"><a href="http://twitter.com/gpgtools" title="follow us on twitter"><img src="{$root}/images/twitter.png" title="follow us on twitter" alt="twitter" /><br/>Follow us</a></div></li>
+                <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" title="google+"><img src="{$root}/images/gplus-64.png" title="google+" alt="google+" /><br/>Circle us</a></div></li>
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>User List</a></div></li>
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Developer List</a></div></li>
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Announcements</a></div></li>
