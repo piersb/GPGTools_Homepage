@@ -69,7 +69,7 @@ $theSite->assign('screencasts', $screencasts);
 $changelog = array(
 	'1.0b2' => array(date('d. F Y', $release['1.0b2']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b2']),
-		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-1.0b2.dmg',
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b2.dmg',
 		'sparkle_sig' => 'MCwCFGHIIEyaJXMrsgYFTtRyQuN707EsAhRYk/LRfiz+xYkBL9ykk8mxxlDpfg==',
 		'sparkle_size' => '1576246',
 		'a' => 'FOUND_KEY_DESCRIPTION_FORMAT bug fixed.',
