@@ -682,6 +682,7 @@ input, textarea {
 textarea {
                     width:25em;
                     height:5em;
+                    max-width:90%;
                     }
 
 .project {
