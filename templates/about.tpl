@@ -7,6 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
+            <!--
             <h3>Overview</h3>
             <p>This page is about how you can contact us and how to keep up to date:</p>
             <ul class="sub">
@@ -14,7 +15,7 @@
                 <li><a href="#contactyou">How to keep up to date</a></li>
                 <li><a href="#more">How to get more information</a></li>
             </ul>
-
+            -->
             <h3 id="contactus">How to contact us</h3>
             <p>We would be pleased to hear from you! Since we're an open source project, all your comments will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
