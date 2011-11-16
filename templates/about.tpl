@@ -8,13 +8,16 @@
     <div id="main">
         <div id="m_content">
             <h3 id="contactus">How to contact us</h3>
-            <p>We would be pleased to hear from you! Since we're an open source project, all your comments will be publicly visible. Here are your options:</p>
+            <p>We would be pleased to hear from you!
+            Since we're an open source project and other users having the same
+            question or problem might interested in the answer, all your
+            messages will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a><br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)</div></li>
                 <li><div class="project"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
             </ul>
             <p class="clear"><br/></p>
-            <p>If you want to send us a private mail, please drop us a line:<br /><br /></p>
+            <p>If you want to send us a private message that may contain confidential information, please drop us a line:<br /><br /></p>
                     <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
                     <b>Your email</b> (so we can get back to you - if you want to)<br />
                     <input type="email" name="mail" /><br />
