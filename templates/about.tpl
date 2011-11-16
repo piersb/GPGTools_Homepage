@@ -7,57 +7,45 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <!--
-            <h3>Overview</h3>
-            <p>This page is about how you can contact us and how to keep up to date:</p>
-            <ul class="sub">
-                <li><a href="#contactus">How to contact us</a></li>
-                <li><a href="#contactyou">How to keep up to date</a></li>
-                <li><a href="#more">How to get more information</a></li>
-            </ul>
-            -->
             <h3 id="contactus">How to contact us</h3>
             <p>We would be pleased to hear from you! Since we're an open source project, all your comments will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a><br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)</div></li>
-                <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Bug Tracker</a></div></li>
                 <li><div class="project"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
-                <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" title="google+"><img src="{$root}/images/gplus-64.png" title="google+" alt="google+" /><br/>Google</a></div></li>
-                <!--
-                <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.vtfstAmjtut/hqhuppmt/psh');" title="write to our user mailing list"><img src="{$root}/images/mail.png" title="write to our user mailing list" alt="mail" /><br/>Mail to users</a></div></li>
-                <li><div class="project"><a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.efwfmAmjtut/hqhuppmt/psh');" title="write to our developer mailing list"><img src="{$root}/images/mail.png" title="write to our developer mailing list" alt="mail" /><br/>Mail to developers</a></div></li>
-                -->
             </ul>
             <p class="clear"><br/></p>
-            <p>If you want to send us a private mail, please drop us a line:</p>
+            <p>If you want to send us a private mail, please drop us a line:<br /><br /></p>
                     <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
-                        <ul class="sub projects">
-                            <li><label>Your <b>mail</b> (optional)</label>: <input type="email" name="mail" /></li>
-                            <li><label>The <b>subject</b> (optional)</label>: <input type="text" name="subject" /></li>
-                            <li><label>Your <b>message</b></label>: <input type="text" name="message" /></li>
-                            <li><input type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" /></li>
-                        </ul>
-            			<input type="hidden" name="encrypted" />
+                    <b>Your email</b> (so we can get back to you - if you want to)<br />
+                    <input type="email" name="mail" /><br />
+                    <b>The subject</b><br />
+                    <input type="text" name="subject" /><br />
+                    <b>The message</b><br />
+                    <textarea name="message"></textarea><br />
+                    <input type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" />
+                    <input type="hidden" name="encrypted" />
                     </form>
 
             <p class="clear"><br/></p>
             <h3 id="contactyou">How to keep up to date</h3>
-            <p>To stay up to date and to get involved you have several options:</p>
+            <p>To stay up to date you have several options:</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="http://twitter.com/gpgtools" title="follow us on twitter"><img src="{$root}/images/twitter.png" title="follow us on twitter" alt="twitter" /><br/>Follow us</a></div></li>
                 <li><div class="project"><a href="https://plus.google.com/114902699475020542041/?prsrc=3" title="google+"><img src="{$root}/images/gplus-64.png" title="google+" alt="google+" /><br/>Circle us</a></div></li>
+                <li><div class="project"><a href="http://twitter.com/statuses/user_timeline/170783148.rss" title="subscribe our twitter feed"><img src="{$root}/images/rss.png" title="subscribe our twitter feed" alt="rss" /><br/>Twitter Feed</a></div></li>
+                <li><div class="project"><a href="appcast.xml" title="subscribe our appcast feed"><img src="{$root}/images/rss.png" title="subscribe our appcast feed" alt="rss" /><br/>Appcast Feed</a></div></li>
+                <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Announcements</a></div></li>
+            </ul>
+            <p class="clear"><br/></p>
+            <h3 id="getinvolved">How to get involved</h3>
+            <p>To get involved you have again several options:</p>
+            <ul class="sub projects">
+                <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Bug Tracker</a></div></li>
+                <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/events.atom" title="subscribe our bug tracker feed"><img src="{$root}/images/rss.png" title="subscribe our bug tracker feed" alt="rss" /><br/>Tracker Feed</a></div></li>
+                <li><div class="project"><a href="http://support.gpgtools.org/discussions.atom" title="subscribe our support questions feed"><img src="{$root}/images/rss.png" title="subscribe our support questions feed" alt="rss" /><br/>Support Feed</a></div></li>
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>User List</a></div></li>
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Developer List</a></div></li>
             </ul>
-            <p class="clear">And some more read-only options:</p>
-            <ul class="sub projects">
-                <li><div class="project"><a href="http://twitter.com/statuses/user_timeline/170783148.rss" title="subscribe our twitter feed"><img src="{$root}/images/rss.png" title="subscribe our twitter feed" alt="rss" /><br/>Twitter Feed</a></div></li>
-                <li><div class="project"><a href="appcast.xml" title="subscribe our appcast feed"><img src="{$root}/images/rss.png" title="subscribe our appcast feed" alt="rss" /><br/>Appcast Feed</a></div></li>
-                <li><div class="project"><a href="http://support.gpgtools.org/discussions.atom" title="subscribe our support questions feed"><img src="{$root}/images/rss.png" title="subscribe our support questions feed" alt="rss" /><br/>Support Feed</a></div></li>
-                <li><div class="project"><a href="http://gpgtools.lighthouseapp.com/events.atom" title="subscribe our bug tracker feed"><img src="{$root}/images/rss.png" title="subscribe our bug tracker feed" alt="rss" /><br/>Tracker Feed</a></div></li>
-                <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Announcements</a></div></li>
-            </ul>
-
             <p class="clear"><br/></p>
             <h3 id="more">How to get more information</h3>
             <p>More interesting links:</p>
