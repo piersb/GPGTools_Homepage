@@ -687,3 +687,7 @@ textarea {
 .project {
     width:8em;
 }
+
+#o_content h2 {
+    margin-right:.5em;
+}
