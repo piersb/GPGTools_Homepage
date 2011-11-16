@@ -48,18 +48,19 @@ href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail<
 class="project smallicons"><a
 href="http://twitter.com/gpgtools" title="twitter"><img
 src="./images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li></ul><p
-class="clear"><br/></p><p>If you want to send us a private message that may contain confidential information, please drop us a line:<br
+class="clear"><br/></p><p>Or you can just use this form:<br
 /><br
 /></p><form
-action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback"> <b>Your email</b> (so we can get back to you - if you want to)<br
+action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback"> <b>Email</b> (so we can get back to you - if you want to)<br
 /> <input
 type="email" name="mail" /><br
-/> <b>The subject</b><br
+/> <b>Subject</b><br
 /> <input
 type="text" name="subject" /><br
-/> <b>The message</b><br
 /><textarea name="message"></textarea><br
 /> <input
+style="width:1.5em;vertical-align:middle;" type=checkbox name="confidential" id="confidential" value="yes" onclick="toggleSecurity();"><span
+class="small">This is a private message, don't let the public see it</span><br/> <input
 type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" /> <input
 type="hidden" name="encrypted" /></form><p
 class="clear"><br/></p><h3 id="contactyou">How to keep up to date</h3><p>To stay up to date you have several options:</p><ul

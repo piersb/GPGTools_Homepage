@@ -18,12 +18,14 @@
               <li><a href="#interesting">Interesting projects</a> (related to our packages)</li>
               <li><a href="#unmaintained">Unmaintained projects</a> (interesting, but old, software)</li>
             </ul>
+            <p class="clear"><br/></p>
             <h3 id="installer" class="clear">The GPGTools Installer</h3>
             <p>The main goal is to provide an easy installer for GnuPG and
             all related tools on OS X.</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="installer/index.php"><img src="{$root}/installer/images/logo-128px.png" alt="Installer OpenPGP and related tools" title="Installer for OpenPGP and related tools" class="logo"/><br/>Installer</a></div></li>
             </ul>
+            <p class="clear"><br/></p>
             <h3 id="maintained" class="clear">Maintained Projects</h3>
             <p>List of maintained projects that are (mostly) included in the installer:</p>
             <ul class="sub projects">
@@ -35,11 +37,13 @@
                 <li><div class="project"><a href="gpgpreferences/index.php"><img src="{$root}/gpgpreferences/images/logo-128px.png" alt="Mac OS X GPG System Preferences" title="Mac OS X GPG System Preferences" class="logo"/><br/>GPGPreferences</a></div></li>
                 <li><div class="project"><a href="mobile/index.php"><img src="{$root}/mobile/images/logo-128px.png" alt="Mobile OpenPGP" title="Mobile OpenPGP" class="logo"/><br/>Mobile OpenPGP</a></div></li>
             </ul>
+            <p class="clear"><br/></p>
             <h3 id="related" class="clear">Related Projects</h3>
             <p>List of related projects that are included in the installer:</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="http://enigmail.mozdev.org"><img src="{$root}/images/enigmail.png" alt="Enigmail" title="Enigmail" class="logo"/><br/>Enigmail</a></div></li>
             </ul>
+            <p class="clear"><br/></p>
             <h3 id="incubator" class="clear">Incubator Projects</h3>
             <p>List of unfinished or outdated but interesting projects (to be) ported to the GPGTools infrastructure:</p>
             <ul class="sub">
@@ -49,11 +53,13 @@
                 <li><a href="#incubator">QuickLook Plugin</a>: OS X QuickLook Plugin to see details of OpenPGP data (state: needs a maintainer, not implemented yet).</li>
                 <li><a href="#incubator">Quicksilver Plugin</a>: Quicksilver Plugin to sign/encrypt/validate/decrypt OpenPGP data (state: needs a maintainer, not implemented yet).</li>
             </ul>
+            <p class="clear"><br/></p>
             <h3 id="interesting" class="clear">Interesting Projects</h3>
             <p>List of interesting OpenPGP related OS X projects:</p>
             <ul class="sub">
                 <li><a href="http://psi-im.org/">Psi</a> / <a href="http://sourceforge.net/projects/jabbin/">Jabbin</a>: OpenPGP compatible Jabber/XMPP chat clients (<a href="http://xmpp.org/extensions/xep-0027.html">XEP-0027</a>) for OS X.</li>
             </ul>
+            <p class="clear"><br/></p>
             <h3 id="unmaintained" class="clear">Unmaintained Projects</h3>
             <p>List of old and partly unmaintained projects:</p>
             <ul class="sub">

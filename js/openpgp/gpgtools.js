@@ -13,13 +13,20 @@
             var keyid   = keydata['id'];
             */
 
-            document.getElementById("feedbackbutton") ? document.getElementById("feedbackbutton").value="encrypt and send" : null;
             function encrypt() {
-
-                var text = document.feedback.message.value;
-                var text_enc = OpenPGP_Encrypt(keyid, keytype, pubkey, text);
-                document.feedback.message.value = '';
-                document.feedback.encrypted.value = text_enc;
+                if (document.getElementById("confidential").checked == true) {
+                    var text = document.feedback.message.value;
+                    var text_enc = OpenPGP_Encrypt(keyid, keytype, pubkey, text);
+                    document.feedback.message.value = '';
+                    document.feedback.encrypted.value = text_enc;
+                }
                 return true;
             }
 
+            function toggleSecurity() {
+                if (document.getElementById("confidential").checked == true) {
+                    document.getElementById("feedbackbutton") ? document.getElementById("feedbackbutton").value="encrypt and send" : null;
+                } else {
+                    document.getElementById("feedbackbutton") ? document.getElementById("feedbackbutton").value="send feedback" : null;
+                }
+            }
