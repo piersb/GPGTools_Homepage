@@ -674,3 +674,5 @@ ul#horizontal-list {
     -khtml-box-shadow: 10px 10px 5px #888;
     box-shadow: 10px 10px 5px #888;
 }
+
+label { display: inline-block; width: 12em;}

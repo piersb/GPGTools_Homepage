@@ -29,12 +29,14 @@
             </ul>
             <p class="clear"><br/></p>
             <p>If you want to send us a private mail, please drop us a line:</p>
-            <p class="clear"><br/></p>
                     <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
-                        Your <b>message</b>: <input type="text" name="message" />
-                        and <b>mail</b> (optional): <input type="email" name="mail" />
-			<input type="hidden" name="encrypted" />
-                        <input type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" />
+                        <ul class="sub projects">
+                            <li><label>Your <b>mail</b> (optional)</label>: <input type="email" name="mail" /></li>
+                            <li><label>The <b>subject</b> (optional)</label>: <input type="text" name="subject" /></li>
+                            <li><label>Your <b>message</b></label>: <input type="text" name="message" /></li>
+                            <li><input type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" /></li>
+                        </ul>
+            			<input type="hidden" name="encrypted" />
                     </form>
 
             <p class="clear"><br/></p>
