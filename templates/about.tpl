@@ -10,7 +10,7 @@
             <h3 id="contactus">How to contact us</h3>
             <p>We would be pleased to hear from you!
             Since we're an open source project and other users having the same
-            question or problem might interested in the answer, all your
+            question or problem might be interested in the answer too, all your
             messages will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a><br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)</div></li>
