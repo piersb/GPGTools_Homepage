@@ -438,7 +438,7 @@ div#spacer {
     border-bottom:1px solid #aaa;
 }
 
-html { background:#eee;}
+html { background:url("../images/bg.jpg") #eee;}
 html.white { background:#fff;}
 #main {
     max-width:70em;
