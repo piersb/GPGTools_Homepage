@@ -640,7 +640,7 @@ h3:target {
 }
 
 .table {
-        display: table;   /* Allow the centering to work */
+        /*display: table;    Allow the centering to work */
         margin: 0 auto;
 }
 ul#horizontal-list {
