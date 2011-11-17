@@ -23,14 +23,13 @@ $theSite->assign('year',  date('Y', $current));
 $theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', '
-	<p>The GPGTools preferences pane will replace the old GPGPreferences pane in the future.
-	By now you can fix broken GPG and GPGMail installations (e.g. after an OS X update).</p>
+	<p>The GPGPreferences pane allows you to set basic GPG options and to fix broken GPG and GPGMail installations (e.g. after an OS X update).</p>
 ');
-$theSite->assign('short_description', 'The GPGTools preferences pane will replace the old GPGPreferences pane in the future. By now you can fix broken GPG and GPGMail installations (e.g. after an OS X update).');
+$theSite->assign('short_description', 'The GPGPreferences pane allows you to set basic GPG options and to fix broken GPG and GPGMail installations (e.g. after an OS X update).');
 
 $theSite->assign('lighthouse', '66966');
-$theSite->assign('macupdate', '');
-$theSite->assign('iusethis', '');
+$theSite->assign('macupdate', '11135');
+$theSite->assign('iusethis', 'gpgpreferences');
 $theSite->assign('heise', '');
 $theSite->assign('cnet', '3000-2092_4-25028');
 
