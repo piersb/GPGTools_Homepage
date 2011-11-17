@@ -46,7 +46,7 @@
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
-<input type="hidden" name="business" value="alex@willner.ws">
+<input type="hidden" name="business" value="donations@gpgtools.org">
 <input type="hidden" name="lc" value="US">
 <input type="hidden" name="item_name" value="GPGTools">
 <input type="hidden" name="item_number" value="gpgtools">
