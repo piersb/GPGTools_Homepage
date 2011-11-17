@@ -715,3 +715,7 @@ textarea {
 .small {
     font-size:smaller;
 }
+
+img {
+  max-width:90%;
+}
