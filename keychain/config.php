@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='1.0b2';
+$version='1.0b3';
 
+$release['1.0b3'] = mktime(12, 0, 0, 11, 16, 2011);
 $release['1.0b2'] = mktime(12, 0, 0, 11, 15, 2011);
 $release['1.0b1'] = mktime(12, 0, 0, 11, 12, 2011);
 $release['0.8.13'] = mktime(12, 0, 0, 7, 11, 2011);
@@ -67,14 +68,22 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'1.0b3' => array(date('d. F Y', $release['1.0b2']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['1.0b3']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b3.dmg',
+		'sparkle_sig' => 'MC0CFHX7lciB2SuqL0a/yXrqAhcEWvslAhUAmoZjmmKwbxrtJ7kjkVjtdynCNT4=',
+		'sparkle_size' => '1575244',
+		'77' => 'No default-key bug fixed',
+		'sha' => 'Checksum: 9853ea898ae1f3f61c1aa5f156db6f8835994cf5 (SHA-1)'
+		)),
 	'1.0b2' => array(date('d. F Y', $release['1.0b2']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b2']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b2.dmg',
 		'sparkle_sig' => 'MCwCFGHIIEyaJXMrsgYFTtRyQuN707EsAhRYk/LRfiz+xYkBL9ykk8mxxlDpfg==',
 		'sparkle_size' => '1576246',
-		'a' => 'FOUND_KEY_DESCRIPTION_FORMAT bug fixed.',
-		'b' => 'Algorithm name bug fixed.',
-		'c' => 'Support to import keys from files with non standard extension.',
+		'a' => 'FOUND_KEY_DESCRIPTION_FORMAT bug fixed',
+		'b' => 'Algorithm name bug fixed',
+		'c' => 'Support to import keys from files with non standard extension',
 		'sha' => 'Checksum: a4b5670d2484f61f83aa35c3a7123818b16a6373 (SHA-1)'
 		)),
 	'1.0b1' => array(date('d. F Y', $release['1.0b1']), array(
