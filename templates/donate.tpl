@@ -69,6 +69,7 @@
                   <li>Aurimas Mikalauskas</li>
                   <li>Beat Stehrenberger</li>
                   <li>Bernd Wiese</li>
+                  <li>Christian Roessner</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
                   <li>Dave Diemer</li>
