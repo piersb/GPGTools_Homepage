@@ -7,6 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
+        <!--
             <h3>Announcement (November 2011)</h3>
             <ul id="announcement" class="sub">
               <li>
@@ -16,26 +17,7 @@
             </ul>
             <hr/>
             <h3>About</h3>
-            <p>GPGTools is an open source initiative to bring
-            <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">
-                OpenPGP
-            </a>
-            to Apple OS X in the form of an easy installer package based on MacGPG (see
- 			<a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
-            if you're a Windows user).
-            This allows you to sign, verify, and encrypt/decrypt files and
-            e-mails. Read the <a href="intro.php" title="Introduction to OpenPGP">introduction</a>
-            to get a detailed idea of how PGP works.</p>
-            <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a> provides more
-            information about the included applications and related projects.
-            And if you have any further questions that are not listed in the
-            <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
-            you want to get the latest news, please do not hesitate to open the
-            <a href="about.php" title="have a look at the 'How can I contact you?' section.">
-            contact</a> section. Finally, we would appreciate any kind of
-            <a href="faq.php#5.3" title="How you can contribute">contributions</a> or
-            <a href="donate.php" title="How you can donate">donations</a>.</p>
-            <ul class="sub"></ul>
+            -->
 
             <div class="project2">
                 <div class="table">
@@ -58,5 +40,27 @@
                 </ul>
                 </div>
             </div>
+
+            <ul class="sub"></ul>
+            <p>GPGTools is an open source initiative to bring
+            <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">
+                OpenPGP
+            </a>
+            to Apple OS X in the form of an easy installer package based on MacGPG (see
+ 			<a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
+            if you're a Windows user).
+            This allows you to sign, verify, and encrypt/decrypt files and
+            e-mails. Read the <a href="intro.php" title="Introduction to OpenPGP">introduction</a>
+            to get a detailed idea of how PGP works.</p>
+            <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a> provides more
+            information about the included applications and related projects.
+            And if you have any further questions that are not listed in the
+            <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
+            you want to get the latest news, please do not hesitate to open the
+            <a href="about.php" title="have a look at the 'How can I contact you?' section.">
+            contact</a> section. Finally, we would appreciate any kind of
+            <a href="faq.php#5.3" title="How you can contribute">contributions</a> or
+            <a href="donate.php" title="How you can donate">donations</a>.</p>
+
             </div>
 {/block}
