@@ -33,22 +33,24 @@ $theSite->assign('iusethis', 'gpgpreferences');
 $theSite->assign('heise', '');
 $theSite->assign('cnet', '3000-2092_4-25028');
 
+/*
 $limitations = array(
 '1' => 'The old GPGPreferences are not included, yet',
 );
 $theSite->assign('limitations', $limitations);
-
+*/
 
 $features = array(
     "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
     "$root/images/update.png" => array("Can <a href='$root/faq.php#3.2'>auto-fix GPGMail after an OS update</a>", 'auto-fix'),
-
+    "$root/images/64bit.jpg" => array("The application is 64-bit compatible", "64 bit"),
+    "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
 );
 $theSite->assign('features', $features);
 
 $screenshots = array(
-'images/gpg.png' => array('images/gpg-small.png', 'Fix GPG installations'),
-'images/gpgmail.png' => array('images/gpgmail-small.png', 'Fix GPGMail (e.g. after an OS update)')
+'images/config.png' => array('images/config-small.png', 'Basic configuration'),
+'images/fix.png' => array('images/fix-small.png', 'Autofix and links')
 );
 $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', '');

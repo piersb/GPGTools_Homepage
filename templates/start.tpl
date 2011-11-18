@@ -20,7 +20,7 @@
             <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">
                 OpenPGP
             </a>
-            to Apple OS X in the form of an easy installer package (see
+            to Apple OS X in the form of an easy installer package based on MacGPG (see
  			<a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
             if you're a Windows user).
             This allows you to sign, verify, and encrypt/decrypt files and
