@@ -7,6 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
+        <div id="announcement"><b>November 2011:</b> We're now using Tenderapp to give you a better support.</div>
         <!--
             <h3>Announcement (November 2011)</h3>
             <ul id="announcement" class="sub">
@@ -37,7 +38,13 @@
                     Watch GPGTools Screencast
                 </a>
                 </li>
-                </ul>
+                <li>
+                <a href="http://support.gpgtools.org" title="Support">
+                    <img src="{$root}/images/tenderapp-128.png" alt="Tenderapp" title="Support" />
+                    <br/>
+                    Get GPGTools Support
+                </a>
+                </li>                </ul>
                 </div>
             </div>
 
