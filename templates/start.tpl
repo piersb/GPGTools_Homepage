@@ -34,7 +34,7 @@
                 <a href="screencast.php" title="Screencast">
                     <img src="{$root}/images/screencast.png" alt="Screencast" title="Screencast" />
                     <br/>
-                    Show GPGTools Screencast
+                    Watch GPGTools Screencast
                 </a>
                 </li>
                 </ul>
