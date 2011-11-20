@@ -642,14 +642,15 @@ h3:target {
 .table {
         /*display: table;    Allow the centering to work */
         margin: 0 auto;
+        width:100%;
 }
 ul#horizontal-list {
         list-style: none;
-        }
-        ul#horizontal-list li {
+}
+ul#horizontal-list li {
         display: inline-block;
-        }
-
+        width:200px;
+}
 
 .youtube-video {
     display: block;
