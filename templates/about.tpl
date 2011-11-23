@@ -13,7 +13,7 @@
             question or problem might be interested in the answer too, all your
             messages will be publicly visible. Here are your options:</p>
             <ul class="sub projects">
-                <li><div class="project smallicons"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp.png" title="web support" alt="web supprt" /><br/>Customer Care</a><br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)</div></li>
+                <li><div class="project smallicons"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp-64.png" title="web support" alt="web supprt" /><br/>Customer Care</a><!--<br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)--></div></li>
                 <li><div class="project smallicons"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
             </ul>
             <p class="clear"><br/></p>
