@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - GPGPreferences - Changelog</title><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgpreferences/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGPreferences version 0.8</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Mon, 17 Oct 2011 12:00:00 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.8.dmg</guid> <description><![CDATA[<ul><li><a
+<title>GPGTools - GPGPreferences - Changelog</title><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgpreferences/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGPreferences version 0.9</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Thu, 24 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.9.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/24'>Issue 24</a>: Added a version number.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/25'>Issue 25</a>: Enhanced the password caching option.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/27'>Issue 27</a>: Fixed the keychain option.</li><li>Checksum: 7903522b77339114a3faf0d9cbc3904931c82b1d (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.9.dmg"
+sparkle:version="0.9"
+sparkle:shortVersionString="0.9"
+sparkle:dsaSignature=""
+length="378081"
+type="application/octet-stream" /> </item> <item><title>GPGPreferences version 0.8</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Mon, 17 Oct 2011 12:00:00 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.8.dmg</guid> <description><![CDATA[<ul><li><a
 href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/20'>Issue 20</a>: Fixed support for Mac OS X 10.7.2.</li><li>GUI cleanup.</li><li>Checksum: 73abbd8d3711b50d306743bc387c0dbc3f8d5b43 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.8.dmg"
 sparkle:version="0.8"

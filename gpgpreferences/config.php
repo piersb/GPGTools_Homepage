@@ -1,7 +1,7 @@
 <?php /*compileIgnore*/
 
-
-$version='0.8';
+$version='0.9';
+$release['0.9'] = mktime(12, 0, 0, 11, 24, 2011);
 $release['0.8'] = mktime(12, 0, 0, 10, 17, 2011);
 $release['0.7'] = mktime(12, 0, 0, 8, 15, 2011);
 $release['0.6'] = mktime(11, 28, 0, 01, 27, 2011);
@@ -56,6 +56,17 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', '');
 
 $changelog = array(
+	'0.9' => array(date('d. F Y', $release['0.9']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.9']),
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.9.dmg',
+		'sparkle_sig' => '',
+		'sparkle_size' => '378081',
+		'sparkle_minOS' => '10.6',
+		'24' => 'Added a version number',
+		'25' => 'Enhanced the password caching option',
+		'27' => 'Fixed the keychain option',
+		'sha' => 'Checksum: 7903522b77339114a3faf0d9cbc3904931c82b1d (SHA-1)',
+	)),
 	'0.8' => array(date('d. F Y', $release['0.8']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8']),
 		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.8.dmg',

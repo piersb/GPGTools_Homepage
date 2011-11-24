@@ -8,7 +8,7 @@
     <div id="info">
     {if $url_dl neq ''}
     <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="{$root}/images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="round(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
+    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="ceil(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
     {/if}
     <p>Version {$version}<br/></p>
     <p>{$date}<br/></p>
