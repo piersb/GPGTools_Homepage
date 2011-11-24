@@ -80,6 +80,7 @@ name="os0" value="No" type="hidden">
                   <li>Dave Diemer</li>
                   <li>Dirk Pape</li>
                   <li>Dmitry Nedospasov</li>
+                  <li>Greg Hetrick</li>
                   <li>Guillaume Destuynder (Mozilla)</li>
                   <li>Ignacio Lorenzo Subirá Otal</li>
                   <li>Jessica Stolz</li>
@@ -90,9 +91,11 @@ name="os0" value="No" type="hidden">
                   <li>Ken van Wyk</li>
                   <li>Laradji Nacer</li>
                   <li>Laurens Bonnema</li>
+                  <li>Lutz Krebs</li>
 		  <li>Mark Harrigan</li>
 		  <li>Michael Dierck</li>
 		  <li>Michael Prewitt</li>
+		  <li>N J L Macassey</li>
                   <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
                   <li>Thomas Gillier</li>
