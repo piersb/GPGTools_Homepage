@@ -11,8 +11,8 @@ $theSite->assign('title', 'GPGPreferences');
 $theSite->assign('name', 'gpgpreferences');
 $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools_Preferences');
-$theSite->assign('url_dl', "GPGTools_Preferences-$version.dmg");
-$theSite->assign('url_sig', "GPGTools_Preferences-$version.dmg.sig");
+$theSite->assign('url_dl', "GPGPreferences-$version.dmg");
+$theSite->assign('url_sig', "GPGPreferences-$version.dmg.sig");
 $theSite->assign('url_beta', '');
 $theSite->assign('url_wiki', '');
 $theSite->assign('date',     date('d. F Y', $current));
@@ -58,10 +58,11 @@ $theSite->assign('screencasts', '');
 $changelog = array(
 	'0.9' => array(date('d. F Y', $release['0.9']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.9']),
-		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.9.dmg',
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.dmg',
 		'sparkle_sig' => '',
 		'sparkle_size' => '378081',
 		'sparkle_minOS' => '10.6',
+		'21' => 'Renamed to GPGPreferences',
 		'24' => 'Added a version number',
 		'25' => 'Enhanced the password caching option',
 		'27' => 'Fixed the keychain option',
