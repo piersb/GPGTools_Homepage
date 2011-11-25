@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='1.0b3';
+$version='1.0b5';
 
+$release['1.0b5'] = mktime(12, 0, 0, 11, 25, 2011);
 $release['1.0b3'] = mktime(12, 0, 0, 11, 16, 2011);
 $release['1.0b2'] = mktime(12, 0, 0, 11, 15, 2011);
 $release['1.0b1'] = mktime(12, 0, 0, 11, 12, 2011);
@@ -67,7 +68,18 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-	'1.0b3' => array(date('d. F Y', $release['1.0b2']), array(
+	'1.0b5' => array(date('d. F Y', $release['1.0b5']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['1.0b5']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b5.dmg',
+		'sparkle_sig' => 'MC0CFAphEA5vxFgJlgpAf60aszukDSOZAhUAiGOWvuUggVahhdWY4zas2dtNr9c=',
+		'sparkle_size' => '1579707',
+		'sparkle_minOS' => '10.6',
+		'96' => '--gen-key command line argument added',
+		'98' => 'Import revocation certificate bug fixed',
+		'99' => 'Sign key bug fixed',
+		'sha' => 'Checksum: 7a705bcf869b5bb949d3e980cd15984cc3327f1f (SHA-1)'
+		)),
+	'1.0b3' => array(date('d. F Y', $release['1.0b3']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b3']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b3.dmg',
 		'sparkle_sig' => 'MC0CFHX7lciB2SuqL0a/yXrqAhcEWvslAhUAmoZjmmKwbxrtJ7kjkVjtdynCNT4=',
