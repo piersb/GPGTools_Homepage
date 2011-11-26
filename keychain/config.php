@@ -44,7 +44,7 @@ $theSite->assign('short_description', 'GPG Keychain Access is an open source app
 $theSite->assign('lighthouse', '65684');
 $theSite->assign('macupdate', "17201");
 $theSite->assign('iusethis', "gpgkeychainaccess");
-$theSite->assign('heise', "78714");
+$theSite->assign('heise', "78953");
 $theSite->assign('cnet', "3000-2144_4-23925");
 
 $theSite->assign('limitations', "");
