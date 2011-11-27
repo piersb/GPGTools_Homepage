@@ -109,7 +109,7 @@ name="os0" value="No" type="hidden">
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>Loosh Labs</li>
                   <li>Matta</li>
-                  <li class="premium">NORDUNet</li>
+                  <li class="premium">NORDUnet</li>
                   <li>Rayzon Technologies</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
