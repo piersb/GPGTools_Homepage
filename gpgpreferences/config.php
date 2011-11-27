@@ -6,6 +6,9 @@ $release['0.9'] = mktime(12, 0, 0, 11, 24, 2011);
 $release['0.8'] = mktime(12, 0, 0, 10, 17, 2011);
 $release['0.7'] = mktime(12, 0, 0, 8, 15, 2011);
 $release['0.6'] = mktime(11, 28, 0, 01, 27, 2011);
+$release['0.5'] = mktime(11, 28, 0, 01, 26, 2011);
+$release['0.4'] = mktime(11, 28, 0, 01, 24, 2011);
+
 $current = $release[$version];
 
 $theSite->assign('title', 'GPGPreferences');
@@ -102,15 +105,26 @@ $changelog = array(
         'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.6.dmg',
         'sparkle_sig' => '',
         'sparkle_size' => '656746',
+		'sparkle_minOS' => '10.6',
         'a' => 'Updates for OS X 10.6.7',
         'b' => 'Added uninstaller',
         'c' => 'Updated DMG generation script',
         'sha' => 'Checksum: 93f076f06561dbfdc7a7d1f5c680d899d8667f5a (SHA-1)',
     )),
-    '0.5' => array('26. January 2011', array(
+    '0.5' => array(date('d. F Y', $release['0.5']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['0.5']),
+        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.5.dmg',
+        'sparkle_sig' => '',
+        'sparkle_size' => '656746',
+		'sparkle_minOS' => '10.6',
         'a' => 'Added GPG fix',
     )),
-    '0.4' => array('24. January 2011', array(
+    '0.4' => array(date('d. F Y', $release['0.4']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['0.4']),
+        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.4.dmg',
+        'sparkle_sig' => '',
+        'sparkle_size' => '656746',
+		'sparkle_minOS' => '10.6',
         'a' => 'Initial update for GPGTools integration'
     ))
 );
