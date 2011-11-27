@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20111117</title> <pubDate>Thu, 17 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111117.dmg</guid> <description><![CDATA[<ul><li><a
+<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20111127</title> <pubDate>Sun, 27 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111127.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/89'>Issue 89</a>: Fix: GPGPreferences might not open under some circumstances (OS X 10.6 only).</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/94'>Issue 94</a>: Fix: Installer did hang under some circumstances (OS X 10.5 only).</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/95'>Issue 95</a>: Added: GPG Keychain Access for OS X 10.5.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/97'>Issue 97</a>: Updated: GPGPreferences 0.9.1.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/98'>Issue 98</a>: Enhancement: Open GPG Keychain Access automatically if there is no secret key.</li><li>Checksum: ec0f360a38053bb7bc7f5ea0d980e70ebf88d632 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111127.dmg"
+sparkle:version="20111127"
+sparkle:shortVersionString="20111127"
+sparkle:dsaSignature=""
+length="34168317"
+type="application/octet-stream" /> </item> <item><title>Installer version 20111117</title> <pubDate>Thu, 17 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111117.dmg</guid> <description><![CDATA[<ul><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/91'>Issue 91</a>: Updated: GPG Keychain Access 1.0b3.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/92'>Issue 92</a>: Downgrade: GPG Services 1.6.</li><li>Checksum: fe5512dac8029a9396bb98956592bbaff297ea3e (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111117.dmg"

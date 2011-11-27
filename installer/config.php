@@ -4,7 +4,8 @@
 //$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $theSite->assign('url_beta',  "");//"GPGTools-$bversion.dmg");
 
-$version="20111117";
+$version="20111127";
+$release['20111127'] = mktime(12, 0, 0, 11, 27, 2011);
 $release['20111117'] = mktime(12, 0, 0, 11, 17, 2011);
 $release['20111114'] = mktime(12, 0, 0, 11, 14, 2011);
 $release['20111110'] = mktime(12, 0, 0, 11, 10, 2011);
@@ -56,7 +57,7 @@ $features = array(
     "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
     "$root/images/64bit.jpg" => array("All applications are 64-bit compatible", '64 bit'),
     "$root/gpgmail/images/logo-35px.png" => array("Integrated <a href='$root/gpgmail/index.php'>GPGMail</a> (OS X 10.5 to 10.7, Universal)", 'GPGMail'),
-    "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.6 to 10.7)", 'GPG Keychain Access'),
+    "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.5 to 10.7, Universal)", 'GPG Keychain Access'),
     "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a> (OS X 10.6 to 10.7)", 'GPGServices'),
     "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGToolsPreferences</a> (OS X 10.6 to 10.7)", 'GPGPreferences'),
     "$root/macgpg2/images/logo-35px.png" => array("Integrated <a href='$root/macgpg2/index.php'>MacGPG 2</a> (OS X 10.5 to 10.7, Intel)", 'gpg2, gpg-agent, pinentry-mac, macgpg2'),
@@ -77,6 +78,18 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', $screencasts);
 */
 $changelog = array(
+    "20111127" => array(date("d. F Y", $release["20111127"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["20111127"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111127.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "34168317",
+        '89' => 'Fix: GPGPreferences might not open under some circumstances (OS X 10.6 only)',
+        '94' => 'Fix: Installer did hang under some circumstances (OS X 10.5 only)',
+        '95' => 'Added: GPG Keychain Access for OS X 10.5',
+        '97' => 'Updated: GPGPreferences 0.9.1',
+        '98' => 'Enhancement: Open GPG Keychain Access automatically if there is no secret key',
+        'sha' => "Checksum: ec0f360a38053bb7bc7f5ea0d980e70ebf88d632 (SHA-1)",
+        )),
     "20111117" => array(date("d. F Y", $release["20111117"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20111117"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111117.dmg",
