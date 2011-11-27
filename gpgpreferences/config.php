@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version='0.9';
+$version='0.9.1';
+$release['0.9.1'] = mktime(12, 0, 0, 11, 27, 2011);
 $release['0.9'] = mktime(12, 0, 0, 11, 24, 2011);
 $release['0.8'] = mktime(12, 0, 0, 10, 17, 2011);
 $release['0.7'] = mktime(12, 0, 0, 8, 15, 2011);
@@ -56,6 +57,15 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', '');
 
 $changelog = array(
+	'0.9.1' => array(date('d. F Y', $release['0.9.1']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.9.1']),
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.1.dmg',
+		'sparkle_sig' => '',
+		'sparkle_size' => '378416',
+		'sparkle_minOS' => '10.6',
+		'29' => 'Pane could not be loaded under some circumstances',
+		'sha' => 'Checksum: ebd29f9fb9d68c1f78363082e5b6643d9820c8b6 (SHA-1)',
+	)),
 	'0.9' => array(date('d. F Y', $release['0.9']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.9']),
 		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.dmg',
