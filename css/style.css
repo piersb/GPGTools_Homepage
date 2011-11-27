@@ -630,10 +630,6 @@ iframe#gplus {width:70px;}
 iframe#facebook {width:120px;}
 iframe#twitter {width:110px;}
 
-.table {width:48%;}
-.left {float:left;}
-.right {float:right;}
-.premium {font-weight:bold;}
 
 h3:target {
     color:#c33;
@@ -644,6 +640,11 @@ h3:target {
         margin: 0 auto;
         width:100%;
 }
+
+.left {float:left; width:48%;}
+.right {float:right; width:48%;}
+.premium {font-weight:bold;}
+
 ul#horizontal-list {
         list-style: none;
 }
