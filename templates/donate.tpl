@@ -80,6 +80,7 @@ name="os0" value="No" type="hidden">
                   <li>Dave Diemer</li>
                   <li>Dirk Pape</li>
                   <li>Dmitry Nedospasov</li>
+                  <li>Eric Baur</li>
                   <li>Greg Hetrick</li>
                   <li>Guillaume Destuynder (Mozilla)</li>
                   <li>Ignacio Lorenzo Subirá Otal</li>
