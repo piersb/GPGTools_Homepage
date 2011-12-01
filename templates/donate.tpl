@@ -87,6 +87,7 @@ name="os0" value="No" type="hidden">
                   <li>Jessica Stolz</li>
                   <li>Joël Brogniart</li>
                   <li>Jonathan Care</li>
+                  <li>Jonathan Jaffe</li>
                   <li>Karl Pietrzak</li>
                   <li>Ken Joy</li>
                   <li>Ken van Wyk</li>
