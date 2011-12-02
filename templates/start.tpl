@@ -8,18 +8,6 @@
     <div id="main">
         <div id="m_content">
         <div id="announcement"><b>November 2011:</b> We're now using Tenderapp to give you a better support.</div>
-        <!--
-            <h3>Announcement (November 2011)</h3>
-            <ul id="announcement" class="sub">
-              <li>
-                <img src="./images/lion.png" alt="lion compatible" title="lion compatible" class="icon" />
-                Finally, we have released a new <a href="installer/index.php">GPGTools Installer</a> for OS X Lion and
-                it contains a compatible version of GPGMail.</li>
-            </ul>
-            <hr/>
-            <h3>About</h3>
-            -->
-
             <div class="project2">
                 <div class="table">
                                 <ul id="horizontal-list">
