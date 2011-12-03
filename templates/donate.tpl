@@ -74,6 +74,7 @@ name="os0" value="No" type="hidden">
                   <li>Aurimas Mikalauskas</li>
                   <li>Beat Stehrenberger</li>
                   <li>Bernd Wiese</li>
+                  <li>Chavalit Srisathapornphat</li>
                   <li>Christian Roessner</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
