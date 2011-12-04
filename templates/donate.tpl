@@ -99,6 +99,7 @@ name="os0" value="No" type="hidden">
 		  <li>Michael Dierck</li>
 		  <li>Michael Prewitt</li>
 		  <li>N J L Macassey</li>
+                  <li>Peter Mueller</li>
                   <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
                   <li>Thomas Gillier</li>
