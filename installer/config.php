@@ -49,7 +49,9 @@ $theSite->assign('heise', "78714");
 $theSite->assign('cnet', "3000-2092_4-75335253");
 
 $limitations = array(
-'' => 'PPC support is included but not very well tested',
+'102' => 'PPC support is included but not very well tested',
+'101' => 'Installation on 10.5 does not work currently (if GPGTools is already installed)',
+'103' => 'Installation on networked homes does not work currently',
 );
 $theSite->assign('limitations', $limitations);
 
