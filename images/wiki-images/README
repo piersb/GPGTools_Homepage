@@ -1,0 +1,15 @@
+1.) Repository updaten damit alle externen Änderungen reingeholt werden.
+    
+GitHub for Mac -> GPGTools -> GPGTools_Homepage -> Changes
+Im Menü Repository -> Pull
+
+2.) Bilder in den Folder mit Finder hinzufügen.
+
+3.) Bilder online stellen.
+
+GitHub for Mac -> GPGTools -> GPGTools_Homepage -> Changes
+Uncommitted Changes -> anklicken der Files die hinzugefügt werden sollen.
+Commit Changes drücken
+Danch Menü Repository -> Push
+
+4.) Done
