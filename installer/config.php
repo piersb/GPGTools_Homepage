@@ -44,7 +44,7 @@ $theSite->assign('short_description', 'The GPGTools are a collection of open sou
 
 $theSite->assign('lighthouse', '65162');
 $theSite->assign('macupdate', "9417");
-$theSite->assign('iusethis', "gpgtools");
+$theSite->assign('iusethis', "gpgtoolsinstaller");
 $theSite->assign('heise', "78714");
 $theSite->assign('cnet', "3000-2092_4-75335253");
 
