@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - GPGPreferences - Changelog</title><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgpreferences/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGPreferences version 0.9.1</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Sun, 27 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.1.dmg</guid> <description><![CDATA[<ul><li><a
+<title>GPGTools - GPGPreferences - Changelog</title><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgpreferences/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgpreferences/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGPreferences version 0.9.2</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Mon, 19 Dec 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.2.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/30'>Issue 30</a>: Do not show disabled keys.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/32'>Issue 32</a>: Autofix could damage the config file.</li><li>Checksum: b8c8e78013d7698600ec8cd913a8a3f78d342844 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.2.dmg"
+sparkle:version="0.9.2"
+sparkle:shortVersionString="0.9.2"
+sparkle:dsaSignature=""
+length="706569"
+type="application/octet-stream" /> </item> <item><title>GPGPreferences version 0.9.1</title> <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion> <pubDate>Sun, 27 Nov 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.1.dmg</guid> <description><![CDATA[<ul><li><a
 href='http://gpgtools.lighthouseapp.com/projects/66966/tickets/29'>Issue 29</a>: Pane could not be loaded under some circumstances.</li><li>Checksum: ebd29f9fb9d68c1f78363082e5b6643d9820c8b6 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgpreferences/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.1.dmg"
 sparkle:version="0.9.1"
