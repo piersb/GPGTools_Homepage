@@ -85,6 +85,7 @@ $changelog = array(
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111224.dmg",
         'sparkle_sig' => "",
         'sparkle_size' => "35653922",
+        'a' => 'Please note: GPGMail has no correct error messages in this version',
         '60' => 'Fix: Installer removed important libraries under some circumstances',
         '101' => 'Fix: Installation on 10.5 did not work under some circumstances',
         '106' => 'Fix: Installation on 10.5 hang under some circumstances',
