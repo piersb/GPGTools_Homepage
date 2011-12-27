@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - GPGMail - Changelog</title><link>http://www.gpgtools.org/gpgmail/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgmail/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgmail/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGMail version 2.0a4</title> <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion> <pubDate>Sun, 04 Sep 2011 14:23:00 +0200</pubDate> <guid>https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip</guid> <description><![CDATA[<ul><li>Fourth alpha for 10.7.</li><li>Closed <a
+<title>GPGTools - GPGMail - Changelog</title><link>http://www.gpgtools.org/gpgmail/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgmail/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgmail/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGMail version 2.0a21</title> <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion> <pubDate>Tue, 27 Dec 2011 14:23:00 +0100</pubDate> <guid>https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a21.zip</guid> <description><![CDATA[<ul><li>Just another update that fixes some issues and enhances the stability.</li><li>Checksum: 65aa08be0b05324c82bd73af95e4c7985648342d (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a21.zip"
+sparkle:version="153 (a21)"
+sparkle:shortVersionString="2.0a21"
+sparkle:dsaSignature="MCwCFFbaiEjAcorXsJxSstsTL+u08lm6AhQrBEEarWClFbMl2r8Py/TA1T3hdg=="
+length="3463494"
+type="application/octet-stream" /> </item> <item><title>GPGMail version 2.0a19</title> <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion> <pubDate>Sat, 24 Dec 2011 14:23:00 +0100</pubDate> <guid></guid> <description><![CDATA[<ul><li>Special binary-only Xmas Release 2011 for 10.7.</li><li>Enhanced the stability a lot, not introduced new features.</li><li>Still alpha quality (e.g. missing error messages).</li><li>Checksum: 7849dc2c6ebb9a16622a71f336033d330e936f13 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url=""
+sparkle:version="01 (a19)"
+sparkle:shortVersionString="2.0a19"
+sparkle:dsaSignature=""
+length="3485385"
+type="application/octet-stream" /> </item> <item><title>GPGMail version 2.0a4</title> <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion> <pubDate>Sun, 04 Sep 2011 14:23:00 +0200</pubDate> <guid>https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip</guid> <description><![CDATA[<ul><li>Fourth alpha for 10.7.</li><li>Closed <a
 href="http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4">38 tickets</a>.</li><li>Submitted <a
 href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>.</li><li>Checksum: 91463d97da7a302cca2fbc93695ad980485b9264 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip"
