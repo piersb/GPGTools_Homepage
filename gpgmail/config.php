@@ -69,11 +69,11 @@ $theSite->assign('screencasts', $screencasts);
 $changelog = array(
     '2.0a21' => array(date('d. F Y', $release['2.0a21']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a21']),
-        'sparkle_url' => '',
-        'sparkle_sig' => '',
-        'sparkle_size' => '3547832',
+        'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a21.zip',
+        'sparkle_sig' => 'MCwCFFbaiEjAcorXsJxSstsTL+u08lm6AhQrBEEarWClFbMl2r8Py/TA1T3hdg==',
+        'sparkle_size' => '3463494',
         'sparkle_minOS' => '10.7',
-        'sparkle_version' => '01 (a21)',
+        'sparkle_version' => '153 (a21)',
         'a' => 'Just another update that fixes some issues and enhances the stability',
         'sha' => 'Checksum: 65aa08be0b05324c82bd73af95e4c7985648342d (SHA-1)',
         )),
