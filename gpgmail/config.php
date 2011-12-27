@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version='2.0a19';
+$version='2.0a21';
+$release['2.0a21'] = mktime(14, 23, 0, 12, 27, 2011);
 $release['2.0a19'] = mktime(14, 23, 0, 12, 24, 2011);
 $release['2.0a4'] = mktime(14, 23, 0, 9, 4, 2011);
 $release['2.0a3'] = mktime(14, 23, 0, 8, 21, 2011);
@@ -66,6 +67,16 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '2.0a21' => array(date('d. F Y', $release['2.0a21']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['2.0a21']),
+        'sparkle_url' => '',
+        'sparkle_sig' => '',
+        'sparkle_size' => '3547832',
+        'sparkle_minOS' => '10.7',
+        'sparkle_version' => '01 (a21)',
+        'a' => 'Just another update that fixes some issues and enhances the stability',
+        'sha' => 'Checksum: 65aa08be0b05324c82bd73af95e4c7985648342d (SHA-1)',
+        )),
     '2.0a19' => array(date('d. F Y', $release['2.0a19']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a19']),
         'sparkle_url' => '',
