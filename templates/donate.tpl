@@ -81,6 +81,7 @@ name="os0" value="No" type="hidden">
                   <li>Christian Roessner</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
+                  <li>Daniel Guido</li>
                   <li>Dave Diemer</li>
                   <li>Dirk Pape</li>
                   <li>Dmitry Nedospasov</li>
