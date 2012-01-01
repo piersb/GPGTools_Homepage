@@ -23,5 +23,8 @@ check:
 	# not html5 compatible, yet
 	@/Applications/Validator-SAC.app/Contents/MacOS/Validator-SAC index.html
 
-add-donator:
-	@git pull; nano templates/donate.tpl; make; git commit -m "added new donator" donate.html templates/donate.tpl; git push
+update:
+	@git pull
+
+add-donator: update
+	nano templates/donate.tpl; make; git commit -m "added new donator" donate.html templates/donate.tpl; git push
