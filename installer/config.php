@@ -49,10 +49,7 @@ $theSite->assign('iusethis', "gpgtoolsinstaller");
 $theSite->assign('heise', "78714");
 $theSite->assign('cnet', "3000-2092_4-75335253");
 
-$limitations = array(
-'102' => 'PPC support is included but not very well tested',
-'103' => 'Installation on networked homes does not work currently',
-);
+$limitations = array();
 $theSite->assign('limitations', $limitations);
 
 $features = array(
