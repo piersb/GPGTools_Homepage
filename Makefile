@@ -16,7 +16,7 @@ web:
 	@open http://gpgtools.org
 
 validate:
-	@open "http://validator.w3.org/unicorn/check?ucn_uri=validator.w3.org%2Funicorn%2Fcheck%3Fucn_uri%3Dwww.gpgtools.org%26ucn_task%3Dconformance%23&tests=markup-validator&tests=css-validator&tests=mobileok&tests=feed&ucn_task=custom&warning=2&profile=css3&usermedium=screen#"
+	@curl -s "http://validator.w3.org/check?uri=http%3A%2F%2Fwww.gpgtools.org%2F&charset=%28detect+automatically%29&doctype=Inline&group=0"|grep -A2 "Line "||echo
 
 check:
 	@echo "Checking..."
