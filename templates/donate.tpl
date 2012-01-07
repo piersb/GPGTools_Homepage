@@ -109,9 +109,12 @@
 		  <li>Michael Dierck</li>
 		  <li>Michael Prewitt</li>
 		  <li>N J L Macassey</li>
+		  <li>Olaf Kolkman</li>
+		  <li>Omer Holzinger</li>
                   <li>Peter Mueller</li>
                   <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
+                  <li>Sebastiaan Kruit</li>
                   <li>Tax Return Team</li>
                   <li>Thomas Gillier</li>
                   <li>Wilbert Leeper</li>
