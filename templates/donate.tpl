@@ -73,51 +73,52 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
-                  <li>Alun J Carr</li>
-                  <li>Andrew Frangopoulos</li>
-                  <li>Anton Umnitsyn</li>
-                  <li>Arne Fahrenwalde</li>
-                  <li>Arthur Feldman</li>
-                  <li>Aurimas Mikalauskas</li>
-                  <li>Beat Stehrenberger</li>
-                  <li>Bernd Wiese</li>
-                  <li>Chavalit Srisathapornphat</li>
-                  <li>Christian Roessner</li>
-                  <li>Christer Klasson</li>
-                  <li>Claudius Wettstein</li>
-                  <li>Daniel Guido</li>
-                  <li>Dave Diemer</li>
-                  <li>Dirk Pape</li>
-                  <li>Dmitry Nedospasov</li>
-                  <li>Eric Baur</li>
-                  <li>Greg Hetrick</li>
-                  <li>Guillaume Destuynder (Mozilla)</li>
-                  <li>Ignacio Lorenzo Subirá Otal</li>
-                  <li>Jessica Stolz</li>
-                  <li>Joël Brogniart</li>
-                  <li>Jonathan Care</li>
-                  <li>Jonathan Jaffe</li>
-                  <li>Karl Pietrzak</li>
-                  <li>Ken Joy</li>
-                  <li>Ken van Wyk</li>
-                  <li>Laradji Nacer</li>
-                  <li>Laurens Bonnema</li>
-                  <li>Lutz Krebs</li>
-		  <li>Mark Harrigan</li>
-		  <li>Massimo Fabio</li>
-		  <li>Matthias Dörfler</li>
-		  <li>Michael Dierck</li>
-		  <li>Michael Prewitt</li>
-		  <li>N J L Macassey</li>
-		  <li>Olaf Kolkman</li>
-		  <li>Omer Holzinger</li>
-                  <li>Peter Mueller</li>
-                  <li>Robert Tirrell</li>
-                  <li>Robert Vaessen</li>
-                  <li>Sebastiaan Kruit</li>
-                  <li>Tax Return Team</li>
-                  <li>Thomas Gillier</li>
-                  <li>Wilbert Leeper</li>
+            <li>Alun J Carr</li>
+            <li>Andrew Frangopoulos</li>
+            <li>Anton Umnitsyn</li>
+            <li>Arne Fahrenwalde</li>
+            <li>Arthur Feldman</li>
+            <li>Aurimas Mikalauskas</li>
+            <li>Beat Stehrenberger</li>
+            <li>Bernd Wiese</li>
+            <li>Chavalit Srisathapornphat</li>
+            <li>Christian Roessner</li>
+            <li>Christer Klasson</li>
+            <li>Claudius Wettstein</li>
+            <li>Daniel Guido</li>
+            <li>Dave Diemer</li>
+            <li>Dirk Pape</li>
+            <li>Dmitry Nedospasov</li>
+            <li>Eric Baur</li>
+            <li>Felix Hermann</li>
+            <li>Greg Hetrick</li>
+            <li>Guillaume Destuynder (Mozilla)</li>
+            <li>Ignacio Lorenzo Subirá Otal</li>
+            <li>Jessica Stolz</li>
+            <li>Joël Brogniart</li>
+            <li>Jonathan Care</li>
+            <li>Jonathan Jaffe</li>
+            <li>Karl Pietrzak</li>
+            <li>Ken Joy</li>
+            <li>Ken van Wyk</li>
+            <li>Laradji Nacer</li>
+            <li>Laurens Bonnema</li>
+            <li>Lutz Krebs</li>
+            <li>Mark Harrigan</li>
+            <li>Massimo Fabio</li>
+            <li>Matthias Dörfler</li>
+            <li>Michael Dierck</li>
+            <li>Michael Prewitt</li>
+            <li>N J L Macassey</li>
+            <li>Olaf Kolkman</li>
+            <li>Omer Holzinger</li>
+            <li>Peter Mueller</li>
+            <li>Robert Tirrell</li>
+            <li>Robert Vaessen</li>
+            <li>Sebastiaan Kruit</li>
+            <li>Tax Return Team</li>
+            <li>Thomas Gillier</li>
+            <li>Wilbert Leeper</li>
                 </ul>
             </div>
             <div class="table right">
