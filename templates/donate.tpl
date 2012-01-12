@@ -79,6 +79,7 @@
             <li>Arne Fahrenwalde</li>
             <li>Arthur Feldman</li>
             <li>Aurimas Mikalauskas</li>
+            <li>Balazs Boros</li>
             <li>Beat Stehrenberger</li>
             <li>Bernd Wiese</li>
             <li>Chavalit Srisathapornphat</li>
