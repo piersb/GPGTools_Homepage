@@ -54,11 +54,14 @@
 <input type="hidden" name="currency_code" value="EUR">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width:7em; border:0px;">
-<input
-name="on0" value="Publish my sponsor name" type="hidden">
-<input
-name="os0" value="No" type="hidden">
-<input name="os0" value="Yes" checked="checked" type="checkbox" style="width:1.5em; vertical-align:middle;">Publish my sponsor name
+<input name="on0" value="Publish my sponsor name" type="hidden">
+<input name="os0" value="No" type="hidden">
+<input name="on1" value="Comment" type="hidden">
+<input name="os1" value="Nothing" type="hidden">
+<ul >
+<li><input name="os0" value="Yes" checked="checked" type="checkbox" style="width:1.5em; vertical-align:middle; margin-top: 0em; margin-bottom: 0em;">Publish my sponsor name (if I donated more than 20 EUR)</li>
+<li>A comment about your donation (if you want to): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
+</ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
 </form><br/>
 <a href="http://flattr.com/thing/319097/GPGTools" target="_blank">
@@ -71,7 +74,10 @@ name="os0" value="No" type="hidden">
                 <h4>Private Persons</h4>
                 <ul class="sub">
                   <li>Alun J Carr</li>
+                  <li>Andrew Frangopoulos</li>
                   <li>Anton Umnitsyn</li>
+                  <li>Arne Fahrenwalde</li>
+                  <li>Arthur Feldman</li>
                   <li>Aurimas Mikalauskas</li>
                   <li>Beat Stehrenberger</li>
                   <li>Bernd Wiese</li>
@@ -79,6 +85,7 @@ name="os0" value="No" type="hidden">
                   <li>Christian Roessner</li>
                   <li>Christer Klasson</li>
                   <li>Claudius Wettstein</li>
+                  <li>Daniel Guido</li>
                   <li>Dave Diemer</li>
                   <li>Dirk Pape</li>
                   <li>Dmitry Nedospasov</li>
@@ -98,12 +105,17 @@ name="os0" value="No" type="hidden">
                   <li>Lutz Krebs</li>
 		  <li>Mark Harrigan</li>
 		  <li>Massimo Fabio</li>
+		  <li>Matthias Dörfler</li>
 		  <li>Michael Dierck</li>
 		  <li>Michael Prewitt</li>
 		  <li>N J L Macassey</li>
+		  <li>Olaf Kolkman</li>
+		  <li>Omer Holzinger</li>
                   <li>Peter Mueller</li>
                   <li>Robert Tirrell</li>
                   <li>Robert Vaessen</li>
+                  <li>Sebastiaan Kruit</li>
+                  <li>Tax Return Team</li>
                   <li>Thomas Gillier</li>
                   <li>Wilbert Leeper</li>
                 </ul>

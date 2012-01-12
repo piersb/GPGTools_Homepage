@@ -4,7 +4,8 @@
 //$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $theSite->assign('url_beta',  "");//"GPGTools-$bversion.dmg");
 
-$version="20111127";
+$version="20111224";
+$release['20111224'] = mktime(12, 0, 0, 12, 24, 2011);
 $release['20111127'] = mktime(12, 0, 0, 11, 27, 2011);
 $release['20111117'] = mktime(12, 0, 0, 11, 17, 2011);
 $release['20111114'] = mktime(12, 0, 0, 11, 14, 2011);
@@ -44,15 +45,11 @@ $theSite->assign('short_description', 'The GPGTools are a collection of open sou
 
 $theSite->assign('lighthouse', '65162');
 $theSite->assign('macupdate', "9417");
-$theSite->assign('iusethis', "gpgtools");
+$theSite->assign('iusethis', "gpgtoolsinstaller");
 $theSite->assign('heise', "78714");
 $theSite->assign('cnet', "3000-2092_4-75335253");
 
-$limitations = array(
-'102' => 'PPC support is included but not very well tested',
-'101' => 'Installation on 10.5 does not work currently (if GPGTools is already installed)',
-'103' => 'Installation on networked homes does not work currently',
-);
+$limitations = array();
 $theSite->assign('limitations', $limitations);
 
 $features = array(
@@ -80,6 +77,19 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', $screencasts);
 */
 $changelog = array(
+    "20111224" => array(date("d. F Y", $release["20111224"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["20111224"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111224.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "35653922",
+        'a' => 'Please note: GPGMail has no correct error messages in this version',
+        '60' => 'Fix: Installer removed important libraries under some circumstances',
+        '101' => 'Fix: Installation on 10.5 did not work under some circumstances',
+        '106' => 'Fix: Installation on 10.5 hang under some circumstances',
+        '104' => 'Fix: Better permissions for GnuPG config',
+        '107' => 'Updated: GPGMail Alpha 19',
+        'sha' => "Checksum: ac1b6d9a73db4b291195a185bbf24d32dd185a70 (SHA-1)",
+        )),
     "20111127" => array(date("d. F Y", $release["20111127"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20111127"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111127.dmg",

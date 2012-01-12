@@ -1,9 +1,10 @@
 <?php /*compileIgnore*/
 
 
-$version='1.0b5';
+$version='1.0b6';
 
 $release['1.0b5'] = mktime(12, 0, 0, 11, 25, 2011);
+$release['1.0b6'] = mktime(12, 0, 0, 12, 19, 2011);
 $release['1.0b3'] = mktime(12, 0, 0, 11, 16, 2011);
 $release['1.0b2'] = mktime(12, 0, 0, 11, 15, 2011);
 $release['1.0b1'] = mktime(12, 0, 0, 11, 12, 2011);
@@ -68,6 +69,16 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'1.0b6' => array(date('d. F Y', $release['1.0b6']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['1.0b6']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b6.dmg',
+		'sparkle_sig' => 'MC0CFHwJqoOQtJswVZsov3sU7WfwY6x6AhUAq3XvpaO7tHfmZNFeESH5a7ksVmA=',
+		'sparkle_size' => '1948826',
+		'sparkle_minOS' => '10.6',
+		'94' => 'Copy & Paste for files',
+		'a' => 'Spanish bug fixed',
+		'sha' => 'Checksum: b42465bf3af02eb5dfdc5b82cc1a0a9322868316 (SHA-1)'
+	)),
 	'1.0b5' => array(date('d. F Y', $release['1.0b5']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b5']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b5.dmg',

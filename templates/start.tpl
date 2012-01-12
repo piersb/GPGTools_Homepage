@@ -7,7 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
-        <div id="announcement"><b>November 2011:</b> We're now using Tenderapp to give you a better support.</div>
+        <div id="announcement"><b>December 2011:</b> Just published our GPGTools Xmas Release 2011!</div>
             <div class="project2">
                 <div class="table">
                                 <ul id="horizontal-list">
