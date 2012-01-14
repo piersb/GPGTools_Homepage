@@ -86,6 +86,7 @@
             <li>Christian Roessner</li>
             <li>Christer Klasson</li>
             <li>Claudius Wettstein</li>
+            <li>Craig Stacey</li>
             <li>Daniel Guido</li>
             <li>Dave Diemer</li>
             <li>Dirk Pape</li>
