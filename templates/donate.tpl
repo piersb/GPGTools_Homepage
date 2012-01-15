@@ -117,6 +117,7 @@
             <li>Peter Mueller</li>
             <li>Robert Tirrell</li>
             <li>Robert Vaessen</li>
+            <li>Roger Loeb</li>
             <li>Sebastiaan Kruit</li>
             <li>Tax Return Team</li>
             <li>Thomas Gillier</li>
