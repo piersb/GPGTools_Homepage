@@ -40,6 +40,13 @@ background-image:url(http://www.gpgtools.org/images/tenderapp-bg.png);
 background-repeat:repeat-x;
 }
 
-body.interface {
-background-color:transparent;
+body.interface {background-color:transparent !important;}
+
+hr {display:none;}
+
+.header a {
+  color:#aaa !important;
+  text-decoration: none !important;
+  font-size: larger !important;
 }
+
