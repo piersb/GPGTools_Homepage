@@ -35,7 +35,7 @@ $theSite->assign('version',  date("Y.m.d", $current));
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs',     'OS X 10.5/Intel');
+$theSite->assign('reqs',     '>= OS X 10.5');
 
 $theSite->assign('overview', '
 	<p>The GPGTools are a collection of open source tools for encryption on Mac OS X, gathered in an all-in-one-Installer solution.
@@ -49,8 +49,8 @@ $theSite->assign('iusethis', "gpgtoolsinstaller");
 $theSite->assign('heise', "78714");
 $theSite->assign('cnet', "3000-2092_4-75335253");
 
-$limitations = array();
-$theSite->assign('limitations', $limitations);
+//$limitations = array();
+//$theSite->assign('limitations', $limitations);
 
 $features = array(
     "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
