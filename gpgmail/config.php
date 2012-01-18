@@ -43,7 +43,6 @@ $theSite->assign('cnet', '3000-2144_4-7335');
 
 $limitations = array(
 '' => 'Currently GPGMail for Lion is an early alpha version under development',
-'107' => 'Automatic update is not compatible with system wide installations (/L/M/B/)',
 );
 $theSite->assign('limitations', $limitations);
 
