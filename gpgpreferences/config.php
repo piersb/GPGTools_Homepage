@@ -15,7 +15,7 @@ $current = $release[$version];
 $theSite->assign('title', 'GPGPreferences');
 $theSite->assign('name', 'gpgpreferences');
 $theSite->assign('img_logo', 'images/logo-128px.png');
-$theSite->assign('url_base', 'GPGTools/GPGTools_Preferences');
+$theSite->assign('url_base', 'GPGTools/GPGPreferences');
 $theSite->assign('url_dl', "GPGPreferences-$version.dmg");
 $theSite->assign('url_sig', "GPGPreferences-$version.dmg.sig");
 $theSite->assign('url_beta', '');
@@ -63,7 +63,7 @@ $theSite->assign('screencasts', '');
 $changelog = array(
 	'0.9.2' => array(date('d. F Y', $release['0.9.2']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.9.2']),
-		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.2.dmg',
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.9.2.dmg',
 		'sparkle_sig' => '',
 		'sparkle_size' => '706569',
 		'sparkle_minOS' => '10.6',
@@ -73,7 +73,7 @@ $changelog = array(
 	)),
 	'0.9.1' => array(date('d. F Y', $release['0.9.1']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.9.1']),
-		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.1.dmg',
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.9.1.dmg',
 		'sparkle_sig' => '',
 		'sparkle_size' => '378416',
 		'sparkle_minOS' => '10.6',
@@ -82,7 +82,7 @@ $changelog = array(
 	)),
 	'0.9' => array(date('d. F Y', $release['0.9']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.9']),
-		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.9.dmg',
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.9.dmg',
 		'sparkle_sig' => '',
 		'sparkle_size' => '378081',
 		'sparkle_minOS' => '10.6',
@@ -94,7 +94,7 @@ $changelog = array(
 	)),
 	'0.8' => array(date('d. F Y', $release['0.8']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8']),
-		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGTools_Preferences-0.8.dmg',
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.8.dmg',
 		'sparkle_sig' => '',
 		'sparkle_size' => '364262',
 		'sparkle_minOS' => '10.6',
@@ -104,7 +104,7 @@ $changelog = array(
 	)),
 	'0.7' => array(date('d. F Y', $release['0.7']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.7']),
-		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.7.dmg',
+		'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.7.dmg',
 		'sparkle_sig' => '',
 		'sparkle_size' => '354724',
 		'sparkle_minOS' => '10.6',
@@ -113,7 +113,7 @@ $changelog = array(
 	)),
     '0.6' => array(date('d. F Y', $release['0.6']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['0.6']),
-        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.6.dmg',
+        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.6.dmg',
         'sparkle_sig' => '',
         'sparkle_size' => '656746',
 		'sparkle_minOS' => '10.6',
@@ -124,7 +124,7 @@ $changelog = array(
     )),
     '0.5' => array(date('d. F Y', $release['0.5']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['0.5']),
-        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.5.dmg',
+        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.5.dmg',
         'sparkle_sig' => '',
         'sparkle_size' => '656746',
 		'sparkle_minOS' => '10.6',
@@ -132,7 +132,7 @@ $changelog = array(
     )),
     '0.4' => array(date('d. F Y', $release['0.4']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['0.4']),
-        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGTools_Preferences/GPGPreferences-0.4.dmg',
+        'sparkle_url' => 'http://github.com/downloads/GPGTools/GPGPreferences/GPGPreferences-0.4.dmg',
         'sparkle_sig' => '',
         'sparkle_size' => '656746',
 		'sparkle_minOS' => '10.6',
