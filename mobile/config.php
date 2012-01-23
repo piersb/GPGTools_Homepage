@@ -21,7 +21,7 @@ $theSite->assign('year',  date("Y", $current));
 $theSite->assign('reqs',     'WebKit or iOS');
 
 $theSite->assign('overview', '
-	<p>This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript (so it can be used on virtually every device in a browser in every country) or as a native application. It should allow you to sign, encrypt, decrypt, and verify any kind of text - in particular e-mails. The idea is to implement the basic OpenPGP functionality and to reuse it in other projects.</p>
+	<p>This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript (so it can be used on virtually every device in a browser in every country) or as a native application. It should allow you to sign, encrypt, decrypt, and verify any kind of text - in particular e-mails. The idea is to implement the basic OpenPGP functionality and to reuse it in other projects. Have a look at the <a href="http://openpgpjs.org">OpenPGP.js project</a> for more details.</p>
 ');
 $theSite->assign('short_description', 'This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript so it can be used on virtually every device in a browser in every country or as a native application.');
 
@@ -31,10 +31,10 @@ $theSite->assign('iusethis', "");
 $theSite->assign('heise', "");
 $theSite->assign('cnet', "");
 
-$limitations = array(
-'' => 'Currently a "only" a <a href="http://gpgtools.org/mobile">JavaScript based proof of concept</a> with hard coded RSA keys. Have a look at the wiki for more details',
-);
-$theSite->assign('limitations', $limitations);
+#$limitations = array(
+#'' => 'Currently a "only" a <a href="http://gpgtools.org/mobile">JavaScript based proof of concept</a> with hard coded RSA keys. Have a look at the wiki and the <a href="http://openpgpjs.org">OpenPGP.js project</a> for more details',
+#);
+#$theSite->assign('limitations', $limitations);
 
 $features = array(
     "$root/images/webkit-icon.png" => array('Runs in WebKit browsers (Safari/Chrome/iPhone/iPad/Android). Have a look at the <a href="http://gpgtools.org/mobile">online demo</a>', 'WebKit'),
