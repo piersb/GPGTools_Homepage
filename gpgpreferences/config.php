@@ -35,7 +35,7 @@ $theSite->assign('short_description', 'The GPGPreferences pane allows you to set
 $theSite->assign('lighthouse', '66966');
 $theSite->assign('macupdate', '11135');
 $theSite->assign('iusethis', 'gpgpreferences');
-$theSite->assign('heise', '');
+$theSite->assign('heise', '84245');
 $theSite->assign('cnet', '3000-2092_4-25028');
 
 /*
