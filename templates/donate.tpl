@@ -110,11 +110,13 @@
             <li>Massimo Fabio</li>
             <li>Matthias Dörfler</li>
             <li>Michael Dierck</li>
+            <li>Michael Gracie</li>
             <li>Michael Prewitt</li>
             <li>N J L Macassey</li>
             <li>Olaf Kolkman</li>
             <li>Omer Holzinger</li>
             <li>Peter Mueller</li>
+            <li>Richard Forno</li>
             <li>Robert Tirrell</li>
             <li>Robert Vaessen</li>
             <li>Roger Loeb</li>
