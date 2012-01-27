@@ -95,6 +95,7 @@
             <li>Felix Hermann</li>
             <li>Greg Hetrick</li>
             <li>Guillaume Destuynder (Mozilla)</li>
+            <li>Henry Stryker</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Jessica Stolz</li>
             <li>Joël Brogniart</li>
@@ -131,6 +132,7 @@
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
                   <li class="premium">Clockwork Active Media Systems</li>
+                  <li>Enigma Software</li>
                   <li>Loosh Labs</li>
                   <li>Matta</li>
                   <li class="premium">NORDUnet</li>
