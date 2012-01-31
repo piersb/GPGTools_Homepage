@@ -77,6 +77,7 @@
             <li>Andrew Frangopoulos</li>
             <li>Anton Umnitsyn</li>
             <li>Arne Fahrenwalde</li>
+            <li>Arthur Bauer</li>
             <li>Arthur Feldman</li>
             <li>Aurimas Mikalauskas</li>
             <li>Balazs Boros</li>
