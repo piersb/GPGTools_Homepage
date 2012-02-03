@@ -74,7 +74,7 @@ $changelog = array(
         'sparkle_size' => '3543551',
         'sparkle_minOS' => '10.7',
         'sparkle_version' => '200 (a30)',
-        'a' => 'Do not log decrypted messages',
+        'a' => 'Disabled excessive logging',
         'sha' => 'Checksum: de23cc7e85c967fcafb33dd43f73659a1b73fe88 (SHA-1)',
         )),
     '2.0a21' => array(date('d. F Y', $release['2.0a21']), array(
