@@ -21,6 +21,8 @@
                 <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
                     <b>Email</b> (so we can get back to you - if you want to)<br />
                     <input type="email" name="mail" /><br />
+                    <b>Spam protection</b> (what it 24 minus 1?)<br />
+                    <input type="spam" name="spam" /><br />
                     <b>Subject</b><br />
                     <input type="text" name="subject" /><br />
                     <textarea name="message"></textarea><br />
