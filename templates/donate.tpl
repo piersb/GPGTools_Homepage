@@ -73,6 +73,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+            <li>Alfonso Carrillo</li>
             <li>Alun J Carr</li>
             <li>Andrew Frangopoulos</li>
             <li>Anton Umnitsyn</li>
@@ -136,6 +137,7 @@
                   <li>Enigma Software</li>
                   <li>Loosh Labs</li>
                   <li>Matta</li>
+                  <li>MakaluMedia</li>
                   <li class="premium">NORDUnet</li>
                   <li>Rayzon Technologies</li>
                   <li>Sepher Software</li>
