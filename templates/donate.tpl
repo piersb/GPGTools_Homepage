@@ -95,6 +95,7 @@
             <li>Dmitry Nedospasov</li>
             <li>Eric Baur</li>
             <li>Felix Hermann</li>
+            <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Guillaume Destuynder (Mozilla)</li>
             <li>Henry Stryker</li>
