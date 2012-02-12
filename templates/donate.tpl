@@ -124,6 +124,7 @@
             <li>Robert Tirrell</li>
             <li>Robert Vaessen</li>
             <li>Roger Loeb</li>
+            <li>Scott Stonefield</li>
             <li>Sebastiaan Kruit</li>
             <li>Tax Return Team</li>
             <li>Thomas Gillier</li>
