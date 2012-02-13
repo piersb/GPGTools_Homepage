@@ -1,7 +1,7 @@
 <?php /*compileIgnore*/
 
-$version='2.0a21';
-//$release['2.0a30'] = mktime(12, 0, 0, 2, 3, 2012);
+$version='2.0a30';
+$release['2.0a30'] = mktime(15, 5, 0, 2, 13, 2012);
 $release['2.0a21'] = mktime(14, 23, 0, 12, 27, 2011);
 $release['2.0a19'] = mktime(14, 23, 0, 12, 24, 2011);
 $release['2.0a4'] = mktime(14, 23, 0, 9, 4, 2011);
@@ -67,16 +67,18 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-/*    '2.0a30' => array(date('d. F Y', $release['2.0a30']), array(
+    '2.0a30' => array(date('d. F Y', $release['2.0a30']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a30']),
-        'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a30.dmg',
-        'sparkle_sig' => 'MCsCFHNVKZ00tVNeFu7jOBmxymmrxTsrAhMtLgfYLmztN/M8ZePUr8Y17yLq',
-        'sparkle_size' => '3543551',
+        'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a30.zip',
+        'sparkle_sig' => 'MC0CFC5Lw/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=',
+        'sparkle_size' => '5779188',
         'sparkle_minOS' => '10.7',
-        'sparkle_version' => '200 (a30)',
-        'a' => 'Disabled excessive logging',
-        'sha' => 'Checksum: de23cc7e85c967fcafb33dd43f73659a1b73fe88 (SHA-1)',
-        )),*/
+        'sparkle_version' => '201 (a30)',
+        'a' => 'Disables excessive logging which might have written sensitive information to /var/log/system.log* in some cases.',
+        'sha' => 'Checksum: 9bb7c3fe5e75455b8f0f6118f3958a0782e19a62 (SHA-1)',
+        ), 
+        /* Allow for extra notes to be added. */
+        '<br><br><b>IMPORTANT SECURITY UPDATE</b><br><br><b>DISCLAIMER: Please be aware that GPGMail is still in alpha stadium.<br>Be very careful about using it on machines containing sensitive information.</b>'),
     '2.0a21' => array(date('d. F Y', $release['2.0a21']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a21']),
         'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a21.zip',

@@ -16,7 +16,7 @@
 		<div id="m_content">
 			<h3>Release Notes</h3>
 			{foreach $changelog as $changes}
-				<p><b>Version {$changes@key} ({$changes[0]}).</b></p>
+				<p><b>Version {$changes@key} ({$changes[0]}).</b>{if $changes[2] != ''}{$changes[2]}{/if}</p>
 				<ul class="sub">
 					{foreach $changes[1] as $change}
 						{if $change@key|substr:0:7 == 'sparkle'}{continue}{/if}
