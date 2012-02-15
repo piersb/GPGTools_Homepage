@@ -744,11 +744,11 @@ img {
 }
 
 #announcement a, #announcement a:visited {
-    color:#aaa;
+    color:#607890;
     text-decoration:none;
 }
 
 #announcement a:hover {
-    color:#fff;
+    color:#006AD3;
 }
 
