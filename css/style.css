@@ -742,3 +742,13 @@ img {
     box-shadow: 0px 1px 5px #888;
 
 }
+
+#announcement a, #announcement a:visited {
+    color:#aaa;
+    text-decoration:none;
+}
+
+#announcement a:hover {
+    color:#fff;
+}
+
