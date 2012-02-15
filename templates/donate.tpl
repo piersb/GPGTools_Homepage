@@ -140,6 +140,7 @@
                   <li>Loosh Labs</li>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
+                  <li>the mg2 organization</li>
                   <li class="premium">NORDUnet</li>
                   <li>Rayzon Technologies</li>
                   <li>Sepher Software</li>
