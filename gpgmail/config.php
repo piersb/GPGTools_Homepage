@@ -75,7 +75,7 @@ $changelog = array(
         'sparkle_minOS' => '10.7',
         'sparkle_version' => '201 (a30)',
         'a' => 'Disables excessive logging which might have written sensitive information to /var/log/system.log* in some cases.',
-        'sha' => 'Checksum: 9bb7c3fe5e75455b8f0f6118f3958a0782e19a62 (SHA-1)',
+        'sha' => 'Checksum: cce665b098ec7cc747d3a2995f9c06be15ad6525 (SHA-1)',
         ), 
         /* Allow for extra notes to be added. */
         '<br><br><b>IMPORTANT SECURITY UPDATE</b><br><br><b>DISCLAIMER: Please be aware that GPGMail is still in alpha stadium.<br>Be very careful about using it on machines containing sensitive information.</b>'),
