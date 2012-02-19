@@ -7,7 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
-        <div id="announcement"><b>For starters:</b> Visit our <a href="http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin">Quickstart Tutorial</a></div>
+        <div id="announcement"><b>We are having a hackfest right now:</b> Squashing bug after bug</div>
             <div class="project2">
                 <div class="table">
                                 <ul id="horizontal-list">
@@ -20,10 +20,10 @@
                 </a>
                 </li>
                 <li>
-                <a href="screencast.php" title="Screencast">
-                    <img src="{$root}/images/screencast.png" alt="Screencast" title="Screencast" />
+                <a href="http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin" title="Quickstart">
+                    <img src="{$root}/images/screencast.png" alt="Quickstart" title="Quickstart" />
                     <br/>
-                    Watch GPGTools Screencast
+                    Read the Quickstart Tutorial
                 </a>
                 </li>
                 <li>
@@ -37,25 +37,22 @@
             </div>
 
             <ul class="sub"></ul>
-            <p>GPGTools is a toolbox of a variety of programs and services to
-            easily encrypt/decrypt and sign/verify files and e-mails on your
-            Mac (see
+            <p>GPGTools is a collection of several softwares bringing
+            encryption/decryption and signing of e-mails and files to you on your mac (see
             <a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
-            if you're a Windows user). The main goal is to bring
-            <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">
-                OpenPGP
-            </a>
+            if you use Windows).The main goal is to bring
+            <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">OpenPGP</a>
             to Apple OS X in the form of an easy installer package based on
-            MacGPG. Read the
-            <a href="intro.php" title="Introduction to OpenPGP">introduction</a>
-            to get a detailed idea of how PGP works.</p>
-            <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a> provides more
-            information about the included applications and related projects.
-            And if you have any further questions that are not listed in the
+            <a href="http://www.gpgtools.org/macgpg2/index.html" title="MacGPG2">MacGPG</a>.
+            Read the <a href="intro.php" title="Introduction to OpenPGP">introduction</a>
+            to get a detailed idea of how PGP works.</p><br>
+            <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a>
+            provides more information about the included applications and related projects.
+            Should you have further questions that are not listed in the
             <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
             you want to get the latest news, please do not hesitate to open the
             <a href="about.php" title="have a look at the 'How can I contact you?' section.">
-            contact</a> section. Finally, we would appreciate any kind of
+            contact</a> section. Finally, we do appreciate any kind of
             <a href="faq.php#5.3" title="How you can contribute">contributions</a> or
             <a href="donate.php" title="How you can donate">donations</a>.</p>
 
