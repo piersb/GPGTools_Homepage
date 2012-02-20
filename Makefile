@@ -28,3 +28,4 @@ update:
 
 add-donator: update
 	nano templates/donate.tpl; make; git commit -m "added new donator" donate.html templates/donate.tpl; git push
+
