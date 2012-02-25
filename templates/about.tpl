@@ -9,7 +9,8 @@
         <div id="m_content">
             <h3 id="contactus">Get Support</h3>
             <p>We would be pleased to hear from you!<br>
-            If you need assistance visit our Support Site.</p>
+            If you need assistance visit our Support Site.<br>
+            Please consider to read our <a href="http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin">Quickstart Tutorial</a> first.</p>
             <ul class="sub projects">
                 <li><div class="project smallicons"><a href="http://support.gpgtools.org" title="web support"><img src="{$root}/images/tenderapp-64.png" title="web support" alt="web supprt" /><br/>Support Site</a><!--<br/>(or <a href="javascript:linkTo_UnCryptMailto('nbjmup;tvqqpsuAhqhuppmt/psh');">via mail</a>)--></div></li>
                 <li><div class="project smallicons"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
