@@ -7,7 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
-        <div id="announcement"><b>We are having a hackfest right now:</b> Squashing bug after bug</div>
+        <div id="announcement"><b>GPGTools</b> - Secure communication the easy way</div>
             <div class="project2">
                 <div class="table">
                                 <ul id="horizontal-list">
