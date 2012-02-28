@@ -7,7 +7,7 @@
     </div>
     <div id="main">
         <div id="m_content">
-        <div id="announcement"><b>GPGTools</b> - Secure communication the easy way</div>
+        <div id="announcement"><b>Help us test the results of the hackfest:</b> try our <a href="http://nightly.gpgtools.org/" title="Nightly">nightly installer</a></div>
             <div class="project2">
                 <div class="table">
                                 <ul id="horizontal-list">
