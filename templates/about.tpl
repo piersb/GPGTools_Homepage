@@ -42,10 +42,11 @@
             <h3 id="getinvolved">For Developers</h3>
             <ul class="sub projects">
                  <li><div class="project smallicons"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Developer List</a></div></li>
-                <li><div class="project smallicons"><a href="http://github.com/gpgtools/" title="Github page"><img src="{$root}/images/octocat.png" title="github page" alt="github" class="logo2" /><br/>Github page</a></div></li>
+                <li><div class="project smallicons"><a href="http://github.com/gpgtools/" title="Github page"><img src="{$root}/images/octocat.png" title="github page" alt="github" class="logo2" /><br/>Github Page</a></div></li>
                 <li><div class="project smallicons"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Bug Tracker</a></div></li>
                 <li><div class="project smallicons"><a href="http://gpgtools.lighthouseapp.com/events.atom" title="subscribe our bug tracker feed"><img src="{$root}/images/rss.png" title="subscribe our bug tracker feed" alt="rss" /><br/>Tracker Feed</a></div></li>
                 <li><div class="project smallicons"><a href="http://support.gpgtools.org/discussions.atom" title="subscribe our support questions feed"><img src="{$root}/images/rss.png" title="subscribe our support questions feed" alt="rss" /><br/>Support Feed</a></div></li>
+                <li><div class="project smallicons"><a href="http://nightly.gpgtools.org/" title="nightly builds"><img src="{$root}/images/macgpg_gray.png" title="nightly untested builds" alt="nightly" /><br/>Nightly Builds</a></div></li>
             </ul>
             <p class="clear"><br/></p>
             <p class="hint">Our OpenPGP Key ID: 0x76D78F0500D026C4<br/>Our OpenPGP Fingerprint: 85E3 8F69 046B 44C1 EC9F B07B 76D7 8F05 00D0 26C4</p>
