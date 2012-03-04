@@ -84,6 +84,7 @@
             <li>Balazs Boros</li>
             <li>Beat Stehrenberger</li>
             <li>Bernd Wiese</li>
+            <li>Brian Long</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Christian Roessner</li>
             <li>Christer Klasson</li>
