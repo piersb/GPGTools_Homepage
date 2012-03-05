@@ -120,6 +120,7 @@
             <li>N J L Macassey</li>
             <li>Olaf Kolkman</li>
             <li>Omer Holzinger</li>
+            <li>Paul Morten Vikanes</li>
             <li>Peter Mueller</li>
             <li>Richard Forno</li>
             <li>Robert Tirrell</li>
