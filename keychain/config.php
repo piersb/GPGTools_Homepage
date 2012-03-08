@@ -1,10 +1,11 @@
 <?php /*compileIgnore*/
 
 
-$version='1.0b6';
+$version='1.0b7';
 
-$release['1.0b5'] = mktime(12, 0, 0, 11, 25, 2011);
+$release['1.0b7'] = mktime(12, 0, 0, 3, 8, 2012);
 $release['1.0b6'] = mktime(12, 0, 0, 12, 19, 2011);
+$release['1.0b5'] = mktime(12, 0, 0, 11, 25, 2011);
 $release['1.0b3'] = mktime(12, 0, 0, 11, 16, 2011);
 $release['1.0b2'] = mktime(12, 0, 0, 11, 15, 2011);
 $release['1.0b1'] = mktime(12, 0, 0, 11, 12, 2011);
@@ -69,6 +70,20 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'1.0b7' => array(date('d. F Y', $release['1.0b7']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['1.0b7']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b7.dmg',
+		'sparkle_sig' => 'MC0CFGyPE3bV8D/7vn0+AgHdCbi9j69IAhUAjE1cLWRs9vnggyqazNQGioy0Rz8=',
+		'sparkle_size' => '2331332',
+		'sparkle_minOS' => '10.6',
+		'101' => 'Toolbar info button added',
+		'111' => 'Tone expired keys gray',
+		'95' => 'Offer a key upload after key generation',
+		'a' => 'Italian localization',
+		'b' => 'Russian localization',
+		'c' => 'Dutch localization',
+		'sha' => 'Checksum: 467813128dff9e7e5958033b760e8b4f729cf1f3 (SHA-1)'
+	)),
 	'1.0b6' => array(date('d. F Y', $release['1.0b6']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b6']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b6.dmg',
