@@ -1,0 +1,142 @@
+/* HTML5 Boilerplate  */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+body { min-width: 1020px; }
+.main { background: url(../images/section/gpgtools-pattern.gif) repeat-x 0px 0px; height: 944px; width: 100%; }
+.main .container { margin: 0px auto; width: 1020px; padding-top: 48px; }
+.main header { 
+    background: url(../images/gpgtools-logo.png) no-repeat 25px 0px; width: 1020px; height: 448px; }
+.main h1 { background: url(../images/titles/gpgtools.png) no-repeat 0px 57px; width: 419px; height: 142px;
+     margin: 0px; padding: 0px; text-indent: -9999px; margin-left: 510px; }
+.main h2 { margin: 0px; padding: 0px; margin-left: 510px; color: #fff; font-family: "futura-pt-condensed", Arial, sans-serif; 
+           text-transform: uppercase; font-size: 20px; 
+           padding-top: 48px; line-height: 34px; font-weight: 500; font-style: normal;
+           letter-spacing: 1px; }
+.main h2 strong { font-weight: 800; }
+.main nav ul li { float: left; background: url(../images/section/default-bg-mini.png) no-repeat center bottom;
+    height: 362px; }
+.main nav ul li.gpgmail { background-image: url(../images/section/gpgmail-bg-mini.png); }
+.main nav ul li.gka { background-image: url(../images/section/gka-bg-mini.png); }
+.main nav ul li h3, .main nav ul li h4 { color: #fff; margin: 0px; padding: 0px; }
+.main nav ul li h3 { font-family: "Tw Cen MT"; font-size: 41px; text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.75);
+    letter-spacing: 1px; }
+.main nav ul li h3 span { float: left; display: block; }
+.main nav ul li h3 span:not(:first-child) { position: relative; font-family: "futura-pt-condensed", Arial, sans-serif; font-weight: 500; font-size: 15px;
+    text-transform: uppercase; top: 11px; letter-spacing: 3px; }
+.main nav ul li h3 span:first-child { margin-left: 56px; }
+.main nav ul li h3 span:not(:first-child) { margin-left: 4px; }
+.main nav ul li h4 { background: url(../images/navigation/badge.png) no-repeat top center; padding-top: 30px; margin-top: 2px; 
+    font-family: "futura-pt-condensed"; font-weight: 500; letter-spacing: 5px; font-size: 19px; text-align: center;
+}
+    
+/* Navigation section images and titles. */
+.main nav ul li.gpgmail h3 { background: url(../images/navigation/gpgmail-logo.png) no-repeat top center; 
+    padding-top: 122px; margin-top: 37px; }
+.main nav ul li.gka h3 { background: url(../images/navigation/gpgkeychainaccess-logo.png) no-repeat top center; 
+        padding-top: 122px; margin-top: 37px; }
+.main nav ul li.gka h3 span:first-child { margin-left: 35px; }
+.main nav ul li.gka h3 span:last-child { line-height: 15px; }
+.main nav ul li.gpg h3 { background: url(../images/navigation/macgpg-logo.png) no-repeat top center; 
+        padding-top: 131px; margin-top: 28px; }
+.main nav ul li.gpg h3 span:first-child { margin-left: 35px; }
+.main nav ul li.gpg h3 span:last-child { line-height: 15px; }
+.main nav ul li.gpgservices h3 { background: url(../images/navigation/gpgservices-logo.png) no-repeat top center; 
+        padding-top: 122px; margin-top: 37px; }
+.main nav ul li.gpgservices h3 span:first-child { margin-left: 35px; }
+.main nav ul li.gpgservices h3 span:last-child { line-height: 15px; }
+.main nav ul li.gpgservices h4 { letter-spacing: 2px; }
+
+.one-column { width: 205px; padding: 0px 25px; }
+
+@media only screen and (min-width: 35em) {
+  
+
+}
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } 
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
