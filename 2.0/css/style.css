@@ -65,8 +65,12 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 body { min-width: 1020px; }
+h1, h2 { margin: 0px; padding: 0px; }
+.one-column { width: 205px; padding: 0px 25px !important; float: left; }
+.container { margin: 0px auto; width: 1020px; padding-top: 48px; }
+
+/* Top GPGTools part. */
 .main { background: url(../images/section/gpgtools-pattern.gif) repeat-x 0px 0px; height: 944px; width: 100%; }
-.main .container { margin: 0px auto; width: 1020px; padding-top: 48px; }
 .main header { 
     background: url(../images/gpgtools-logo.png) no-repeat 25px 0px; width: 1020px; height: 448px; }
 .main h1 { background: url(../images/titles/gpgtools.png) no-repeat 0px 57px; width: 419px; height: 142px;
@@ -93,6 +97,7 @@ body { min-width: 1020px; }
 }
     
 /* Navigation section images and titles. */
+.main nav a, .main nav a:hover, .main nav a:link, .main nav a:visited, .main nav a:active { text-decoration: none !important; }
 .main nav ul li.gpgmail h3 { background: url(../images/navigation/gpgmail-logo.png) no-repeat top center; 
     padding-top: 122px; margin-top: 37px; }
 .main nav ul li.gka h3 { background: url(../images/navigation/gpgkeychainaccess-logo.png) no-repeat top center; 
@@ -109,7 +114,31 @@ body { min-width: 1020px; }
 .main nav ul li.gpgservices h3 span:last-child { line-height: 15px; }
 .main nav ul li.gpgservices h4 { letter-spacing: 2px; }
 
-.one-column { width: 205px; padding: 0px 25px; }
+/* Tool sections. */
+section.tool { color: #fff; font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px;
+    position: relative; }
+section .divider { background: url(/images/section/divider-bg.png) repeat-x 0px 0px; height: 14px;
+    position: absolute; top: 0px; z-index: 1; width: 100%;  }
+section .announcement { background: url(/images/section/announcement-header-bg.png) no-repeat 0px 0px; height: 42px;
+    width: 1038px; margin: 0px auto; top: 0px; z-index: 0;
+    font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px; color: #8b2a47;
+    text-align: justify; text-justify:inter-word; }
+section.tool ul, section.tool li { list-style: none; margin: 0px; padding: 0px; }
+section.tool h3 { font-family: "Tw Cen MT"; font-size: 18px; font-weight: bold; text-transform: uppercase; }
+/* GPGMail section. */
+section.gpgmail { height: 988px; background: url(/images/section/gpgmail-bg.jpg) no-repeat 0 0; }
+section.gpgmail h1 { background: url(/images/titles/gpgmail.png) no-repeat 0px 0px; 
+    text-indent: -9999px; width: 341px; height: 87px; }
+section.gpgmail h2 { font-family: "futura-pt-condensed"; font-weight: 500; font-size: 20px;
+    text-transform: uppercase; letter-spacing: 1px; padding-top: 30px;
+    line-height: 34px; }
+section.gpgmail h2 strong { font-weight: 800; }
+section.gpgmail header { background: url(/images/section/gpgmail-logo.png) no-repeat 0px 0px; min-height: 264px;
+        padding-left: 280px; height: 450px; }
+section.gpgmail ul.minor-features { background: url(/images/minor-features.png) no-repeat 0px 0px; min-height: 154px; 
+    padding-left: 255px; margin-top: 30px; }
+section.gpgmail ul.minor-features li { width: 205px; font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px; 
+    letter-spacing: 1px; }
 
 @media only screen and (min-width: 35em) {
   
