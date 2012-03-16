@@ -117,9 +117,9 @@ h1, h2 { margin: 0px; padding: 0px; }
 /* Tool sections. */
 section.tool { color: #fff; font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px;
     position: relative; }
-section .divider { background: url(/images/section/divider-bg.png) repeat-x 0px 0px; height: 14px;
+section .divider { background: url(../images/section/divider-bg.png) repeat-x 0px 0px; height: 14px;
     position: absolute; top: 0px; z-index: 1; width: 100%;  }
-section .announcement { background: url(/images/section/announcement-header-bg.png) no-repeat 0px 0px; height: 42px;
+section .announcement { background: url(../images/section/announcement-header-bg.png) no-repeat 0px 0px; height: 42px;
     width: 1006px; margin: 0px auto; top: 0px; z-index: 0;
     font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px; color: #8b2a47;
     text-transform: uppercase;
@@ -127,16 +127,16 @@ section .announcement { background: url(/images/section/announcement-header-bg.p
 section.tool ul, section.tool li { list-style: none; margin: 0px; padding: 0px; }
 section.tool h3 { font-family: "Tw Cen MT"; font-size: 18px; font-weight: bold; text-transform: uppercase; }
 /* GPGMail section. */
-section.gpgmail { height: 988px; background: url(/images/section/gpgmail-bg.jpg) no-repeat 0 0; }
-section.gpgmail h1 { background: url(/images/titles/gpgmail.png) no-repeat 0px 0px; 
+section.gpgmail { height: 988px; background: url(../images/section/gpgmail-bg.jpg) no-repeat 0 0; }
+section.gpgmail h1 { background: url(../images/titles/gpgmail.png) no-repeat 0px 0px; 
     text-indent: -9999px; width: 341px; height: 87px; }
 section.gpgmail h2 { font-family: "futura-pt-condensed"; font-weight: 500; font-size: 20px;
     text-transform: uppercase; letter-spacing: 1px; padding-top: 30px;
     line-height: 34px; }
 section.gpgmail h2 strong { font-weight: 800; }
-section.gpgmail header { background: url(/images/section/gpgmail-logo.png) no-repeat 0px 0px; min-height: 264px;
+section.gpgmail header { background: url(../images/section/gpgmail-logo.png) no-repeat 0px 0px; min-height: 264px;
         padding-left: 280px; height: 450px; }
-section.gpgmail ul.minor-features { background: url(/images/minor-features.png) no-repeat 0px 0px; min-height: 154px; 
+section.gpgmail ul.minor-features { background: url(../images/minor-features.png) no-repeat 0px 0px; min-height: 154px; 
     padding-left: 255px; margin-top: 30px; }
 section.gpgmail ul.minor-features li { width: 205px; font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px; 
     letter-spacing: 1px; }
