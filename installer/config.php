@@ -4,7 +4,8 @@
 //$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $theSite->assign('url_beta',  "");//"GPGTools-$bversion.dmg");
 
-$version="20120317";
+$version="20120318";
+$release['20120318'] = mktime(12, 0, 0, 03, 18, 2012);
 $release['20120317'] = mktime(12, 0, 0, 03, 17, 2012);
 $release['20111224'] = mktime(12, 0, 0, 12, 24, 2011);
 $release['20111127'] = mktime(12, 0, 0, 11, 27, 2011);
@@ -78,6 +79,14 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', $screencasts);
 */
 $changelog = array(
+    "20120318" => array(date("d. F Y", $release["20120318"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["20120318"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "50402184",
+        'a' => 'Fix: Closed an <a href="http://gpgtools.lighthouseapp.com/projects/65162/milestones/140600">GPGMail installation issue on OS X 10.5 and 10.6</a>',
+        'sha' => "Checksum: 184bf74e55c509da0aa4943ab7cc39ecd5caf99f (SHA-1)",
+        )),
     "20120317" => array(date("d. F Y", $release["20120317"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20120317"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120317.dmg",

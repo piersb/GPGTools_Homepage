@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20120317</title> <pubDate>Sat, 17 Mar 2012 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120317.dmg</guid> <description><![CDATA[<ul><li>Updated: Using the Latest tools now (GPGMail 2.0a30, GPGServices 1.7a4, GKA 1.0b7, MacGPG2 2.0.18, ...).</li><li>Fix: Closed <a
+<title>GPGTools - Installer - Changelog</title><link>http://www.gpgtools.org/installer/appcast.xml</link> <atom:link href="http://www.gpgtools.org/installer/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/installer/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Installer version 20120318</title> <pubDate>Sun, 18 Mar 2012 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg</guid> <description><![CDATA[<ul><li>Fix: Closed an <a
+href="http://gpgtools.lighthouseapp.com/projects/65162/milestones/140600">GPGMail installation issue on OS X 10.5 and 10.6</a>.</li><li>Checksum: 184bf74e55c509da0aa4943ab7cc39ecd5caf99f (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg"
+sparkle:version="20120318"
+sparkle:shortVersionString="20120318"
+sparkle:dsaSignature=""
+length="50402184"
+type="application/octet-stream" /> </item> <item><title>Installer version 20120317</title> <pubDate>Sat, 17 Mar 2012 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120317.dmg</guid> <description><![CDATA[<ul><li>Updated: Using the Latest tools now (GPGMail 2.0a30, GPGServices 1.7a4, GKA 1.0b7, MacGPG2 2.0.18, ...).</li><li>Fix: Closed <a
 href="http://gpgtools.lighthouseapp.com/projects/65162/milestones/129372">24 installer related tickets</a>.</li><li>Checksum: a419272955a6088544bd57f1b2c0c7521f246eb4 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120317.dmg"
 sparkle:version="20120317"
