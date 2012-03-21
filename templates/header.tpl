@@ -38,7 +38,7 @@
           <div id="navigation">
             <ul>
               <li><a href="{$root}/projects.php" title="more information about the included applications and related projects">Projects</a>|</li>
-              <li><a href="{$root}/faq.php" title="frequently asked questions">FAQ</a>|</li>
+              <li><a href="http://support.gpgtools.org/kb" title="frequently asked questions">FAQ</a>|</li>
               <li><a href="{$root}/about.php" title="how to contact us">Contact</a>|</li>
               <li><a href="{$root}/donate.php" title="how to donate">Donate</a></li>
             </ul>
