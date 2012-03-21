@@ -80,39 +80,45 @@ h1, h2 { margin: 0px; padding: 0px; }
            padding-top: 48px; line-height: 34px; font-weight: 500; font-style: normal;
            letter-spacing: 1px; }
 .main h2 strong { font-weight: 800; }
-.main nav ul li { float: left; background: url(../images/section/default-bg-mini.png) no-repeat center bottom;
+.main nav.sections ul li { float: left; background: url(../images/section/default-bg-mini.png) no-repeat center bottom;
     height: 362px; }
-.main nav ul li.gpgmail { background-image: url(../images/section/gpgmail-bg-mini.png); }
-.main nav ul li.gka { background-image: url(../images/section/gka-bg-mini.png); }
-.main nav ul li h3, .main nav ul li h4 { color: #fff; margin: 0px; padding: 0px; }
-.main nav ul li h3 { font-family: "Tw Cen MT"; font-size: 41px; text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.75);
+.main nav.sections ul li.gpgmail { background-image: url(../images/section/gpgmail-bg-mini.png); }
+.main nav.sections ul li.gka { background-image: url(../images/section/gka-bg-mini.png); }
+.main nav.sections ul li h3, .main nav ul li h4 { color: #fff; margin: 0px; padding: 0px; }
+.main nav.sections ul li h3 { font-family: "Tw Cen MT"; font-size: 41px; text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.75);
     letter-spacing: 1px; }
-.main nav ul li h3 span { float: left; display: block; }
-.main nav ul li h3 span:not(:first-child) { position: relative; font-family: "futura-pt-condensed", Arial, sans-serif; font-weight: 500; font-size: 15px;
+.main nav.sections ul li h3 span { float: left; display: block; }
+.main nav.sections ul li h3 span:not(:first-child) { position: relative; font-family: "futura-pt-condensed", Arial, sans-serif; font-weight: 500; font-size: 15px;
     text-transform: uppercase; top: 11px; letter-spacing: 3px; }
-.main nav ul li h3 span:first-child { margin-left: 56px; }
-.main nav ul li h3 span:not(:first-child) { margin-left: 4px; }
-.main nav ul li h4 { background: url(../images/navigation/badge.png) no-repeat top center; padding-top: 30px; margin-top: 2px; 
-    font-family: "futura-pt-condensed"; font-weight: 500; letter-spacing: 5px; font-size: 19px; text-align: center;
+.main nav.sections ul li h3 span:first-child { margin-left: 56px; }
+.main nav.sections ul li h3 span:not(:first-child) { margin-left: 4px; }
+.main nav.sections ul li h4 { background: url(../images/navigation/badge.png) no-repeat top center; padding-top: 30px; margin-top: 2px; 
+    font-family: "futura-pt-condensed"; font-weight: 400; letter-spacing: 5px; font-size: 20px; text-align: center;
 }
     
+.main header nav { padding-left: 800px; text-align: right; font-family: "futura-pt-condensed"; font-weight: 400; }
+.main header nav a, .main header nav a:active, .main header nav a:visited, .main header nav a:link { 
+    color: #fff; }
+.main header nav ul li { float: left; margin-right: 10px; font-size: 25px; 
+    }
+
 /* Navigation section images and titles. */
-.main nav a, .main nav a:hover, .main nav a:link, .main nav a:visited, .main nav a:active { text-decoration: none !important; }
-.main nav ul li.gpgmail h3 { background: url(../images/navigation/gpgmail-logo.png) no-repeat top center; 
+.main nav.sections a, .main nav a:hover, .main nav a:link, .main nav a:visited, .main nav a:active { text-decoration: none !important; }
+.main nav.sections ul li.gpgmail h3 { background: url(../images/navigation/gpgmail-logo.png) no-repeat top center; 
     padding-top: 122px; margin-top: 37px; }
-.main nav ul li.gka h3 { background: url(../images/navigation/gpgkeychainaccess-logo.png) no-repeat top center; 
+.main nav.sections ul li.gka h3 { background: url(../images/navigation/gpgkeychainaccess-logo.png) no-repeat top center; 
         padding-top: 122px; margin-top: 37px; }
-.main nav ul li.gka h3 span:first-child { margin-left: 35px; }
-.main nav ul li.gka h3 span:last-child { line-height: 15px; }
-.main nav ul li.gpg h3 { background: url(../images/navigation/macgpg-logo.png) no-repeat top center; 
+.main nav.sections ul li.gka h3 span:first-child { margin-left: 35px; }
+.main nav.sections ul li.gka h3 span:last-child { line-height: 15px; }
+.main nav.sections ul li.gpg h3 { background: url(../images/navigation/macgpg-logo.png) no-repeat top center; 
         padding-top: 131px; margin-top: 28px; }
-.main nav ul li.gpg h3 span:first-child { margin-left: 35px; }
-.main nav ul li.gpg h3 span:last-child { line-height: 15px; }
-.main nav ul li.gpgservices h3 { background: url(../images/navigation/gpgservices-logo.png) no-repeat top center; 
+.main nav.sections ul li.gpg h3 span:first-child { margin-left: 35px; }
+.main nav.sections ul li.gpg h3 span:last-child { line-height: 15px; }
+.main nav.sections ul li.gpgservices h3 { background: url(../images/navigation/gpgservices-logo.png) no-repeat top center; 
         padding-top: 122px; margin-top: 37px; }
-.main nav ul li.gpgservices h3 span:first-child { margin-left: 35px; }
-.main nav ul li.gpgservices h3 span:last-child { line-height: 15px; }
-.main nav ul li.gpgservices h4 { letter-spacing: 2px; }
+.main nav.sections ul li.gpgservices h3 span:first-child { margin-left: 35px; }
+.main nav.sections ul li.gpgservices h3 span:last-child { line-height: 15px; }
+.main nav.sections ul li.gpgservices h4 { letter-spacing: 2px; }
 
 /* Tool sections. */
 section.tool { color: #fff; font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px;
@@ -138,14 +144,21 @@ section.gpgmail h2 strong { font-weight: 800; }
 section.gpgmail header { background: url(../images/section/gpgmail-logo.png) no-repeat 0px 0px; min-height: 264px;
         padding-left: 280px; height: 501px; }
 section.gpgmail ul.minor-features { background: url(../images/minor-features.png) no-repeat 0px 0px; min-height: 154px; 
-    padding-left: 255px; margin-top: 36px; line-height: 26px; }
+    padding-left: 255px; padding-right: 25px; margin-top: 36px; line-height: 26px; float: left; }
 section.gpgmail ul.minor-features li { width: 205px; font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px; 
     letter-spacing: 1px; }
 section.gpgmail header hgroup { padding-top: 24px; }
-section.gpgmail .container { padding-top: 43px; }
+section.gpgmail .container { padding-top: 43px; position: relative; }
 section.gpgmail ul.features { padding-top: 33px; border-top: #fff 1px solid; }
 section.gpgmail ul.features li p { margin: 0px; padding: 0px; font-size: 20px; line-height: 26px;
     margin-top: -1px; padding-bottom: 28px; }
+section.gpgmail header .download { margin-top: 20px; }
+section.gpgmail .container .screenshots { position: absolute; right: -10px; top: 52px; }
+section .container .release-notes a, section .container .release-notes a:link,
+section .container .release-notes a:visited, section .container .release-notes a:active { 
+    text-align: center; color: #fff; }
+section .container .release-notes a:hover { text-decoration: underline; }
+section .container .release-notes { text-align: center; }
 
 @media only screen and (min-width: 35em) {
   

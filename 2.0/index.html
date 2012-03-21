@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/lightview/lightview.css"/>
+  <link rel="stylesheet" type="text/css" href="css/tipped/tipped.css"/>
 
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
   
@@ -28,12 +30,19 @@
     <section class="main">
       <div class="container">
         <header>
+          <nav class="clearfix">
+            <ul>
+              <li><a href="#donate" class="donate">Donate</a></li>
+              <li><a href="http://support.gpgtools.org" class="support">Support</a></li>
+              <li><a href="http://twitter.com/gpgtools" class="support">Twitter</a></li>
+            </ul>
+          </nav>
           <hgroup>
             <h1>GPGTools</h1>
             <h2><strong>Use GPGTools to encrypt, decrypt, sign and verify files or Messages.</strong> Manage your GPG Keychain with a few simple clicks and experience the full power of GPG easier</h2>
           </hgroup>
         </header>
-        <nav>
+        <nav class="sections">
           <ul class="clearfix">
             <li class="gpgmail one-column">
               <a href="#gpgmail">              
@@ -67,17 +76,22 @@
       <div class="divider">&nbsp;</div>
       <div class="announcement sweet-justice">GPGMail 2.0 for Lion is out! Get it while it's hot</div>
       <div class="container">
+        <a href="#gpgmail-screenshots" class="screenshots"><img src="images/section/gpgmail-screenshot-preview.png" width="129" height="97" alt="GPGMail Preview Screenshots"></a>
         <header>
           <hgroup>
             <h1>GPGMail</h1>
             <h2><strong>Send secure, encrypted and singed Messages.</strong><br>And all that with Simple, fast and intuitive tools.</h2>
           </hgroup>
           <ul class="minor-features">
-            <li>&rsaquo; Compatible with OS X Lion.</li>
-            <li>&rsaquo; 64-bit ready.</li>
-            <li>&rsaquo; Part of the GPGTools Installer.</li>
-            <li>&rsaquo; Integrated update mechanism and installer to auto-fix the current installation after an OS update.</li>
+            <li>&rsaquo; OS X Lion only</li>
+            <li>&rsaquo; 64-bit ready</li>
+            <li>&rsaquo; Part of the GPGTools Installer</li>
+            <li>&rsaquo; Integrated update mechanism and installer to auto-fix the current installation after an OS update</li>
           </ul>
+          <div class="one-column download">
+            <a href="images/section/gpgmail-download-button.png" class="gpgmail-download"><img src="images/section/gpgmail-download-button.png" width="206" height="51" alt="Donwload GPGMail"></a>
+            <p class="release-notes">Version: 2.0<br>SHA-1: cce665b098ec7cc747d3a2995f9c06be15ad6525<br><a href="#gpgmail-release-notes">Release Notes</a> | <a href="#">Older Versions</a></p>
+          </div>
         </header>
         <ul class="clearfix features">
           <li class="one-column">
@@ -127,6 +141,13 @@
   <script src="js/libs/jquery.scrollTo-1.4.2-min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/excanvas/excanvas.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/libs/lightview/spinners/spinners.js"></script>
+  <script type="text/javascript" src="js/libs/lightview/lightview/lightview.js"></script>
+  <script src="js/screenshots.js"></script>
+  <script type="text/javascript" src="js/libs/tipped/tipped.js"></script>
 
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

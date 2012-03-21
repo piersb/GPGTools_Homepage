@@ -3,10 +3,29 @@ $(function() {
     $(".sweet-justice").each(function(i, o) {
         justify($(o))
     })
-    $("nav li a").click(function(e) {
-        var href = $(this).attr("href")
-        $(window).scrollTo(href, 600)
+    $("nav.sections li a").click(function(e) {
         e.preventDefault()
+        var href = $(this).attr("href")
+        $(window).scrollTo(href, 600, function() {
+            // Ajdust the hash value.
+            window.document.location.hash = href
+        })
+    })
+    $("#gpgmail").find(".screenshots").click(function() {
+        gpgmailScreenshots()
+    })
+    
+    Tipped.create("section .container .release-notes a", "./gpgmail-release-notes.html", 
+        { ajax: true, skin: 'light', hook: 'leftmiddle', fixed: true,
+          closeButton: true });
+          
+    $(".donate").click(function(e) {
+        e.preventDefault()
+        Lightview.show({url: './donate.html', skin: 'light', type: 'ajax'})
+    })
+    $(".gpgmail-download").click(function(e) {
+        e.preventDefault()
+        Lightview.show({url: './donation-call.html', skin: 'light', type: 'ajax'})
     })
 })
 
