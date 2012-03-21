@@ -4,7 +4,9 @@
 //$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $theSite->assign('url_beta',  "");//"GPGTools-$bversion.dmg");
 
-$version="20111224";
+$version="20120318";
+$release['20120318'] = mktime(12, 0, 0, 03, 18, 2012);
+$release['20120317'] = mktime(12, 0, 0, 03, 17, 2012);
 $release['20111224'] = mktime(12, 0, 0, 12, 24, 2011);
 $release['20111127'] = mktime(12, 0, 0, 11, 27, 2011);
 $release['20111117'] = mktime(12, 0, 0, 11, 17, 2011);
@@ -77,6 +79,23 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', $screencasts);
 */
 $changelog = array(
+    "20120318" => array(date("d. F Y", $release["20120318"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["20120318"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "50402184",
+        'a' => 'Fix: Closed an <a href="http://gpgtools.lighthouseapp.com/projects/65162/milestones/140600">GPGMail installation issue on OS X 10.5 and 10.6</a>',
+        'sha' => "Checksum: 184bf74e55c509da0aa4943ab7cc39ecd5caf99f (SHA-1)",
+        )),
+    "20120317" => array(date("d. F Y", $release["20120317"]), array(
+        'sparkle_date' => date(DATE_RFC2822, $release["20120317"]),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120317.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "50402398",
+        'a' => 'Updated: Using the Latest tools now (GPGMail 2.0a30, GPGServices 1.7a4, GKA 1.0b7, MacGPG2 2.0.18, ...)',
+        'b' => 'Fix: Closed <a href="http://gpgtools.lighthouseapp.com/projects/65162/milestones/129372">24 installer related tickets</a>',
+        'sha' => "Checksum: a419272955a6088544bd57f1b2c0c7521f246eb4 (SHA-1)",
+        )),
     "20111224" => array(date("d. F Y", $release["20111224"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20111224"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20111224.dmg",

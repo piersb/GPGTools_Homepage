@@ -139,6 +139,7 @@
                   <li>A. Martin IT-Consulting</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>Enigma Software</li>
+                  <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
