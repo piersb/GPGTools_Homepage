@@ -466,14 +466,14 @@
 .lv_content h5,
 .lv_content h6 { color: #333; }
 
-.lv_content a,
+/*.lv_content a,
 .lv_content a:hover {
   color: #0088cc;
   font-weight: normal;
   background: none;
   border: 0;
   text-decoration: none;
-}
+}*/
 .lv_content a:hover { text-decoration: underline; }
 
 .lv_title_caption a,
