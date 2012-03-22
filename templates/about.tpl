@@ -6,6 +6,13 @@
     <div id="spacer">
     </div>
     <div id="main">
+		<script>
+			window.onload=function () {
+				if (window.location.search.search(/spam=1/) != -1) {
+					document.getElementById("spamText").style.display = null;
+				}
+			}
+		</script>
         <div id="m_content">
             <h3 id="contactus">Get Support</h3>
             <p>We would be pleased to hear from you!<br><br>
@@ -21,7 +28,7 @@
                     <b>Email</b> (so we can respond; optional)<br />
                     <input type="email" name="mail" /><br />
                     <b>Spam protection</b> (what it 24 minus 1?)<br />
-                    <input type="spam" name="spam" /><br />
+                    <input type="spam" name="spam" /><span id="spamText" style="display:none; color:red;"> Are you bot?</span><br />
                     <b>Subject</b><br />
                     <input type="text" name="subject" /><br />
                     <textarea name="message"></textarea><br />
