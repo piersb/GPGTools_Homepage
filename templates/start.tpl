@@ -44,7 +44,7 @@
             <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">OpenPGP</a>
             - in the form of an easy installer package based on
             <a href="http://www.gpgtools.org/macgpg2/index.html" title="MacGPG2">MacGPG</a> - to Apple's OS X.
-            Read the <a href="intro.php" title="Introduction to OpenPGP">introduction</a>,
+            Read the <a href="http://support.gpgtools.org/kb/how-to/introduction-to-cryptography" title="Introduction to OpenPGP">introduction</a>,
             in order to get a detailed idea of how PGP works.</p><br>
             <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a>
             provides more information about the included applications and related projects.
