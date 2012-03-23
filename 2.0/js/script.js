@@ -37,115 +37,183 @@ $(function() {
                                value: 0,
                                min: 0,
                                max: 485,
-                               // Use slide for more precise movement, since it triggers
+                               animate: 400,
+                               // Use slide for calculation of the actual value to display, since it triggers
                                // on every mouse move.
-                               slide: function( event, ui ) {
-                                   var value = 0
-                                   if(ui.value < 20) {
-                                       var delimiter = 20;
-                                       var stepsToDelimiter = 3;
-                                       var step = Math.round(delimiter/stepsToDelimiter);
-                                       var amountBase = 0;
-                                       var stepValue = 5;
-                                       value = amountBase + Math.round((ui.value - 0) / step) * stepValue;
-                                   }
-                                   else if(ui.value < 105) {
-                                       var delimiter = 105 - 20;
-                                       var stepsToDelimiter = 7;
-                                       var step = Math.round(delimiter/stepsToDelimiter);
-                                       var amountBase = 15;
-                                       var stepValue = 5;
-                                       value = amountBase + Math.round((ui.value - 20) / step) * stepValue;
-                                   }
-                                   else if(ui.value < 211) {
-                                          var delimiter = 211 - 105;
-                                          var stepsToDelimiter = 10;
-                                          var step = Math.round(delimiter/stepsToDelimiter);
-                                          var amountBase = 50;
-                                          var stepValue = 5;
-                                          value = amountBase + Math.round((ui.value - 105) / step) * stepValue;
-                                   }
-                                   else if(ui.value < 307) {
-                                        var delimiter = 307 - 211;
-                                        var stepsToDelimiter = 16;
-                                        var step = Math.round(delimiter/stepsToDelimiter);
-                                        var amountBase = 100;
-                                        var stepValue = 25;
-                                        value = amountBase + Math.round((ui.value - 211) / step) * stepValue;
-                                    }
-                                    else if(ui.value < 408) {
-                                        var delimiter = 408 - 307;
-                                        var stepsToDelimiter = 15;
-                                        var step = Math.round(delimiter/stepsToDelimiter);
-                                        var amountBase = 500;
-                                        var stepValue = 100;
-                                        value = amountBase + Math.round((ui.value - 307) / step) * stepValue;
-                                    }
-                                    else if(ui.value <= 485) {
-                                        var delimiter = 485 - 408;
-                                        var stepsToDelimiter = 15;
-                                        var step = Math.round(delimiter/stepsToDelimiter);
-                                        var amountBase = 2000;
-                                        var stepValue = 200;
-                                        value = amountBase + Math.round((ui.value - 408) / step) * stepValue;
-                                    }
-                           
-                                   
-                                   $(element).find(".amount").html( value + " &euro;" );
-                                   // Calculate the width of the amount element and position
-                                   var left = ui.value - Math.round($(element).find(".amount").width() / 2)
-                                   $(element).find(".amount").css("left", left + "px")
-                                   
-                                   if(value < 15) {
-                                      $(element).find("#call-for-donation > ul > li").removeClass('visible')
-                                   }
-                                   if(value >= 15) {
-                                      $(element).find(".gift-15").addClass('visible')
-                                      $(element).find(".gift-15").nextAll().removeClass('visible');
-                                   }
-                                   if(value >= 50) {
-                                      $(element).find(".gift-50").addClass('visible')
-                                      $(element).find(".gift-50").nextAll().removeClass('visible');
-                                   }
-                                   if(value >= 100) {
-                                      $(element).find(".gift-100").addClass('visible')
-                                      $(element).find(".gift-100").nextAll().removeClass('visible');
-                                   }
-                                   if(value >= 500) {
-                                      $(element).find(".gift-500").addClass('visible')
-                                      $(element).find(".gift-500").nextAll().removeClass('visible');
-                                   }
-                                   if(value >= 2000)
-                                      $(element).find(".gift-10000").addClass('visible')
-                                    // var $slider = $(element).find(".slider")
-                                    //                                     var step = $slider.slider('option', 'step');
-                                    //                                     if(ui.value < 50) {
-                                    //                                         $slider.slider('option', 'step', 2);
-                                    //                                     }
-                                    //                                     if(ui.value >= 50) {
-                                    //                                         $slider.slider('option', 'step', 10);
-                                    //                                     }
-                                    //                                     if(ui.value >= 100) {
-                                    //                                         $slider.slider('option', 'step', 20);
-                                    //                                     }
-                                    //                                     if(ui.value >= 500) {
-                                    //                                         $slider.slider('option', 'step', 30);
-                                    //                                     }
-                                    //                                     if(ui.value >= 2000) {
-                                    //                                         $slider.slider('option', 'step', 40);
-                                    //                                     }
+                               slide: function(event, ui) { slideChange(element, event, ui) },
+                               // Needs to be set for change as well, otherwise
+                               // programatically changing the value doesn't have
+                               // any immediate influence.
+                               // change: function(event, ui) { slideChange(element, event, ui) },
+                               start: function(event, ui) { 
+                                   // If the user used the drag handle, the source element
+                                   // is an anchor otherwise it's a div. The amount updater is only
+                                   // used if a click on the slide bar occcurs.
+                                   if(!$(event.srcElement).is("a"))
+                                       runAmountUpdater(element)
                                }
-                               
                            });
                            $(element).find(".amount").html( $(element).find(".slider").slider("value") + " &euro;");
                            // Calculate the initial width of the amount element and position
                            var left = Math.round($(element).find(".amount").width() / 2)
                            $(element).find(".amount").css("left", left + "px")
+                            
+                           // Setup the donation step switcher.
+                           $(element).find(".donation-step").click(function(evt) {
+                               evt.preventDefault()
+                               var amountPositionMap = {"15": 20, "50": 105, "100": 211, 
+                                                        "500": 307, "10000": 408}
+                               var $parent = $(this).parent("li")
+                               var classes = $parent.attr("class").split(/\s+/)
+                               var endAmount = classes[0].replace("gift-", "")
+                               
+                               // Hide the current amount.
+                               //$slider.find(".amount").hide()
+                               runAmountUpdater(element)
+                               
+                               $slider.slider('value', amountPositionMap[endAmount])
+                           })
+                           // Display the slider.
+                           $(element).find(".payment-options").find("input[type=radio]").click(function() {
+                               console.log(this)
+                               if($(this).is(":checked")) {
+                                   console.log("Enabled")
+                                   // Reset the amount value.
+                                   $slider.slider('value', 0)
+                                   $(element).find("#call-for-donation .optional").removeClass("hidden")
+                                   // Animate to 15 euros.
+                                   $(element).find("li.gift-15 .donation-step").click()
+                               }
+                               else {
+                                   console.log("Disabled")
+                                   $(element).find("#call-for-donation .optional").addClass("hidden")
+                               }
+                               Lightview.refresh()
+                           })
+                           
+                           
+                           
                        }
                 },
             type: 'ajax'})
     })
 })
+
+
+function runAmountUpdater(element) {
+    var SLIDER_ANIMATION_INTERVAL = setInterval(function() {
+           var endValue = $(element).find(".slider").slider('value')
+           var value = $(element).find(".ui-slider-handle").position().left
+           var amount = calculateAmount(value)
+           
+           $(element).find(".amount").html(amount + " &euro;" );
+           // Calculate the width of the amount element and position
+           var left = value - Math.round($(element).find(".amount").width() / 2)
+           $(element).find(".amount").css("left", left + "px")
+           
+           updateGiftsForAmount(element, amount)
+           
+           // Stop once the position is matched.
+           if(value == endValue)
+               clearInterval(SLIDER_ANIMATION_INTERVAL)
+       }, 10)
+       // Sometimes the exact position is not matched for some reason,
+       // so stop the Amount updater latest after 1 sec.
+       setTimeout(function() {
+           clearInterval(SLIDER_ANIMATION_INTERVAL)
+       }, 1000)
+}
+
+function calculateAmount(actualValue) {
+    var value = 0
+    var ui = {value: actualValue}
+    if(ui.value < 20) {
+       var delimiter = 20;
+       var stepsToDelimiter = 3;
+       var step = Math.round(delimiter/stepsToDelimiter);
+       var amountBase = 0;
+       var stepValue = 5;
+       value = amountBase + Math.round((ui.value - 0) / step) * stepValue;
+   }
+   else if(ui.value < 105) {
+       var delimiter = 105 - 20;
+       var stepsToDelimiter = 7;
+       var step = Math.round(delimiter/stepsToDelimiter);
+       var amountBase = 15;
+       var stepValue = 5;
+       value = amountBase + Math.round((ui.value - 20) / step) * stepValue;
+   }
+   else if(ui.value < 211) {
+          var delimiter = 211 - 105;
+          var stepsToDelimiter = 10;
+          var step = Math.round(delimiter/stepsToDelimiter);
+          var amountBase = 50;
+          var stepValue = 5;
+          value = amountBase + Math.round((ui.value - 105) / step) * stepValue;
+   }
+   else if(ui.value < 307) {
+        var delimiter = 307 - 211;
+        var stepsToDelimiter = 16;
+        var step = Math.round(delimiter/stepsToDelimiter);
+        var amountBase = 100;
+        var stepValue = 25;
+        value = amountBase + Math.round((ui.value - 211) / step) * stepValue;
+    }
+    else if(ui.value < 408) {
+        var delimiter = 408 - 307;
+        var stepsToDelimiter = 15;
+        var step = Math.round(delimiter/stepsToDelimiter);
+        var amountBase = 500;
+        var stepValue = 100;
+        value = amountBase + Math.round((ui.value - 307) / step) * stepValue;
+    }
+    else if(ui.value <= 485) {
+        var delimiter = 485 - 408;
+        var stepsToDelimiter = 15;
+        var step = Math.round(delimiter/stepsToDelimiter);
+        var amountBase = 2000;
+        var stepValue = 200;
+        value = amountBase + Math.round((ui.value - 408) / step) * stepValue;
+    }
+    return value
+}
+
+function updateGiftsForAmount(element, amount) {
+    if(amount < 15)
+        $(element).find(".donation-slider > ul > li > div").removeClass('visible')
+    
+    if(amount >= 15) {
+        $(element).find(".gift-15 > div").addClass('visible')
+        $(element).find(".gift-15").nextAll().find("div").removeClass('visible');
+    }
+   if(amount >= 50) {
+      $(element).find(".gift-50 > div").addClass('visible')
+      $(element).find(".gift-50").nextAll().find("div").removeClass('visible');
+   }
+   if(amount >= 100) {
+      $(element).find(".gift-100 > div").addClass('visible')
+      $(element).find(".gift-100").nextAll().find("div").removeClass('visible');
+   }
+   if(amount >= 500) {
+      $(element).find(".gift-500 > div").addClass('visible')
+      $(element).find(".gift-500").nextAll().find("div").removeClass('visible');
+   }
+   if(amount >= 2000)
+      $(element).find(".gift-10000 > div").addClass('visible')
+}
+
+function slideChange(element, event, ui ) {
+    var value = calculateAmount(ui.value)
+       
+    $(element).find(".amount").html( value + " &euro;" );
+    // Calculate the width of the amount element and position
+    var left = ui.value - Math.round($(element).find(".amount").width() / 2)
+    $(element).find(".amount").css("left", left + "px")
+    $(element).find(".amount").show()
+    
+    updateGiftsForAmount(element, value)
+}
+
 
 function justify($o) {
     // Take the text from the element and stick it into a new span.

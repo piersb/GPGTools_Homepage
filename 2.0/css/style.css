@@ -64,6 +64,8 @@ td { vertical-align: top; }
 
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
+/* Tutorial to calculate text and box-shadows: http://heygrady.com/blog/2011/08/06/recreating-photoshop-drop-shadows-in-css3-and-compass/ */
+
 body { min-width: 1020px; }
 h1, h2 { margin: 0px; padding: 0px; }
 .one-column { width: 205px; padding: 0px 25px !important; float: left; }
@@ -166,37 +168,59 @@ section .container .release-notes { text-align: center; }
 #call-for-donation > p { font-family: "futura-pt-condensed"; font-weight: 500; font-size: 15px;
     margin: 0px; padding: 0px; padding-top: 6px; line-height: 20px; }
 #call-for-donation ul { list-style: none; margin: 0px; padding: 0px; }
-#call-for-donation > ul { font-family: "futura-pt-condensed"; font-weight: 400; font-size: 16px; 
+#call-for-donation .hidden { display: none; }
+#call-for-donation .donation-slider > ul { font-family: "futura-pt-condensed"; font-weight: 400; font-size: 16px; 
     margin-left: 20px; }
-#call-for-donation > ul > li { float: left; border-left: #646464 1px solid; visibility: hidden; }
-#call-for-donation > ul > li.gift-15 { width: 86px; }
-#call-for-donation > ul > li.gift-50 { width: 105px; }
-#call-for-donation > ul > li.gift-100 { width: 95px; }
-#call-for-donation > ul > li.gift-500 { width: 100px; }
-#call-for-donation > ul > li.gift-10000 { width: 110px; }
-#call-for-donation > ul > li.visible { visibility: visible; }
-#call-for-donation > ul > li li { padding-left: 10px; padding-right: 10px; color: #646464;
+#call-for-donation .donation-slider > ul > li { float: left; }
+#call-for-donation .donation-slider > ul > li > div { visibility: hidden; border-left: #646464 1px solid; margin-top: 60px; }
+#call-for-donation .donation-slider > ul > li .donation-step { line-height: 0px; display: block; margin-left: -2px;
+    padding-top: 9px; width: 6px; }
+#call-for-donation .donation-slider > ul > li.gift-15 { width: 86px; }
+#call-for-donation .donation-slider > ul > li.gift-50 { width: 105px; }
+#call-for-donation .donation-slider > ul > li.gift-100 { width: 95px; }
+#call-for-donation .donation-slider > ul > li.gift-500 { width: 100px; }
+#call-for-donation .donation-slider > ul > li.gift-10000 { width: 110px; }
+#call-for-donation .donation-slider > ul > li .visible { visibility: visible; }
+#call-for-donation .donation-slider > ul > li li { padding-left: 10px; padding-right: 10px; color: #646464;
     line-height: 14px; font-size: 13px; font-weight: 500;
     text-indent: -6px; }
-#call-for-donation > ul > li li.first-gift { padding-top: 4px; }
-#call-for-donation > ul > li li:first-child { font-family: "Tw Cen MT"; color: #ac3d5e; font-weight: bold; font-size: 18px;
+#call-for-donation .donation-slider > ul > li li.first-gift { padding-top: 4px; }
+#call-for-donation .donation-slider > ul > li li:first-child { font-family: "Tw Cen MT"; color: #ac3d5e; font-weight: bold; font-size: 18px;
     line-height: 20px; padding-top: 0px; }
-#call-for-donation > ul > li li:last-child { text-transform: uppercase; color: #ac3d5e; }
+#call-for-donation .donation-slider > ul > li li:last-child { text-transform: uppercase; color: #ac3d5e; }
 
-#call-for-donation > ul > li:last-child { font-family: "Arial", sans-serif; 
+#call-for-donation .donation-slider > ul > li:last-child { font-family: "Arial", sans-serif; 
     font-size: 12px; }
-#call-for-donation > ul > li:last-child li { padding-right: 0px; }
-#call-for-donation > ul > li:last-child li { text-indent: 0px; padding-left: 4px; }
-.ui-slider-handle { background-image: url(../images/donation-slider-handle.png) !important;
+#call-for-donation .donation-slider > ul > li:last-child li { padding-right: 0px; }
+#call-for-donation .donation-slider > ul > li:last-child li { text-indent: 0px; padding-left: 4px; }
+#call-for-donation .ui-slider-handle { background-image: url(../images/donation-slider-handle.png) !important;
     background-color: transparent !important; border: none !important; background-repeat: no-repeat !important;
     top: -7px !important; margin-left: -9px !important; width: 19px !important; height: 19px !important; }
-.ui-slider-horizontal { height: 5px !important; }
-.ui-slider-horizontal.ui-widget-content { border: none !important; background: none !important; background-color: #e2e2e2 !important; }
-.ui-slider.ui-corner-all { border-radius: 2px !important; }
+#call-for-donation .ui-slider-horizontal { height: 5px !important; }
+#call-for-donation .ui-slider-horizontal.ui-widget-content { border: none !important; background: none !important; background-color: #e2e2e2 !important; }
+#call-for-donation .ui-slider.ui-corner-all { border-radius: 2px !important; }
+#call-for-donation .donation-slider { position: relative; margin-top: 32px; }
+#call-for-donation .slider { margin-top: 30px; margin-bottom: 30px; position: absolute; top: 0px; }
 #call-for-donation .slider .amount { position: absolute; top: 14px; left: 0px; font-family: "Tw Cen MT";
     font-size: 14px; font-weight: bold; color: #A73B5C; width: auto; line-height: 14px; }
-#call-for-donation .slider { margin-top: 30px; margin-bottom: 30px; }
-
+#call-for-donation .donation-slider .start-amount, #call-for-donation .donation-slider .end-amount {
+    position: absolute; top: -29px; font-family: "Tw Cen MT"; font-size: 14px; color: #646464;
+    left: -2px; 
+}
+#call-for-donation .donation-slider .end-amount { left: auto; right: 0px; }
+#call-for-donation .payment-options { background-color: #E6E6E6; padding: 20px 15px; margin-top: 20px; }
+#call-for-donation .payment-options li { float: left; margin-right: 15px; line-height: 30px; }
+#call-for-donation .payment-options li.no-margin { margin-right: 0px; }
+#call-for-donation .payment-options label { font-family: "futura-pt-condensed"; font-weight: 500; font-size: 14px; letter-spacing: 1px; }
+#call-for-donation .download-options { border-top: #999 2px solid; margin-top: 15px; padding-top: 15px; }
+#call-for-donation .download-options ul { float: right; }
+#call-for-donation .download-options li { float: left; margin-right: 10px; }
+#call-for-donation .download-options li:last-child { margin-right: 0px; }
+#call-for-donation .download-options a { background: url(../images/donation-button-normal.png) no-repeat 0px 0px; width: 124px; 
+    height: 40px; font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px; color: #fff; text-shadow: 0.0px 1.0px 4.0px rgba(0,0,0,.25); 
+    text-decoration: none; line-height: 40px; display: block; padding-left: 38px; text-transform: uppercase; text-align: center; }
+#call-for-donation .download-options .disabled a { background-image: url(../images/donation-button-disabled.png); }
+#call-for-donation .download-options a:hover { background-image: url(../images/donation-button-active.png); }
 @media only screen and (min-width: 35em) {
   
 
