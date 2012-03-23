@@ -927,7 +927,7 @@ eval((function (b, i) {
                         left: e,
                         top: c,
                         width: f
-                    })), this._dimensions.window.height = (this._dimensions.content.height + 100), 
+                    })), 
                     this.draw(), this.options.viewport && this.place(this.getLayout(g).window.dimensions, 0)
                 }
             },
