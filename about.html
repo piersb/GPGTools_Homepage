@@ -34,7 +34,11 @@ href="./donate.html" title="how to donate">Donate</a></li></ul></div></div> </he
 id="overview"><div
 id="o_content"><h2>Contact</h2></div></div><div
 id="spacer"></div><div
-id="main"><div
+id="main"> <script>window.onload=function () {
+				if (window.location.search.search(/spam=1/) != -1) {
+					document.getElementById("spamText").style.display = null;
+				}
+			}</script> <div
 id="m_content"><h3 id="contactus">Get Support</h3><p>We would be pleased to hear from you!<br><br> If you need assistance, do visit our Support Site,<br> but first consider reading our <a
 href="http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin">Quickstart Tutorial</a>.</p><ul
 class="sub projects"><li><div
@@ -52,7 +56,8 @@ action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt
 type="email" name="mail" /><br
 /> <b>Spam protection</b> (what it 24 minus 1?)<br
 /> <input
-type="spam" name="spam" /><br
+type="spam" name="spam" /><span
+id="spamText" style="display:none; color:red;"> Are you bot?</span><br
 /> <b>Subject</b><br
 /> <input
 type="text" name="subject" /><br
