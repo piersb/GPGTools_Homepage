@@ -28,7 +28,7 @@ $(function() {
         Lightview.show({url: './donation-call.html', 
             options: { skin: 'mac', radius: 4.0, padding: 0.0, 
                        controls: { close: false },
-                       viewport: 'scale',
+                       viewport: false,
                        width: 580,
                        afterUpdate: function(element) {
                            // Initialize the donation slider.
