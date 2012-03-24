@@ -3,7 +3,7 @@ div.content, div.footer {
 #    max-width:70em;
     width:100%;
     height:auto;
-    overflow: hidden;
+    overflow-x: scroll;
     padding:.5em;
     background:#fff;
     -webkit-box-shadow: 0px 2px 5px #aaa;
