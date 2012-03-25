@@ -20,7 +20,7 @@
                 </a>
                 </li>
                 <li>
-                <a href="http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin" title="Quickstart">
+                <a href="http://gpgtools.org/quickstart" title="Quickstart">
                     <img src="{$root}/images/screencast.png" alt="Quickstart" title="Quickstart" />
                     <br/>
                     Read the Quickstart Tutorial
