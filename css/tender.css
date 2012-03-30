@@ -90,5 +90,7 @@ font-weight: normal;
 
 .sticky_queue {
 margin-top: 62px;
+position: relative !important;
+z-index: 10 !important;
 }
 
