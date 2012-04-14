@@ -49,11 +49,11 @@
             <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a>
             provides more information about the included applications and related projects.
             Should you have further questions that are not listed in the
-            <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
+            <a href="http://support.gpgtools.org/kb" title="Frequently Asked Questions">FAQ</a> or if
             you want to get the latest news, please do not hesitate to open the
             <a href="about.php" title="have a look at the 'How can I contact you?' section.">
             contact</a> section. Finally, we do appreciate any kind of
-            <a href="faq.php#5.3" title="How you can contribute">contributions</a> or
+            <a href="http://support.gpgtools.org/kb/faq/want-to-contribute" title="How you can contribute">contributions</a> or
             <a href="donate.php" title="How you can donate">donations</a>.</p>
 
             </div>
