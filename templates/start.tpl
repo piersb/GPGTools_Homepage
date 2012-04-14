@@ -16,21 +16,21 @@
                 <a href="installer/index.php" title="The all-in-one installer">
                     <img src="{$root}/installer/images/logo-128px.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" />
                     <br/>
-                    Download GPGTools Installer
+                    GPGTools Installer
                 </a>
                 </li>
                 <li>
                 <a href="http://gpgtools.org/quickstart" title="Quickstart">
                     <img src="{$root}/images/screencast.png" alt="Quickstart" title="Quickstart" />
                     <br/>
-                    Read the Quickstart Tutorial
+                    Quickstart Tutorial
                 </a>
                 </li>
                 <li>
                 <a href="http://support.gpgtools.org" title="Support">
                     <img src="{$root}/images/tenderapp-128.png" alt="Tenderapp" title="Support" />
                     <br/>
-                    Get GPGTools Support
+                    GPGTools Support
                 </a>
                 </li>                </ul>
                 </div>
