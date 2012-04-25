@@ -88,6 +88,7 @@
             <li>Dirk Pape</li>
             <li>Dmitry Nedospasov</li>
             <li>Eric Baur</li>
+            <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
