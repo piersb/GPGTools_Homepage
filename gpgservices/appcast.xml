@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>GPGTools - GPGServices - Changelog</title><link>http://www.gpgtools.org/gpgservices/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgservices/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgservices/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGServices version 1.6</title> <pubDate>Wed, 18 May 2011 15:00:00 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.6.dmg</guid> <description><![CDATA[<ul><li><a
+<title>GPGTools - GPGServices - Changelog</title><link>http://www.gpgtools.org/gpgservices/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgservices/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgservices/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>GPGServices version 1.7</title> <pubDate>Mon, 30 Apr 2012 18:00:00 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.7.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/79'>Issue 79</a>: Replace MacGPGME by Libmacgpg.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/130'>Issue 130</a>: Bugfix: Output doubling when encrypting/decrypting.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/115'>Issue 115</a>: Bugfix: GPGServices do timeout.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/61'>Issue 61</a>: Bugfix: Aliases are not handled correctly.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/114'>Issue 114</a>: Bugfix: Search is broken.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/42'>Issue 42</a>: Feature: Implement file verification.</li><li>More: Many minor bug fixes and tweaks.</li><li>Checksum: ad00dcfc9b75394bf60a68c0cf75baee44f718f2 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgservices/sparkle.html </sparkle:releaseNotesLink> <enclosure
+url="http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.7.dmg"
+sparkle:version="1.7"
+sparkle:shortVersionString="1.7"
+sparkle:dsaSignature=""
+length="1449362"
+type="application/octet-stream" /> </item> <item><title>GPGServices version 1.6</title> <pubDate>Wed, 18 May 2011 15:00:00 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.6.dmg</guid> <description><![CDATA[<ul><li><a
 href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/21'>Issue 21</a>: Feature: Any file and folder can be en- and de-crypted.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/52'>Issue 52</a>: Feature: Signatures can be imported.</li><li><a
 href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/6'>Issue 6</a>: Enhancement: Installer can update GPGServices in the HOME directory.</li><li>Enhancement: New icons and GPGService is now associated with the according file extensions.</li><li>Enhancement: Added Growl notifications.</li><li>More: Have a look at <a

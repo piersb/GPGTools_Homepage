@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version="1.6";
+$version="1.7";
+$release['1.7'] = mktime(18, 0, 0, 04, 30, 2012);
 $release['1.6'] = mktime(15, 0, 0, 05, 18, 2011);
 $release['1.5'] = mktime(12, 0, 0, 03, 22, 2011);
 $release['1.4'] = mktime(12, 0, 0, 01, 26, 2011);
@@ -40,14 +41,9 @@ $theSite->assign('overview', '
 $theSite->assign('short_description', 'GPGServices is a plugin for the global Services menu (in the Application menu), which adds the ability to sign and verify plain text in any application that supports text services. It allows to import a key from text and return your default key.');
 
 $theSite->assign('lighthouse', '67607');
-$theSite->assign('macupdate', "36566");
-$theSite->assign('iusethis', "gpgservices");
-$theSite->assign('heise', "79894");
-$theSite->assign('cnet', "3000-2092_4-75335372");
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
-'61' => 'Aliases are not handled correctly',
 );
 $theSite->assign('limitations', $limitations);
 
@@ -69,6 +65,20 @@ $screencasts = array('gpgservices/file.m4v' => 'Encrypt and sign a file');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '1.7' => array(date("d. F Y", $release['1.7']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.7']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.7.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "1449362",
+        "79" => "Replace MacGPGME by Libmacgpg",
+        "130" => "Bugfix: Output doubling when encrypting/decrypting",
+        "115" => "Bugfix: GPGServices do timeout",
+        "61" => "Bugfix: Aliases are not handled correctly",        
+        "114" => "Bugfix: Search is broken",
+        "42" => "Feature: Implement file verification",  
+        "a" => "More: Many minor bug fixes and tweaks",
+        'sha' => "Checksum: ad00dcfc9b75394bf60a68c0cf75baee44f718f2 (SHA-1)",
+    )),    
     '1.6' => array(date("d. F Y", $release['1.6']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.6']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.6.dmg",
