@@ -93,6 +93,7 @@
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Guillaume Destuynder (Mozilla)</li>
+            <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Jessica Stolz</li>
