@@ -87,6 +87,7 @@
             <li>Dave Diemer</li>
             <li>Dirk Pape</li>
             <li>Dmitry Nedospasov</li>
+            <li>Eero Volotinen</li>
             <li>Eric Baur</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
