@@ -139,7 +139,7 @@
                   <li>Everlevel ldt</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
-                  <li>macon cc</li>
+                  <li>macon.cc</li>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
                   <li>mg2 organization</li>
