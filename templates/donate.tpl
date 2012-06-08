@@ -35,7 +35,7 @@
             </ul>
             <h4>Donate money</h4>
             <p>We love to contribute to the world. We love encryption and secure communication. The entire GPGTools project is build in our spare time and we rely on donations. Your donation will be used for the development of the
-            GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal, Bitcoin and Flattr donations. Should you want to use another service please let us know</p>
+            GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
@@ -56,11 +56,8 @@
 <li>Drop us a line (optional): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
 </ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
-</form><br/>
-<a href="http://flattr.com/thing/319097/GPGTools" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-<br/><br/>
-<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
+</form>
+<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a><br><br>
             <h3>List of sponsors</h3>
             <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
             <div class="table left">
