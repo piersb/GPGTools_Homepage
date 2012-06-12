@@ -116,6 +116,7 @@
             <li>Olaf Kolkman</li>
             <li>Omer Holzinger</li>
             <li>Paul Morten Vikanes</li>
+            <li>Peter Eckel</li>
             <li>Peter Mueller</li>
             <li>Richard Forno</li>
             <li>Robert Tirrell</li>
