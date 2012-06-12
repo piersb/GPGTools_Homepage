@@ -45,7 +45,8 @@
             <a href="about.php">let us know</a>.</p>
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_donations">
+<input type="text" name="amount" value="10" style="width: 40px;"> &euro; &nbsp;&nbsp;&nbsp;
+<input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="donations@gpgtools.org">
 <input type="hidden" name="lc" value="US">
 <input type="hidden" name="item_name" value="GPGTools">
