@@ -7,42 +7,35 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <h3>What is this about?</h3>
+            <h3>Want to help?</h3>
             <p>GPGTools is an open source project and we all do this out of
             love for the project. <b>Any kind</b> of help is very much
             appreciated!</p>
-            <ul class="sub"></ul>
-            <h3>How to help?</h3>
             <p>If you like what we're doing please consider to help us:</p>
-            <h4>Donate time</h4>
+            <ul class="sub"></ul>
+            <h4>Spread the word and help others</h4>
             <p>Spread the word! At the bottom of the page, click on the buttons
 			to share us with your social networks. You can also tell your
 			friends and co-workers about GPGTools, or even ask media to write
 			articles about OpenPGP based security. You can support other
-			users by answering questions via
-            <a href="about.php">mailing list or twitter</a>. Furthermore, you
+			users by answering questions on our
+            <a href="http://support.gpgtools.org/kb/faq/how-can-i-get-the-most-out-of-this-support-forum">support page</a>. Furthermore, you
             could <a href="http://www.apple.com/feedback/macosx.html">recommend for
             Apple</a> to support Mail bundles officially.</p>
             <h4>Donate knowledge</h4>
             <p>Most notably, we need more developers for all different kind of
-            tasks (on several levels). Help for localization,
-            testing beta versions, and documentation would also be very helpful. Some
+            tasks (coding, localizations, documentation, ...). Some
             starting points:</p>
             <ul>
             <li><a href="https://github.com/GPGTools/">All the sources</a></li>
             <li><a href="http://gpgtools.lighthouseapp.com/tickets/">All the issues</a></li>
             <li><a href="https://github.com/GPGTools/GPGTools/wiki/How-to-build">How to build</a></li>
-            <li><a href="https://github.com/GPGTools/GPGTools/wiki/Localization">How to localize</a></li>
+            <li><a href="https://www.transifex.net/accounts/profile/GPGTools/">Localize on Transifex</a></li>
             <li><a href="http://gpgtools.lighthouseapp.com/events.atom">How to keep up to date with all issues</a></li>
-            <li><a href="https://github.com/GPGTools/GPGTools/wiki/">How to get more information</a></li>
-            <li><a href="about.php">How to get in contact</a></li>
             </ul>
             <h4>Donate money</h4>
-            <p>The donation will be used for the development of the
-            GPGTools project: developer accounts, marketing, design, etc.
-            There are several ways to donate. Currently, we offer PayPal,
-            Flattr and Bitcon donations only, but if you want to use another service please
-            <a href="about.php">let us know</a>.</p>
+            <p>We love to contribute to the world. We love encryption and secure communication. The entire GPGTools project is build in our spare time and we rely on donations. Your donation will be used for the development of the
+            GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="text" name="amount" value="10" style="width: 40px;"> &euro; &nbsp;&nbsp;&nbsp;
@@ -61,14 +54,11 @@
 <input name="os1" value="Nothing" type="hidden">
 <ul >
 <li><input name="os0" value="Yes" checked="checked" type="checkbox" style="width:1.5em; vertical-align:middle; margin-top: 0em; margin-bottom: 0em;">Publish my sponsor name (if I donated more than 20 EUR)</li>
-<li>A comment about your donation (if you want to): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
+<li>Drop us a line (optional): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
 </ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
-</form><br/>
-<a href="http://flattr.com/thing/319097/GPGTools" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-<br/><br/>
-<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
+</form>
+<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a><br><br>
             <h3>List of sponsors</h3>
             <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
             <div class="table left">
@@ -95,11 +85,14 @@
             <li>Dave Diemer</li>
             <li>Dirk Pape</li>
             <li>Dmitry Nedospasov</li>
+            <li>Eero Volotinen</li>
             <li>Eric Baur</li>
+            <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Guillaume Destuynder (Mozilla)</li>
+            <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Jessica Stolz</li>
@@ -117,6 +110,7 @@
             <li>Matthias Dörfler</li>
             <li>Michael Dierck</li>
             <li>Michael Gracie</li>
+            <li>Michael Langford</li>
             <li>Michael Prewitt</li>
             <li>N J L Macassey</li>
             <li>Olaf Kolkman</li>
@@ -131,6 +125,7 @@
             <li>Sebastiaan Kruit</li>
             <li>Tax Return Team</li>
             <li>Thomas Gillier</li>
+            <li>Uwe Ulrich</li>
             <li>Wilbert Leeper</li>
                 </ul>
             </div>
@@ -140,11 +135,13 @@
                   <li>A. Martin IT-Consulting</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>Enigma Software</li>
+                  <li>Everlevel ldt</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
+                  <li>macon.cc</li>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
-                  <li>the mg2 organization</li>
+                  <li>mg2 organization</li>
                   <li class="premium">NORDUnet</li>
                   <li>Rayzon Technologies</li>
                   <li>Sepher Software</li>
