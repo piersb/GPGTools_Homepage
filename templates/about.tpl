@@ -23,7 +23,7 @@
                 <li><div class="project smallicons"><a href="http://twitter.com/gpgtools" title="twitter"><img src="{$root}/images/twitter.png" title="twitter" alt="twitter" /><br/>Twitter</a></div></li>
             </ul>
             <p class="clear"><br/></p>
-            <p>Post a question to our support site<br /><br /></p>
+            <h3>Post a question to our support site</h3>
                 <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
                     <b>Email</b> (so we can respond; optional)<br>
                     <input type="email" name="mail" /><br>
@@ -31,10 +31,11 @@
                     <input type="spam" name="spam" /><span id="spamText" style="display:none; color:red;"> Are you bot?</span><br />
                     <b>Subject</b><br />
                     <input type="text" name="subject" /><br>
+                    <b>Message</b><br />
                     <textarea name="message"></textarea><br>
                     <p>In order to answer your questions as fast as possible, this message will be posted<br>
-                    to our public support forum where other users will be able to help out as well.</p>
-                    <input style="width:1.5em;vertical-align:middle;" type=checkbox name="confidential" id="confidential" value="yes" onclick="toggleSecurity();"><span class="small">If you don't want that to happen, you can click the private checkbox which will assure that only we are able to see and read your message.</span><br/>
+                    to our public support forum where other GPGTools users will be able to help out as well.<br><br>If you're message contains cofidential information or you only want us to see it,<br>please make sure to activate the following checkbox.</p>
+                    <input style="width:1.5em;vertical-align:middle;" type=checkbox name="confidential" id="confidential" value="yes" onclick="toggleSecurity();"><span class="small">Only show this message to the GPGTools support staff (this message will be sent encrypted)</span><br/>
                     <input type="submit" name="feedbackbutton" id="feedbackbutton" value="send feedback" />
                     <input type="hidden" name="encrypted" />
                  </form>
