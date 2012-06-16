@@ -53,7 +53,7 @@
 <input name="on1" value="Comment" type="hidden">
 <input name="os1" value="Nothing" type="hidden">
 <ul >
-<li><input name="os0" value="Yes" checked="checked" type="checkbox" style="width:1.5em; vertical-align:middle; margin-top: 0em; margin-bottom: 0em;">Publish my sponsor name (if I donated more than 20 EUR)</li>
+<li><input name="os0" value="Yes" type="checkbox" style="width:1.5em; vertical-align:middle; margin-top: 0em; margin-bottom: 0em;">Publish my sponsor name (if I donated more than 20 EUR)</li>
 <li>Drop us a line (optional): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
 </ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
@@ -76,6 +76,7 @@
             <li>Beat Stehrenberger</li>
             <li>Bernd Wiese</li>
             <li>Brian Long</li>
+            <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Christian Roessner</li>
             <li>Christer Klasson</li>
