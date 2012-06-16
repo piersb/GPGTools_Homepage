@@ -1,9 +1,9 @@
 /*
- *  Part of Tipped - The Javascript Tooltip Framework
+ *  Part of Tipped - The jQuery Tooltip
  *  http://projects.nickstakenburg.com/tipped
  *
  *  Documentation:
- *  http://projects.nickstakenburg.com/tipped/documentation/#css
+ *  http://projects.nickstakenburg.com/tipped/documentation/skins
  *
  *  IMPORTANT!:
  *  When modifying or adding your own skins it's recommended to do 
@@ -156,6 +156,17 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.t_iframeShim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+  filter: alpha(opacity=0);
+  opacity: 0;
 }
 
 /*

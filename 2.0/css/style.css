@@ -69,23 +69,27 @@ td { vertical-align: top; }
 body { min-width: 1020px; }
 h1, h2 { margin: 0px; padding: 0px; }
 .one-column { width: 205px; padding: 0px 25px !important; float: left; }
-.container { margin: 0px auto; width: 1020px; padding-top: 48px; }
+.container { margin: 0px auto; width: 1020px; padding-top: 17px; }
 
 /* Top GPGTools part. */
-.main { background: url(../images/section/gpgtools-pattern.gif) repeat-x 0px 0px; height: 944px; width: 100%; }
+.main { background: url(../images/section/gpgtools-pattern.gif) repeat-x 0px 0px; height: 740px; width: 100%; }
 .main header { 
-    background: url(../images/gpgtools-logo.png) no-repeat 25px 0px; width: 1020px; height: 448px; }
-.main h1 { background: url(../images/titles/gpgtools.png) no-repeat 0px 57px; width: 419px; height: 142px;
-     margin: 0px; padding: 0px; text-indent: -9999px; margin-left: 510px; }
-.main h2 { margin: 0px; padding: 0px; margin-left: 510px; color: #fff; font-family: "futura-pt-condensed", Arial, sans-serif; 
-           text-transform: uppercase; font-size: 20px; 
-           padding-top: 48px; line-height: 34px; font-weight: 500; font-style: normal;
-           letter-spacing: 1px; }
-.main h2 strong { font-weight: 800; }
-.main nav.sections ul li { float: left; background: url(../images/section/default-bg-mini.png) no-repeat center bottom;
-    height: 362px; }
+    background: url(../images/gpgtools-logo.png) no-repeat 100px 0px; width: 1020px; height: 357px; }
+.main header hgroup { padding-top: 40px; }
+.main h1 { background: url(../images/titles/gpgtools.png) no-repeat 0px 0px; width: 419px; height: 82px;
+     margin: 0px; padding: 0px; text-indent: -9999px; margin-left: 497px; }
+.main h2 { margin: 0px; padding: 0px; margin-left: 500px; color: #fff; font-family: "futura-pt-condensed", Arial, sans-serif; 
+           text-transform: uppercase; font-size: 18px; 
+           line-height: 24px; font-weight: 400; font-style: normal; margin-top: 24px; width: 440px; }
+.main h2 strong { font-weight: 700; }
+.main header ul.important-buttons, .main header ul.important-buttons li { list-style: none; margin: 0px; padding: 0px; }
+.main header ul.important-buttons li { float: left; margin-right: 10px; }
+.main header ul.important-buttons { padding-top: 30px; margin-left: 498px; }
+.main nav.sections ul li { float: left; background: url(../images/section/default-bg-mini.png) no-repeat center bottom; height: 308px; }
 .main nav.sections ul li.gpgmail { background-image: url(../images/section/gpgmail-bg-mini.png); }
 .main nav.sections ul li.gka { background-image: url(../images/section/gka-bg-mini.png); }
+.main nav.sections ul li.gpg { background-image: url(../images/section/macgpg2-bg-mini.png); }
+.main nav.sections ul li.gpgservices { background-image: url(../images/section/gpgservices-bg-mini.png); }
 .main nav.sections ul li h3, .main nav ul li h4 { color: #fff; margin: 0px; padding: 0px; }
 .main nav.sections ul li h3 { font-family: "Tw Cen MT"; font-size: 41px; text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.75);
     letter-spacing: 1px; }
@@ -94,34 +98,48 @@ h1, h2 { margin: 0px; padding: 0px; }
     text-transform: uppercase; top: 11px; letter-spacing: 3px; }
 .main nav.sections ul li h3 span:first-child { margin-left: 56px; }
 .main nav.sections ul li h3 span:not(:first-child) { margin-left: 4px; }
-.main nav.sections ul li h4 { background: url(../images/navigation/badge.png) no-repeat top center; padding-top: 30px; margin-top: 2px; 
-    font-family: "futura-pt-condensed"; font-weight: 400; letter-spacing: 5px; font-size: 20px; text-align: center;
+.main nav.sections ul li h4 { background: url(../images/navigation/badge.png) no-repeat top center; padding-top: 25px; margin-top: 2px; 
+    font-family: "futura-pt-condensed"; font-weight: 400; letter-spacing: 5px; font-size: 18px; text-align: center;
+    line-height: 24px;
 }
-    
-.main header nav { padding-left: 800px; text-align: right; font-family: "futura-pt-condensed"; font-weight: 400; }
+
+.main header nav { padding-top: 8px; text-align: center; font-family: "futura-pt-condensed"; font-weight: 400;
+    float: right; }
 .main header nav a, .main header nav a:active, .main header nav a:visited, .main header nav a:link { 
     color: #fff; }
 .main header nav ul li { float: left; margin-right: 10px; font-size: 25px; 
-    }
-
+    background: url(../images/menu-bg.png) no-repeat 0px 0px; font-size: 16px; font-weight: 500;
+    line-height: 32px; height: 32px; width: 79px; text-transform: uppercase; letter-spacing: 1px;
+}
+.main header nav ul li:last-child { margin-right: 0px; }
+.main header nav ul li.special { background-image: url(../images/special-menu-bg.png); }
+.main header nav ul li a { color: #539DC8 !important; display: block; }
+.main header nav ul li.special a { color: #fff !important; }
 /* Navigation section images and titles. */
 .main nav.sections a, .main nav a:hover, .main nav a:link, .main nav a:visited, .main nav a:active { text-decoration: none !important; }
-.main nav.sections ul li.gpgmail h3 { background: url(../images/navigation/gpgmail-logo.png) no-repeat top center; 
-    padding-top: 122px; margin-top: 37px; }
-.main nav.sections ul li.gka h3 { background: url(../images/navigation/gpgkeychainaccess-logo.png) no-repeat top center; 
-        padding-top: 122px; margin-top: 37px; }
+.main nav.sections ul li a { display: block; }
+.main nav.sections ul li h3 { text-indent: -9999px; }
+.main nav.sections ul li h4 { text-transform: uppercase; }
+.main nav.sections ul li.gpgmail h3 { padding-top: 126px; margin-top: 0px; background: url(../images/titles/gpgmail-small.png) no-repeat 62px 148px; }
+.main nav.sections ul li.gpgmail a { background: url(../images/navigation/gpgmail-logo.png) no-repeat 38px 22px; display: block; }
+.main nav.sections ul li.gka h3 { background: url(../images/titles/gpg-keychain-access-small.png) no-repeat 40px 126px; 
+        padding-top: 104px; margin-top: 22px; }
+.main nav.sections ul li.gka a { background: url(../images/navigation/gpgkeychainaccess-logo.png) no-repeat top center; display: block; }
 .main nav.sections ul li.gka h3 span:first-child { margin-left: 35px; }
 .main nav.sections ul li.gka h3 span:last-child { line-height: 15px; }
-.main nav.sections ul li.gpg h3 { background: url(../images/navigation/macgpg-logo.png) no-repeat top center; 
-        padding-top: 131px; margin-top: 28px; }
-.main nav.sections ul li.gpg h3 span:first-child { margin-left: 35px; }
-.main nav.sections ul li.gpg h3 span:last-child { line-height: 15px; }
-.main nav.sections ul li.gpgservices h3 { background: url(../images/navigation/gpgservices-logo.png) no-repeat top center; 
-        padding-top: 122px; margin-top: 37px; }
+.main nav.sections ul li.gpg a { background: url(../images/navigation/macgpg-logo.png) no-repeat top center; }
+.main nav.sections ul li.gpg h3 { background: url(../images/titles/macgpg-small.png) no-repeat 33px 130px; 
+        padding-top: 108px; margin-top: 18px; }
+
+.main nav.sections ul li.gpgservices a { background: url(../images/navigation/gpgservices-logo.png) no-repeat top center; }
+.main nav.sections ul li.gpgservices h3 { background: url(../images/titles/gpgservices-small.png) no-repeat 40px 124px; 
+        padding-top: 102px; margin-top: 24px; }
+
 .main nav.sections ul li.gpgservices h3 span:first-child { margin-left: 35px; }
+
 .main nav.sections ul li.gpgservices h3 span:last-child { line-height: 15px; }
 .main nav.sections ul li.gpgservices h4 { letter-spacing: 2px; }
-
+.main .container header > hgroup { clear: both; }
 /* Tool sections. */
 section.tool { color: #fff; font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px;
     position: relative; }
@@ -133,53 +151,197 @@ section .announcement { background: url(../images/section/announcement-header-bg
     text-transform: uppercase;
     padding: 0 16px; line-height: 32px; }
 section.tool ul, section.tool li { list-style: none; margin: 0px; padding: 0px; }
-section.tool h3 { font-family: "Tw Cen MT"; font-size: 18px; font-weight: bold; text-transform: uppercase;
-    margin: 0px; padding: 0px; line-height: 26px; }
+section.tool h3 { font-family: "futura-pt"; font-size: 16px; font-style: normal; font-weight: 700; text-transform: uppercase;
+    margin: 0px; padding: 0px; line-height: 24px; }
 /* GPGMail section. */
-section.gpgmail { height: 988px; background: url(../images/section/gpgmail-bg.jpg) no-repeat 0 0; }
-section.gpgmail h1 { background: url(../images/titles/gpgmail.png) no-repeat 0px 0px; 
+section.gpgmail { height: 760px; background: url(../images/section/gpgmail-bg.jpg) no-repeat 0 0; }
+section.gpgmail h1 { background: url(../images/titles/gpgmail.png) no-repeat 0px 0px    ; 
     text-indent: -9999px; width: 341px; height: 87px; }
 section.gpgmail h2 { font-family: "futura-pt-condensed"; font-weight: 400; font-size: 22px;
-    text-transform: uppercase; letter-spacing: 1px; padding-top: 28px;
-    line-height: 34px; }
+    text-transform: uppercase; letter-spacing: 1px; padding-top: 21px;
+    line-height: 32px; }
 section.gpgmail h2 strong { font-weight: 800; }
-section.gpgmail header { background: url(../images/section/gpgmail-logo.png) no-repeat 0px 0px; min-height: 264px;
-        padding-left: 280px; height: 501px; }
-section.gpgmail ul.minor-features { background: url(../images/minor-features.png) no-repeat 0px 0px; min-height: 154px; 
-    padding-left: 255px; padding-right: 25px; margin-top: 36px; line-height: 26px; float: left; }
-section.gpgmail ul.minor-features li { width: 205px; font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px; 
-    letter-spacing: 1px; }
+section.gpgmail header { background: url(../images/section/gpgmail-logo.png) no-repeat 0px 0px;
+        padding-left: 280px; }
+section.gpgmail ul.minor-features { padding-right: 25px; margin-top: 22px; line-height: 26px; float: left; }
+section.gpgmail ul.minor-features li {
+    background: url(../images/subfeatures/lion-only.png) no-repeat center center; width: 62px; height: 63px; 
+    float: left; font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px; margin-right: 30px; }
+section ul.minor-features li a { height: 63px; display: block; text-decoration: none; }
+section ul.minor-features li.lion-only { background-image: url(../images/subfeatures/lion-only.png); }
+section ul.minor-features li.bit64-ready { background-image: url(../images/subfeatures/64bit-compatible.png); }
+section ul.minor-features li.part-of-gpgtools { background-image: url(../images/subfeatures/part-of-gpgtools.png); }
+section ul.minor-features li.sparkle { background-image: url(../images/subfeatures/sparkle-updates.png); }
+section ul.minor-features li span { display: none; }
+section .feature-info { clear: both; width: 640px; position: relative; }
+section .feature-info .arrow { background: url(../images/indicator-arrow.png) no-repeat 0px 0px; width: 12px; height: 10px; position: absolute;
+    display: block; top: -9px; left: 0px;
+}
+section .feature-info .bar { visibility: hidden; background-color: #fff; height: 2px; }
+section .feature-info .description { visibility: hidden; padding-top: 3px; font-size: 18px; }
 section.gpgmail header hgroup { padding-top: 24px; }
-section.gpgmail .container { padding-top: 43px; position: relative; }
-section.gpgmail ul.features { padding-top: 33px; border-top: #fff 1px solid; }
-section.gpgmail ul.features li p { margin: 0px; padding: 0px; font-size: 20px; line-height: 26px;
-    margin-top: -1px; padding-bottom: 28px; }
-section.gpgmail header .download { margin-top: 20px; }
+section.gpgmail .container { padding-top: 11px; position: relative; }
+section.gpgmail ul.features { margin-top: 26px; }
+section.gpgmail ul.features li p { margin: 0px; padding: 0px; font-size: 18px; line-height: 24px;
+    margin-top: -1px; padding-bottom: 25px; font-weight: 400; font-style: normal; }
+section.gpgmail header .download { margin-top: 29px; margin-bottom: 23px; }
+
+section.tool.gpgfriends {
+    background: url(../images/section/gpgfriends-pattern.png) repeat 0px 0px;
+    min-height: 760px;
+    padding-bottom: 40px;
+}
+section.tool.gpgfriends header { margin-top: 85px; margin-bottom: 95px; }
+
+section.tool.gpgfriends .friends, section.tool.gpgfriends header {
+    padding-left: 25px;
+}
+
+section.tool.gpgfriends h1 {
+    background: url(../images/section/gpgfriends-logo.png) no-repeat 0px 0px;
+    width: 388px; height: 82px;
+    text-indent: -9999px;
+}
+section.tool.gpgfriends h2 {
+    text-transform: uppercase; font-weight: 400; font-size: 20px; 
+    margin-top: 26px; width: 490px; line-height: 32px;
+}
+section.tool.gpgfriends h3 { text-transform: uppercase; }
+
+section.tool.gpgfriends .friends div { float: left; }
+section.tool.gpgfriends .friends .team { padding-left: 0px !important; }
+section.tool.gpgfriends .friends .individuals-2 { padding-right: 0px !important; }
+
+section.tool.gpgfriends a, section.tool.gpgfriends a:active, section.tool.gpgfriends a:link, section.tool.gpgfriends a:visited { color: #fff; text-decoration: none; }
+section.tool.gpgfriends a:hover { text-decoration: underline; }
+
+section.tool.gpgfriends .friends ul {
+    font-size: 19px; margin-top: 25px; line-height: 25px;
+}
+
+.versions-panel {
+    /*
+border-radius: 5px;
+background-clip: padding-box;
+    background-color: #fff;
+*/
+    padding: 22px 22px;
+    width: auto;
+    font-family: "futura-pt";
+}
+.versions-panel ul {
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    list-style: none;
+    font-family: "futura-pt-condensed";
+    font-size: 16px;
+}
+.versions-panel ul li {
+    padding: 0px;
+    margin: 0px;
+}
+.versions-panel {
+    color: #646464;
+    font-size: 16px;
+}
+.versions-panel h3 {
+    margin: 0px; padding: 0px;
+    margin-top: 3px;
+    color: #000;
+    font-weight: 700;
+    font-family: "futura-pt";
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+.versions-panel a.release-notes {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: "futura-pt";
+    display: block;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.versions-panel .versions {
+    width: 236px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.versions-panel .versions li {
+    float: left;
+    color: #fff; /* text color */
+    text-shadow: 0 1px 4px rgba(0,0,0,.25); /* drop shadow */
+    background: url(../images/download-version-bg.png) no-repeat 0px 0px;
+    width: 113px;
+    height: 41px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    line-height: 41px;
+}
+.versions-panel .versions li:nth-child(even) {
+    margin-right: 0px;
+}
+.versions-panel .versions li a {
+    display: block; height: auto; width: auto;
+    padding-left: 50px; text-decoration: none; color: #fff;
+}
+.versions-panel .versions li.version-103 a {
+    background: url(../images/icons/version-panther.png) no-repeat 8px center;
+}
+.versions-panel .versions li.version-104 a {
+    background: url(../images/icons/version-tiger.png) no-repeat 8px center;
+}
+.versions-panel .versions li.version-105 a {
+    background: url(../images/icons/version-leopard.png) no-repeat 8px center;
+}
+.versions-panel .versions li.version-106 a {
+    background: url(../images/icons/version-snow-leopard.png) no-repeat 8px center;
+}
 section.gpgmail .container .screenshots { position: absolute; right: -10px; top: 52px; }
 section .container .release-notes a, section .container .release-notes a:link,
 section .container .release-notes a:visited, section .container .release-notes a:active { 
     text-align: center; color: #fff; }
-section .container .release-notes a:hover { text-decoration: underline; }
+section .container .release-notes a:hover { text-decoration: underline; 
+}
 section .container .release-notes { text-align: center; }
+
+section.gpgmail.gka { background: url(../images/section/gka-pattern.png) repeat-x 0 0; }
+section.gpgmail.macgpg { background: url(../images/section/macgpg-pattern.png) repeat-x 0 0; }
+section.gpgmail.gpgservices { background: url(../images/section/gpgservices-pattern.png) repeat-x 0 0; }
+
+section.gka h1 { background: url(../images/titles/gpg-keychain-access.png) no-repeat 0px 0px; width: 439px; }
+section.gka header { background: url(../images/section/gpgkeychainaccess-logo.png) no-repeat 0px 0px }
+section.macgpg h1 { background: url(../images/titles/macgpg.png) no-repeat 0px 0px; width: 381px; }
+section.gpgservices h1 { background: url(../images/titles/gpgservices.png) no-repeat 0px 0px; width: 404px; }
+
 
 #call-for-donation { padding: 40px 28px; width: 522px; }
 #call-for-donation h3 { font-family: "Tw Cen MT"; font-weight: bold; font-size: 14px; margin: 0px; padding: 0px;
     color: #000; }
+#call-for-donation h4 { font-family: "Tw Cen MT"; font-weight: bold; font-size: 12px; margin: 0px; padding: 0px;
+    margin-top: 20px; margin-bottom: 10px; text-transform: uppercase; }
+#call-for-donation hgroup h4 { margin-bottom: 0px; margin-top: 30px; }
+#call-for-donation hgroup h5 { margin: 0px; padding: 0px; font-family: "futura-pt-condensed"; font-weight: 500;
+    font-size: 14px; }
 #call-for-donation > p { font-family: "futura-pt-condensed"; font-weight: 500; font-size: 15px;
     margin: 0px; padding: 0px; padding-top: 6px; line-height: 20px; }
 #call-for-donation ul { list-style: none; margin: 0px; padding: 0px; }
 #call-for-donation .hidden { display: none; }
-#call-for-donation .donation-slider > ul { font-family: "futura-pt-condensed"; font-weight: 400; font-size: 16px; 
-    margin-left: 20px; }
+#call-for-donation .donation-slider .slider { width: 485px; }
+#call-for-donation .donation-slider > ul { font-family: "futura-pt-condensed"; font-weight: 400; font-size: 16px; }
 #call-for-donation .donation-slider > ul > li { float: left; }
 #call-for-donation .donation-slider > ul > li > div { visibility: hidden; border-left: #646464 1px solid; margin-top: 60px; }
 #call-for-donation .donation-slider > ul > li .donation-step { line-height: 0px; display: block; margin-left: -2px;
     padding-top: 9px; width: 6px; }
+#call-for-donation .donation-slider > ul > li.gift-first { width: 20px; }
 #call-for-donation .donation-slider > ul > li.gift-15 { width: 86px; }
 #call-for-donation .donation-slider > ul > li.gift-50 { width: 105px; }
 #call-for-donation .donation-slider > ul > li.gift-100 { width: 95px; }
 #call-for-donation .donation-slider > ul > li.gift-500 { width: 100px; }
-#call-for-donation .donation-slider > ul > li.gift-10000 { width: 110px; }
+#call-for-donation .donation-slider > ul > li.gift-10000 { width: 79px; overflow: visible; }
 #call-for-donation .donation-slider > ul > li .visible { visibility: visible; }
 #call-for-donation .donation-slider > ul > li li { padding-left: 10px; padding-right: 10px; color: #646464;
     line-height: 14px; font-size: 13px; font-weight: 500;
@@ -199,16 +361,17 @@ section .container .release-notes { text-align: center; }
 #call-for-donation .ui-slider-horizontal { height: 5px !important; }
 #call-for-donation .ui-slider-horizontal.ui-widget-content { border: none !important; background: none !important; background-color: #e2e2e2 !important; }
 #call-for-donation .ui-slider.ui-corner-all { border-radius: 2px !important; }
-#call-for-donation .donation-slider { position: relative; margin-top: 32px; }
+#call-for-donation .donation-slider { position: relative; margin-top: 20px; }
 #call-for-donation .slider { margin-top: 30px; margin-bottom: 30px; position: absolute; top: 0px; }
 #call-for-donation .slider .amount { position: absolute; top: 14px; left: 0px; font-family: "Tw Cen MT";
-    font-size: 14px; font-weight: bold; color: #A73B5C; width: auto; line-height: 14px; }
+    font-size: 14px; font-weight: bold; color: #A73B5C; width: auto; line-height: 14px;
+    white-space: nowrap }
 #call-for-donation .donation-slider .start-amount, #call-for-donation .donation-slider .end-amount {
     position: absolute; top: -29px; font-family: "Tw Cen MT"; font-size: 14px; color: #646464;
     left: -2px; 
 }
 #call-for-donation .donation-slider .end-amount { left: auto; right: 0px; }
-#call-for-donation .payment-options { background-color: #E6E6E6; padding: 20px 15px; margin-top: 20px; }
+#call-for-donation .payment-options { background-color: #E6E6E6; padding: 20px 15px; }
 #call-for-donation .payment-options li { float: left; margin-right: 15px; line-height: 30px; }
 #call-for-donation .payment-options li.no-margin { margin-right: 0px; }
 #call-for-donation .payment-options label { font-family: "futura-pt-condensed"; font-weight: 500; font-size: 14px; letter-spacing: 1px; }
@@ -216,11 +379,69 @@ section .container .release-notes { text-align: center; }
 #call-for-donation .download-options ul { float: right; }
 #call-for-donation .download-options li { float: left; margin-right: 10px; }
 #call-for-donation .download-options li:last-child { margin-right: 0px; }
-#call-for-donation .download-options a { background: url(../images/donation-button-normal.png) no-repeat 0px 0px; width: 124px; 
+#call-for-donation .download-options a { background: url(../images/donation-button-disabled.png) no-repeat 0px 0px; width: 124px; 
     height: 40px; font-family: "futura-pt-condensed"; font-weight: 500; font-size: 18px; color: #fff; text-shadow: 0.0px 1.0px 4.0px rgba(0,0,0,.25); 
     text-decoration: none; line-height: 40px; display: block; padding-left: 38px; text-transform: uppercase; text-align: center; }
-#call-for-donation .download-options .disabled a { background-image: url(../images/donation-button-disabled.png); }
-#call-for-donation .download-options a:hover { background-image: url(../images/donation-button-active.png); }
+#call-for-donation .download-options .enabled a { background-image: url(../images/donation-button-normal.png); }
+#call-for-donation .download-options .enabled a:hover { background-image: url(../images/donation-button-active.png); }
+
+/* Release Notes. */
+.slide-modal {
+    background-color: #fff; border-radius: 4px; box-shadow: 0 5px 5px rgba(0,0,0,.75);
+}
+.overlay { position: absolute; top: 0px; bottom: 0px; background-color: rgba(0,0,0,0.75); z-index: 9998; }
+.modal.release-notes { font-family: "futura-pt-condensed"; font-weight: 400; padding: 60px 42px; }
+.modal.release-notes hgroup {
+    background: url(../images/gpgtools-release-notes-logo.png) no-repeat 0px 0px; 
+    height: 186px; 
+    font-family: "futura-pt-condensed"; font-weight: 400;
+    padding-top: 33px;
+    margin-bottom: 67px;
+}
+.modal.release-notes h1 { 
+    font-size: 43px; color: #64a0c8;
+    line-height: 45px; padding-left: 432px; letter-spacing: 8px;
+    padding-bottom: 25px;
+    font-weight: 400;
+}
+.modal.release-notes h2, .modal.release-notes h3 {
+    margin: 0px; padding: 0px; padding-left: 200px;
+    font-size: 18px; color: #8C8C8C;
+    text-transform: uppercase;
+    font-style: normal; font-weight: 400;
+}
+.modal.release-notes h2 { font-weight: 800; line-height: 23px; }
+
+.modal.release-notes .version {
+    margin-left: 75px;
+    padding-top: 32px;
+    color: #8c8c8c; font-size: 18px;
+}
+
+.modal.release-notes .version ul {
+    list-style: none; margin: 0px; padding: 0px; 
+}
+
+.modal.release-notes .version h4 {
+    padding: 0px; margin: 0px; margin-bottom: 6px;
+    font-family: "futura-pt"; font-weight: 700; color: #286e96;
+    font-size: 16px;
+}
+.modal.release-notes .version h4 time {
+    color: #64a0c8; font-size: 16px; font-family: "futura-pt-condensed";
+    font-weight: 500; text-transform: uppercase;
+}
+.modal.release-notes .version li {
+    padding: 0px; margin: 0px;
+    background: url(../images/icons/release-versions-lock.png) no-repeat 0px 0px;
+    padding-left: 32px;
+}
+
+/* Make Logos copyable. */
+.main h1 { text-indent: 0px; color: transparent; }
+.main h1::selection { line-height: 132px; color: transparent; }
+
+
 @media only screen and (min-width: 35em) {
   
 

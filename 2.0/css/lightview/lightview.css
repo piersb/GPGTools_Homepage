@@ -137,7 +137,7 @@
   position: absolute;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  overflow: auto; /* scrollbars */
   text-align: left;
 }
 
@@ -147,7 +147,11 @@
   clear: both;
 }
 .lv_content_canvas,
-.lv_content_iframe {
+.lv_content_image,
+.lv_content_flash,
+.lv_content_object,
+.lv_content_iframe,
+.lv_content_html {
   float: left;
   border: 0;
   clear: both;
@@ -466,14 +470,14 @@
 .lv_content h5,
 .lv_content h6 { color: #333; }
 
-/*.lv_content a,
+.lv_content a,
 .lv_content a:hover {
   color: #0088cc;
   font-weight: normal;
   background: none;
   border: 0;
   text-decoration: none;
-}*/
+}
 .lv_content a:hover { text-decoration: underline; }
 
 .lv_title_caption a,

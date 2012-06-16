@@ -1,47 +1,39 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Release Notes</title>
-    <style type="text/css">
-      .scroller { height: 300px; width: 400px; overflow: auto; }
-    </style>
-  </head>
-  <body>
-    <h3 id="releasenotes">Release Notes</h3>
+<div class="modal release-notes">
+    <hgroup>
+      <h1>MAIL<br>RELEASE NOTES</h1>
     
-    <div class="scroller">
+      <h2>This is a list of all changes connected to our releases.</h2>
+      <h3>For further information, feel free to drop us a line.</h3>
+    </hgroup>
     
-    <p><b>Version 2.0a30 (13. February 2012).</b><br><br><b>IMPORTANT SECURITY UPDATE</b><br><br><b>DISCLAIMER: Please be aware that GPGMail is still in alpha stadium.<br>Be very careful about using it on machines containing sensitive information.</b></p><ul
-    class="sub"><li>Disables excessive logging which might have written sensitive information to /var/log/system.log* in some cases..</li><li>Checksum: cce665b098ec7cc747d3a2995f9c06be15ad6525 (SHA-1).</li></ul><p><b>Version 2.0a21 (27. December 2011).</b></p><ul
-    class="sub"><li>Just another update that fixes some issues and enhances the stability.</li><li>Checksum: 65aa08be0b05324c82bd73af95e4c7985648342d (SHA-1).</li></ul><p><b>Version 2.0a19 (24. December 2011).</b></p><ul
-    class="sub"><li>Special binary-only Xmas Release 2011 for 10.7.</li><li>Enhanced the stability a lot, not introduced new features.</li><li>Still alpha quality (e.g. missing error messages).</li><li>Checksum: 7849dc2c6ebb9a16622a71f336033d330e936f13 (SHA-1).</li></ul><p><b>Version 2.0a4 (04. September 2011).</b></p><ul
-    class="sub"><li>Fourth alpha for 10.7.</li><li>Closed <a
-    href="http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4">38 tickets</a>.</li><li>Submitted <a
-    href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>.</li><li>Checksum: 91463d97da7a302cca2fbc93695ad980485b9264 (SHA-1).</li></ul><p><b>Version 2.0a3 (21. August 2011).</b></p><ul
-    class="sub"><li>Third alpha for 10.7.</li><li>Checksum: 3f21326824fa108bae0c97c4c22716e6b485b824 (SHA-1).</li></ul><p><b>Version 2.0a2 (19. August 2011).</b></p><ul
-    class="sub"><li>Second alpha for 10.7.</li><li>Fixed over 50 major and minor issues.</li><li>Checksum: 0d7b8e9d53d4d122f790146515de4f043e3c8458 (SHA-1).</li></ul><p><b>Version 2.0a1 (06. August 2011).</b></p><ul
-    class="sub"><li>First alpha for 10.7.</li><li>Checksum: d3f4be6345f5ddb57162f97357c5c3efd2f1be78 (SHA-1).</li></ul><p><b>Version 1.3.3 (22. March 2011).</b></p><ul
-    class="sub"><li>Important: Fixed compatibility with final OS X 10.6.7 release.</li><li>Fix: French localization.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/136'>Issue 136</a>: Fix: Encryption/signing only with in-key-mentioned mail addresses broken.</li><li>Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1).</li></ul><p><b>Version 1.3.2 (02. March 2011).</b></p><ul
-    class="sub"><li>Important: Our new home is http://gpgtools.org.</li><li>Important: Now compatible with OS X 10.6.7.</li><li>Important: You might have to recheck your GPGMail configuration.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/3'>Issue 3</a>: Fix: Checked "Encrypt reply to OpenPGP-encrypted message" does not work.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/19'>Issue 19</a>: Fix: Choose key for encryption does not show keys..</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/20'>Issue 20</a>: Fix: Invalid crypto engine.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/27'>Issue 27</a>: Fix: GPG Exception - Bad Passphrase (pinentry-mac crash).</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/97'>Issue 97</a>: Fix: GPGMail does not sign though it is set by default.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/108'>Issue 108</a>: Fix: GPGMail not signing by default when set to choose keys by account.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/112'>Issue 112</a>: Fix: Current Build of GPGMail Is Not Supported On Mac OS X 10.6.7 (10J842).</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/115'>Issue 115</a>: Fix: Rename PGP to OpenPGP.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/132'>Issue 132</a>: Fix: Can not decrypt recently sent messages.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/134'>Issue 134</a>: Fix: Mail.bundle gets deactivated by Mail.app each time Mail.app is opened.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/2'>Issue 2</a>: Enhancement: Provide a compressed DMG with a background image.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/15'>Issue 15</a>: Enhancement: Add "Comment" section to signature.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/96'>Issue 96</a>: Enhancement: Change warning about missing private key.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/104'>Issue 104</a>: Enhancement: Installer should have a look at /L/M/B.</li><li><a
-    href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/122'>Issue 122</a>: Enhancement: Add Logo to the window, which appears when checking for updates.</li><li>Old issue 23: Fixed the "Use Keychain to store passphrases" bug.</li><li>Old issue 79: Fixed the "Encrypted reply to an encrypted message" bug.</li><li>Old issue 81: Fixed the "update now button" bug.</li><li>Old issue 97: Fixed the "check for update pulldown menu" bug.</li><li>Old issue 110: Fixed the "password chaching/timeout" bug.</li><li>Old issue 192: Added the "Do not check for updates at the first start" feature.</li><li>Old issue 197: Fixed the "show passphrase setting" bug.</li><li>Old issue 210: Fixed the "no longer prompted to enter passphrase" bug.</li><li>Old issue 233: Fixed the "bundle is a folder" bug.</li><li>Old issue 236: Fixed the "wrong bundle version and icon shown" bug.</li><li>Translation: Swedish (thank you Mischa!).</li><li>Other: New icons (thank you Josef!).</li><li>Other: Shared preferences for different GPG tools.</li><li>Other: Massive code cleanup.</li><li>Checksum: 57ceb923ec6eebba49496ff135b70a68e7e0bc30 (SHA-1).</li></ul><p><b>Version 1.3.1 (16. November 2010).</b></p><ul
-    class="sub"><li>Issue 221: Fixed compatibility with 10.6.5.</li><li>Issue 14: Added make clean.</li><li>Issue 98: Renamed preference pane to GPGMail.</li><li>Issue 54: Renamed PGP to OpenPGP in the menu.</li><li>Issue 81: Disabled 'update now' button.</li><li>Issue 212: Started to update the logos.</li><li>And many, many other minor updates.</li><li>Checksum: b5f76a2c5667fd15b98c70ab2745f510f58c8eae (SHA-1).</li></ul><p><b>Version 1.3.0 (27. July 2010).</b></p><ul
-    class="sub"><li>Added Sparkle updates.</li><li>Changed web site, author, copyright, and e-mail address information to reflect the new project structure.</li></ul>
-    
+    <div class="release-notes">
+        <div class="version">
+            <h4>Version 2.0a30 <time datetime="2012-02-13">13. February 2012</time></h4>
+            <ul>
+                <li>Disables excessive logging which might have written sensitive information to /var/log/system.log* in some cases..</li>
+                <li class="checksum">Checksum: cce665b098ec7cc747d3a2995f9c06be15ad6525 (SHA-1).</li>
+            </ul>
+            
+            
+        </div>
+        
+        <div class="version">
+            <h4>Version 2.0a21 <time datetime="2011-12-27">27. December 2011</time></h4>
+            <ul>
+                <li>Just another update that fixes some issues and enhances the stability.</li>
+                <li class="checksum">Checksum: 65aa08be0b05324c82bd73af95e4c7985648342d (SHA-1).</li>
+            </ul>
+        </div>
+        
+        <div class="version">
+            <h4>Version 2.0a19 <time datetime="2011-12-24">24. December 2011</time></h4>
+            <ul>
+                <li>Special binary-only Xmas Release 2011 for 10.7.
+</li>
+                <li>Enhanced the stability a lot, not introduced new features.</li>
+                <li>Still alpha quality (e.g. missing error messages).</li>
+                <li class="checksum">Checksum: 7849dc2c6ebb9a16622a71f336033d330e936f13 (SHA-1).</li>
+            </ul>
+        </div>
     </div>
-  </body>
-</html>
+</div>

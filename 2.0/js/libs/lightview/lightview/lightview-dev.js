@@ -877,14 +877,10 @@ eval((function (b, i) {
                 var c = this.ctxBubble;
                 c.clearRect(0, 0, this.canvasBubble[0].width, this.canvasBubble[0].height);
                 var d = a.bubble.border;
-                console.log("Dimensions: ", this._dimensions)
-                console.log("Dimensions window: ", this._dimensions.window)
-                console.log(r(this._dimensions.window))
                 this.bubble.css(r(a.bubble.position)), this.element.css(r(this._dimensions.window)), this.skin.css(r(a.skin.dimensions)), this.bubble.css(r(a.bubble.outer.dimensions)), this.canvasBubble.attr(a.bubble.outer.dimensions), this.innerPreviousNextOverlays.css(r(a.bubble.outer.dimensions)), this.innerPreviousNextOverlays.css(r(a.bubble.position)), this.sideButtonsUnderneath.css("width", a.bubble.outer.dimensions.width + "px").css("margin-left", -0.5 * a.bubble.outer.dimensions.width + "px");
                 var e = a.content,
                     f = e.dimensions,
                     e = e.position;
-                console.log(f)
                 this.content.css(r(f)).css(r(e)), b(this.titleCaption).add(this.title).add(this.caption).css({
                     width: f.width + "px"
                 }), 0 < a.titleCaption.position.left && 0 < a.titleCaption.position.top && this.titleCaption.css(r(a.titleCaption.position)), c.fillStyle = v.createFillStyle(c, this.options.background, {
@@ -903,7 +899,6 @@ eval((function (b, i) {
                 var a = this.element,
                     c = this.content,
                     d = this.content.find(".lv_content_wrapper").first()[0];
-                console.log("Element", this.element)
                 if (d && this.view) {
                     b(d).css({
                         width: "auto",
@@ -923,12 +918,17 @@ eval((function (b, i) {
                     });
                     var g = this.updateQueue.getMeasureElementDimensions(d),
                         g = this.updateQueue.getFittedDimensions(d, g, this.view);
+                        
+                    // Adding the top value to content height gives the precise
+                    // window height required to fit everything in.
+                    // This is a workaround, nothing more. Hopefully the developer fixes the problem.
+                    var contentTop = parseInt(this.content.css("top").replace("px", ""))
+                    var windowHeight = this._dimensions.content + contentTop
                     this._dimensions.content = g, a.css(r({
                         left: e,
                         top: c,
                         width: f
-                    })), 
-                    this.draw(), this.options.viewport && this.place(this.getLayout(g).window.dimensions, 0)
+                    })), this._dimensions.window.height = windowHeight, this.draw(), this.options.viewport && this.place(this.getLayout(g).window.dimensions, 0)
                 }
             },
             resizeTo: function (a, c, d) {
