@@ -21,7 +21,16 @@ $(function() {
         })
     })
     
-    
+    $("section:not(:first-child)").each(function() {
+        var $toTop = $("<div>")
+        $toTop.addClass("back-to-top").click(function() {
+            $(window).scrollTo(0, 400, function() {
+                window.document.location.hash = '';
+            })
+        })
+        $toTop.append($("<a>").css("display", "block").html("&nbsp;"))
+        $(this).prepend($toTop)
+    })
     
     $("#gpgmail").find(".screenshots").click(function() {
         gpgmailScreenshots()
@@ -76,7 +85,6 @@ $(function() {
             $tool.find(".description").css("visibility", "hidden")  
         })
     })
-    
 })
 
 var PAYPAL_DONATION_URL = 'https://www.paypal.com/cgi-bin/webscr'
@@ -155,20 +163,40 @@ PageController.extend("SlidingPageController", {
             
             $("body").append($overlay.hide())
             
+            var hiddenPoint = $(window).scrollTop() + $(window).height() + 1
+            
             $div.css("height", $(window).height())
             $div.css("overflow", "auto")
-            $div.css("top", $(window).scrollTop() + $(window).height() + 1)
+            $div.css("top", hiddenPoint)
             console.log($div.width())
             $div.css("left", ($(window).width() - $div.width())/2)
             console.log($page.options)
             
             // Disable scrolling on body.
-            $("html,body").css("overflow", "hidden")
+            console.log("Disable scrolling")
+            $("html").css("overflow-x", "hidden").css("overflow-y", "hidden")
             
             $div.show()
+            
+            
+            $(document).click(function(e){
+                if($(e.target).closest(".slide-modal").length == 0) {
+                    // .closest can help you determine if the element 
+                    // or one of its ancestors is #menuscontainer
+                    $div.animate({top: hiddenPoint}, $page.options.speed, function() {
+                        $div.hide()
+                        $("html").css("overflow-x", "auto").css("overflow-y", "auto")
+                        $overlay.fadeOut(300)
+                    })
+                }
+            });
+            
             $overlay.fadeIn(300, function() {
                 $div.animate({top: $(window).scrollTop() + 20}, $page.options.speed)    
             })
+            
+            
+            
         })
     }
 })

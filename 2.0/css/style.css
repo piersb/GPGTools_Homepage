@@ -219,6 +219,16 @@ section.tool.gpgfriends .friends ul {
     font-size: 19px; margin-top: 25px; line-height: 25px;
 }
 
+/* Back to top */
+section.tool .back-to-top { position: absolute; z-index: 9997; 
+    right: 55px; top:76px;
+    width: 66px; height: 67px;
+    background: url(../images/icons/to-top.png) no-repeat 0px 0px; 
+}
+section.tool .back-to-top a {
+    display: block; line-height: 67px; width: auto;
+}
+
 .versions-panel {
     /*
 border-radius: 5px;
@@ -300,7 +310,7 @@ background-clip: padding-box;
 .versions-panel .versions li.version-106 a {
     background: url(../images/icons/version-snow-leopard.png) no-repeat 8px center;
 }
-section.gpgmail .container .screenshots { position: absolute; right: -10px; top: 52px; }
+section.gpgmail .container .screenshots { position: absolute; right: 67px; top: 115px; }
 section .container .release-notes a, section .container .release-notes a:link,
 section .container .release-notes a:visited, section .container .release-notes a:active { 
     text-align: center; color: #fff; }
