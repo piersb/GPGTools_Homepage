@@ -12,7 +12,7 @@ $(function() {
     $(".sweet-justice").each(function(i, o) {
         justify($(o))
     })
-    $("nav.sections li a, nav.top li a").click(function(e) {
+    $("nav.sections li a, nav.top li a.friends").click(function(e) {
         e.preventDefault()
         var href = $(this).attr("href")
         $(window).scrollTo(href, 600, function() {
