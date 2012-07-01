@@ -115,6 +115,7 @@
             <li>Michael Langford</li>
             <li>Michael Prewitt</li>
             <li>N J L Macassey</li>
+            <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
             <li>Omer Holzinger</li>
             <li>Paul Morten Vikanes</li>
