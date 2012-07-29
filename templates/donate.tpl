@@ -78,6 +78,7 @@
             <li>Brian Long</li>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
+            <li>Chia Chik Pai</li>
             <li>Christian Roessner</li>
             <li>Christer Klasson</li>
             <li>Claudius Wettstein</li>
