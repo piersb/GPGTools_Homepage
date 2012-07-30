@@ -64,6 +64,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+            <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
             <li>Alun J Carr</li>
             <li>Andrew Frangopoulos</li>
