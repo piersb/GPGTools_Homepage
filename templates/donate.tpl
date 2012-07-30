@@ -80,6 +80,7 @@
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
             <li>Christian Roessner</li>
+            <li>Christian Tanner</li>
             <li>Christer Klasson</li>
             <li>Claudius Wettstein</li>
             <li>Craig Stacey</li>
