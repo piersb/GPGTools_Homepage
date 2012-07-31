@@ -91,6 +91,7 @@
             <li>Dmitry Nedospasov</li>
             <li>Eero Volotinen</li>
             <li>Eric Baur</li>
+            <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
             <li>Georges Rodriguez</li>
