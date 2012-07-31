@@ -132,6 +132,7 @@
             <li>Roger Loeb</li>
             <li>Scott Stonefield</li>
             <li>Sebastiaan Kruit</li>
+            <li>Stijn Jonker</li>
             <li>Tax Return Team</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
