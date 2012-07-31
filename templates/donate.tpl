@@ -123,6 +123,7 @@
             <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
             <li>Omer Holzinger</li>
+            <li>Patrik Faltstrom</li>
             <li>Paul Morten Vikanes</li>
             <li>Peter Eckel</li>
             <li>Peter Mueller</li>
