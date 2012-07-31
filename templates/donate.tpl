@@ -133,6 +133,7 @@
             <li>Scott Stonefield</li>
             <li>Sebastiaan Kruit</li>
             <li>Tax Return Team</li>
+            <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
             <li>Uwe Ulrich</li>
             <li>Volker Schwaberow</li>
