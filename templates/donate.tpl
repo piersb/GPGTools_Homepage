@@ -64,6 +64,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+            <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
             <li>Alun J Carr</li>
             <li>Andrew Frangopoulos</li>
@@ -78,7 +79,9 @@
             <li>Brian Long</li>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
+            <li>Chia Chik Pai</li>
             <li>Christian Roessner</li>
+            <li>Christian Tanner</li>
             <li>Christer Klasson</li>
             <li>Claudius Wettstein</li>
             <li>Craig Stacey</li>
@@ -88,6 +91,7 @@
             <li>Dmitry Nedospasov</li>
             <li>Eero Volotinen</li>
             <li>Eric Baur</li>
+            <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
             <li>Georges Rodriguez</li>
@@ -120,6 +124,7 @@
             <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
             <li>Omer Holzinger</li>
+            <li>Patrik Faltstrom</li>
             <li>Paul Morten Vikanes</li>
             <li>Peter Eckel</li>
             <li>Peter Mueller</li>
@@ -129,7 +134,9 @@
             <li>Roger Loeb</li>
             <li>Scott Stonefield</li>
             <li>Sebastiaan Kruit</li>
+            <li>Stijn Jonker</li>
             <li>Tax Return Team</li>
+            <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
             <li>Uwe Ulrich</li>
             <li>Volker Schwaberow</li>
