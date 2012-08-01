@@ -88,6 +88,7 @@
             <li>Daniel Guido</li>
             <li>Dave Diemer</li>
             <li>Dirk Pape</li>
+            <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Eero Volotinen</li>
             <li>Eric Baur</li>
