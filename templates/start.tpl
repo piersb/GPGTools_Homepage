@@ -7,7 +7,12 @@
     </div>
     <div id="main">
         <div id="m_content">
-        <div id="announcement"><b>Wanna enjoy GPGTools in your local language:</b> help translate <a href="https://www.transifex.net/projects/p/GPGMail/" title="TransGPGMail">GPGMail</a> and <a href="https://www.transifex.net/projects/p/GPGKeychainAccess/" title="TransGKA">GPG Keychain Access</a> </div>
+        <div id="announcement">
+        <b>IMPORTANT:</b> GPGMail doesn't work under Mountain Lion, but we're working on a fix. Please help to ensure development by <a href="https://www.gpgtools.org/donate.html" title="10.8_Donate">donating</a>.
+        
+        <!-- Transifex announcment: <b>Wanna enjoy GPGTools in your local language:</b> help translate <a href="https://www.transifex.net/projects/p/GPGMail/" title="TransGPGMail">GPGMail</a> and <a href="https://www.transifex.net/projects/p/GPGKeychainAccess/" title="TransGKA">GPG Keychain Access</a> -->
+        
+        </div>
             <div class="project2">
                 <div class="table">
                                 <ul id="horizontal-list">
