@@ -5,7 +5,7 @@
     </div>
     <div id="spacer">
     </div>
-    <div id="info">
+    <div id="info" {if $title|strtolower == 'gpgmail'}style="margin-top: 8em"{/if}>
     {if $url_dl neq ''}
     <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="{$root}/images/download.png" title="download" alt="download" id="download"/></a>
     <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="ceil(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
@@ -18,26 +18,31 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <h3>Overview</h3>
+        	{if $title|strtolower == 'gpgmail'}
+<div id="announcement"> <b>IMPORTANT:</b> GPGMail doesn't work under Mountain Lion, but we're working on a fix. Please help to ensure development by <a href="https://www.gpgtools.org/donate.html" title="10.8_Donate">donating</a>.</div>
+{/if}<br><br>
+        	
+            <h3 {if $title|strtolower == 'gpgmail'}style="margin-top: 2em"{/if}>Overview</h3>
             {$overview}
             <p><br/><br/></p>
 
 
             <h3>Support and Issues</h3>
-            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=" target='_blank'>list of open issues</a> and ask on our <a href="http://support.gpgtools.org/">support page</a> if you need further help.{if $url_wiki neq ''} Additionally, we provide information in our <a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>.{/if}</p>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=" target='_blank'>list of open issues</a> and ask on our <a href="http://support.gpgtools.org/">support page</a> if you need further help.</p>
             {if is_array($limitations)}
-            <p>Often reported limitations:</p>
+            <!-- <p>Often reported limitations:</p>
             <ul id="limitations" class="sub">
                {foreach from=$limitations key=l_id item=l_title}
                 <li><a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$l_id}">Issue #{$l_id}</a>: {$l_title}.</li>
                 {/foreach}
-            </ul>
+            </ul> -->
             {else}
             <p><br/><br/></p>
             {/if}
 
 
             {if is_array($features)}
+            <br>
             <h3>Main Features</h3>
             <ul id="features" class="sub">
                {foreach from=$features key=f_url item=f_title}
@@ -48,6 +53,7 @@
 
 
             {if is_array($screenshots)}
+            <br>
             <h3>Screenshots</h3>
             <ul class="sub projects horizontal">
             {foreach from=$screenshots key=o_url item=o_title}
