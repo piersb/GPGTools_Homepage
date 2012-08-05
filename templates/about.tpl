@@ -24,7 +24,7 @@
             </ul>
             <p class="clear"><br/></p>
             <h3>Post a question to our support site</h3>
-                <form action="http://www.gpgtools.org/mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
+                <form action="mail.php" method="post" onsubmit="return encrypt();" name="feedback" id="feedback">
                     <b>Email</b> (so we can respond; optional)<br>
                     <input type="email" name="mail" /><br>
                     <b>Spam protection</b> (what it 24 minus 1?)<br>
