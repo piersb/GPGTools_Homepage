@@ -129,6 +129,7 @@
             <li>Patrik Faltstrom</li>
             <li>Paul Morten Vikanes</li>
             <li>Peter Eckel</li>
+            <li>Peter Krantz</li>
             <li>Peter Mueller</li>
             <li>Richard Forno</li>
             <li>Robert Tirrell</li>
@@ -153,6 +154,7 @@
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>Enigma Software</li>
                   <li>Everlevel ldt</li>
+                  <li>Forced Web</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>macon.cc</li>
@@ -160,8 +162,7 @@
                   <li>MakaluMedia</li>
                   <li>mg2 organization</li>
                   <li class="premium">NORDUnet</li>
-                  <li>PC Universe</li>
-                  <li>testing</li>
+                  <li>PC Universe ltd</li>
                   <li>Rayzon Technologies</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
