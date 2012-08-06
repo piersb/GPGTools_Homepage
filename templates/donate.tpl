@@ -131,6 +131,7 @@
             <li>Peter Eckel</li>
             <li>Peter Krantz</li>
             <li>Peter Mueller</li>
+            <li>Philip Jocks</li>
             <li>Richard Forno</li>
             <li>Robert Tirrell</li>
             <li>Robert Vaessen</li>
