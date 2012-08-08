@@ -86,7 +86,7 @@ h1, h2 { margin: 0px; padding: 0px; }
 .main header ul.important-buttons li { float: left; margin-right: 10px; }
 .main header ul.important-buttons { padding-top: 30px; margin-left: 498px; }
 .main nav.sections ul li { float: left; background: url(../images/section/default-bg-mini.png) no-repeat center bottom; height: 308px; }
-.main nav.sections ul li.gpgmail { background-image: url(../images/section/gpgmail-bg-mini.png); }
+.main nav.sections ul li.gpgmail { background-image: url(../images/section/gpgmail-bg-mini.png);}
 .main nav.sections ul li.gka { background-image: url(../images/section/gka-bg-mini.png); }
 .main nav.sections ul li.gpg { background-image: url(../images/section/macgpg2-bg-mini.png); }
 .main nav.sections ul li.gpgservices { background-image: url(../images/section/gpgservices-bg-mini.png); }
@@ -142,7 +142,7 @@ h1, h2 { margin: 0px; padding: 0px; }
 .main .container header > hgroup { clear: both; }
 /* Tool sections. */
 section.tool { color: #fff; font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px;
-    position: relative; }
+    position: relative;}
 section .divider { background: url(../images/section/divider-bg.png) repeat-x 0px 0px; height: 14px;
     position: absolute; top: 0px; z-index: 1; width: 100%;  }
 section .announcement { background: url(../images/section/announcement-header-bg.png) no-repeat 0px 0px; height: 42px;
@@ -154,7 +154,7 @@ section.tool ul, section.tool li { list-style: none; margin: 0px; padding: 0px; 
 section.tool h3 { font-family: "futura-pt"; font-size: 16px; font-style: normal; font-weight: 700; text-transform: uppercase;
     margin: 0px; padding: 0px; line-height: 24px; }
 /* GPGMail section. */
-section.gpgmail { height: 760px; background: url(../images/section/gpgmail-bg.jpg) no-repeat 0 0; }
+section.gpgmail { height: 760px; background: url(../images/section/gpgmail-bg.jpg) no-repeat 0 0;}
 section.gpgmail h1 { background: url(../images/titles/gpgmail.png) no-repeat 0px 0px    ; 
     text-indent: -9999px; width: 341px; height: 87px; }
 section.gpgmail h2 { font-family: "futura-pt-condensed"; font-weight: 400; font-size: 22px;
@@ -218,6 +218,9 @@ section.tool.gpgfriends a:hover { text-decoration: underline; }
 section.tool.gpgfriends .friends ul {
     font-size: 19px; margin-top: 25px; line-height: 25px;
 }
+
+section.tool { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
 
 /* Back to top */
 section.tool .back-to-top { position: absolute; z-index: 9997; 
