@@ -83,6 +83,7 @@
             <li>Christian Roessner</li>
             <li>Christian Tanner</li>
             <li>Christer Klasson</li>
+            <li>Christopher Gibson</li>
             <li>Claudius Wettstein</li>
             <li>Craig Stacey</li>
             <li>Daniel Guido</li>
@@ -156,6 +157,7 @@
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
+                  <li>Brattoo</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>Enigma Software</li>
                   <li>Everlevel ldt</li>
