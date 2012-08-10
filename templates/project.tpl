@@ -30,12 +30,12 @@
             <h3>Support and Issues</h3>
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=" target='_blank'>list of open issues</a> and ask on our <a href="http://support.gpgtools.org/">support page</a> if you need further help.</p>
             {if is_array($limitations)}
-            <!-- <p>Often reported limitations:</p>
+            <p>Often reported limitations:</p>
             <ul id="limitations" class="sub">
                {foreach from=$limitations key=l_id item=l_title}
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$l_id}">Issue #{$l_id}</a>: {$l_title}.</li>
+                <li><a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$l_id}">Issue #439{$l_id}</a>: GPGMail is not compatible with 10.8. Look <a href="http://support.gpgtools.org/kb/faq/how-can-i-uninstall-your-software">here</a> for info, on how to remove GPGMail.</li>
                 {/foreach}
-            </ul> -->
+            </ul>
             {else}
             <p><br/><br/></p>
             {/if}
