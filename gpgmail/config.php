@@ -64,7 +64,7 @@ $features = array(
     "$root/images/64bit.jpg" => array('The bundle is 64-bit ready', '64 bit'),
     "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
     "$root/images/secure.jpg" => array('Sign, encrypt, decrypt, and verify all your mails', 'mail security'),
-    "$root/images/update.png" => array("Integrated update mechanism and installer can <a href='$root/faq.php#3.2'>auto-fix the current installation</a> after an OS update", 'update mechanism'),
+    "$root/images/update.png" => array("Sparkle Updates", 'update mechanism'),
 );
 $theSite->assign('features', $features);
 
