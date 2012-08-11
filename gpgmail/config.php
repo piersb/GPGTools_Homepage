@@ -56,6 +56,7 @@ $theSite->assign('cnet', '3000-2144_4-7335');
 
 $limitations = array(
 '' => 'Currently GPGMail for Lion is an early alpha version under development',
+'439' => 'GPGMail is not compatible with 10.8. Look <a href="http://support.gpgtools.org/kb/faq/how-can-i-uninstall-your-software">here</a> for info, on how to remove GPGMail.',
 );
 $theSite->assign('limitations', $limitations);
 
