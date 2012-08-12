@@ -152,6 +152,7 @@
             <li>Uwe Ulrich</li>
             <li>Volker Schwaberow</li>
             <li>Wilbert Leeper</li>
+            <li>William Buchaus</li>
                 </ul>
             </div>
             <div class="table right">
