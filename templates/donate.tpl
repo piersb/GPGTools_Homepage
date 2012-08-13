@@ -144,6 +144,7 @@
             <li>Roger Loeb</li>
             <li>Ronny Schöbel</li>
             <li>Scott Stonefield</li>
+            <li>Sean McAvoy</li>
             <li>Sebastiaan Kruit</li>
             <li>Steffen W Soerensen</li>
             <li>Stijn Jonker</li>
