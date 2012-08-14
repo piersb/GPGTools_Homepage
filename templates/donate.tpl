@@ -76,6 +76,7 @@
             <li>Balazs Boros</li>
             <li>Beat Stehrenberger</li>
             <li>Bernd Wiese</li>
+            <li>Bill Woodcock</li>
             <li>Brian Long</li>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
@@ -97,6 +98,7 @@
             <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
+            <li>Franco Fichtner</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Guillaume Destuynder (Mozilla)</li>
