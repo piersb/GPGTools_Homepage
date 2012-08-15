@@ -119,6 +119,7 @@
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
             <li>Lutz Krebs</li>
+            <li>Magne Larsen</li>
             <li>Mark Harrigan</li>
             <li>Massimo Fabio</li>
             <li>Matthias Dörfler</li>
