@@ -78,6 +78,7 @@
             <li>Bernd Wiese</li>
             <li>Bill Woodcock</li>
             <li>Brian Long</li>
+            <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
