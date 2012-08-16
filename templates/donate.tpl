@@ -111,6 +111,7 @@
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
             <li>Josh Ballard</li>
+            <li>Jozef Mares</li>
             <li>Jürgen Ehmann</li>
             <li>Karl Pietrzak</li>
             <li>Ken Joy</li>
