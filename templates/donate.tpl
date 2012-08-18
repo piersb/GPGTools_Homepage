@@ -64,6 +64,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+            <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
             <li>Alun J Carr</li>
@@ -72,6 +73,7 @@
             <li>Arne Fahrenwalde</li>
             <li>Arthur Bauer</li>
             <li>Arthur Feldman</li>
+            <li>Asko Hochdorn</li>
             <li>Aurimas Mikalauskas</li>
             <li>Balazs Boros</li>
             <li>Beat Stehrenberger</li>
@@ -102,6 +104,7 @@
             <li>Franco Fichtner</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
+            <li>Greg Smith</li>
             <li>Guillaume Destuynder (Mozilla)</li>
             <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
