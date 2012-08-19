@@ -79,6 +79,7 @@
             <li>Beat Stehrenberger</li>
             <li>Bernd Wiese</li>
             <li>Bill Woodcock</li>
+            <li>Bjoern Brauel</li>
             <li>Brian Long</li>
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
@@ -96,7 +97,9 @@
             <li>Dirk Pape</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
+            <li>Doug Laakso</li>
             <li>Eero Volotinen</li>
+            <li>Ekkehard Gentz</li>
             <li>Eric Baur</li>
             <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
@@ -162,6 +165,7 @@
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
             <li>Thore Siebrands</li>
+            <li>TJ Marbois</li>
             <li>Uwe Ulrich</li>
             <li>Volker Schwaberow</li>
             <li>Wilbert Leeper</li>
