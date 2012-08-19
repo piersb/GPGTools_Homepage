@@ -193,6 +193,7 @@
                   <li class="premium">NORDUnet</li>
                   <li>PC Universe ltd</li>
                   <li>Rayzon Technologies</li>
+                  <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
                 </ul>
