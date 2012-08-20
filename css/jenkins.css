@@ -3,6 +3,12 @@
 
 /* GPGTools CD */
 body { background:url("http://www.gpgtools.org/images/bg.jpg"); }
+body, select, input, textarea, div {
+    font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+}
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
 #top-panel {
     vertical-align: middle;
     background: #333;
@@ -12,3 +18,4 @@ body { background:url("http://www.gpgtools.org/images/bg.jpg"); }
 #top-panel table tbody tr td a img {
     display:none;
 }
+
