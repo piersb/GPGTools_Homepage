@@ -112,6 +112,7 @@
             <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
+            <li>Ingo Schmitt</li>
             <li>Jessica Stolz</li>
             <li>Joël Brogniart</li>
             <li>Jonathan Care</li>
