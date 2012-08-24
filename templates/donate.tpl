@@ -80,6 +80,7 @@
             <li>Bernd Wiese</li>
             <li>Bill Woodcock</li>
             <li>Bjoern Brauel</li>
+            <li>Brian Farrell</li>
             <li>Brian Long</li>
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
