@@ -100,6 +100,7 @@
             <li>Dmitry Nedospasov</li>
             <li>Doug Laakso</li>
             <li>Eero Volotinen</li>
+            <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
             <li>Eric Baur</li>
             <li>Erwin Kooi</li>
