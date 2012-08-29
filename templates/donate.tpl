@@ -96,6 +96,7 @@
             <li>Daniel Kullman</li>
             <li>Dave Diemer</li>
             <li>Dirk Pape</li>
+            <li>Dirk Ruediger</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Doug Laakso</li>
