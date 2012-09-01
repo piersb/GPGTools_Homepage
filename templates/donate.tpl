@@ -116,6 +116,7 @@
             <li>Henry Stryker</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
+            <li>James Martin</li>
             <li>Jessica Stolz</li>
             <li>Joël Brogniart</li>
             <li>Jonathan Care</li>
@@ -184,6 +185,7 @@
                   <li>A. Martin IT-Consulting</li>
                   <li>Brattoo Propaganda Software</li>
                   <li class="premium">Clockwork Active Media Systems</li>
+                  <li>CogniSec Inc.</li>
                   <li>Enigma Software</li>
                   <li>Everlevel ldt</li>
                   <li>Five Reels</li>
@@ -203,6 +205,7 @@
                   <li>Saffron Solutions</li>
                   <li>Silvexis</li>
                   <li>TX512 Web Services</li>
+                  <li>Your Creative Solutions</li>
                 </ul>
             </div>
         </div>
