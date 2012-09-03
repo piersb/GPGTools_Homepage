@@ -100,7 +100,6 @@
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Doug Laakso</li>
-            <li>Douwe Schmidt</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
@@ -184,6 +183,7 @@
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
+                  <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc.</li>
