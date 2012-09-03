@@ -100,6 +100,7 @@
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Doug Laakso</li>
+            <li>Douwe Schmidt</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
