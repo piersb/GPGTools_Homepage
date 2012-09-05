@@ -71,6 +71,7 @@
             <li>Andrew Frangopoulos</li>
             <li>Anton Umnitsyn</li>
             <li>Arne Fahrenwalde</li>
+            <li>Art Taylor</li>
             <li>Arthur Bauer</li>
             <li>Arthur Feldman</li>
             <li>Asko Hochdorn</li>
@@ -203,6 +204,7 @@
                   <li class="premium">NORDUnet</li>
                   <li>PC Universe ltd</li>
                   <li>Rayzon Technologies</li>
+                  <li>Redbee Internet</li>
                   <li>Reflektis</li>
                   <li>Saffron Solutions</li>
                   <li>Silvexis</li>
