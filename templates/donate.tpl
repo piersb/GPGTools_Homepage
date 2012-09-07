@@ -76,6 +76,7 @@
             <li>Arthur Feldman</li>
             <li>Asko Hochdorn</li>
             <li>Aurimas Mikalauskas</li>
+            <li>Austin Saucier
             <li>Balazs Boros</li>
             <li>Beat Stehrenberger</li>
             <li>Bernd Wiese</li>
@@ -130,6 +131,7 @@
             <li>Karl Pietrzak</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
+            <li>Kenneth R Van Wyk</li>
             <li>Konstantin Krauter</li>
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
