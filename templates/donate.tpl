@@ -109,6 +109,7 @@
             <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
+            <li>Florian Blaser</li>
             <li>Franco Fichtner</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
