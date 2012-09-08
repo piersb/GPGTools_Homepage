@@ -202,6 +202,7 @@
                   <li>macon.cc</li>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
+                  <li>Midnight Oil Consulting</li>
                   <li>mg2 organization</li>
                   <li>MojoLingo</li>
                   <li class="premium">NORDUnet</li>
