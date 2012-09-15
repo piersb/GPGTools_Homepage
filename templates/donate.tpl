@@ -211,6 +211,7 @@
                   <li>MojoLingo</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
+                  <li>PID1 Technical Services</li>
                   <li>PC Universe ltd</li>
                   <li>Rayzon Technologies</li>
                   <li>Redbee Internet</li>
