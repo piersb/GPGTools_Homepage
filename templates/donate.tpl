@@ -112,6 +112,7 @@
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
             <li>Franco Fichtner</li>
+            <li>Fritz Mielert</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
