@@ -187,6 +187,7 @@
             <li>Toshinao Ishii</li>
             <li>Uwe Ulrich</li>
             <li>Volker Schwaberow</li>
+            <li>Volker Thieme</li>
             <li>Wilbert Leeper</li>
             <li>William Buchaus</li>
                 </ul>
