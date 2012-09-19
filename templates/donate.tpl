@@ -38,7 +38,7 @@
             GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="text" name="amount" value="10" style="width: 40px;"> &euro; &nbsp;&nbsp;&nbsp;
+<input type="text" name="amount" value="20" style="width: 40px;"> &euro; &nbsp;&nbsp;&nbsp;
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="donations@gpgtools.org">
 <input type="hidden" name="lc" value="US">
