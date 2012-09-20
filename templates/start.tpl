@@ -8,7 +8,9 @@
     <div id="main">
         <div id="m_content">
         <div id="announcement">
-        <b>IMPORTANT:</b> GPGMail doesn't work under Mountain Lion, but we're working on a fix. Please help to ensure development by <a href="https://www.gpgtools.org/donate.html" title="10.8_Donate">donating</a>.
+        <b>IMPORTANT:</b> GPGMail doesn't work under Mountain Lion, but we're working on a fix. Please help to ensure development by <a href="https://www.gpgtools.org/donate.html" title="10.8_Donate">donating</a>.<br>
+		<b>IMPORTANT:</b> If you're running <b>10.7.5</b> please download and install the newest GPGMail version from <a href="https://nightly.gpgtools.org/GPGMail-latest.dmg">nightly.gpgtools.org</a><br>
+		<b>IMPORTANT:</b> If you've installed the <b>security update for 10.6.8</b>, please find instructions to fix GPGMail <a href="http://support.gpgtools.org/discussions/everything/1959-osx-update-mail-53-compatibility#comment_18890884">here</a>
         
         <!-- Transifex announcment: <b>Wanna enjoy GPGTools in your local language:</b> help translate <a href="https://www.transifex.net/projects/p/GPGMail/" title="TransGPGMail">GPGMail</a> and <a href="https://www.transifex.net/projects/p/GPGKeychainAccess/" title="TransGKA">GPG Keychain Access</a> -->
         
