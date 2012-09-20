@@ -177,6 +177,7 @@
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
             <li>Sebastiaan Kruit</li>
+            <li>Shawn Becker</li>
             <li>Steffen W Soerensen</li>
             <li>Stijn Jonker</li>
             <li>Tax Return Team</li>
