@@ -34,7 +34,9 @@ $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
 $theSite->assign('reqs', 'OS X >= 10.6<br/>(get old release for: <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess%20(old).tbz2">10.4</a>)');
+$theSite->assign('minOS', '10.6');
 
+	
 $theSite->assign('overview', '
 	GPG Keychain Access is an open source application for Mac OS X.
 	It allows the user to manage OpenPGP keys, e.g. creating, adjusting and verifying keys and communication with the key servers.<p>
