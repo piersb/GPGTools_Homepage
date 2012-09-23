@@ -224,6 +224,7 @@
                   <li>Reflektis</li>
                   <li>Saffron Solutions</li>
                   <li>Silvexis</li>
+                  <li>train4media</li>
                   <li>TX512 Web Services</li>
                   <li>XIAG AG</li>
                   <li>Your Creative Solutions</li>
