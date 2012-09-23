@@ -50,7 +50,7 @@
 		<Program_Specific_Category>Utilities</Program_Specific_Category>
 		<Program_Category_Class>Security &amp; Privacy::Encryption Tools</Program_Category_Class>
 		<Program_Categories />
-		<Program_System_Requirements />
+		<Program_System_Requirements>{if $minOS != ''}Mac OS X {$minOS}{/if}</Program_System_Requirements>
 		<File_Info>
 			<File_Size_Bytes>{$changelog[$changelog|@key][1]['sparkle_size']}</File_Size_Bytes>
 			<File_Size_K>{math equation="round(x / 1000)" x=$changelog[$changelog|@key][1]['sparkle_size']}</File_Size_K>
