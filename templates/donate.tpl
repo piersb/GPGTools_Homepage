@@ -123,6 +123,7 @@
             <li>Ingo Schmitt</li>
             <li>James Martin</li>
             <li>Jannis Leidel</li>
+            <li>Jason Waldhelm</li>
             <li>Jessica Stolz</li>
             <li>Joël Brogniart</li>
             <li>Jörg Bühmann</li>
