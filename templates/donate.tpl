@@ -64,6 +64,7 @@
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+            <li>Abel O Nelson</li>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
@@ -94,6 +95,7 @@
             <li>Christer Klasson</li>
             <li>Christopher Gibson</li>
             <li>Claudius Wettstein</li>
+            <li>Clytie Siddall</li>
             <li>Craig Stacey</li>
             <li>Daniel Guido</li>
             <li>Daniel Kullman</li>
@@ -140,8 +142,10 @@
             <li>Konstantin Krauter</li>
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
+            <li>Lorenzo Grespan</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
+            <li>Marcel Dietzmann</li>
             <li>Mark Harrigan</li>
             <li>Massimo Fabio</li>
             <li>Matthias Dörfler</li>
@@ -162,6 +166,7 @@
             <li>Olivier Morel</li>
             <li>Patrick Santana</li>
             <li>Patrik Faltstrom</li>
+            <li>Patrick Vander Linden</li>
             <li>Paul Morten Vikanes</li>
             <li>Paul Richardson</li>
             <li>Peter Eckel</li>
