@@ -153,6 +153,7 @@
             <li>Michael Gracie</li>
             <li>Michael Langford</li>
             <li>Michael Prewitt</li>
+            <li>Michael Ruse</li>
             <li>Mike Davis</li>
             <li>Mike Hellers</li>
             <li>N J L Macassey</li>
@@ -235,6 +236,7 @@
                   <li>Translucent ApS</li>
                   <li>TX512 Web Services</li>
                   <li>XIAG AG</li>
+                  <li>XPD AB</li>
                   <li>Your Creative Solutions</li>
                 </ul>
             </div>
