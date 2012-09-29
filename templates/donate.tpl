@@ -186,6 +186,7 @@
             <li>Ronny Schöbel</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
+            <li>Sean Moss-Pultz</li>
             <li>Sebastiaan Kruit</li>
             <li>Shawn Becker</li>
             <li>Steffen W Soerensen</li>
