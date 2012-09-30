@@ -126,6 +126,7 @@
             <li>James Martin</li>
             <li>Jannis Leidel</li>
             <li>Jason Waldhelm</li>
+            <li>Jeff Smith</li>
             <li>Jessica Stolz</li>
             <li>Joël Brogniart</li>
             <li>Jörg Bühmann</li>
