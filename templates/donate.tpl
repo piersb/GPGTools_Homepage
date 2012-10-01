@@ -65,6 +65,8 @@
                 <h4>Private Persons</h4>
                 <ul class="sub">
             <li>Abel O Nelson</li>
+            <li>Adam Bishop</li>
+            <li>Adiel Akplogan</li>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
@@ -192,6 +194,7 @@
             <li>Sebastiaan Kruit</li>
             <li>Shawn Becker</li>
             <li>Steffen W Soerensen</li>
+            <li>Stephan Hansen-Oest</li>
             <li>Stijn Jonker</li>
             <li>Tax Return Team</li>
             <li>Thomas Bruehl</li>
