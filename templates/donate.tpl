@@ -150,6 +150,7 @@
             <li>Magne Larsen</li>
             <li>Marcel Dietzmann</li>
             <li>Mark Harrigan</li>
+            <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
             <li>Matthias Dörfler</li>
             <li>Michael Dierck</li>
@@ -161,6 +162,7 @@
             <li>Mike Hellers</li>
             <li>N J L Macassey</li>
             <li>Nagib Tharani</li>
+            <li>Nathan Pearlstein</li>
             <li>Neil Brown</li>
             <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
@@ -196,6 +198,7 @@
             <li>Steffen W Soerensen</li>
             <li>Stephan Hansen-Oest</li>
             <li>Stijn Jonker</li>
+            <li>Sven Haskel</li>
             <li>Tax Return Team</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
