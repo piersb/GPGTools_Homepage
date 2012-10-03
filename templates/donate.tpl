@@ -128,6 +128,7 @@
             <li>Ingo Schmitt</li>
             <li>James Martin</li>
             <li>Jannis Leidel</li>
+            <li>Jarbas de Freitas Peixoto</li>
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
             <li>Jessica Stolz</li>
