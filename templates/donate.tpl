@@ -120,6 +120,7 @@
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
+            <li>Guido Viarengo</li>
             <li>Guillaume Destuynder (Mozilla)</li>
             <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
@@ -134,6 +135,7 @@
             <li>Jörg Bühmann</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
+            <li>Jorge Valencia Alvarez</li>
             <li>Josh Ballard</li>
             <li>Jozef Mares</li>
             <li>Jürgen Ehmann</li>
