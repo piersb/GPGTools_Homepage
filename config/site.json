@@ -1,0 +1,132 @@
+{
+    "url": "https://www.gpgtools.org",
+    "title": "GPGTools: It is worth protecting what you &hearts;",
+    "navigation-items": [
+        {"title": "Donate", "link": "#donate", "class": "donate"},
+        {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
+        {"title": "Friends", "link": "#friends", "class": "friends"},
+        {"title": "GPGTools on Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png"}
+    ],
+    "introduction": {
+        "title": "Use GPGTools to encrypt, decrypt, sign and verify files or messages.",
+        "subtitle": "Manage your GPG Keychain with a few simple clicks and experience the full power of gpg easier than even before on a mac."
+    },
+    "minor-feature-text": {
+        "lion-only": "OS X Lion only",
+        "64bit-compatible": "64bit ready",
+        "part-of-gpgtools": "Part of the GPGTools installer.",
+        "auto-update": "Automatically downloads new updates as they become available."
+    },
+    "sections": {
+        "gpgtools": {
+            "version-info": {
+                "current-version": "20120318",
+                "checksum": "184bf74e55c509da0aa4943ab7cc39ecd5caf99f",
+                "versions": "./gpgtools-versions.json"
+            },
+            "view": "gpgtools"
+        },
+        "gpgmail": {
+            "tool-name": "GPGMail",
+            "main-section-intro": "Send secure<br>, encrypted and signed messages.",
+            "title": "Send secure, encrypted and signed messages.",
+            "subtitle": "And all that with simple, fast and intuitive tools.",
+            "minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
+            "version-info": {
+                "current-version": "2.0b4",
+                "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525",
+                "versions": "./gpgmail-versions.json",
+                "is-new-version": true,
+                "announcement": "GPGMail 2.0 for Lion is out! Get it while it's hot",
+                "os-x-versions": [
+                    {"version": "10.6", "url": "http://..."},
+                    {"version": "10.5", "url": "http://..."},
+                    {"version": "10.4", "url": "http://..."},
+                    {"version": "10.3", "url": "http://..."}
+                ]
+            },
+            "features": [
+                [
+                    {"title": "Encrypt and sign messages with ease",
+                     "content": "Simply click on the lock and sign buttons to encrypt and sign your messages. GPGMail will learn from past messages and automatically sets the encrypt and sign status of newmessages for you."}
+                ],
+                [
+                    {"title": "Automatically decrypts and verifies messages",
+                     "content": "Encrypted messages are automatically decrypted, signed messages verified. Let GPGMail do the heavy lifting for you."},
+                    {"title": "GPG and S/MIME in love",
+                     "content": "Switch between GPG and S/MIME in a second and after some learning time, let GPGMail do it for you."}
+                ],
+                [
+                    {"title": "Spot errors quickly", "content": "If GPGMail fails to decrypt or verify a message you'll see a descriptive error message including hints at how to solve them."},
+                    {"title": "Be secure early on", "content": "GPGMail will encrypt & sign your drafts, so they are never stored on your email server insecurely."}
+                ],
+                [
+                    {"title": "Choose the key to sign from",
+                     "content": "Two of your keys share the same address? Select the one you want to sign from."},
+                    {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+                ]
+            ],
+            "screenshots": [
+                {"title": "Screenshot 1", "description": "Screenshot 1 description", "image": "GPGS0.png"},
+                {"title": "Screenshot 2", "description": "Screenshot 2 description", "image": "GPGS1.png"},
+                {"title": "Screenshot 3", "description": "Screenshot 3 description", "image": "GPGS2.png"},
+                {"title": "Screenshot 4", "description": "Screenshot 4 description", "image": "GPGS3.png"},
+                {"title": "Screenshot 5", "description": "Screenshot 5 description", "image": "GPGS4.png"},
+                {"title": "Screenshot 6", "description": "Screenshot 6 description", "image": "GPGS5.png"}
+            ]
+        },
+        "gka": {
+            "main-section-intro": "Manage your GPG Keychain with ease.",
+            "short-name": "gka",
+            "version-info": {
+	            "current-version": "1.0b7",
+	            "checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3",
+	            "versions": "./gka-versions.json",
+	            "announcement": "Whatever"
+            }
+        },
+        "macgpg": {
+            "main-section-intro": "The GPG engine for OS X.",
+            "short-name": "macgpg",
+            "version-info": {
+	            "current-version": "2.0.17-9",
+	            "checksum": "6fc707319cd6f26fbc902aeec90939ac13aef7f3",
+	            "versions": "./macgpg-versions.json"
+            }
+        },
+        "gpgservices": {
+            "main-section-intro": "Perform GPG operations from the OS X service menu.",
+            "short-name": "gpgservices",
+            "version-info": {
+	            "current-version": "1.7",
+	            "checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2",
+	            "versions": "./gpgservices-versions.json"
+            }
+        },
+        "gpgfriends": {
+            "title": "Here's our thank you to all the people who support our project.",
+            "subtitle": "Thanks to your donations we can dedicate even more time to this beloved project of ours.",
+            "team": [
+                {"name": "Alexander Willner", "url": "...", "bio": "...", "image": "..."},
+                {"name": "Kristof Koerner", "url": "...", "bio": "...", "image": "..."},
+                {"name": "Lukas Pitschl", "url": "...", "bio": "...", "image": "..."},
+                {"name": "Roman Zechmeister", "url": "...", "bio": "...", "image": "..."}
+            ],
+            "vips": "./vips.json",
+            "companies": "./companies.json",
+            "friends": "./friends.json",
+            "supporters": "./supporters.json",
+            "view": "friends"
+        }
+    },
+    "donation-gifts": {
+    	"gifts": [
+    		{"id": "first", "amount": 0, "nomarker": true, "steps": 5, "increment": 5},
+    		{"id": "25", "default": true, "amount": 25, "title": "Early acces to GPGMail for Mountain Lion<br>Your name in our Supporters section.", "steps": 7, "increment": 5 },
+    		{"id": "75", "amount": 75, "title": "Let‘s be friends!<br>Your name will be in our Friends section!", "steps": 15, "increment": 5},
+    		{"id": "150", "amount": 150, "title": "Free T-Shirt", "steps": 34, "increment": 25},
+    		{"id": "1000", "amount": 1000, "title": "Your name with picture or logo in our VIP section.<br>Elevated support", "steps": 50, "increment": 80}
+        ],
+        "end-amount": 5000
+    }
+}

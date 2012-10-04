@@ -1,0 +1,116 @@
+[{
+    "version": "2.0b4",
+    "build": "405",
+    "release_date": 1329141900,
+    "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525 ",
+    "info": {
+        "fixes": ["A huge bunch of fixes", "So crazy much", "It's not even real how much is in there..."],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a30.zip",
+        "sig": "MC0CFC5Lw\/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=",
+        "size": "5779188",
+        "minOS": "10.7"
+    }
+},
+{
+    "version": "2.0a30",
+    "build": "230",
+    "release_date": 1329141900,
+    "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525 ",
+    "info": {
+        "fixes": ["Disables excessive logging which might have written sensitive information to \/var\/log\/system.log* in some cases."],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a30.zip",
+        "sig": "MC0CFC5Lw\/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=",
+        "size": "5779188",
+        "minOS": "10.7"
+    }
+}, {
+    "version": "2.0a21",
+    "release_date": 1324992180,
+    "checksum": "65aa08be0b05324c82bd73af95e4c7985648342d ",
+    "info": {
+        "fixes": ["Just another update that fixes some issues and enhances the stability"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a21.zip",
+        "sig": "MCwCFFbaiEjAcorXsJxSstsTL+u08lm6AhQrBEEarWClFbMl2r8Py\/TA1T3hdg==",
+        "size": "3463494",
+        "minOS": "10.7"
+    }
+}, {
+    "version": "2.0a19",
+    "release_date": 1324732980,
+    "checksum": "7849dc2c6ebb9a16622a71f336033d330e936f13 ",
+    "info": {
+        "fixes": ["Special binary-only Xmas Release 2011 for 10.7", "Enhanced the stability a lot, not introduced new features", "Still alpha quality (e.g. missing error messages)"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "",
+        "sig": "",
+        "size": "3485385",
+        "minOS": "10.7"
+    }
+}, {
+    "version": "2.0a4",
+    "release_date": 1315138980,
+    "checksum": "91463d97da7a302cca2fbc93695ad980485b9264 ",
+    "info": {
+        "fixes": ["Fourth alpha for 10.7", "Closed <a href=\"http:\/\/gpgtools.lighthouseapp.com\/projects\/65764-gpgmail\/tickets?q=tagged%3A2.0a4\">38 tickets<\/a>", "Submitted <a href=\"https:\/\/github.com\/GPGTools\/GPGMail\/commits\/lion\">65 commits,  119 files changed, 6675 insertions, 3461 deletions<\/a>"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a4.zip",
+        "sig": "MCwCFB0X4UZ5O6lxmc7DwEBaqYv5njoSAhQNkP9QjXiAQsfDcPRBZlkuw5ZmRg==",
+        "size": "1955283",
+        "minOS": "10.7"
+    }
+}, {
+    "version": "2.0a3",
+    "release_date": 1313929380,
+    "checksum": "3f21326824fa108bae0c97c4c22716e6b485b824 ",
+    "info": {
+        "fixes": ["Third alpha for 10.7"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a3.zip",
+        "sig": "MCwCFAkO9b3aqEX4PYpOsz2\/sbZ8bQUFAhQhmnTKXr37yE3Ov+kFsbTd1BQtGA==",
+        "size": "1936168",
+        "minOS": "10.7"
+    }
+}, {
+    "version": "2.0a2",
+    "release_date": 1313782500,
+    "checksum": "0d7b8e9d53d4d122f790146515de4f043e3c8458 ",
+    "info": {
+        "fixes": ["Second alpha for 10.7", "Fixed over 50 major and minor issues"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a2.zip",
+        "sig": "MCwCFFboZcQHP0j6CVH8SYDRBmFs9fA2AhRYxSU3dgFNPXoVMJwnKcGxjad\/0w==",
+        "size": "1946022",
+        "minOS": "10.7"
+    }
+}, {
+    "version": "2.0a1",
+    "release_date": 1312624800,
+    "checksum": "d3f4be6345f5ddb57162f97357c5c3efd2f1be78 ",
+    "info": {
+        "fixes": ["First alpha for 10.7"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a1.mailbundle.zip",
+        "sig": "MCwCFA4bt7Iad\/8rLOVXc01ThGH1+BpJAhRC1iIU45+OAzfHGZPqMSbupF5P0w==",
+        "size": "2746726",
+        "minOS": "10.7"
+    }
+}]

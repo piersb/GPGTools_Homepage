@@ -1,0 +1,76 @@
+<div id="call-for-donation" class="modal special-modal clearfix" style="display:none">
+  <div class="lp-slider lp-vertical-slider">
+    <div class="lp-slide clearfix">
+      <div class="intro">
+        <h1>Support GPGTools with a donation</h1>
+        
+        <div>
+	        <p>By donating money to GPGTools you are supporting our work. The donation will be used for the development of the GPGTools project: developer accounts, marketing, design, etc. There are several ways to donate. Currently, we offer PayPal, Flattr and Bitcon donations, but if you want to use another service please let us know.
+          </p>
+        </div>
+        <div class="download">
+          <h1>You're about to download</h1>
+          
+          <div class="tool-logo">
+          	<div class="gpgmail" style="display:none"><img src="images/download/gpgmail-logo.png" width="151" height="80" alt="GPGMail Logo"></div>
+          	<div class="gpgtools" style="display:none"><img src="images/download/gpgtools-logo.png" alt="GPGTools Logo" width="145" height="80" /></div>
+          	<div class="gka" style="display:none"><img src="images/download/gka-logo.png" alt="GPG Keychain Access Logo" width="151" height="78" /></div>
+          	<div class="macgpg" style="display:none"><img src="images/download/macgpg-logo.png" alt="MacGPG Logo" width="160" height="80" /></div>
+          	<div class="gpgservices"><img src="images/download/gpgservices-logo.png" alt="MacGPG Logo" width="170" height="80" /></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="switcher">
+        <div class="donation-option">
+          <h1>Select the donation option you prefer</h1>
+          
+          <div>
+            <p>We‘re really happy about any donation, just choose your favorite way of paying below. You can also just download without donating by clicking the „I want it for free“-button. If you decide to donate, please use the slider below to choose the amount. Higher amounts will add more goodies.</p>
+          </div>
+          
+          <ul class="payment-options clearfix">
+            <li><input type="radio" name="payment-option" value="paypal" class="payment-option payment-option-paypal" id="payment-option-paypal"> <label for="payment-option-paypal"><img src="images/icons/paypal-donation.png" width="48" height="34" alt="Donate with Paypal"> - no account neccessary</label></li>
+            <li><input type="radio" name="payment-option" value="no-donation" class="payment-option payment-option-nodonation" id="payment-option-nodonation"> <label for="payment-option-nodonation">No thank, maybe next time</label></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="donation-slider-container hidden"> 
+        <div class="donation-slider">
+          <div class="slider-container clearfix">
+            <span class="start-amount">0</span>
+            <span class="end-amount"><?= $config['donation-gifts']['end-amount'] ?></span>
+            <div class="slider"></div>	
+          </div>
+          <ul class="gifts clearfix" end-amount="<?= $config['donation-gifts']['end-amount'] ?>">
+          <? foreach($config['donation-gifts']['gifts'] as $gift): ?>
+            <li class="gift-<?= $gift['id'] ?> gift" data-nomarker="<?=$gift['nomarker'] ?>" data-steps="<?= $gift['steps'] ?>" data-increment="<?= $gift['increment'] ?>" data-id="<?= $gift['id'] ?>" data-amount="<?= $gift['amount'] ?>" data-default="<?= $gift['default'] ?>">
+            <? if(!$gift['nomarker']): ?>
+              <a href="#" class="donation-step"><img src="images/donation-step.png" width="6" height="6" alt="Donate <?= $gift['amount'] ?> Euros"></a>
+              <? endif ?>
+              <div class="invisible">
+              <? if($gift['id'] == 'first'): ?>
+                &nbsp;
+              <? else: ?>
+                <h3><?= $gift['amount'] ?> &euro;</h3>
+                <h4><?= $gift['title'] ?></h4>
+              <? endif ?>
+              </div>
+            </li>
+          <? endforeach ?>
+          </ul>
+          <div class="donation-gift-heart" style="display:none"></div>
+        </div>
+      </div>
+      
+      <a href="#download" class="button download-button">Download</a>
+    </div>
+    <div class="lp-slide">
+      <div class="forwarding-to-paypal">
+        <h1 class="forwarding">You are being forwarded to PayPal ...</h1>
+        <img src="images/download/heart.png" width="67" height="73">
+      </div>
+    </div>
+  </div>
+</div>

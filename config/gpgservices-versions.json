@@ -1,0 +1,92 @@
+[{
+    "version": "1.7",
+    "release_date": 1335801600,
+    "checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2 ",
+    "info": {
+        "fixes": ["Replace MacGPGME by Libmacgpg", "Bugfix: Output doubling when encrypting\/decrypting", "Bugfix: GPGServices do timeout", "Bugfix: Aliases are not handled correctly", "Bugfix: Search is broken", "Feature: Implement file verification", "More: Many minor bug fixes and tweaks"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-1.7.dmg",
+        "sig": "",
+        "size": "1449362"
+    }
+}, {
+    "version": "1.6",
+    "release_date": 1305723600,
+    "checksum": "552d6fac4bb98e932a9e5c37e2a0f5ea5f64a57e ",
+    "info": {
+        "fixes": ["Feature: Any file and folder can be en- and de-crypted", "Feature: Signatures can be imported", "Enhancement: Installer can update GPGServices in the HOME directory", "Enhancement: New icons and GPGService is now associated with the according file extensions", "Enhancement: Added Growl notifications", "More: Have a look at <a href='http:\/\/gpgtools.lighthouseapp.com\/projects\/67607\/milestones\/98266'>the closed issues<\/a> and <a href='https:\/\/github.com\/GPGTools\/GPGServices\/commits'>last changes<\/a>"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-1.6.dmg",
+        "sig": "",
+        "size": "1399096"
+    }
+}, {
+    "version": "1.5",
+    "release_date": 1300791600,
+    "checksum": "d3ff1ca41643c9aceeb714ef0ab7c0a9ae9f23d3 ",
+    "info": {
+        "fixes": ["Feature: Encryption support for text (thank you Moritz)", "Feature: Started encryption support for files (thank you Moritz)", "Feature: Insert key|fingerprint shows a selection window (thank you Moritz)", "Feature: Started encryption support for files (thank you Moritz)", "Feature: Signing does not require a default key anymore (thank you Moritz)", "Enhancement: Installer checks for GnuPG now", "Enhancement: Logout is not neccessary anymore"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-1.5.dmg",
+        "sig": "",
+        "size": "1041848"
+    }
+}, {
+    "version": "1.4",
+    "release_date": 1296039600,
+    "checksum": "4da3e7a62a49c631fd0e117536c0380528072a10 ",
+    "info": {
+        "fixes": ["Just a new icon and an unified installer script"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-1.4.dmg",
+        "sig": "",
+        "size": "975922"
+    }
+}, {
+    "version": "1.3",
+    "release_date": 1295780400,
+    "checksum": "",
+    "info": {
+        "fixes": ["added support for decryption", "installer checks for gpg existence"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-1.3.dmg",
+        "sig": "",
+        "size": "1259702"
+    }
+}, {
+    "version": "1.2b",
+    "release_date": 1295262000,
+    "checksum": "",
+    "info": {
+        "fixes": ["now compatible with MacGPG 2.0.17", "logout\/login not needed anymore", "renamed context menu", "better feedback when importing existing keys", "changed product the identifier", "updated version information"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-20110117.dmg",
+        "sig": "",
+        "size": "1239638"
+    }
+}, {
+    "version": "1.1a",
+    "release_date": 1295866800,
+    "checksum": "",
+    "info": {
+        "fixes": ["initial port from the old sources to Snow Leopard"],
+        "features": []
+    },
+    "sparkle": {
+        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGServices\/GPGServices-1.1a1.dmg",
+        "sig": "",
+        "size": "1087357"
+    }
+}]

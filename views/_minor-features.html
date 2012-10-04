@@ -1,0 +1,11 @@
+<? $positions = array(24, 118, 209, 301);
+   $classes = array("lion-only" => "lion-only", "64bit-compatible" => "bit64-ready",
+                    "part-of-gpgtools" => "part-of-gpgtools", "auto-update" => "sparkle");
+ ?>
+
+<ul class="minor-features clearfix">
+    <? $minor_features = $section->get('minor-features', array()); ?>
+    <? foreach($minor_features as $name): ?>
+    <li class="<?= $classes[$name] ?>" data-arrow-position="<?= $positions[$minor_features->index()] ?>"><a href="#">&nbsp;<span><?= $config['minor-feature-text'][$name] ?></span></a></li>
+    <? endforeach ?>
+</ul>

@@ -1,0 +1,30 @@
+<base-view href="site.html" />
+
+<div fill="[role=main]" method="append-children">
+    <?
+        foreach($sections as $name => $section): 
+            $section['name'] = $name;
+            $view = "_section";
+            if($name == "gpgtools")
+                $view = $section['view'];
+            else if($name == "gpgfriends")
+                continue;
+        
+            echo render_view($view, array("section" => $section, "config" => $config));
+        endforeach;
+    ?>
+</div>
+
+<div fill="#all-modals" method="replace">
+	<div id="modals">
+		<?
+			// Render all the necessary modals.
+			$modals = array("contact", "donation", "donation-thank-you", "friends", "news", "team", "signature-verification", "hash-verification");
+        	foreach($modals as $modal):
+        		echo render_view("modals/$modal", array("config" => $config));
+        	endforeach;
+        
+        	//echo render_view("ios", array("config" => $config));
+        ?>
+	</div>
+</div>

@@ -1,0 +1,27 @@
+<div class="modal special-modal clearfix gpgtools-screenshots" id="gpgmail-screenshots">
+    <div class="big-image">
+        <!--<img src="../images/screenshots/gpgmail/GPGS1.png" alt="GPGS1" width="690" height="312" />-->
+    </div>
+    
+    <div class="info">
+        <h1>Title</h1>
+        <p class="description">Description</p>
+    </div>
+    
+    <div class="thumbnails clearfix">
+        <a href="#" class="prev nav invisible"><img src="../images/screenshots/arrow-blue-prev.png" alt="Previous Screenshots" width="30" height="30" /></a>
+        <div class="slider">
+            <ul class="clearfix">
+            <? foreach($screenshots as $screenshot): ?>
+                <li><a href="#"><?= screenshot_thumbnail($tool, $screenshot, $width=140, $height=106) ?></a>
+                    <div class="title"><?= $screenshot['title'] ?></div>
+                <? if(!empty($screenshot['description'])): ?>
+                    <div class="description"><?= $screenshot['description'] ?></div>
+                <? endif ?>            
+                </li>
+            <? endforeach; ?>
+            </ul>
+        </div>
+        <a href="#" class="next nav"><img src="../images/screenshots/arrow-blue-next.png" alt="Next Screenshots" width="30" height="30" /></a>
+    </div>
+</div>

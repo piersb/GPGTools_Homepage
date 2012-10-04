@@ -1,0 +1,80 @@
+	<div class="modal special-modal clearfix" id="friends-page" style="display:none">
+		<div class="intro">
+			<h1>Supporters</h1>
+			
+			<ul class="levels lp-section-nav">
+				<li class="vips lp-section"><h2>VIPs</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
+				<li class="companies lp-section"><h2>Companies</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
+				<li class="friends lp-section"><h2>Friends</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
+				<li class="supporters lp-section"><h2>Supporters</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
+			</ul>
+		</div>
+		
+		<div class="switcher lp-slider lp-vertical-slider lp-sections">
+			<div class="your-area lp-slide" style="display:none">
+				<h1>Thank you</h1>
+				
+				<p>Thank you
+This is YOUR area. We just want to show you our appreciation for supporting our project with your donations. You‘re helping us grow, work faster and more efficently.</p>
+
+<p>You‘ll appear in our supporters list, after donating to GPG Tools, please have a look around and see who‘s also supporting.</p>
+
+<p>Thanks you from the bottom of our hearts.</p>
+
+<p>Your GPGTools team.</p>
+			</div>
+			<? $items = array("vips" => "VIPs", "companies" => "Companies");
+			   foreach($items as $key => $title):
+			?>
+			<div class="<?= $key ?> lp-slide invisible" style="display:none">
+				<h1><?= $title ?></h1>
+				
+				<div class="lp-slider lp-horizontal-slider" data-slide-width="320">
+					<div class="lp-horizontal-slider-container clearfix">
+						<ul class="clearfix lp-slide invisible">
+					<? $people = $config->get('sections')->get('gpgfriends')->get($key);
+					   $i = 1;
+					   foreach($people as $name):
+					       $default = $key == 'vips' ? "vip-logo-default.png" : "companies-logo-default.png";
+					?>						
+						<li class="<?= $i % 2 == 0 ? "right" : "left" ?>"><div class="logo"><img src="<?= (is_array($name) || is_object($name)) && !empty($name[1]) ? $name[1] : "images/friends/$default" ?>" alt="VIP Logo" height="27" /></div><h2><?= is_array($name) || is_object($name) ? $name[0] : $name ?></h2></li>
+												<? if($i % 6 == 0): ?>
+						</ul>
+						<ul class="clearfix lp-slide invisible">
+						<? endif ?>
+
+					<? $i++; endforeach ?>
+						
+					</div>
+				</div>
+				<nav class="clearfix">
+					<a href="#" class="prev disabled" alt="Previous entries">Prev</a>
+					<a href="#" class="next" alt="Next entries">Next</a>
+				</nav>
+			</div>
+			<? endforeach ?>
+			
+			<? $items = array("friends" => "Friends", "supporters" => "Supporters");
+			   foreach($items as $key => $title):
+			?>
+			<div class="<?= $key ?> lp-slide invisible" style="display:none">
+				<h1><?= $title ?></h1>
+				
+				<ul class="clearfix">
+					<? $people = $config->get('sections')->get('gpgfriends')->get($key);
+					   foreach($people as $name):
+					?>
+					<li><?= $name ?></li>
+					<? endforeach; ?>
+				</ul>
+				<div class="content"></div>
+				
+				
+				<nav class="clearfix">
+					<a href="#" class="prev disabled" alt="Previous entries">Prev</a>
+					<a href="#" class="next" alt="Next entries">Next</a>
+				</nav>
+			</div>
+			<? endforeach ?>
+		</div>
+	</div>

@@ -1,0 +1,45 @@
+<div class="modal special-modal clearfix release-notes" id="gpgmail-release-notes">
+    <div class="intro">
+    	<h1>Release Notes</h1>
+    	
+    	<div>Here's a list of all notes connected to our releases. Take a look around and don't heistate to ask, if you?re missing something, alright?</div>
+    	
+    	<div class="version-scroller">
+    		<div class="shadow-top" style="display:none">&nbsp;</div>
+	    	<a class="scroll-top" style="display:none">Scroll to Top</a>
+	    	<ul class="versions lp-section-nav">
+	    		<? foreach($versions as $version): ?>
+	    		<li class="lp-section">
+	    			<h2>Version <?= $version["version"] ?> <? if($version["build"]): ?><span>(build <?= $version["build"] ?>)</span><? endif; ?></h2>
+	    			<time datetime="<?= date("Y-m-d", $version["release_date"]) ?>2012-02-13"><?= date("F, jS, Y", $version["release_date"]) ?></time>
+	    		</li>
+	    		<? endforeach ?>
+	    	</ul>
+	    	<div class="shadow">&nbsp;</div>
+    	</div>
+    	
+    	<a href="#" class="older-versions">Older Versions</a>
+    </div>
+    <div class="switcher lp-slider lp-vertical-slider lp-sections">
+    	<? foreach($versions as $version): ?>
+    	<div class="version lp-slide" style="display:none">
+    		<h1>Version <?= $version["version"] ?> <? if($version["build"]): ?><span>(build <?= $version["build"] ?>)</span><? endif; ?></h1>
+    		
+    		<div><?= $version["info"]["intro"] ?></div>
+    		<div>
+    			<ul>
+    			<? foreach($version["info"]["features"] as $item): ?>
+	                <li class="feature"><?= $item ?></li>
+	            <? endforeach ?>
+       			<? foreach($version["info"]["fixes"] as $item): ?>
+	                <li class="fix"><?= $item ?></li>
+	            <? endforeach ?>
+	            </ul>
+    		</div>
+    		<? if(!empty($version["intro"]["footer-note"])): ?>
+    		<div><?= $version["intro"]["footer-note"] ?></div>
+    		<? endif ?>
+    	</div>
+    	<? endforeach ?>
+    </div>
+</div>
