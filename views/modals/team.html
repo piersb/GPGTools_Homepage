@@ -3,80 +3,37 @@
 		<h1>The Team</h1>
 		
 		<ul class="team-members lp-section-nav">
-			<li class="clearfix lp-section">
-				<div class="avatar">
-				<div class="picture">
-					<img src="images/team/lukele-small.jpg" alt="Lukas Pitschl - GPGMail Lead Developer - Left And Leaving" width="57" height="57" />
-				</div>
-				</div>
-				<hgroup>
-					<h2>Lukas <span>Pitschl</span></h2>
-					<h3>GPGMail Lead Developer</h3>
-					<a href="http://twitter.com/lukele" class="link twitter">http://twitter.com/lukele</a>
-				</hgroup>
-			</li>
-			<li class="clearfix lp-section">
-				<div class="avatar">
-				<div class="picture">
-					<img src="images/team/lukele-small.jpg" alt="Lukas Pitschl - GPGMail Lead Developer - Left And Leaving" width="57" height="57" />
-				</div>
-				</div>
-				<hgroup>
-					<h2>Kristof <span>Körner</span></h2>
-					<h3>GPGMail Lead Developer</h3>
-					<a href="http://twitter.com/lukele" class="link twitter">http://twitter.com/lukele</a>
-				</hgroup>
-			</li>
-			<li class="clearfix lp-section">
-				<div class="avatar">
-				<div class="picture">
-					<img src="images/team/lukele-small.jpg" alt="Lukas Pitschl - GPGMail Lead Developer - Left And Leaving" width="57" height="57" />
-				</div>
-				</div>
-				<hgroup>
-					<h2>Roman <span>Zechmeister</span></h2>
-					<h3>GPGMail Lead Developer</h3>
-					<a href="http://twitter.com/lukele" class="link twitter">http://twitter.com/lukele</a>
-				</hgroup>
-			</li>
-			<li class="clearfix lp-section">
-				<div class="avatar">
-					<div class="picture">
-						<img src="images/team/lukele-small.jpg" alt="Lukas Pitschl - GPGMail Lead Developer - Left And Leaving" width="57" height="57" />
-					</div>
-				</div>
-				<hgroup>
-					<h2>Alex <span>Willner</span></h2>
-					<h3>GPGMail Lead Developer</h3>
-					<a href="http://twitter.com/lukele" class="link twitter">http://twitter.com/lukele</a>
-				</hgroup>
-			</li>
+			<? foreach($config['sections']['team']['members'] as $member) { ?>
+				<li class="clearfix lp-section">
+					<div class="avatar"><div class="picture">
+						<img src="images/team/<?= $member['image'] ?>" alt="<?= $member['name'] ?>" width="57" height="57" />
+					</div></div>
+					<hgroup>
+						<h2><?= strtok($member['name'], " ") ?> <span><?= strtok(" ") ?></span></h2>
+						<h3><?= $member['role'] ?></h3>
+						<? if($member['twitter']) { ?>
+							<a href="http://twitter.com/<?= $member['twitter'] ?>" class="link twitter">Twitter</a>
+						<? } ?>
+					</hgroup>
+				</li>
+			
+			<? } ?>
 		</ul>
 	</div>
 	
 	<div class="switcher lp-vertical-slider lp-slider lp-sections">
 		<div class="gpgtools lp-slide" style="display:none">
-			<h1>GPG<span>Tools</span></h1>
+			<h1><?= $config['sections']['team']['title'] ?></h1>
 			
 			<div class="picture"><img src="images/team/gpgtools-logo.png" alt="gpgtools-logo" width="109" height="122" /></div>
+			<?= $config['sections']['team']['text'] ?>
 			
-			<p>So here we are now! our people with similar interests, who have actually never met in person. We‘ve found each other over the internet and have been working together passionately for quite some time now.</p>
-
-			<p>With our work we‘re trying to make security easier and better, because it‘s worth saving what you love.</p>
-
-			<p>facebook.com/gpgtools<br>twitter.com/gpgtools</p>
 		</div>
-		<div class="lukele lp-slide" style="display:none">
-			<h1><span>Lukas</span> Pitschl</h1>
-		</div>
-		<div class="steve lp-slide" style="display:none">
-			<h1><span>Kristof</span> Körner</h1>
-		</div>
-		<div class="roman lp-slide" style="display:none">
-			<h1><span>Roman</span> Zechmeister</h1>
-		</div>
-		<div class="alex lp-slide" style="display:none">
-			<h1><span>Alex</span> Willner</h1>
-		</div>
+		<? foreach($config['sections']['team']['members'] as $member) { ?>
+			<div class="lp-slide" style="display:none">
+				<h1><span><?= strtok($member['name'], " ") ?></span> <?= strtok(" ") ?></h1>
+				<?= $member['text'] ?>
+			</div>
+		<? } ?>
 	</div>
 </div>

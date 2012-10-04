@@ -5,11 +5,16 @@
         {"title": "Donate", "link": "#donate", "class": "donate"},
         {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
         {"title": "Friends", "link": "#friends", "class": "friends"},
-        {"title": "GPGTools on Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png"}
+        {"title": "Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png"},
+        {"title": "Contact", "link": "#contact", "list-class": "special"},
+        {"title": "Team", "link": "#team", "class": "team", "list-class": "special"}
     ],
     "introduction": {
-        "title": "Use GPGTools to encrypt, decrypt, sign and verify files or messages.",
-        "subtitle": "Manage your GPG Keychain with a few simple clicks and experience the full power of gpg easier than even before on a mac."
+		"title": "GPGTools",
+        "strong": "Use GPGTools to encrypt, decrypt, sign and verify files or messages.",
+        "normal": "Manage your GPG Keychain with a few simple clicks and experience the full power of gpg easier than even before on a mac.",
+		"download-all-button": "Download All",
+		"getting-started-button": "Getting Started"
     },
     "minor-feature-text": {
         "lion-only": "OS X Lion only",
@@ -28,7 +33,7 @@
         },
         "gpgmail": {
             "tool-name": "GPGMail",
-            "main-section-intro": "Send secure<br>, encrypted and signed messages.",
+            "main-section-intro": "Send secure,<br> encrypted and<br>signed messages.",
             "title": "Send secure, encrypted and signed messages.",
             "subtitle": "And all that with simple, fast and intuitive tools.",
             "minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
@@ -76,7 +81,7 @@
             ]
         },
         "gka": {
-            "main-section-intro": "Manage your GPG Keychain with ease.",
+            "main-section-intro": "Manage your<br>GPG Keychain<br>with ease.",
             "short-name": "gka",
             "version-info": {
 	            "current-version": "1.0b7",
@@ -86,7 +91,7 @@
             }
         },
         "macgpg": {
-            "main-section-intro": "The GPG engine for OS X.",
+            "main-section-intro": "The GPG engine<br>for OS X.",
             "short-name": "macgpg",
             "version-info": {
 	            "current-version": "2.0.17-9",
@@ -95,7 +100,7 @@
             }
         },
         "gpgservices": {
-            "main-section-intro": "Perform GPG operations from the OS X service menu.",
+            "main-section-intro": "Perform GPG<br>operations from the<br>OS X Service Menu.",
             "short-name": "gpgservices",
             "version-info": {
 	            "current-version": "1.7",
@@ -106,18 +111,30 @@
         "gpgfriends": {
             "title": "Here's our thank you to all the people who support our project.",
             "subtitle": "Thanks to your donations we can dedicate even more time to this beloved project of ours.",
-            "team": [
-                {"name": "Alexander Willner", "url": "...", "bio": "...", "image": "..."},
-                {"name": "Kristof Koerner", "url": "...", "bio": "...", "image": "..."},
-                {"name": "Lukas Pitschl", "url": "...", "bio": "...", "image": "..."},
-                {"name": "Roman Zechmeister", "url": "...", "bio": "...", "image": "..."}
-            ],
             "vips": "./vips.json",
             "companies": "./companies.json",
             "friends": "./friends.json",
             "supporters": "./supporters.json",
             "view": "friends"
-        }
+        },
+		"team": {
+            "title": "GPGTools",
+            "text": "<p>So here we are now! our people with similar interests, who have actually never met in person. We‘ve found each other over the internet and have been working together passionately for quite some time now.</p><p>With our work we‘re trying to make security easier and better, because it‘s worth saving what you love.</p><p>facebook.com/gpgtools<br>twitter.com/gpgtools</p>",
+            "members": [
+				{"name": "Alex Willner", "role": "",
+				"twitter": "", "url": "", "image": "lukele-small.jpg",
+				"text": "Test"},
+				{"name": "Kristof Koerner", "role": "",
+				"twitter": "", "url": "http://www.kristofkoerner.de/", "image": "lukele-small.jpg",
+				"text": ""},
+				{"name": "Lukas Pitschl", "role": "GPGMail Lead Developer",
+				"twitter": "lukele", "url": "", "image": "lukele-small.jpg",
+				"text": ""},
+				{"name": "Roman Zechmeister", "role": "GPG Keychain Access Developer",
+				"twitter": "", "url": "", "image": "lukele-small.jpg",
+				"text": ""}
+            ]
+		}
     },
     "donation-gifts": {
     	"gifts": [

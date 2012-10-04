@@ -93,8 +93,8 @@
             if(file_exists(BASE_DIR . '/lib/helpers.php'))
                 require_once BASE_DIR . '/lib/helpers.php';
                 
-            extract($config);
             $_params = $config;
+            extract($config);
         
             ob_start();
             include sprintf("%s/%s", BASE_DIR_VIEW, str_replace(BASE_DIR_VIEW, "", $view_path));

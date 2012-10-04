@@ -1,10 +1,7 @@
 <nav class="top clearfix">
     <ul>
-        <li><a href="#donate" class="donate">Donate</a></li>
-        <li><a href="http://support.gpgtools.org" class="support">Support</a></li>
-        <li><a href="#friends" class="friends">Friends</a></li>
-        <li><a href="http://twitter.com/gpgtools" class="support"><img src="images/twitter-bird.png" width="22" height="16" alt="GPGTools on Twitter"></a></li>
-        <li class="special"><a href="#contact">Contact</a></li>
-        <li class="special"><a class="team" href="#team">Team</a></li>
+		<? foreach ($config['navigation-items'] as $item) { ?>
+			<li class="<?= $item['list-class'] ?>"><a href="<?= $item['link'] ?>" class="<?= $item['class'] ?>"><? if($item['image']){ ?><img src="images/<?= $item['image'] ?>" width="22" height="16" alt="$item['title']"><? } else echo $item['title'] ?></a></li>
+        <? } ?>
     </ul>
 </nav>
