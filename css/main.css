@@ -789,6 +789,10 @@ float: left; width: 140px; padding: 0px 10px; }
 #team-page .intro li.active a.twitter, #team-page .intro li:hover a.twitter {
 	background: url('../images/icons/twitter-logo-wb.png') no-repeat -16px 0px;
 }
+#team-page .intro li .website { background: url('../images/icons/website-logo-wb.png') no-repeat 0px 0px; }
+#team-page .intro li.active a.website, #team-page .intro li:hover a.website {
+	background: url('../images/icons/website-logo-wb.png') no-repeat -16px 0px;
+}
 #team-page .switcher .picture { margin-top: -4px; margin-bottom: 15px; text-align: center; }
 #team-page .switcher p { padding: 10px 0px; }
 #team-page .switcher h1 span { font-weight: 400; }

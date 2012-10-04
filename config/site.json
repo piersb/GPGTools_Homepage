@@ -109,15 +109,22 @@
             }
         },
         "gpgfriends": {
-            "title": "Here's our thank you to all the people who support our project.",
-            "subtitle": "Thanks to your donations we can dedicate even more time to this beloved project of ours.",
+		    "left-title": "Supporters",
+            "title": "Thank you",
+            "text": "<p>This is YOUR area. We just want to show you our appreciation for supporting our project with your donations. You‘re helping us grow, work faster and more efficently.</p><p>You‘ll appear in our supporters list, after donating to GPG Tools, please have a look around and see who‘s also supporting.</p><p>Thanks you from the bottom of our hearts.</p><p>Your GPGTools team.</p>",
             "vips": "./vips.json",
             "companies": "./companies.json",
             "friends": "./friends.json",
             "supporters": "./supporters.json",
-            "view": "friends"
+            "vips-title": "VIPs",
+            "companies-title": "Companies",
+            "friends-title": "Friends",
+            "supporters-title": "Supporters",
+            "view": "friends",
+			"donate-text1": "Become a part by ", "donate-text2": "donating"
         },
 		"team": {
+		    "left-title": "The Team",
             "title": "GPGTools",
             "text": "<p>So here we are now! our people with similar interests, who have actually never met in person. We‘ve found each other over the internet and have been working together passionately for quite some time now.</p><p>With our work we‘re trying to make security easier and better, because it‘s worth saving what you love.</p><p>facebook.com/gpgtools<br>twitter.com/gpgtools</p>",
             "members": [
@@ -130,7 +137,7 @@
 				{"name": "Lukas Pitschl", "role": "GPGMail Lead Developer",
 				"twitter": "lukele", "url": "", "image": "lukele-small.jpg",
 				"text": ""},
-				{"name": "Roman Zechmeister", "role": "GPG Keychain Access Developer",
+				{"name": "Roman Zechmeister", "role": "Developer",
 				"twitter": "", "url": "", "image": "lukele-small.jpg",
 				"text": ""}
             ]
@@ -145,5 +152,16 @@
     		{"id": "1000", "amount": 1000, "title": "Your name with picture or logo in our VIP section.<br>Elevated support", "steps": 50, "increment": 80}
         ],
         "end-amount": 5000
-    }
+    },
+	"donation": {
+		"intro-title": "Support GPGTools with a donation",
+		"intro-text": "<p>By donating money to GPGTools you are supporting our work. The donation will be used for the development of the GPGTools project: developer accounts, marketing, design, etc. There are several ways to donate. Currently, we offer PayPal, Flattr and Bitcon donations, but if you want to use another service please let us know.</p>",
+		"option-title": "Select the donation option you prefer",
+		"option-text": "<p>We‘re really happy about any donation, just choose your favorite way of paying below. You can also just download without donating by clicking the „I want it for free“-button. If you decide to donate, please use the slider below to choose the amount. Higher amounts will add more goodies.</p>",
+		"option-paypal": " - no account neccessary",
+		"option-no": "No thank, maybe next time",
+		"download-title": "You're about to download",
+		"download": "Download",
+		"forwarding": "You are being forwarded to PayPal ..."
+	}
 }

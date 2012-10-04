@@ -1,15 +1,12 @@
+<? $donation = $config['donation'] ?>
 <div id="call-for-donation" class="modal special-modal clearfix" style="display:none">
   <div class="lp-slider lp-vertical-slider">
     <div class="lp-slide clearfix">
       <div class="intro">
-        <h1>Support GPGTools with a donation</h1>
-        
-        <div>
-	        <p>By donating money to GPGTools you are supporting our work. The donation will be used for the development of the GPGTools project: developer accounts, marketing, design, etc. There are several ways to donate. Currently, we offer PayPal, Flattr and Bitcon donations, but if you want to use another service please let us know.
-          </p>
-        </div>
+        <h1><?= $donation['intro-title'] ?></h1>
+        <div><?= $donation['intro-text'] ?></div>
         <div class="download">
-          <h1>You're about to download</h1>
+          <h1><?= $donation['download-title'] ?></h1>
           
           <div class="tool-logo">
           	<div class="gpgmail" style="display:none"><img src="images/download/gpgmail-logo.png" width="151" height="80" alt="GPGMail Logo"></div>
@@ -23,15 +20,12 @@
       
       <div class="switcher">
         <div class="donation-option">
-          <h1>Select the donation option you prefer</h1>
-          
-          <div>
-            <p>We‘re really happy about any donation, just choose your favorite way of paying below. You can also just download without donating by clicking the „I want it for free“-button. If you decide to donate, please use the slider below to choose the amount. Higher amounts will add more goodies.</p>
-          </div>
+			<h1><?= $donation['option-title'] ?></h1>
+			<div><?= $donation['option-text'] ?></div>
           
           <ul class="payment-options clearfix">
-            <li><input type="radio" name="payment-option" value="paypal" class="payment-option payment-option-paypal" id="payment-option-paypal"> <label for="payment-option-paypal"><img src="images/icons/paypal-donation.png" width="48" height="34" alt="Donate with Paypal"> - no account neccessary</label></li>
-            <li><input type="radio" name="payment-option" value="no-donation" class="payment-option payment-option-nodonation" id="payment-option-nodonation"> <label for="payment-option-nodonation">No thank, maybe next time</label></li>
+            <li><input type="radio" name="payment-option" value="paypal" class="payment-option payment-option-paypal" id="payment-option-paypal"> <label for="payment-option-paypal"><img src="images/icons/paypal-donation.png" width="48" height="34" alt="Donate with Paypal"><?= $donation['option-paypal'] ?></label></li>
+            <li><input type="radio" name="payment-option" value="no-donation" class="payment-option payment-option-nodonation" id="payment-option-nodonation"> <label for="payment-option-nodonation"><?= $donation['option-no'] ?></label></li>
           </ul>
         </div>
       </div>
@@ -64,11 +58,11 @@
         </div>
       </div>
       
-      <a href="#download" class="button download-button">Download</a>
+      <a href="#download" class="button download-button"><?= $donation['download'] ?></a>
     </div>
     <div class="lp-slide">
       <div class="forwarding-to-paypal">
-        <h1 class="forwarding">You are being forwarded to PayPal ...</h1>
+        <h1 class="forwarding"><?= $donation['forwarding'] ?></h1>
         <img src="images/download/heart.png" width="67" height="73">
       </div>
     </div>

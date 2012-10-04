@@ -1,30 +1,24 @@
+<? $friends = $config['sections']['gpgfriends'] ?>
 	<div class="modal special-modal clearfix" id="friends-page" style="display:none">
 		<div class="intro">
-			<h1>Supporters</h1>
+			<h1><?= $friends['left-title'] ?></h1>
 			
 			<ul class="levels lp-section-nav">
-				<li class="vips lp-section"><h2>VIPs</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
-				<li class="companies lp-section"><h2>Companies</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
-				<li class="friends lp-section"><h2>Friends</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
-				<li class="supporters lp-section"><h2>Supporters</h2><p>Become a part by <a href="#" class="show-donation-page">donating</a></p></li>
+				<li class="vips lp-section"><h2><?= $friends['vips-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+				<li class="companies lp-section"><h2><?= $friends['companies-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+				<li class="friends lp-section"><h2><?= $friends['friends-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+				<li class="supporters lp-section"><h2><?= $friends['supporters-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
 			</ul>
 		</div>
 		
 		<div class="switcher lp-slider lp-vertical-slider lp-sections">
 			<div class="your-area lp-slide" style="display:none">
-				<h1>Thank you</h1>
-				
-				<p>Thank you
-This is YOUR area. We just want to show you our appreciation for supporting our project with your donations. You‘re helping us grow, work faster and more efficently.</p>
-
-<p>You‘ll appear in our supporters list, after donating to GPG Tools, please have a look around and see who‘s also supporting.</p>
-
-<p>Thanks you from the bottom of our hearts.</p>
-
-<p>Your GPGTools team.</p>
+				<h1><?= $friends['title'] ?></h1>
+				<?= $friends['text'] ?>
 			</div>
-			<? $items = array("vips" => "VIPs", "companies" => "Companies");
-			   foreach($items as $key => $title):
+			<? $items = array("vips", "companies");
+			   foreach($items as $key):
+			   $title = $friends[$key . "-title"];
 			?>
 			<div class="<?= $key ?> lp-slide invisible" style="display:none">
 				<h1><?= $title ?></h1>
@@ -32,7 +26,7 @@ This is YOUR area. We just want to show you our appreciation for supporting our 
 				<div class="lp-slider lp-horizontal-slider" data-slide-width="320">
 					<div class="lp-horizontal-slider-container clearfix">
 						<ul class="clearfix lp-slide invisible">
-					<? $people = $config->get('sections')->get('gpgfriends')->get($key);
+					<? $people = $friends[$key];
 					   $i = 1;
 					   foreach($people as $name):
 					       $default = $key == 'vips' ? "vip-logo-default.png" : "companies-logo-default.png";
@@ -54,14 +48,15 @@ This is YOUR area. We just want to show you our appreciation for supporting our 
 			</div>
 			<? endforeach ?>
 			
-			<? $items = array("friends" => "Friends", "supporters" => "Supporters");
-			   foreach($items as $key => $title):
+			<? $items = array("friends", "supporters");
+			   foreach($items as $key):
+			   $title = $friends[$key . "-title"];
 			?>
 			<div class="<?= $key ?> lp-slide invisible" style="display:none">
 				<h1><?= $title ?></h1>
 				
 				<ul class="clearfix">
-					<? $people = $config->get('sections')->get('gpgfriends')->get($key);
+					<? $people = $friends[$key];
 					   foreach($people as $name):
 					?>
 					<li><?= $name ?></li>

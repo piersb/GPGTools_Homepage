@@ -1,9 +1,10 @@
+<? $team = $config['sections']['team'] ?>
 <div class="modal special-modal clearfix" id="team-page" style="display:none">
 	<div class="intro">
-		<h1>The Team</h1>
+		<h1><?= $team['left-title'] ?></h1>
 		
 		<ul class="team-members lp-section-nav">
-			<? foreach($config['sections']['team']['members'] as $member) { ?>
+			<? foreach($team['members'] as $member) { ?>
 				<li class="clearfix lp-section">
 					<div class="avatar"><div class="picture">
 						<img src="images/team/<?= $member['image'] ?>" alt="<?= $member['name'] ?>" width="57" height="57" />
@@ -14,6 +15,10 @@
 						<? if($member['twitter']) { ?>
 							<a href="http://twitter.com/<?= $member['twitter'] ?>" class="link twitter">Twitter</a>
 						<? } ?>
+						<!-- TODO: Symbole Untereinander, eigenes Symbol für die Website (website-logo-wb.png anpassen).-->
+						<!--<? if($member['url']) { ?>
+							<a href="<?= $member['url'] ?>" class="link website">Website</a>
+						<? } ?>-->
 					</hgroup>
 				</li>
 			
@@ -23,13 +28,13 @@
 	
 	<div class="switcher lp-vertical-slider lp-slider lp-sections">
 		<div class="gpgtools lp-slide" style="display:none">
-			<h1><?= $config['sections']['team']['title'] ?></h1>
+			<h1><?= $team['title'] ?></h1>
 			
 			<div class="picture"><img src="images/team/gpgtools-logo.png" alt="gpgtools-logo" width="109" height="122" /></div>
-			<?= $config['sections']['team']['text'] ?>
+			<?= $team['text'] ?>
 			
 		</div>
-		<? foreach($config['sections']['team']['members'] as $member) { ?>
+		<? foreach($team['members'] as $member) { ?>
 			<div class="lp-slide" style="display:none">
 				<h1><span><?= strtok($member['name'], " ") ?></span> <?= strtok(" ") ?></h1>
 				<?= $member['text'] ?>
