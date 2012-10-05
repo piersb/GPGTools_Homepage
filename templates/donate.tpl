@@ -83,11 +83,13 @@
             <li>Austin Saucier
             <li>Balazs Boros</li>
             <li>Beat Stehrenberger</li>
+            <li>Benjamin Wilson</li>
             <li>Bernd Wiese</li>
             <li>Bill Woodcock</li>
             <li>Bjoern Brauel</li>
             <li>Brian Farrell</li>
             <li>Brian Long</li>
+            <li>Burnsitech</li>
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
@@ -117,6 +119,7 @@
             <li>Florian Blaser</li>
             <li>Franco Fichtner</li>
             <li>Fritz Mielert</li>
+            <li>Furuno Satoshi</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
@@ -132,6 +135,7 @@
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
             <li>Jessica Stolz</li>
+            <li>Joakim Norbäck</li>
             <li>Joël Brogniart</li>
             <li>Jörg Bühmann</li>
             <li>Jonathan Care</li>
@@ -146,6 +150,7 @@
             <li>Ken van Wyk</li>
             <li>Kenneth R Van Wyk</li>
             <li>Konstantin Krauter</li>
+            <li>Kurt Erik Lindqvist</li>
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
             <li>Lorenzo Grespan</li>
@@ -185,6 +190,7 @@
             <li>Philip Jocks</li>
             <li>Radek Mrskos</li>
             <li>Raymond Chudzinski</li>
+            <li>Reinhard Eigner</li>
             <li>Richard Forno</li>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
@@ -198,6 +204,7 @@
             <li>Sean Moss-Pultz</li>
             <li>Sebastiaan Kruit</li>
             <li>Shawn Becker</li>
+            <li>Shlok Datye</li>
             <li>Steffen W Soerensen</li>
             <li>Stephan Hansen-Oest</li>
             <li>Stijn Jonker</li>
