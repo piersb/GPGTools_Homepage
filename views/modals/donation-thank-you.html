@@ -1,11 +1,7 @@
+<? $donation = $config['donation'] ?>
 	<div class="modal special-modal" id="download-page" style="display:none">
-		<h1>THANK YOU VERY MUCH,<br>WE REALLY APPRECIATE IT!</h1>
-		
-		<div>
-		With your donation you're really helping us and our work at GPGTools,
-		since we all try to find as much time as possible between our paid jobs
-		to work on more interesting projects for you and us.
-		</div>
+		<h1><?= $donation['thanks-title'] ?></h1>
+		<div><?= $donation['thanks-text'] ?></div>
 		
 		<div class="tool-logo">
 			<img style="display:none" class="gpgmail" src="images/download/gpgmail-logo.png" width="151" height="80" alt="GPGMail Logo">
@@ -15,5 +11,5 @@
 			<img style="display:none" class="gpgservices" src="images/download/gpgservices-logo.png" alt="MacGPG Logo" width="170" height="80" />
 		</div>
 		
-		<a href="#download" class="button">Download</a>
+		<a href="#download" class="button"><?= $donation['download'] ?></a>
 	</div>

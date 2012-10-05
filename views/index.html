@@ -7,7 +7,7 @@
             $view = "_section";
             if($name == "gpgtools")
                 $view = $section['view'];
-            else if($name == "gpgfriends" || $name == "team")
+            else if($name == "gpgfriends" || $name == "team" || $name == "general")
                 continue;
         
             echo render_view($view, array("section" => $section, "config" => $config));

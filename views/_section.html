@@ -1,9 +1,10 @@
+<? $general = $config['sections']['general'] ?>
 <section class="<?= short_name($section) ?> tool" id="<?= short_name($section) ?>" data-name="<?= short_name($section) ?>" data-version="<?= current_version($section) ?>">
       <div class="divider">&nbsp;</div>
       <div class="container no-announcement">
         <header class="clearfix">
           <? if($section['version-info']['is-new-version']): ?>
-          <div class="new-badge">NEW<br><span><?= $section['version-info']['current-version'] ?></span></div>
+		  <div class="new-badge"><?= $general['new'] ?><br><span><?= $section['version-info']['current-version'] ?></span></div>
           <? endif ?>
           <div class="title-screenshots clearfix">
 	        <hgroup>
@@ -19,22 +20,21 @@
           	<div class="download">
               <a href="#" class="gpgmail-download action-button gpgtools-download versions-tip"><span>Download</span></a>
               <div class="versions-panel special-modal" style="display: none" id="gpgmail-versions">
-                <h1>Version Info</h1>
+                <h1><?= $general['version-info-title'] ?></h1>
                 <ul class="nav clearfix">
-                  <li>Version 2.0 <span>&bull;</span></li>
-                  <li><a href="#release-notes">Release Notes</a> <span>&bull;</span></li>
-                  <li><a href="#older-versions">Older Versions</a></li>
+                  <li><?= $section['version-info']['current-version'] ?> <span>&bull;</span></li>
+                  <li><a href="#release-notes"><?= $general['release-notes'] ?></a> <span>&bull;</span></li>
+                  <li><a href="#older-versions"><?= $general['old-versions'] ?></a></li>
                 </ul>
                 
-                <a class="verification-button hash" href="#">cce665b098ec7cc747d3a2995f9c06be15ad6525</a>
+                <a class="verification-button hash" href="#"><?= $section['version-info']['checksum'] ?></a>
                 
-                <a class="verification-button signature-file" href="#">PGP Signature</a>
+                <a class="verification-button signature-file" href="#"><?= $general['pgp-signature'] ?></a>
                 
                 <ul class="clearfix versions" style="display:none">
-                  <li class="version-106"><a href="#">OS X<br><span>10.6</span></a></li>
-                  <li class="version-105"><a href="#">OS X<br><span>10.5</span></a></li>
-                  <li class="version-104"><a href="#">OS X<br><span>10.4</span></a></li>
-                  <li class="version-103"><a href="#">OS X<br><span>10.3</span></a></li>
+					<? foreach($section['version-info']['os-x-versions'] as $version): ?>
+						<li class="version-<?= str_replace('.', '', $version['version']) ?>"><a href="<?= $version['url'] ?>"><?= $general['osx'] ?><br><span><?= $version['version'] ?></span></a></li>
+					<? endforeach ?>
                 </ul>
               </div>
             </div>

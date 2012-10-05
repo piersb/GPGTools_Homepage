@@ -23,6 +23,14 @@
         "auto-update": "Automatically downloads new updates as they become available."
     },
     "sections": {
+		"general": {
+			"new": "NEW",
+			"version-info-title": "Version Info",
+			"release-notes": "Release Notes",
+			"old-versions": "Older Versions",
+			"pgp-signature": "PGP Signature",
+			"osx": "OS X"
+		},
         "gpgtools": {
             "version-info": {
                 "current-version": "20120318",
@@ -162,6 +170,58 @@
 		"option-no": "No thank, maybe next time",
 		"download-title": "You're about to download",
 		"download": "Download",
-		"forwarding": "You are being forwarded to PayPal ..."
+		"forwarding": "You are being forwarded to PayPal ...",
+		"thanks-title": "THANK YOU VERY MUCH,<br>WE REALLY APPRECIATE IT!",
+		"thanks-text": "With your donation you're really helping us and our work at GPGTools, since we all try to find as much time as possible between our paid jobs to work on more interesting projects for you and us."
+	},
+	"contact": {
+		"intro-title": "May we help?",
+		"intro-text": "<p>We would be pleased to hear from you! If you need assistance, visit our Support Site, but first consider reading our Quickstart Tutorial.</p><p>In order to answer your questions as fast as possible, your message will be posted to our public support forum where other GPGTools users will be able to help out as well.</p><p>If you're message contains cofidential information or you only want us to see it,please make sure to activate the checkbox underneath your message.</p>",
+		"form-title": "Post a question to our support site",
+		"form-email": "E-Mail (so we can respond. Optional)",
+		"form-subject": "Subject",
+		"form-message": "How may we help you?",
+		"form-spam": "Spam protection (24 minus 1?)",
+		"form-private": "Only show message to the GPGTools support staff.",
+		"form-send": "Send Feedback",
+		"working": "Your message is being sent...",
+		"sent-title": "Thank you for the message!",
+		"sent-text": "<p>We'll get back to you as soon as possible.</p><p>If your message is public, there's a good chance some of our other users will answer your question quickly.</p>"
+	},
+	"signature-verification": {
+		"title": "Verify the signature",
+		"text": "<p>Follow these steps to verify that the package you've downloaded has not been tampered with.</p>",
+		"footer": "Bravo, you've just verified your first file!",
+		"image-subline": "Click for larger screenshot",
+		"steps": [
+			{"image": "sig-step-1.jpg", "title": "Install GPGTools"},
+			{"image": "sig-step-2.jpg", "title": "Download the GPGTools OpenPGP key and import it using GPG Keychain Access"},
+			{"image": "sig-step-3.jpg", "title": "Select the signature file you've downloaded in Finder"},
+			{"image": "sig-step-4.jpg", "title": "Right-click and select Services › OpenPGP: Verify signature of file"},
+			{"image": "sig-step-5.jpg", "title": "Check the message shown in the opening window"}
+		]
+	},
+	"hash-verification": {
+		"title": "Verify the Package hash",
+		"text": "<p>Follow these steps to verify that the package you've downloaded has not been tampered with.</p>",
+		"footer": "Bravo...!",
+		"image-subline": "Click for larger screenshot",
+		"steps": [
+			{"image": "hash-step-1.jpg", "title": "Open Terminal in /Applications/Utilities"},
+			{"image": "hash-step-2.jpg", "title": "Step2"},
+			{"image": "hash-step-3.jpg", "title": "Step3"},
+			{"image": "hash-step-4.jpg", "title": "Step4"},
+			{"image": "hash-step-5.jpg", "title": "Step5"}
+		]
+	},
+	"ios": {
+		"site-title": "GPGTools | It is worth protecting what you &hearts;",
+		"title": "GPGTools",
+		"subtitle": "It's worth protecting what you love.",
+		"text": "GPGTools is recently only available on OS X",
+		"store": "OpenPGP apps on the App Store",
+		"follow": "For updates follow us on"
 	}
 }
+
+

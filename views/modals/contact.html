@@ -1,35 +1,28 @@
-	<div class="modal clearfix" id="contact-page" style="display:none">
+<? $contact = $config['contact'] ?>
+<div class="modal clearfix" id="contact-page" style="display:none">
 		<div class="intro">
-			<h1>May we help?</h1>
-			<div>
-				<p>We would be pleased to hear from you!If you need assistance, visit our Support Site, but first consider reading our Quickstart Tutorial.</p>
-				<p>In order to answer your questions as fast as possible, your message will be posted to our public support forum where other GPGTools users will be able to help out as well.</p>
-				<p>If you're message contains cofidential information or you only want us to see it,please make sure to activate the checkbox underneath your message.</p>
-			</div>
+			<h1><?= $contact['intro-title'] ?></h1>
+			<div><?= $contact['intro-text'] ?></div>
 		</div>
 		
 		<div class="switcher lp-slider lp-vertical-slider">
 			<form action="/message" method="post" class="slide lp-slide">
 				<fieldset class="clearfix">
-					<legend>Post a question to our support site</legend>
-					<input type="text" placeholder="Email (so we can respond. Optional)" name="email" value="">
-					<input type="text" placeholder="Subject" name="subject" value="">
-					<textarea name="message" placeholder="How may we help you?"></textarea>
-					<label for="some_math" id="ham-protection"><span>Spam protection</span> (24 minus 1?)</label>
+					<legend><?= $contact['form-title'] ?></legend>
+					<input type="text" placeholder="<?= $contact['form-email'] ?>" name="email" value="">
+					<input type="text" placeholder="<?= $contact['form-subject'] ?>" name="subject" value="">
+					<textarea name="message" placeholder="<?= $contact['form-message'] ?>"></textarea>
+					<label for="some_math" id="ham-protection"><?= $contact['form-spam'] ?></label>
 					<input type="text" class="math" name="ham" id="some_math" value="">
-					<label class="private"><input type="checkbox" name="private" value="1"> <span>Only show message to the GPGTools support staff.</span></label>
+					<label class="private"><input type="checkbox" name="private" value="1"> <span><?= $contact['form-private'] ?></span></label>
 				
-					<a href="#" class="button">Send Feedback</a>
+					<a href="#" class="button"><?= $contact['form-send'] ?></a>
 				</fieldset>
 			</form>
-			<div class="submitting slide lp-slide" style="display:none; padding-top: 1px"><h1>Your message is being sent...</h1></div>
+			<div class="submitting slide lp-slide" style="display:none; padding-top: 1px"><h1><?= $contact['working'] ?></h1></div>
 			<div class="thanks slide lp-slide" style="display:none; margin-top: -1px">
-				<h1>Thank you for the message!</h1>
-				<div>
-					<p>We'll get back to you as soon as possible.</p>
-					<p>If your message is public, there's a good chance some of our other
-					   users will answer your question quickly.</p>
-				</div>
+				<h1><?= $contact['sent-title'] ?></h1>
+				<div><?= $contact['sent-text'] ?></div>
 			</div>
 		</div>
 	</div>

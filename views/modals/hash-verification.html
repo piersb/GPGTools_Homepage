@@ -1,38 +1,26 @@
-	<div class="modal clearfix hash-verification signature-verification-page" id="hash-verification-page" style="display:none">
-		<div class="intro">
-			<h1>Verify the Package hash</h1>
-			<div>
-				<p>Follow these steps to verify that the package you've downloaded has not been tampered with.</p>
-			</div>
-			<ul class="steps">
-				<li>
-					<a class="clearfix" href="#"><span class="step-nr">1</span>
-					<p>Open Terminal in /Applications/Utilities</p></a>
-				</li>
-				<li>
-					<a class="clearfix" href="#"><span class="step-nr">2</span>
-					<p>Download the GPGTools OpenPGP key and import it using GPG Keychain Access</p></a>
-				</li>
-				<li>
-					<a class="clearfix" href="#"><span class="step-nr">3</span>
-					<p>Select the signature file you've downloaded in Finder</p></a>
-				</li>
-				<li>
-					<a class="clearfix" href="#"><span class="step-nr">4</span>
-					<p>Right-click and select Services › OpenPGP: Verify signature of file</p></a>
-				</li>
-				<li>
-					<a class="clearfix" href="#"><span class="step-nr">5</span>
-					<p>Check the message shown in the opening window</p></a>
-				</li>
-			</ul>
-			<h1 class="special">Bravo, you've just verified your first file!</h1>
-		</div>
-		
-		<div class="preview-screenshot">
-			<div class="switcher">
-				<div class="panel"><img src="images/verification/step-4.jpg" alt="step-4" width="300" height="327" /></div>
-			</div>
-			<p>Click for larger screenshot</p>
-		</div>
+<? $texts = $config['hash-verification'] ?>
+<div class="modal clearfix hash-verification signature-verification-page" id="hash-verification-page" style="display:none">
+	<div class="intro">
+		<h1><?= $texts['title'] ?></h1>
+		<div><?= $texts['text'] ?></div>
+		<ul class="steps">
+			<? $number=0; foreach ($texts['steps'] as $step): $number++ ?>
+			<li>
+				<a class="clearfix" href="#">
+					<span class="step-nr"><?= $number ?></span>
+					<p><?= $step['title'] ?></p>
+				</a>
+			</li>
+			<? endforeach ?>
+		</ul>
+		<h1 class="special"><?= $texts['footer'] ?></h1>
 	</div>
+	
+	<div class="preview-screenshot">
+		<div class="switcher">
+			<!-- TODO: Automatisch richtiges Bild für den ausgewählten Schritt anzeigen. -->
+			<div class="panel"><img src="images/verification/<?= $texts['steps'][3][image] ?>" alt="step-4" width="300" height="327" /></div>
+		</div>
+		<p><?= $texts['image-subline'] ?></p>
+	</div>
+</div>
