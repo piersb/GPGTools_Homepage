@@ -71,6 +71,7 @@
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
             <li>Alun J Carr</li>
+            <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
             <li>Anja Marks</li>
             <li>Anton Umnitsyn</li>
