@@ -1246,50 +1246,51 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 		$list.find("li").each(function() {
 			friends.push($(this).html())
 		})
+
 		// Remove any entries
 		$list.empty()
-		var friendsPerPage = []
-		var tmpSupporters = []
-		var idx = 0
-		var currentHeight = 0
-		for(var i = 0; i < friends.length; i = i+2) {
-			var no_right = friends.length == i + 1
-			// Insert two elements, calculate the height.
-			var $li_left = $("<li>").html(friends[i])
-			var $li_right = !no_right ? $("<li>").html(friends[i+1]) : null
-			
-			$list.append($li_left).append($li_right)
-			
-			var maxHeight = Math.max($li_left.height(), $li_right ? $li_right.height() : 0)
-			
-			if(currentHeight + maxHeight > pageHeight) {
-				idx++
-				$list.empty()
-				currentHeight = 0
+		
+		$list.css("height", "auto")
+		
+		var lastOnPage = []
+		var page = 0
+		var i = 0
+		var count = friends.length
+		const maxPerPage = 26
+		
+		while (i < count) {
+			var max = count - i > maxPerPage ? i + maxPerPage : count
+			for (; i < max; i++) {
+				var $li = $("<li>").html(friends[i])
+				$list.append($li)
 			}
-			if(typeof friendsPerPage[idx] == 'undefined')
-				friendsPerPage[idx] = []
+			while ($list.height() > pageHeight) {
+				$list.find(":last").detach()
+				$list.find(":last").detach()
+				i -= 2
+			}
+			lastOnPage[page] = i
+			page++
 			
-			friendsPerPage[idx].push(friends[i])
-			if(!no_right)
-				friendsPerPage[idx].push(friends[i+1])
-			
-			currentHeight += maxHeight
+			$list.empty()
 		}
 		
 		$list.remove()
-	
+		
 		$content.html("").append(
 			$("<div>").addClass("lp-slider").addClass("lp-horizontal-slider")
 					  .data("slide-width", 320).append(
 				$("<div>").addClass("lp-horizontal-slider-container").addClass("clearfix")
 			)
 		)
+		
 		var $sliderContainer = $content.find(".lp-horizontal-slider-container")
-		for(i in friendsPerPage) {
+		i = 0
+		for(page in lastOnPage) {
 			var $slide = $("<ul>").addClass("lp-slide invisible")
-			for(j in friendsPerPage[i])
-				$slide.append($("<li>").html(friendsPerPage[i][j]))
+			for (; i < lastOnPage[page]; i++) {
+				$slide.append($("<li>").html(friends[i]))
+			}
 			
 			$sliderContainer.append($slide)
 		}
