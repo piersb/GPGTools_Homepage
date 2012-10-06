@@ -10,14 +10,15 @@ function echoError() {
 
 
 pushd "${0%/*}/config" >/dev/null || exit 1
+errorFound=0
 
 for file in *.json ;do
 	if ! error=$(python -mjson.tool <"$file" 2>&1 >/dev/null) ;then
 		echoError "$file: $error"
+		errorFound=1
 	fi
 done
 
 popd >/dev/null
 
-
-
+exit $errorFound
