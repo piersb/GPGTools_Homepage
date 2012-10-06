@@ -1115,7 +1115,6 @@ TippedPageController.extend("FriendsPageController", {}, {
 	},
 	contentLoaded: function() {
 		var object = this
-		
 		/*
 this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-page"))
 		this.sectionSlider.showSection(0)
@@ -1197,31 +1196,15 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 	},
 	prepareSupportersSection: function() {
 		var supporters = []
-		var pageHeight = 260
+		const pageHeight = 260
 		var $content = this.$pageContent.find(".lp-slide.supporters .content")
 		this.$pageContent.find(".lp-slide.supporters ul li").each(function() {
 			supporters.push($(this).html())
 		})
-		$content.addClass("invisible").show()
-		var supportersPerPage = []
-		var tmpSupporters = []
-		var idx = 0
-		for(i in supporters) {
-			tmpSupporters.push(supporters[i])
-			// Insert current supporters.
-			var supportersString = tmpSupporters.join(", ")
-			$content.html(supportersString)
-			if($content.height() > pageHeight) {
-				idx++
-				$content.html("")
-				tmpSupporters = []
-			}
-			if(typeof supportersPerPage[idx] == 'undefined')
-				 supportersPerPage[idx] = []
-			supportersPerPage[idx].push(supporters[i])
-		}
 		
-		/* var supportersString = supporters.join(", ") */
+		$content.addClass("invisible").show()
+		
+		
 		this.$pageContent.find(".lp-slide.supporters").find("ul").remove()
 		$content.html("").append(
 			$("<div>").addClass("lp-slider").addClass("lp-horizontal-slider")
@@ -1229,18 +1212,42 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 				$("<div>").addClass("lp-horizontal-slider-container").addClass("clearfix")
 			)
 		)
+		
 		var $sliderContainer = $content.find(".lp-horizontal-slider-container")
-		for(i in supportersPerPage) {
-			var $slide = $("<div>").addClass("lp-slide invisible")
-			$slide.html(supportersPerPage[i].join(", "))
+		
+		var i
+		const maxLength = 640
+		var textLength = 0
+		var text = ""
+		
+		for (i in supporters) {
+			var supporter = supporters[i]
+			var length = supporter.length + 2
 			
+			if (textLength + length > maxLength) {
+				var $slide = $("<div>").addClass("lp-slide invisible")
+				$slide.html(text.substring(0, textLength-2))
+				$sliderContainer.append($slide)
+				
+				textLength = 0
+				text = ""
+			}
+			
+			text += supporter + ", "
+			textLength += length
+		}
+		if (textLength > 0) {
+			var $slide = $("<div>").addClass("lp-slide invisible")
+			$slide.html(text.substring(0, textLength-2))
 			$sliderContainer.append($slide)
 		}
+		
 		$content.removeClass("invisible")
 	},
 	prepareFriendsSection: function() {
+		// Get a list of all friends
 		var friends = []
-		var pageHeight = 260
+		const pageHeight = 260
 		var $list = this.$pageContent.find(".lp-slide.friends ul")
 		var $content = this.$pageContent.find(".lp-slide.friends .content")
 		$list.find("li").each(function() {
@@ -1258,6 +1265,7 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 		var count = friends.length
 		const maxPerPage = 26
 		
+		//How many friends can be displayed on a page?
 		while (i < count) {
 			var max = count - i > maxPerPage ? i + maxPerPage : count
 			for (; i < max; i++) {
@@ -1277,6 +1285,7 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 		
 		$list.remove()
 		
+		//Prepare div
 		$content.html("").append(
 			$("<div>").addClass("lp-slider").addClass("lp-horizontal-slider")
 					  .data("slide-width", 320).append(
@@ -1284,6 +1293,7 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 			)
 		)
 		
+		//Fill with friends
 		var $sliderContainer = $content.find(".lp-horizontal-slider-container")
 		i = 0
 		for(page in lastOnPage) {
