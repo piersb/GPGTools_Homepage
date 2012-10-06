@@ -1226,7 +1226,8 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 			
 			if (textLength + length > maxLength) {
 				var $slide = $("<div>").addClass("lp-slide invisible")
-				$slide.html(supporters.slice(iStart, i-1).join(", "))
+				var ttt = supporters.slice(iStart, i).join(", ")
+				$slide.html(ttt)
 				$sliderContainer.append($slide)
 				
 				iStart = i
@@ -1237,7 +1238,7 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 		}
 		if (textLength > 0) {
 			var $slide = $("<div>").addClass("lp-slide invisible")
-			$slide.html(supporters.slice(iStart, i-1).join(", "))
+			$slide.html(supporters.slice(iStart).join(", "))
 			$sliderContainer.append($slide)
 		}
 		
