@@ -67,12 +67,14 @@
             <li>Abel O Nelson</li>
             <li>Adam Bishop</li>
             <li>Adiel Akplogan</li>
+            <li>Adrian Sauer</li>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
             <li>Alun J Carr</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
+            <li>Andrew Zeneski</li>
             <li>Anja Marks</li>
             <li>Anton Umnitsyn</li>
             <li>Arne Fahrenwalde</li>
@@ -102,9 +104,11 @@
             <li>Claudius Wettstein</li>
             <li>Clytie Siddall</li>
             <li>Craig Stacey</li>
+            <li>Cristiano Mattos</li>
             <li>Daniel Guido</li>
             <li>Daniel Kullman</li>
             <li>Dave Diemer</li>
+            <li>David Norman</li>
             <li>Dirk Pape</li>
             <li>Dirk Ruediger</li>
             <li>Dirk Zurawski</li>
@@ -118,6 +122,7 @@
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
+            <li>Florian Stocker</li>
             <li>Franco Fichtner</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
@@ -137,10 +142,12 @@
             <li>Jeff Smith</li>
             <li>Jessica Stolz</li>
             <li>Joakim Norbäck</li>
+            <li>Joe Abley</li>
             <li>Joël Brogniart</li>
-            <li>Jörg Bühmann</li>
+            <li>John Duggins</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
+            <li>Jörg Bühmann</li>
             <li>Jorge Valencia Alvarez</li>
             <li>Josh Ballard</li>
             <li>Jozef Mares</li>
@@ -164,9 +171,12 @@
             <li>Matthias Dörfler</li>
             <li>Michael Dierck</li>
             <li>Michael Gracie</li>
+            <li>Michael Klotz</li>
+            <li>Michael Krzyzanski</li>
             <li>Michael Langford</li>
             <li>Michael Prewitt</li>
             <li>Michael Ruse</li>
+            <li>Mika Goeckel</li>
             <li>Mike Davis</li>
             <li>Mike Hellers</li>
             <li>N J L Macassey</li>
@@ -188,6 +198,7 @@
             <li>Peter Krantz</li>
             <li>Peter Mack</li>
             <li>Peter Mueller</li>
+            <li>Pieter van der Meulen</li>
             <li>Philip Jocks</li>
             <li>Radek Mrskos</li>
             <li>Raymond Chudzinski</li>
@@ -217,8 +228,10 @@
             <li>TJ Marbois</li>
             <li>Toshinao Ishii</li>
             <li>Uwe Ulrich</li>
+            <li>Vikram Phatak</li>
             <li>Volker Schwaberow</li>
             <li>Volker Thieme</li>
+            <li>Wayne Veilleux</li>
             <li>Wilbert Leeper</li>
             <li>William Buchaus</li>
                 </ul>
@@ -240,11 +253,13 @@
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>macon.cc</li>
+                  <li>MacPomoc</li>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
                   <li>Midnight Oil Consulting</li>
                   <li>mg2 organization</li>
                   <li>MojoLingo</li>
+                  <li>Nine Internet Solutions AG</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
                   <li>PID1 Technical Services</li>
