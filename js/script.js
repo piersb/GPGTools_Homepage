@@ -902,6 +902,11 @@ Controller.extend("GPGToolsController", {}, {
 		this.setupContactForm()
 		this.setupDonationModal()
 		this.setupSections()
+		$('body').keydown(function(e) {
+			if (e.keyCode = 27) {
+				Tipped.hideAll();
+			}
+		});
 	},
 	shouldShowDownloadPage: function() {
 		if(window.location.hash.search(/#download-/) == -1)
