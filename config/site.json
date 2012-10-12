@@ -2,13 +2,13 @@
     "url": "https://www.gpgtools.org",
     "title": "GPGTools: It is worth protecting what you &hearts;",
     "navigation-items": [
-        {"title": "Donate", "link": "#donate", "class": "donate"},
-        {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
-        {"title": "Friends", "link": "#friends", "class": "friends"},
-        {"title": "Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png"},
-        {"title": "Contact", "link": "#contact", "list-class": "special"},
-        {"title": "Team", "link": "#team", "class": "team", "list-class": "special"}
-    ],
+						 {"title": "Donate", "link": "#donate", "class": "donate"},
+						 {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
+						 {"title": "Friends", "link": "#friends", "class": "friends"},
+						 {"title": "Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png"},
+						 {"title": "Contact", "link": "#contact", "list-class": "special"},
+						 {"title": "Team", "link": "#team", "class": "team", "list-class": "special"}
+						 ],
     "introduction": {
 		"title": "GPGTools",
         "strong": "Use GPGTools to encrypt, decrypt, sign and verify files or messages.",
@@ -52,51 +52,96 @@
                 "is-new-version": true,
                 "announcement": "GPGMail 2.0 for Lion is out! Get it while it's hot",
                 "os-x-versions": [
-                    {"version": "10.6", "url": "http://..."},
-                    {"version": "10.5", "url": "http://..."},
-                    {"version": "10.4", "url": "http://..."},
-                    {"version": "10.3", "url": "http://..."}
-                ]
+								  {"version": "10.6", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.3.3.dmg"},
+								  {"version": "10.5", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg"},
+								  {"version": "10.4", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg"},
+								  {"version": "10.3", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg"}
+								  ]
             },
             "features": [
-                [
-                    {"title": "Encrypt and sign messages with ease",
-                     "content": "Simply click on the lock and sign buttons to encrypt and sign your messages. GPGMail will learn from past messages and automatically sets the encrypt and sign status of newmessages for you."}
-                ],
-                [
-                    {"title": "Automatically decrypts and verifies messages",
-                     "content": "Encrypted messages are automatically decrypted, signed messages verified. Let GPGMail do the heavy lifting for you."},
-                    {"title": "GPG and S/MIME in love",
-                     "content": "Switch between GPG and S/MIME in a second and after some learning time, let GPGMail do it for you."}
-                ],
-                [
-                    {"title": "Spot errors quickly", "content": "If GPGMail fails to decrypt or verify a message you'll see a descriptive error message including hints at how to solve them."},
-                    {"title": "Be secure early on", "content": "GPGMail will encrypt & sign your drafts, so they are never stored on your email server insecurely."}
-                ],
-                [
-                    {"title": "Choose the key to sign from",
-                     "content": "Two of your keys share the same address? Select the one you want to sign from."},
-                    {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
-                ]
-            ],
+						 [
+						  {"title": "Encrypt and sign messages with ease",
+						  "content": "Simply click on the lock and sign buttons to encrypt and sign your messages. GPGMail will learn from past messages and automatically sets the encrypt and sign status of newmessages for you."}
+						  ],
+						 [
+						  {"title": "Automatically decrypts and verifies messages",
+						  "content": "Encrypted messages are automatically decrypted, signed messages verified. Let GPGMail do the heavy lifting for you."},
+						  {"title": "GPG and S/MIME in love",
+						  "content": "Switch between GPG and S/MIME in a second and after some learning time, let GPGMail do it for you."}
+						  ],
+						 [
+						  {"title": "Spot errors quickly", "content": "If GPGMail fails to decrypt or verify a message you'll see a descriptive error message including hints at how to solve them."},
+						  {"title": "Be secure early on", "content": "GPGMail will encrypt & sign your drafts, so they are never stored on your email server insecurely."}
+						  ],
+						 [
+						  {"title": "Choose the key to sign from",
+						  "content": "Two of your keys share the same address? Select the one you want to sign from."},
+						  {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+						  ]
+						 ],
             "screenshots": [
-                {"title": "Screenshot 1", "description": "Screenshot 1 description", "image": "GPGS0.png"},
-                {"title": "Screenshot 2", "description": "Screenshot 2 description", "image": "GPGS1.png"},
-                {"title": "Screenshot 3", "description": "Screenshot 3 description", "image": "GPGS2.png"},
-                {"title": "Screenshot 4", "description": "Screenshot 4 description", "image": "GPGS3.png"},
-                {"title": "Screenshot 5", "description": "Screenshot 5 description", "image": "GPGS4.png"},
-                {"title": "Screenshot 6", "description": "Screenshot 6 description", "image": "GPGS5.png"}
-            ]
+							{"title": "GPGMail Settings", "description": "\"GPGMail is ready.\" If you see a green dot, your GPGMail setup is working, yey!", "image": "GPGMail_Settings.png"},
+							{"title": "GPGMail OpenPGP active", "description": "This mail will be encrypted and signed.", "image": "GPGMail OpenPGP active.png"},
+							{"title": "GPGMail OpenPGP encrypt", "description": "This mail will be encrypted but not signed.", "image": "GPGMail OpenPGP encrypt.png"},
+							{"title": "GPGMail OpenPGP sign", "description": "This mail will be signed but not encrypted.", "image": "GPGMail OpenPGP sign.png"},
+							{"title": "GPGMail OpenPGP inactive", "description": "This mail will not be encrypted nor signed.", "image": "GPGMail OpenPGP inactive.png"},
+							{"title": "GPGMail signed Mail", "description": "This is a signed mail.", "image": "GPGMail signed.png"},
+							{"title": "GPGMail corrupt Signature", "description": "This is a mail with manipulated signature.", "image": "GPGMail signed - manipulated.png"},
+							{"title": "GPGMail encrypted Mail", "description": "This is an encrypted mail.", "image": "GPGMail encrypted.png"},
+							{"title": "GPGMail missing secret key", "description": "This is an ecrypted mail for which the secret key is not in the keychain.", "image": "GPGMail encrypted - key missing.png"},
+							{"title": "GPGMail failed decryption", "description": "This is a mail with failed decryption, this can be caused by various things. You should get in touch with our support.", "image": "GPGMail encrypted - error.png"},
+							{"title": "GPGMail multi key", "description": "If you have several keys for a single mail adress you are able to select which one to use.", "image": "GPGMail multi_key.png"},
+							{"title": "GPGMail S/MIME active", "description": "This mail will be signed with S/MIME.", "image": "GPGMail S/MIME active.png"},
+							{"title": "GPGMail S/MIME inactive", "description": "This mail will not be using S/MIME.", "image": "GPGMail S/MIME inactive.png"}
+							]
         },
         "gka": {
+            "tool-name": "GPG Keychain Access",
             "main-section-intro": "Manage your<br>GPG Keychain<br>with ease.",
             "short-name": "gka",
+            "title": "Manage your GPG Keychain.",
+            "subtitle": "Key management done in a breeze.",
+            "minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
             "version-info": {
 	            "current-version": "1.0b7",
 	            "checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3",
 	            "versions": "./gka-versions.json",
-	            "announcement": "Whatever"
-            }
+	            "announcement": "Whatever",
+	            "os-x-versions": [
+								  {"version": "10.5", "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg"},
+								  {"version": "10.4", "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess%20(old).tbz2"}
+								  ]
+			},
+            "features": [
+						 [
+						  {"title": "Create your own key",
+						  "content": "First time users without an existing key, will be guided through the process of creating the first key pair."}
+						  ],
+						 [
+						  {"title": "Use the key servers",
+						  "content": "Upload your public key to and search for your friends keys on the key servers."},
+						  {"title": "Web of Trust",
+						  "content": "Sign keys to add to the web of trust. By signing keys you allow others to judge which keys are trustworthy."}
+						  ],
+						 [
+						  {"title": "Add more mail addresses",
+						  "content": "If you use more than one mail address you can add UserIDs to an existing key, allowing to use more than one mail address per key."},
+						  {"title": "Import and Export keys",
+						  "content": "Import via key servers, drag & drop or copy & paste. Export secret and public key or only the public part."}
+						  ],
+						 [
+						  {"title": "Revoke keys",
+						  "content": "Create a revocation certificate for your keys. Revoke keys that are no longer in use."},
+						  {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+						  ]
+						 ],
+            "screenshots": [
+							{"title": "GPG Keychain Access main window", "description": "The main view of GPG Keychain Access. Note the type column indicating wether it is a public key or a secret key (also containing the according public key as well).", "image": "GKA_main.jpeg"},
+							{"title": "GPG Keychain Access new key", "description": "Create a new key with upload after key creation enabled.", "image": "GKA_new_key1.PNG"},
+							{"title": "GPG Keychain Access new key advanced", "description": "Key creation with advanced options (Key Type, Length and Expiration date).", "image": "GKA_new_key2.PNG"},
+							{"title": "GPG Keychain Access key search", "description": "Search for your friends key on the key server (⌘F).", "image": "GKA_search.PNG"},
+							{"title": "GPG Keychain Access secret key", "description": "Doulbe click your secret key, to reveal it's structure. This example key contains three UserIDs (UIDs). The public key is also included although you don't see it listed. No secret key does exist without it's according public key part.", "image": "GKA_seckey.PNG"}
+							]
         },
         "macgpg": {
             "main-section-intro": "The GPG engine<br>for OS X.",
@@ -108,57 +153,92 @@
             }
         },
         "gpgservices": {
+            "tool-name": "GPGServices",
             "main-section-intro": "Perform GPG<br>operations from the<br>OS X Service Menu.",
             "short-name": "gpgservices",
+            "title": "Perform GPG operations from the OS X Service Menu.",
+            "subtitle": "A right-click, that's all it takes.",
+            "minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
             "version-info": {
 	            "current-version": "1.7",
 	            "checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2",
 	            "versions": "./gpgservices-versions.json"
-            }
-        },
-        "gpgfriends": {
-		    "left-title": "Supporters",
-            "title": "Thank you",
-            "text": "<p>This is YOUR area. We just want to show you our appreciation for supporting our project with your donations. You‘re helping us grow, work faster and more efficently.</p><p>You‘ll appear in our supporters list, after donating to GPG Tools, please have a look around and see who‘s also supporting.</p><p>Thanks you from the bottom of our hearts.</p><p>Your GPGTools team.</p>",
-            "vips": "./vips.json",
-            "companies": "./companies.json",
-            "friends": "./friends.json",
-            "supporters": "./supporters.json",
-            "vips-title": "VIPs",
-            "companies-title": "Companies",
-            "friends-title": "Friends",
-            "supporters-title": "Supporters",
-            "view": "friends",
-			"donate-text1": "Become a part by ", "donate-text2": "donating"
-        },
-		"team": {
-		    "left-title": "The Team",
-            "title": "GPGTools",
-            "text": "<p>So here we are now! our people with similar interests, who have actually never met in person. We‘ve found each other over the internet and have been working together passionately for quite some time now.</p><p>With our work we‘re trying to make security easier and better, because it‘s worth saving what you love.</p><p>facebook.com/gpgtools<br>twitter.com/gpgtools</p>",
-            "members": [
-				{"name": "Alex Willner", "role": "",
-				"twitter": "", "url": "", "image": "lukele-small.jpg",
-				"text": "Test"},
-				{"name": "Kristof Koerner", "role": "",
-				"twitter": "", "url": "http://www.kristofkoerner.de/", "image": "lukele-small.jpg",
-				"text": ""},
-				{"name": "Lukas Pitschl", "role": "GPGMail Lead Developer",
-				"twitter": "lukele", "url": "", "image": "lukele-small.jpg",
-				"text": ""},
-				{"name": "Roman Zechmeister", "role": "Developer",
-				"twitter": "", "url": "", "image": "lukele-small.jpg",
-				"text": ""}
-            ]
-		}
+            },
+            "features": [
+						 [
+						  {"title": "Global OS X Services menu",
+						  "content": "System wide services menu, available in all your beloved OS X software (eg. Safari, Finder, TextEdit, ...)."}
+						  ],
+						 [
+						  {"title": "Use with Text / Textfields",
+						  "content": "Encrypt and decrypt, verify and sign, import and export any text (e.g. in your browser using webmail, Instant Messengers, ...)."},
+						  {"title": "Use with Files",
+						  "content": "Encrypt and decrypt, verify and sign, import any file."}
+						  ],
+						 [
+						  {"title": "Use with folders",
+						  "content": "Sign and or encrypt any folder."},
+						  {"title": "Keyboards shortcuts",
+						  "content": " Speed up your workflow by using keyboard shortcuts: cmd + shift + d|e|v|r|i|f|k."}
+						  ],
+						 [
+						  {"title": "Setup Guide",
+						  "content": "The <a href='http://support.gpgtools.org/kb/how-to/how-to-activate-gpgservices'>setup guide</a> will help first time users to get GPGServices running."},
+						  {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+						  ]
+						 ],
+            "screenshots": [
+							{"title": "GPGServices recipient window", "description": "When encrypting a file or text, this is the window to select the recipient and wether you also want to sign the file.", "image": "GPGServices_Recipient.png"},
+							{"title": "GPGServices verify", "description": "When verifying a signed file you'll be presented the verification results. In this case, the according public key is in the keychain and the signature is valid.", "image": "GPGServices_Verification.png"},
+							{"title": "GPGServices encryption", "description": "Select any text and right-click to encrypt the selection.", "image": "GPGServices_Msg.png"},
+							{"title": "GPGServices encrypted message", "description": "After the encryption your message will look like this.", "image": "GPGServices_Msg_Encrypted.png"},
+							{"title": "GPGServices signed message", "description": "A signed message will look like this. At the top the signed message and below the message the PGP Signature.", "image": "GPGServices_Msg_Signed.png"}
+							]
+        }
+	},
+	
+	"gpgfriends": {
+		"left-title": "Supporters",
+		"title": "Thank you",
+		"text": "<p>This is YOUR area. We just want to show you our appreciation for supporting our project with your donations. You‘re helping us grow, work faster and more efficently.</p><p>You‘ll appear in our supporters list, after donating to GPG Tools, please have a look around and see who‘s also supporting.</p><p>Thanks you from the bottom of our hearts.</p><p>Your GPGTools team.</p>",
+		"vips": "./vips.json",
+		"companies": "./companies.json",
+		"friends": "./friends.json",
+		"supporters": "./supporters.json",
+		"vips-title": "VIPs",
+		"companies-title": "Companies",
+		"friends-title": "Friends",
+		"supporters-title": "Supporters",
+		"view": "friends",
+		"donate-text1": "Become a part by ", "donate-text2": "donating"
+	},
+	"team": {
+		"left-title": "The Team",
+		"title": "GPGTools",
+		"text": "<p>So here we are now! our people with similar interests, who have actually never met in person. We‘ve found each other over the internet and have been working together passionately for quite some time now.</p><p>With our work we‘re trying to make security easier and better, because it‘s worth saving what you love.</p><p>facebook.com/gpgtools<br>twitter.com/gpgtools</p>",
+		"members": [
+					{"name": "Alex Willner", "role": "",
+					"twitter": "", "url": "", "image": "lukele-small.jpg",
+					"text": "Test"},
+					{"name": "Kristof Koerner", "role": "",
+					"twitter": "", "url": "http://www.kristofkoerner.de/", "image": "lukele-small.jpg",
+					"text": ""},
+					{"name": "Lukas Pitschl", "role": "GPGMail Lead Developer",
+					"twitter": "lukele", "url": "", "image": "lukele-small.jpg",
+					"text": ""},
+					{"name": "Roman Zechmeister", "role": "Developer",
+					"twitter": "", "url": "", "image": "lukele-small.jpg",
+					"text": ""}
+					]
     },
     "donation-gifts": {
     	"gifts": [
-    		{"id": "first", "amount": 0, "nomarker": true, "steps": 5, "increment": 5},
-    		{"id": "25", "default": true, "amount": 25, "title": "Early acces to GPGMail for Mountain Lion<br>Your name in our Supporters section.", "steps": 7, "increment": 5 },
-    		{"id": "75", "amount": 75, "title": "Let‘s be friends!<br>Your name will be in our Friends section!", "steps": 15, "increment": 5},
-    		{"id": "150", "amount": 150, "title": "Free T-Shirt", "steps": 34, "increment": 25},
-    		{"id": "1000", "amount": 1000, "title": "Your name with picture or logo in our VIP section.<br>Elevated support", "steps": 50, "increment": 80}
-        ],
+				  {"id": "first", "amount": 0, "nomarker": true, "steps": 5, "increment": 5},
+				  {"id": "25", "default": true, "amount": 25, "title": "Early acces to GPGMail for Mountain Lion<br>Your name in our Supporters section.", "steps": 7, "increment": 5 },
+				  {"id": "75", "amount": 75, "title": "Let‘s be friends!<br>Your name will be in our Friends section!", "steps": 15, "increment": 5},
+				  {"id": "150", "amount": 150, "title": "Free T-Shirt", "steps": 34, "increment": 25},
+				  {"id": "1000", "amount": 1000, "title": "Your name with picture or logo in our VIP section.<br>Elevated support", "steps": 50, "increment": 80}
+				  ],
         "end-amount": 5000
     },
 	"donation": {
@@ -194,12 +274,12 @@
 		"footer": "Bravo, you've just verified your first file!",
 		"image-subline": "Click for larger screenshot",
 		"steps": [
-			{"image": "sig-step-1.jpg", "title": "Install GPGTools"},
-			{"image": "sig-step-2.jpg", "title": "Download the GPGTools OpenPGP key and import it using GPG Keychain Access"},
-			{"image": "sig-step-3.jpg", "title": "Select the signature file you've downloaded in Finder"},
-			{"image": "sig-step-4.jpg", "title": "Right-click and select Services › OpenPGP: Verify signature of file"},
-			{"image": "sig-step-5.jpg", "title": "Check the message shown in the opening window"}
-		]
+				  {"image": "sig-step-1.jpg", "title": "Install GPGTools"},
+				  {"image": "sig-step-2.jpg", "title": "Download the GPGTools OpenPGP key and import it using GPG Keychain Access"},
+				  {"image": "sig-step-3.jpg", "title": "Select the signature file you've downloaded in Finder"},
+				  {"image": "sig-step-4.jpg", "title": "Right-click and select Services › OpenPGP: Verify signature of file"},
+				  {"image": "sig-step-5.jpg", "title": "Check the message shown in the opening window"}
+				  ]
 	},
 	"hash-verification": {
 		"title": "Verify the Package hash",
@@ -207,12 +287,12 @@
 		"footer": "Bravo...!",
 		"image-subline": "Click for larger screenshot",
 		"steps": [
-			{"image": "hash-step-1.jpg", "title": "Open Terminal in /Applications/Utilities"},
-			{"image": "hash-step-2.jpg", "title": "Step2"},
-			{"image": "hash-step-3.jpg", "title": "Step3"},
-			{"image": "hash-step-4.jpg", "title": "Step4"},
-			{"image": "hash-step-5.jpg", "title": "Step5"}
-		]
+				  {"image": "hash-step-1.jpg", "title": "Open Terminal in /Applications/Utilities"},
+				  {"image": "hash-step-2.jpg", "title": "Step2"},
+				  {"image": "hash-step-3.jpg", "title": "Step3"},
+				  {"image": "hash-step-4.jpg", "title": "Step4"},
+				  {"image": "hash-step-5.jpg", "title": "Step5"}
+				  ]
 	},
 	"ios": {
 		"site-title": "GPGTools | It is worth protecting what you &hearts;",
