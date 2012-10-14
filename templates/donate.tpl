@@ -123,9 +123,12 @@
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
             <li>Florian Stocker</li>
+            <li>Francis Hwang</li>
             <li>Franco Fichtner</li>
+            <li>Frederic Jouvin</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
+            <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
@@ -161,6 +164,7 @@
             <li>Kurt Erik Lindqvist</li>
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
+            <li>Lincoln Bertin</li>
             <li>Lorenzo Grespan</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
@@ -204,6 +208,7 @@
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
             <li>Richard Forno</li>
+            <li>Richard Livingston</li>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
             <li>Robert Tirrell</li>
@@ -248,6 +253,7 @@
                   <li>Everlevel ldt</li>
                   <li>Five Reels</li>
                   <li>Forced Web</li>
+                  <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
                   <li>innoQ Deutschland</li>
                   <li>Loopshot</li>
