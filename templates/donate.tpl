@@ -133,7 +133,7 @@
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
             <li>Guido Viarengo</li>
-            <li>Guillaume Destuynder (Mozilla)</li>
+            <li>Guillaume Destuynder</li>
             <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
@@ -274,6 +274,7 @@
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
                   <li>Saffron Solutions</li>
+                  <li>Sepher Software</li>
                   <li>Silvexis</li>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
