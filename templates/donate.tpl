@@ -92,6 +92,7 @@
             <li>Bjoern Brauel</li>
             <li>Brian Farrell</li>
             <li>Brian Long</li>
+            <li>Bruce Robinson</li>
             <li>Burnsitech</li>
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
