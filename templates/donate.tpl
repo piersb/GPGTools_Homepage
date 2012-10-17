@@ -152,6 +152,7 @@ BIC COBADEHD055</p>
             <li>Jarbas de Freitas Peixoto</li>
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
+            <li>Jerry W Dixon Jr</li>
             <li>Jessica Stolz</li>
             <li>Joakim Norbäck</li>
             <li>Joe Abley</li>
