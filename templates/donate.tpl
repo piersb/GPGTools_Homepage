@@ -156,6 +156,7 @@
             <li>Josh Ballard</li>
             <li>Jozef Mares</li>
             <li>Jürgen Ehmann</li>
+            <li>Jürgen Nickelsen</li>
             <li>Julian Albert</li>
             <li>Karl Pietrzak</li>
             <li>Ken Joy</li>
@@ -188,6 +189,7 @@
             <li>Nagib Tharani</li>
             <li>Nathan Pearlstein</li>
             <li>Neil Brown</li>
+            <li>Nicholas Hubbard</li>
             <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
             <li>Oleg Pak</li>
@@ -240,6 +242,7 @@
             <li>Wayne Veilleux</li>
             <li>Wilbert Leeper</li>
             <li>William Buchaus</li>
+            <li>William L Anderson</li>
                 </ul>
             </div>
             <div class="table right">
