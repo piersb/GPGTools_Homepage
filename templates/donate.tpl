@@ -259,6 +259,7 @@ BIC COBADEHD055</p>
                   <li>A. Martin IT-Consulting</li>
                   <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
+                  <li>BTC24 Ltd.</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc.</li>
                   <li>Enigma Software</li>
