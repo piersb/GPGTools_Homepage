@@ -37,6 +37,7 @@
             <p>We love to contribute to the world. We love encryption and secure communication. The entire GPGTools project is build in our spare time and we rely on donations. Your donation will be used for the development of the
             GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
             <ul class="sub"></ul>
+<p><b>PayPal</b><br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="donations@gpgtools.org">
@@ -58,9 +59,10 @@
 </ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
 </form>
+<p><b>Bitcoin</b><br>
 <a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
 <br><br>
-<p><b>Wire transfer:</b><br>
+<p><b>Wire transfer</b><br>
 IBAN DE20200411550787916600<br>
 BIC COBADEHD055</p>
 
