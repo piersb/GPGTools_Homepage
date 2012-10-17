@@ -38,7 +38,6 @@
             GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
             <ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="text" name="amount" value="20" style="width: 40px;"> &euro; &nbsp;&nbsp;&nbsp;
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="donations@gpgtools.org">
 <input type="hidden" name="lc" value="US">
@@ -48,6 +47,7 @@
 <input type="hidden" name="currency_code" value="EUR">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width:7em; border:0px;">
+<input type="text" name="amount" value="20" style="width: 40px;"> &euro; &nbsp;&nbsp;&nbsp;
 <input name="on0" value="Publish my sponsor name" type="hidden">
 <input name="os0" value="No" type="hidden">
 <input name="on1" value="Comment" type="hidden">
@@ -58,7 +58,13 @@
 </ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
 </form>
-<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a><br><br>
+<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
+<br><br>
+<p><b>Wire transfer:</b><br>
+IBAN DE20200411550787916600<br>
+BIC COBADEHD055</p>
+
+<br><br>
             <h3>List of sponsors</h3>
             <p>The following list shows all sponsors who have supported the GPGTools project and accepted to publish their donation.</p>
             <div class="table left">
