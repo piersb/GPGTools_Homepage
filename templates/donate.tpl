@@ -263,9 +263,12 @@ BIC COBADEHD055</p>
                   <li>BTC24 Ltd.</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc.</li>
+                  <li>Cominvent AS</li>
+                  <li>Endian Technologies AB</li>
                   <li>Enigma Software</li>
                   <li>Everlevel ldt</li>
                   <li>Five Reels</li>
+                  <li>Flexcellence UG</li>
                   <li>Forced Web</li>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
