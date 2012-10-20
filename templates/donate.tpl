@@ -1,4 +1,4 @@
-{extends file="index.tpl"}
+ß{extends file="index.tpl"}
 {block name=body}
     <div id="overview">
       <div id="o_content"><h2>Support us</h2></div>
@@ -240,6 +240,7 @@ BIC COBADEHD055</p>
             <li>Stephen Ulmer</li>
             <li>Stijn Jonker</li>
             <li>Sven Haskel</li>
+            <li>Sven Schwyn</li>
             <li>Tax Return Team</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
