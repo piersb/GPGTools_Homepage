@@ -102,6 +102,7 @@ BIC COBADEHD055</p>
             <li>Brian Long</li>
             <li>Bruce Robinson</li>
             <li>Burnsitech</li>
+            <li>Carlos Alberto Lizarralde</li>            
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
