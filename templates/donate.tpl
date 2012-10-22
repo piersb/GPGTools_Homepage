@@ -100,6 +100,7 @@ BIC COBADEHD055</p>
             <li>Bjoern Brauel</li>
             <li>Brian Farrell</li>
             <li>Brian Long</li>
+            <li>Bruce Alan Johnson</li>
             <li>Bruce Robinson</li>
             <li>Burnsitech</li>
             <li>Carlos Alberto Lizarralde</li>            
