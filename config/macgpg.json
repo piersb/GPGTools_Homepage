@@ -1,0 +1,9 @@
+{
+	"main-section-intro": "The GPG engine<br>for OS X.",
+	"short-name": "macgpg",
+	"version-info": {
+		"current-version": "2.0.17-9",
+		"checksum": "6fc707319cd6f26fbc902aeec90939ac13aef7f3",
+		"versions": "./macgpg-versions.json"
+	}
+}

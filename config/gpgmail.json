@@ -1,0 +1,56 @@
+{
+	"tool-name": "GPGMail",
+	"main-section-intro": "Send secure,<br> encrypted and<br>signed messages.",
+	"title": "Send secure, encrypted and signed messages.",
+	"subtitle": "And all that with simple, fast and intuitive tools.",
+	"minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
+	"version-info": {
+		"current-version": "2.0b4",
+		"checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525",
+		"versions": "./gpgmail-versions.json",
+		"is-new-version": true,
+		"announcement": "GPGMail 2.0 for Lion is out! Get it while it's hot",
+		"os-x-versions": [
+						  {"version": "10.6", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.3.3.dmg"},
+						  {"version": "10.5", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg"},
+						  {"version": "10.4", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg"},
+						  {"version": "10.3", "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg"}
+						  ]
+	},
+	"features": [
+				 [
+				  {"title": "Encrypt and sign messages with ease",
+				  "content": "Simply click on the lock and sign buttons to encrypt and sign your messages. GPGMail will learn from past messages and automatically sets the encrypt and sign status of newmessages for you."}
+				  ],
+				 [
+				  {"title": "Automatically decrypts and verifies messages",
+				  "content": "Encrypted messages are automatically decrypted, signed messages verified. Let GPGMail do the heavy lifting for you."},
+				  {"title": "GPG and S/MIME in love",
+				  "content": "Switch between GPG and S/MIME in a second and after some learning time, let GPGMail do it for you."}
+				  ],
+				 [
+				  {"title": "Spot errors quickly", "content": "If GPGMail fails to decrypt or verify a message you'll see a descriptive error message including hints at how to solve them."},
+				  {"title": "Be secure early on", "content": "GPGMail will encrypt & sign your drafts, so they are never stored on your email server insecurely."}
+				  ],
+				 [
+				  {"title": "Choose the key to sign from",
+				  "content": "Two of your keys share the same address? Select the one you want to sign from."},
+				  {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+				  ]
+				 ],
+	"screenshots": [
+					{"title": "GPGMail Settings", "description": "\"GPGMail is ready.\" If you see a green dot, your GPGMail setup is working, yey!", "image": "GPGMail_Settings.png"},
+					{"title": "GPGMail OpenPGP active", "description": "This mail will be encrypted and signed.", "image": "GPGMail OpenPGP active.png"},
+					{"title": "GPGMail OpenPGP encrypt", "description": "This mail will be encrypted but not signed.", "image": "GPGMail OpenPGP encrypt.png"},
+					{"title": "GPGMail OpenPGP sign", "description": "This mail will be signed but not encrypted.", "image": "GPGMail OpenPGP sign.png"},
+					{"title": "GPGMail OpenPGP inactive", "description": "This mail will not be encrypted nor signed.", "image": "GPGMail OpenPGP inactive.png"},
+					{"title": "GPGMail signed Mail", "description": "This is a signed mail.", "image": "GPGMail signed.png"},
+					{"title": "GPGMail corrupt Signature", "description": "This is a mail with manipulated signature.", "image": "GPGMail signed - manipulated.png"},
+					{"title": "GPGMail encrypted Mail", "description": "This is an encrypted mail.", "image": "GPGMail encrypted.png"},
+					{"title": "GPGMail missing secret key", "description": "This is an ecrypted mail for which the secret key is not in the keychain.", "image": "GPGMail encrypted - key missing.png"},
+					{"title": "GPGMail failed decryption", "description": "This is a mail with failed decryption, this can be caused by various things. You should get in touch with our support.", "image": "GPGMail encrypted - error.png"},
+					{"title": "GPGMail multi key", "description": "If you have several keys for a single mail adress you are able to select which one to use.", "image": "GPGMail multi_key.png"},
+					{"title": "GPGMail S/MIME active", "description": "This mail will be signed with S/MIME.", "image": "GPGMail S/MIME active.png"},
+					{"title": "GPGMail S/MIME inactive", "description": "This mail will not be using S/MIME.", "image": "GPGMail S/MIME inactive.png"}
+					]
+}

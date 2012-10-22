@@ -1,0 +1,48 @@
+{
+	"tool-name": "GPG Keychain Access",
+	"main-section-intro": "Manage your<br>GPG Keychain<br>with ease.",
+	"short-name": "gka",
+	"title": "Manage your GPG Keychain.",
+	"subtitle": "Key management done in a breeze.",
+	"minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
+	"version-info": {
+		"current-version": "1.0b7",
+		"checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3",
+		"versions": "./gka-versions.json",
+		"announcement": "Whatever",
+		"os-x-versions": [
+						  {"version": "10.5", "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg"},
+						  {"version": "10.4", "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess%20(old).tbz2"}
+						  ]
+	},
+	"features": [
+				 [
+				  {"title": "Create your own key",
+				  "content": "First time users without an existing key, will be guided through the process of creating the first key pair."}
+				  ],
+				 [
+				  {"title": "Use the key servers",
+				  "content": "Upload your public key to and search for your friends keys on the key servers."},
+				  {"title": "Web of Trust",
+				  "content": "Sign keys to add to the web of trust. By signing keys you allow others to judge which keys are trustworthy."}
+				  ],
+				 [
+				  {"title": "Add more mail addresses",
+				  "content": "If you use more than one mail address you can add UserIDs to an existing key, allowing to use more than one mail address per key."},
+				  {"title": "Import and Export keys",
+				  "content": "Import via key servers, drag & drop or copy & paste. Export secret and public key or only the public part."}
+				  ],
+				 [
+				  {"title": "Revoke keys",
+				  "content": "Create a revocation certificate for your keys. Revoke keys that are no longer in use."},
+				  {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+				  ]
+				 ],
+	"screenshots": [
+					{"title": "GPG Keychain Access main window", "description": "The main view of GPG Keychain Access. Note the type column indicating wether it is a public key or a secret key (also containing the according public key as well).", "image": "GKA_main.jpeg"},
+					{"title": "GPG Keychain Access new key", "description": "Create a new key with upload after key creation enabled.", "image": "GKA_new_key1.PNG"},
+					{"title": "GPG Keychain Access new key advanced", "description": "Key creation with advanced options (Key Type, Length and Expiration date).", "image": "GKA_new_key2.PNG"},
+					{"title": "GPG Keychain Access key search", "description": "Search for your friends key on the key server (⌘F).", "image": "GKA_search.PNG"},
+					{"title": "GPG Keychain Access secret key", "description": "Doulbe click your secret key, to reveal it's structure. This example key contains three UserIDs (UIDs). The public key is also included although you don't see it listed. No secret key does exist without it's according public key part.", "image": "GKA_seckey.PNG"}
+					]
+}

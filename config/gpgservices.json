@@ -1,0 +1,43 @@
+{
+	"tool-name": "GPGServices",
+	"main-section-intro": "Perform GPG<br>operations from the<br>OS X Service Menu.",
+	"short-name": "gpgservices",
+	"title": "Perform GPG operations from the OS X Service Menu.",
+	"subtitle": "A right-click, that's all it takes.",
+	"minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
+	"version-info": {
+		"current-version": "1.7",
+		"checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2",
+		"versions": "./gpgservices-versions.json"
+	},
+	"features": [
+				 [
+				  {"title": "Global OS X Services menu",
+				  "content": "System wide services menu, available in all your beloved OS X software (eg. Safari, Finder, TextEdit, ...)."}
+				  ],
+				 [
+				  {"title": "Use with Text / Textfields",
+				  "content": "Encrypt and decrypt, verify and sign, import and export any text (e.g. in your browser using webmail, Instant Messengers, ...)."},
+				  {"title": "Use with Files",
+				  "content": "Encrypt and decrypt, verify and sign, import any file."}
+				  ],
+				 [
+				  {"title": "Use with folders",
+				  "content": "Sign and or encrypt any folder."},
+				  {"title": "Keyboards shortcuts",
+				  "content": " Speed up your workflow by using keyboard shortcuts: cmd + shift + d|e|v|r|i|f|k."}
+				  ],
+				 [
+				  {"title": "Setup Guide",
+				  "content": "The <a href='http://support.gpgtools.org/kb/how-to/how-to-activate-gpgservices'>setup guide</a> will help first time users to get GPGServices running."},
+				  {"title": "Support for free", "content": "If you're stuck or run into problems we'll listen to you and answer as fast as possible. And the best, it's free."}
+				  ]
+				 ],
+	"screenshots": [
+					{"title": "GPGServices recipient window", "description": "When encrypting a file or text, this is the window to select the recipient and wether you also want to sign the file.", "image": "GPGServices_Recipient.png"},
+					{"title": "GPGServices verify", "description": "When verifying a signed file you'll be presented the verification results. In this case, the according public key is in the keychain and the signature is valid.", "image": "GPGServices_Verification.png"},
+					{"title": "GPGServices encryption", "description": "Select any text and right-click to encrypt the selection.", "image": "GPGServices_Msg.png"},
+					{"title": "GPGServices encrypted message", "description": "After the encryption your message will look like this.", "image": "GPGServices_Msg_Encrypted.png"},
+					{"title": "GPGServices signed message", "description": "A signed message will look like this. At the top the signed message and below the message the PGP Signature.", "image": "GPGServices_Msg_Signed.png"}
+					]
+}

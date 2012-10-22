@@ -1,60 +1,64 @@
-<? $general = $config['sections']['general'] ?>
+<? $general = $config['general'] ?>
 <section class="<?= short_name($section) ?> tool" id="<?= short_name($section) ?>" data-name="<?= short_name($section) ?>" data-version="<?= current_version($section) ?>">
-      <div class="divider">&nbsp;</div>
-      <div class="container no-announcement">
+	<div class="divider">&nbsp;</div>
+	<div class="container no-announcement">
         <header class="clearfix">
-          <? if($section['version-info']['is-new-version']): ?>
-		  <div class="new-badge"><?= $general['new'] ?><br><span><?= $section['version-info']['current-version'] ?></span></div>
-          <? endif ?>
-          <div class="title-screenshots clearfix">
-	        <hgroup>
-	          <h1><?= $section['tool-name'] ?></h1>
-	          <h2><strong><?= $section['title'] ?></strong><br><?= $section['subtitle'] ?></h2>
-	        </hgroup>
-	        <div class="screenshots">
-	          <a href="#gpgmail-screenshots" class="open-screenshots"><img src="images/section/gpgmail-screenshot-preview-v3.png" width="136" height="120" alt="Open GPGMail Screenshots"></a>
-	        </div>
-          </div>
-          <div class="minor-features-download clearfix">
-          	<?= render_view("_minor-features", array("section" => $section, "config" => $config)) ?>
-          	<div class="download">
-              <a href="#" class="gpgmail-download action-button gpgtools-download versions-tip"><span>Download</span></a>
-              <div class="versions-panel special-modal" style="display: none" id="gpgmail-versions">
-                <h1><?= $general['version-info-title'] ?></h1>
-                <ul class="nav clearfix">
-                  <li><?= $section['version-info']['current-version'] ?> <span>&bull;</span></li>
-                  <li><a href="#release-notes"><?= $general['release-notes'] ?></a> <span>&bull;</span></li>
-                  <li><a href="#older-versions"><?= $general['old-versions'] ?></a></li>
-                </ul>
-                
-                <a class="verification-button hash" href="#"><?= $section['version-info']['checksum'] ?></a>
-                
-                <a class="verification-button signature-file" href="#"><?= $general['pgp-signature'] ?></a>
-                
-                <ul class="clearfix versions" style="display:none">
-					<? foreach($section['version-info']['os-x-versions'] as $version): ?>
-						<li class="version-<?= str_replace('.', '', $version['version']) ?>"><a href="<?= $version['url'] ?>"><?= $general['osx'] ?><br><span><?= $version['version'] ?></span></a></li>
-					<? endforeach ?>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="feature-info">
-            <span class="arrow" style="display: none"></span>
-            <div class="bar">&nbsp;</div>
-            <div class="description">&nbsp;</div>
-          </div>
+			<? if($section['version-info']['is-new-version']): ?>
+			<div class="new-badge"><?= $general['new'] ?><br><span><?= $section['version-info']['current-version'] ?></span></div>
+			<? endif ?>
+			<div class="title-screenshots clearfix">
+				<hgroup>
+					<h1><?= $section['tool-name'] ?></h1>
+					<h2><strong><?= $section['title'] ?></strong><br><?= $section['subtitle'] ?></h2>
+				</hgroup>
+				<div class="screenshots">
+					<a href="#gpgmail-screenshots" class="open-screenshots"><img src="images/section/gpgmail-screenshot-preview-v3.png" width="136" height="120" alt="Open GPGMail Screenshots"></a>
+				</div>
+			</div>
+			<div class="minor-features-download clearfix">
+				<?= render_view("_minor-features", array("section" => $section, "config" => $config)) ?>
+				<div class="download">
+					<a href="#" class="gpgmail-download action-button gpgtools-download versions-tip"><span>Download</span></a>
+					<div class="versions-panel special-modal" style="display: none" id="gpgmail-versions">
+						<h1><?= $general['version-info-title'] ?></h1>
+						<ul class="nav clearfix">
+							<li><?= $section['version-info']['current-version'] ?> <span>&bull;</span></li>
+							<li><a href="#release-notes"><?= $general['release-notes'] ?></a> <span>&bull;</span></li>
+							<? if ($section['version-info']['os-x-versions']): ?>
+								<li><a href="#older-versions"><?= $general['old-versions'] ?></a></li>
+							<? endif ?>
+						</ul>
+						
+						<a class="verification-button hash" href="#"><?= $section['version-info']['checksum'] ?></a>
+						
+						<a class="verification-button signature-file" href="#"><?= $general['pgp-signature'] ?></a>
+						
+						<? if ($section['version-info']['os-x-versions']): ?>
+							<ul class="clearfix versions" style="display:none">
+								<? foreach($section['version-info']['os-x-versions'] as $version): ?>
+								<li class="version-<?= str_replace('.', '', $version['version']) ?>"><a href="<?= $version['url'] ?>"><?= $general['osx'] ?><br><span><?= $version['version'] ?></span></a></li>
+								<? endforeach ?>
+							</ul>
+						<? endif ?>
+					</div>
+				</div>
+			</div>
+			<div class="feature-info">
+				<span class="arrow" style="display: none"></span>
+				<div class="bar">&nbsp;</div>
+				<div class="description">&nbsp;</div>
+			</div>
         </header>
         <ul class="clearfix features">
-          <? if(isset($section['features'])): 
+			<? if(isset($section['features'])):
             foreach($section['features'] as $column): ?>
             <li class="one-column">
-            <? foreach($column as $feature): ?>
-              <h3><?= $feature['title'] ?></h3>
-              <p><?= $feature['content'] ?></p>
-            <? endforeach ?>  
+				<? foreach($column as $feature): ?>
+				<h3><?= $feature['title'] ?></h3>
+				<p><?= $feature['content'] ?></p>
+				<? endforeach ?>
             </li>
-          <? endforeach; endif; ?>
+			<? endforeach; endif; ?>
         </ul>
-      </div>
+	</div>
 </section>
