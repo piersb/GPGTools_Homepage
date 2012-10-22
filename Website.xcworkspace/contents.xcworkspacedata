@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Other JSON">
+      <FileRef
+         location = "group:config/companies.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/friends.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/gka-versions.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/gpgmail-versions.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/gpgservices-versions.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/gpgtools-versions.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/macgpg-versions.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/supporters.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/vips.json">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:config/site.json">
+   </FileRef>
+   <FileRef
+      location = "group:css/main.css">
+   </FileRef>
+   <FileRef
+      location = "group:index.php">
+   </FileRef>
+   <FileRef
+      location = "group:js/script.js">
+   </FileRef>
+   <FileRef
+      location = "group:views/_minor-features.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/_navigation.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/_section.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/gpgtools.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/index.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/ios.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/mini-site.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/site.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/modals">
+   </FileRef>
+</Workspace>
