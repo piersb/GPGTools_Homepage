@@ -50,7 +50,7 @@
 					{"title": "GPGMail missing secret key", "description": "This is an ecrypted mail for which the secret key is not in the keychain.", "image": "GPGMail encrypted - key missing.png"},
 					{"title": "GPGMail failed decryption", "description": "This is a mail with failed decryption, this can be caused by various things. You should get in touch with our support.", "image": "GPGMail encrypted - error.png"},
 					{"title": "GPGMail multi key", "description": "If you have several keys for a single mail adress you are able to select which one to use.", "image": "GPGMail multi_key.png"},
-					{"title": "GPGMail S/MIME active", "description": "This mail will be signed with S/MIME.", "image": "GPGMail S/MIME active.png"},
-					{"title": "GPGMail S/MIME inactive", "description": "This mail will not be using S/MIME.", "image": "GPGMail S/MIME inactive.png"}
+					{"title": "GPGMail S/MIME active", "description": "This mail will be signed with S/MIME.", "image": "GPGMail SMIME active.png"},
+					{"title": "GPGMail S/MIME inactive", "description": "This mail will not be using S/MIME.", "image": "GPGMail SMIME inactive.png"}
 					]
 }

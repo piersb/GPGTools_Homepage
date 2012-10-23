@@ -31,6 +31,18 @@
       <FileRef
          location = "group:config/vips.json">
       </FileRef>
+      <FileRef
+         location = "group:config/gka.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/gpgmail.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/gpgservices.json">
+      </FileRef>
+      <FileRef
+         location = "group:config/macgpg.json">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:config/site.json">
@@ -40,6 +52,9 @@
    </FileRef>
    <FileRef
       location = "group:index.php">
+   </FileRef>
+   <FileRef
+      location = "group:lib/helpers.php">
    </FileRef>
    <FileRef
       location = "group:js/script.js">

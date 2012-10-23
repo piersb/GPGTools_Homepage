@@ -1342,7 +1342,7 @@ ModalPageController.extend("ReleaseNotesController", {}, {
 	init: function(name) {
 		this.$switcher = null
 		this.toolName = name
-		this._super('/' + this.toolName + '/release-notes' , {})
+		this._super(document.URL + '/' + this.toolName + '/release-notes' , {})
 	},
 	contentLoaded: function() {
 		var object = this
@@ -1746,8 +1746,8 @@ ModalPageController.extend("ScreenshotsPageController", {}, {
         var options = {options: {
             overlay: {close: true}, viewport: 'scale'}
         }
-        
-        this._super('/' + toolName + '/screenshots', options)
+
+		this._super(document.URL + '/' + toolName + '/screenshots', options)
     },
     contentLoaded: function() {
 /*

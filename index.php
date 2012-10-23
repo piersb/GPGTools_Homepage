@@ -35,12 +35,11 @@
     
     function render_screenshots($uri) {
         $config = LLConfig::load("config/site.json");
-        $parts = preg_split("{/}", $uri);
-        
-        if(count($parts) != 3)
-            return;
-        
-        $tool = $parts[1];
+		
+		if (!preg_match("#/([^/]+)/screenshots#", $uri, &$matches))
+			return;
+		        
+        $tool = $matches[1];
         $sections = $config->get('sections');
         
         if(!$sections)
