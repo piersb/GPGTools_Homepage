@@ -903,7 +903,7 @@ Controller.extend("GPGToolsController", {}, {
 		this.setupDonationModal()
 		this.setupSections()
 		$('body').keydown(function(e) {
-			if (e.keyCode = 27) {
+			if (e.keyCode == 27) {
 				Tipped.hideAll();
 			}
 		});
