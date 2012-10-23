@@ -1,4 +1,4 @@
-ß{extends file="index.tpl"}
+{extends file="index.tpl"}
 {block name=body}
     <div id="overview">
       <div id="o_content"><h2>Support us</h2></div>
@@ -135,6 +135,7 @@ BIC COBADEHD055</p>
             <li>Florian Blaser</li>
             <li>Florian Stocker</li>
             <li>Francis Hwang</li>
+            <li>Francis Lata</li>
             <li>Franco Fichtner</li>
             <li>Frederic Jouvin</li>
             <li>Fritz Mielert</li>
