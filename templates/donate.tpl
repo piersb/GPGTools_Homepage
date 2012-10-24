@@ -93,6 +93,7 @@ BIC COBADEHD055</p>
             <li>Aurimas Mikalauskas</li>
             <li>Austin Saucier
             <li>Balazs Boros</li>
+            <li>Bartosz Rybinski</li>
             <li>Beat Stehrenberger</li>
             <li>Benjamin Wilson</li>
             <li>Bernd Wiese</li>
@@ -120,10 +121,12 @@ BIC COBADEHD055</p>
             <li>Daniel Kullman</li>
             <li>Dave Diemer</li>
             <li>David Norman</li>
+            <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
             <li>Dirk Ruediger</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
+            <li>Dmitry Paranyushkin</li>            
             <li>Doug Laakso</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
@@ -142,6 +145,7 @@ BIC COBADEHD055</p>
             <li>Furuno Satoshi</li>
             <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
+            <li>Giovanni Vigna</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
             <li>Guido Viarengo</li>
@@ -202,6 +206,7 @@ BIC COBADEHD055</p>
             <li>Nagib Tharani</li>
             <li>Nathan Pearlstein</li>
             <li>Neil Brown</li>
+            <li>Neil Jarvis</li>
             <li>Nicholas Hubbard</li>
             <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
@@ -302,6 +307,7 @@ BIC COBADEHD055</p>
                   <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
+                  <li>Tradeo</li>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
                   <li>TX512 Web Services</li>
