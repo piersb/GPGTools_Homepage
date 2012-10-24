@@ -33,7 +33,7 @@
             <li><a href="https://www.transifex.net/accounts/profile/GPGTools/">Localize on Transifex</a></li>
             <li><a href="http://gpgtools.lighthouseapp.com/events.atom">How to keep up to date with all issues</a></li>
             </ul>
-            <h4>Donate money</h4>
+            <h4 id="donate-paypal">Donate money</h4>
             <p>We love to contribute to the world. We love encryption and secure communication. The entire GPGTools project is build in our spare time and we rely on donations. Your donation will be used for the development of the
             GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
             <ul class="sub"></ul>

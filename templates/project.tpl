@@ -19,7 +19,7 @@
     <div id="main">
         <div id="m_content">
         	{if $title|strtolower == 'gpgmail'}
-<div id="announcement"> <b>IMPORTANT:</b> We have a first preview of GPGMail for Mountain Lion. Get early access and help development by <a href="https://www.gpgtools.org/donate.html" title="10.8_Donate">donating</a>.			<br><br>
+<div id="announcement"> <b>IMPORTANT:</b> We have a first preview of GPGMail for Mountain Lion. Get early access and help development by <a href="https://www.gpgtools.org/donate.html#donate-paypal" title="10.8_Donate">donating</a>.			<br><br>
 			<b>IMPORTANT:</b> If you're running <b>10.7.5</b> please download and install the newest GPGMail version from <a href="https://nightly.gpgtools.org/GPGMail-latest.dmg">nightly.gpgtools.org</a><br><br>
 			<b>IMPORTANT:</b> If you've installed the <b>security update for 10.6.8</b>, please find instructions to fix GPGMail <a href="http://support.gpgtools.org/discussions/everything/1959-osx-update-mail-53-compatibility/page/1?to=%2Fdiscussions%2Feverything%2F1959-osx-update-mail-53-compatibility%2Fpage%2F2%3Fto%3D%252Fdiscussions%252Feverything%252F1959-osx-update-mail-53-compatibility#comment_18890884">here</a></div>
 {/if}<br><br>
