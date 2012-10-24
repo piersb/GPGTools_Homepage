@@ -1,75 +1,86 @@
-<? $friends = $config['gpgfriends'] ?>
-	<div class="modal special-modal clearfix" id="friends-page" style="display:none">
-		<div class="intro">
-			<h1><?= $friends['left-title'] ?></h1>
-			
-			<ul class="levels lp-section-nav">
-				<li class="vips lp-section"><h2><?= $friends['vips-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
-				<li class="companies lp-section"><h2><?= $friends['companies-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
-				<li class="friends lp-section"><h2><?= $friends['friends-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
-				<li class="supporters lp-section"><h2><?= $friends['supporters-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
-			</ul>
-		</div>
+<? $friends = $config['gpgfriends'];
+$general = $config['general'];
+?>
+<div class="modal special-modal clearfix" id="friends-page" style="display:none">
+	<div class="intro">
+		<h1><?= $friends['left-title'] ?></h1>
 		
-		<div class="switcher lp-slider lp-vertical-slider lp-sections">
-			<div class="your-area lp-slide" style="display:none">
-				<h1><?= $friends['title'] ?></h1>
-				<?= $friends['text'] ?>
-			</div>
-			<? $items = array("vips", "companies");
-			   foreach($items as $key):
-			   $title = $friends[$key . "-title"];
-			?>
-			<div class="<?= $key ?> lp-slide invisible" style="display:none">
-				<h1><?= $title ?></h1>
-				
-				<div class="lp-slider lp-horizontal-slider" data-slide-width="320">
-					<div class="lp-horizontal-slider-container clearfix">
-						<ul class="clearfix lp-slide invisible">
-					<? $people = $friends[$key];
-					   $i = 1;
-					   foreach($people as $name):
-					       $default = $key == 'vips' ? "vip-logo-default.png" : "companies-logo-default.png";
-					?>						
-						<li class="<?= $i % 2 == 0 ? "right" : "left" ?>"><div class="logo"><img src="<?= (is_array($name) || is_object($name)) && !empty($name[1]) ? $name[1] : "images/friends/$default" ?>" alt="VIP Logo" height="27" /></div><h2><?= is_array($name) || is_object($name) ? $name[0] : $name ?></h2></li>
-												<? if($i % 6 == 0): ?>
+		<ul class="levels lp-section-nav">
+			<li class="vips lp-section"><h2><?= $friends['vips-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+			<li class="companies lp-section"><h2><?= $friends['companies-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+			<li class="friends lp-section"><h2><?= $friends['friends-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+			<li class="supporters lp-section"><h2><?= $friends['supporters-title'] ?></h2><p><?= $friends['donate-text1'] ?><a href="#" class="show-donation-page"><?= $friends['donate-text2'] ?></a></p></li>
+		</ul>
+	</div>
+	
+	<div class="switcher lp-slider lp-vertical-slider lp-sections">
+		<div class="your-area lp-slide" style="display:none">
+			<h1><?= $friends['title'] ?></h1>
+			<?= $friends['text'] ?>
+		</div>
+		<? $items = array("vips", "companies");
+		foreach($items as $key):
+		$title = $friends[$key . "-title"];
+		?>
+		<div class="<?= $key ?> lp-slide invisible" style="display:none">
+			<h1><?= $title ?></h1>
+			
+			<div class="lp-slider lp-horizontal-slider" data-slide-width="320">
+				<div class="lp-horizontal-slider-container clearfix">
+					
+					<ul class="clearfix lp-slide invisible">
+						<? $people = $friends[$key];
+						$count = count($people);
+						$i = 1;
+						foreach($people as $name):
+						$default = $key == 'vips' ? "vip-logo-default.png" : "companies-logo-default.png";
+						?>
+						
+						<li class="<?= $i % 2 == 0 ? "right" : "left" ?>">
+							<div class="logo">
+								<img src="images/friends/<?= (is_array($name) || is_object($name)) && !empty($name[1]) ? $name[1] : "$default" ?>" alt="<?= $general[$key . '-logo'] ?>" height="27" />
+							</div>
+							<h2><?= is_array($name) || is_object($name) ? $name[0] : $name ?></h2>
+						</li>
+						
+					<? if($i % 6 == 0 && $i < $count): ?>
 						</ul>
 						<ul class="clearfix lp-slide invisible">
-						<? endif ?>
-
-					<? $i++; endforeach ?>
+					<? endif ?>
 						
-					</div>
-				</div>
-				<nav class="clearfix">
-					<a href="#" class="prev disabled" alt="Previous entries">Prev</a>
-					<a href="#" class="next" alt="Next entries">Next</a>
-				</nav>
+						<? $i++; endforeach ?>
+					</ul>
+						</div>
 			</div>
-			<? endforeach ?>
-			
-			<? $items = array("friends", "supporters");
-			   foreach($items as $key):
-			   $title = $friends[$key . "-title"];
-			?>
-			<div class="<?= $key ?> lp-slide invisible" style="display:none">
-				<h1><?= $title ?></h1>
-				
-				<ul class="clearfix">
-					<? $people = $friends[$key];
-					   foreach($people as $name):
-					?>
-					<li><?= $name ?></li>
-					<? endforeach; ?>
-				</ul>
-				<div class="content"></div>
-				
-				
-				<nav class="clearfix">
-					<a href="#" class="prev disabled" alt="Previous entries">Prev</a>
-					<a href="#" class="next" alt="Next entries">Next</a>
-				</nav>
-			</div>
-			<? endforeach ?>
+			<nav class="clearfix">
+				<a href="#" class="prev disabled" alt="<?= $general['prev-entries'] ?>"><?= $general['prev'] ?></a>
+				<a href="#" class="next" alt="<?= $general['next-entries'] ?>"><?= $general['next'] ?></a>
+			</nav>
 		</div>
+		<? endforeach ?>
+		
+		<? $items = array("friends", "supporters");
+		foreach($items as $key):
+		$title = $friends[$key . "-title"];
+		?>
+		<div class="<?= $key ?> lp-slide invisible" style="display:none">
+			<h1><?= $title ?></h1>
+			
+			<ul class="clearfix">
+				<? $people = $friends[$key];
+				foreach($people as $name):
+				?>
+				<li><?= $name ?></li>
+				<? endforeach; ?>
+			</ul>
+			<div class="content"></div>
+			
+			
+			<nav class="clearfix">
+				<a href="#" class="prev disabled" alt="<?= $general['prev-entries'] ?>"><?= $general['prev'] ?></a>
+				<a href="#" class="next" alt="<?= $general['next-entries'] ?>"><?= $general['next'] ?></a>
+			</nav>
+		</div>
+		<? endforeach ?>
 	</div>
+</div>

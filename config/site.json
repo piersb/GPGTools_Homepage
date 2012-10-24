@@ -42,7 +42,13 @@
 		"release-notes": "Release Notes",
 		"old-versions": "Older Versions",
 		"pgp-signature": "PGP Signature",
-		"osx": "OS X"
+		"osx": "OS X",
+		"companies-logo": "Logo",
+		"vips-logo": "Logo",
+		"prev-entries": "Previous entries",
+		"next-entries": "Next entries",
+		"prev": "Prev",
+		"next": "Next"
 	},
 	"gpgfriends": {
 		"left-title": "Supporters",

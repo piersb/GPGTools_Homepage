@@ -1221,7 +1221,7 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 		var $sliderContainer = $content.find(".lp-horizontal-slider-container")
 		
 		var i
-		const maxLength = 640
+		const maxLength = 610
 		var textLength = 0
 		var iStart = 0
 		
