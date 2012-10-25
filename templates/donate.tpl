@@ -175,6 +175,7 @@ BIC COBADEHD055</p>
             <li>Jürgen Nickelsen</li>
             <li>Julian Albert</li>
             <li>Karl Pietrzak</li>
+            <li>Kaspar Vollenweider</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
             <li>Kenneth R Van Wyk</li>
