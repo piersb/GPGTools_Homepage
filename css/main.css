@@ -649,7 +649,17 @@ background-image: linear-gradient(270deg, #276d95 0%, #31779f 48.66%, #3b81a9 51
 .modal.signature-verification-page .intro li p { margin: 0px; padding: 3px 0px; padding-left: 10px;
 	width: 244px; line-height: 1.3;
 }
-.modal.signature-verification-page .panel img {
+.modal.signature-verification-page .panel {
+	position: relative;
+}
+.verification-image {
+	position: absolute;
+}
+.verification-image.current-image {
+	z-index: 1;
+}
+
+.modal.signature-verification-page .panel .placeholder {
 	-moz-box-shadow: 0 0 3px rgba(151,151,151,.7);
 	-webkit-box-shadow: 0 0 3px rgba(151,151,151,.7);
 	box-shadow: 0 0 3px rgba(151,151,151,.7);

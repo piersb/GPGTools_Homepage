@@ -6,7 +6,7 @@
 		<ul class="steps">
 			<? $number=0; foreach ($texts['steps'] as $step): $number++ ?>
 			<li>
-				<a class="clearfix" href="#">
+				<a class="verification-step-link clearfix" href="#hash-verification<?= $number ?>">
 					<span class="step-nr"><?= $number ?></span>
 					<p><?= $step['title'] ?></p>
 				</a>
@@ -18,9 +18,28 @@
 	
 	<div class="preview-screenshot">
 		<div class="switcher">
-			<!-- TODO: Automatisch richtiges Bild für den ausgewählten Schritt anzeigen. -->
-			<div class="panel"><img src="images/verification/<?= $texts['steps'][3][image] ?>" alt="step-4" width="300" height="327" /></div>
+			
+			<!-- TODO: Beim klicken auf ein Vorschaubild das Original anzeigen. -->
+			<div class="panel">
+				<a href="javascript:alert('TODO: Großes bild anzeigen.');">
+				<img class="verification-image current-image" src="images/verification/<?= $texts['steps']['0']['small-image'] ?>" alt="" width="300" height="327" />
+				<img class="verification-image" src="" alt="" width="300" height="327" />
+				</a>
+				<div class="placeholder" style=" width:300px; height:327px;" />
+
+				<script>
+					var hash_verification_images=new Array(""<?
+						foreach ($texts['steps'] as $step)
+							echo ',"images/verification/' . $step['image'] . '"';
+					?>)
+					var hash_verification_small_images=new Array(""<?
+						foreach ($texts['steps'] as $step)
+							echo ',"images/verification/' . $step['small-image'] . '"';
+					?>)
+				</script>
+				<span><?= $texts['image-subline'] ?></span>
+			</div>
+			
 		</div>
-		<p><?= $texts['image-subline'] ?></p>
 	</div>
 </div>

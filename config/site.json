@@ -127,11 +127,11 @@
 		"footer": "Bravo, you've just verified your first file!",
 		"image-subline": "Click for larger screenshot",
 		"steps": [
-				  {"image": "sig-step-1.jpg", "title": "Install GPGTools"},
-				  {"image": "sig-step-2.jpg", "title": "Download the GPGTools OpenPGP key and import it using GPG Keychain Access"},
-				  {"image": "sig-step-3.jpg", "title": "Select the signature file you've downloaded in Finder"},
-				  {"image": "sig-step-4.jpg", "title": "Right-click and select Services › OpenPGP: Verify signature of file"},
-				  {"image": "sig-step-5.jpg", "title": "Check the message shown in the opening window"}
+				  {"small-image": "sig-step-1.jpg", "image": "sig-step-1.jpg", "title": "Install GPGTools"},
+				  {"small-image": "sig-step-2.jpg", "image": "sig-step-2.jpg", "title": "Download the GPGTools OpenPGP key and import it using GPG Keychain Access"},
+				  {"small-image": "sig-step-3.jpg", "image": "sig-step-3.jpg", "title": "Select the signature file you've downloaded in Finder"},
+				  {"small-image": "sig-step-4.jpg", "image": "sig-step-4.jpg", "title": "Right-click and select Services › OpenPGP: Verify signature of file"},
+				  {"small-image": "sig-step-5.jpg", "image": "sig-step-5.jpg", "title": "Check the message shown in the opening window"}
 				  ]
 	},
 	"hash-verification": {
@@ -140,11 +140,11 @@
 		"footer": "Bravo...!",
 		"image-subline": "Click for larger screenshot",
 		"steps": [
-				  {"image": "hash-step-1.jpg", "title": "Open Terminal in /Applications/Utilities"},
-				  {"image": "hash-step-2.jpg", "title": "Step2"},
-				  {"image": "hash-step-3.jpg", "title": "Step3"},
-				  {"image": "hash-step-4.jpg", "title": "Step4"},
-				  {"image": "hash-step-5.jpg", "title": "Step5"}
+				  {"small-image": "hash-step-1.jpg", "image": "hash-step-1.jpg", "title": "Open Terminal in /Applications/Utilities"},
+				  {"small-image": "hash-step-2.jpg", "image": "hash-step-2.jpg", "title": "Step2"},
+				  {"small-image": "hash-step-3.jpg", "image": "hash-step-3.jpg", "title": "Step3"},
+				  {"small-image": "hash-step-4.jpg", "image": "hash-step-4.jpg", "title": "Step4"},
+				  {"small-image": "hash-step-5.jpg", "image": "hash-step-5.jpg", "title": "Step5"}
 				  ]
 	},
 	"ios": {

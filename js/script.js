@@ -1081,6 +1081,36 @@ ModalPageController.extend("SignatureVerificationPageController", {}, {
 			var offset = Math.round((height - $step_nr.height()) / 2)
 			$step_nr.css("margin-top", offset)
 		})
+		
+		var object = this
+		this.$pageContent.find(".verification-step-link").click(function(evt) {
+			evt.preventDefault()
+			evt.stopPropagation()
+			
+			var regex = /#([^0-9]+)([0-9]+)/
+			var parts = regex.exec(this.hash)
+			var baseString = parts[1]
+			var image;
+			
+			if (baseString == "hash-verification") {
+				image = hash_verification_small_images[parts[2]]
+			} else {
+				image = signature_verification_small_images[parts[2]]
+			}
+			
+			var $currentImage = object.$pageContent.find(".verification-image.current-image")
+			var $otherImage = object.$pageContent.find(".verification-image:not(.current-image)")
+			
+			if ($currentImage.attr("src") == image)
+				return;
+				
+			
+			$otherImage.attr("src", image)
+			$otherImage.hide()
+			$otherImage.addClass("current-image")
+			$currentImage.removeClass("current-image")
+			$otherImage.fadeIn(200)
+		})
 	}
 })
 
