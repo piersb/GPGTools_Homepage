@@ -109,9 +109,11 @@ BIC COBADEHD055</p>
             <li>Carsten Bormann</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
+            <li>Christian Bockermann</li>
             <li>Christian Roessner</li>
             <li>Christian Tanner</li>
             <li>Christer Klasson</li>
+            <li>Christoph Deinhard</li>
             <li>Christopher Gibson</li>
             <li>Claudius Wettstein</li>
             <li>Clytie Siddall</li>
@@ -146,6 +148,7 @@ BIC COBADEHD055</p>
             <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
             <li>Giovanni Vigna</li>
+            <li>Graham Perrin</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
             <li>Guido Viarengo</li>
@@ -167,6 +170,7 @@ BIC COBADEHD055</p>
             <li>John Duggins</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
+            <li>Jonathan Picht</li>
             <li>Jörg Bühmann</li>
             <li>Jorge Valencia Alvarez</li>
             <li>Josh Ballard</li>
@@ -176,6 +180,7 @@ BIC COBADEHD055</p>
             <li>Julian Albert</li>
             <li>Karl Pietrzak</li>
             <li>Kaspar Vollenweider</li>
+            <li>Keith Paskett</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
             <li>Kenneth R Van Wyk</li>
@@ -185,6 +190,7 @@ BIC COBADEHD055</p>
             <li>Laurens Bonnema</li>
             <li>Lincoln Bertin</li>
             <li>Lorenzo Grespan</li>
+            <li>Luca Carettoni</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
             <li>Marc Eubanks</li>
@@ -200,9 +206,11 @@ BIC COBADEHD055</p>
             <li>Michael Langford</li>
             <li>Michael Prewitt</li>
             <li>Michael Ruse</li>
+            <li>Miguel Cordas</li>
             <li>Mika Goeckel</li>
             <li>Mike Davis</li>
             <li>Mike Hellers</li>
+            <li>Mio Shimizu</li>
             <li>N J L Macassey</li>
             <li>Nagib Tharani</li>
             <li>Nathan Pearlstein</li>
@@ -226,6 +234,7 @@ BIC COBADEHD055</p>
             <li>Peter Mueller</li>
             <li>Pieter van der Meulen</li>
             <li>Philip Jocks</li>
+            <li>Phillip Rotherham</li>
             <li>Radek Mrskos</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
@@ -251,6 +260,7 @@ BIC COBADEHD055</p>
             <li>Stijn Jonker</li>
             <li>Sven Haskel</li>
             <li>Sven Schwyn</li>
+            <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
@@ -273,6 +283,7 @@ BIC COBADEHD055</p>
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
+                  <li>Akademia Bezpieczenstwa</li>
                   <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
@@ -282,6 +293,7 @@ BIC COBADEHD055</p>
                   <li>Endian Technologies AB</li>
                   <li>Enigma Software</li>
                   <li>Everlevel ldt</li>
+                  <li>Firehouse Network Consulting</li>
                   <li>Five Reels</li>
                   <li>Flexcellence UG</li>
                   <li>Forced Web</li>
@@ -290,6 +302,7 @@ BIC COBADEHD055</p>
                   <li>innoQ Deutschland</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
+                  <li>Lovely Systems GmbH</li>
                   <li>macon.cc</li>
                   <li>MacPomoc</li>
                   <li>Matta</li>
@@ -297,6 +310,7 @@ BIC COBADEHD055</p>
                   <li>Midnight Oil Consulting</li>
                   <li>mg2 organization</li>
                   <li>MojoLingo</li>
+                  <li>Nick McLarty Technologies</li>
                   <li>Nine Internet Solutions AG</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
@@ -308,6 +322,7 @@ BIC COBADEHD055</p>
                   <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
+                  <li>sw4 Stefan Wild</li>
                   <li>Tradeo</li>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
