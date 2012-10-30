@@ -107,6 +107,7 @@ BIC COBADEHD055</p>
             <li>Carlos Alberto Lizarralde</li>            
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
+            <li>Chad Stanke</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
             <li>Christian Bockermann</li>
