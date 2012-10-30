@@ -304,6 +304,7 @@ BIC COBADEHD055</p>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
                   <li>innoQ Deutschland</li>
+                  <li>IS.Star SPRL</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems GmbH</li>
