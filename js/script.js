@@ -1776,8 +1776,9 @@ ModalPageController.extend("ScreenshotsPageController", {}, {
         var options = {options: {
             overlay: {close: true}, viewport: 'scale'}
         }
-
-		this._super(document.URL + '/' + toolName + '/screenshots', options)
+		
+		
+		this._super(document.URL + (document.URL[document.URL.length-1] == '/' ? '' : '/') + toolName + '/screenshots', options)
     },
     contentLoaded: function() {
 /*
