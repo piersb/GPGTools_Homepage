@@ -141,6 +141,7 @@ BIC COBADEHD055</p>
             <li>Florian Stocker</li>
             <li>Francis Hwang</li>
             <li>Francis Lata</li>
+            <li>Francisco Craig</li>
             <li>Franco Fichtner</li>
             <li>Frederic Jouvin</li>
             <li>Fritz Mielert</li>
@@ -196,6 +197,7 @@ BIC COBADEHD055</p>
             <li>Marc Eubanks</li>
             <li>Marcel Dietzmann</li>
             <li>Mark Harrigan</li>
+            <li>Markus Talas</li>
             <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
             <li>Matthias Dörfler</li>
@@ -284,6 +286,7 @@ BIC COBADEHD055</p>
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
                   <li>Akademia Bezpieczenstwa</li>
+                  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
