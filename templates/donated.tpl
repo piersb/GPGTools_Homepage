@@ -7,16 +7,17 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <h3>Thank you for your donation!</h3>
-            <p>Thank you very much for your donation! Your money will help
-            us to bring secure OpenPGP based communication to Apple OS X
-            and beyond.</p>
-            <p>As a token of appreciation we would like to publish your
-            name (or company) at our list of sponsors. Please let us
-            know in case you accept this offer.</p>
+            <h3>Thank you very much for your support!</h3>
+            <p>With your contribution
+			   you can help us guarantee, that we'll continue working our asses off<br>
+			   on making the use of GPG as simple and seamless as it gets on OS X and provide you,<br>
+			   with the best experience we possibly can.</p>
+			
+			<p><br>As a small token of our appreciation we would like to give you early access<br>
+			   to the GPGMail for Mountain Lion preview build.<br>The instructions on how to obtain the
+			   preview build should arrive in your inbox within the next 12 hours.<br>(Maybe a lot sooner depending on our sleeping schedule)</p>
+			
             <ul class="sub"></ul>
-            <p>
-            Sincerely Yours, GPGTools Project Team
-            </p>
+            <p>Sincerely Yours,<br>GPGTools Team</p>
         </div>
 {/block}
