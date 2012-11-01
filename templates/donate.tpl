@@ -101,6 +101,7 @@ BIC COBADEHD055</p>
             <li>Bjoern Brauel</li>
             <li>Brian Farrell</li>
             <li>Brian Long</li>
+            <li>Brian S Poe</li>
             <li>Bruce Alan Johnson</li>
             <li>Bruce Robinson</li>
             <li>Burnsitech</li>
@@ -148,6 +149,7 @@ BIC COBADEHD055</p>
             <li>Frederic Jouvin</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
+            <li>Gary Greene</li>
             <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
             <li>Giovanni Vigna</li>
@@ -158,6 +160,7 @@ BIC COBADEHD055</p>
             <li>Guillaume Destuynder</li>
             <li>Hans-Peter Scholz</li>
             <li>Henry Stryker</li>
+            <li>Horst Kapfenberger</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
             <li>James Martin</li>
@@ -202,9 +205,11 @@ BIC COBADEHD055</p>
             <li>Markus Talas</li>
             <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
+            <li>Matt Pruitt</li>
             <li>Matthias Dörfler</li>
             <li>Michael Dierck</li>
             <li>Michael Gracie</li>
+            <li>Michael Halsall</li>
             <li>Michael Klotz</li>
             <li>Michael Krzyzanski</li>
             <li>Michael Langford</li>
@@ -277,6 +282,7 @@ BIC COBADEHD055</p>
             <li>Vikram Phatak</li>
             <li>Volker Schwaberow</li>
             <li>Volker Thieme</li>
+            <li>Walter Dula</li>
             <li>Wayne Veilleux</li>
             <li>Wilbert Leeper</li>
             <li>William Buchaus</li>
