@@ -324,11 +324,18 @@ PageController.extend("TippedPageController", {}, {
 		defaultOptions.onShow = function(content, element) {
 			if(object.options.animate)
 				$(content).parents(".t_Tooltip").addClass("animated").addClass("bounceInUp")
+			
+			$(document).bind("keydown.tipped", function(e) {
+				if (e.keyCode == 27) {
+					Tipped.hide(element)
+				}
+			});
 			onShow(content)
 		}
 		defaultOptions.onHide = function(content, element) {
 			if(object.options.animate)
 				$(content).parents(".t_Tooltip").removeClass("animated").removeClass("bounceInUp")
+			$(document).unbind("keydown.tipped")
 			onHide(content)
 		}
 		defaultOptions.afterUpdate = function(content, element) {
@@ -915,11 +922,6 @@ Controller.extend("GPGToolsController", {}, {
 		this.setupContactForm()
 		this.setupDonationModal()
 		this.setupSections()
-		$('body').keydown(function(e) {
-			if (e.keyCode == 27) {
-				Tipped.hideAll();
-			}
-		});
 	},
 	shouldShowDownloadPage: function() {
 		if(window.location.hash.search(/#download-/) == -1)
@@ -1782,10 +1784,9 @@ ModalPageController.extend("ScreenshotsPageController", {}, {
     	this.$slider = this.$gallery = this.$fullsizeImage = this.$title = this.$description = null
     	this.maxOffset = this.baseOffset = this.itemIndex = this.screenshotIndex = 0
     	this.indexFromScreenshot = false
-    	
+*/    	
         this.toolName = toolName
         
-*/
         var options = {options: {
             overlay: {close: true}, viewport: 'scale'}
         }
