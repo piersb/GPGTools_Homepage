@@ -147,11 +147,13 @@ BIC COBADEHD055</p>
             <li>Francisco Craig</li>
             <li>Franco Fichtner</li>
             <li>Frederic Jouvin</li>
+            <li>Fredrik Ulfson</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
             <li>Gary Greene</li>
             <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
+            <li>Gernot Starke</li>
             <li>Giovanni Vigna</li>
             <li>Graham Perrin</li>
             <li>Greg Hetrick</li>
@@ -163,6 +165,7 @@ BIC COBADEHD055</p>
             <li>Horst Kapfenberger</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
+            <li>Ivan Stojcevic</li>
             <li>James Martin</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
@@ -179,6 +182,7 @@ BIC COBADEHD055</p>
             <li>Jonathan Picht</li>
             <li>Jörg Bühmann</li>
             <li>Jorge Valencia Alvarez</li>
+            <li>Jørn Martin Tysnes Holm</li>
             <li>Josh Ballard</li>
             <li>Jozef Mares</li>
             <li>Jürgen Ehmann</li>
@@ -197,8 +201,10 @@ BIC COBADEHD055</p>
             <li>Lincoln Bertin</li>
             <li>Lorenzo Grespan</li>
             <li>Luca Carettoni</li>
+            <li>Lucas Fowler</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
+            <li>Marc Ahr</li>
             <li>Marc Eubanks</li>
             <li>Marcel Dietzmann</li>
             <li>Mark Harrigan</li>
@@ -207,6 +213,8 @@ BIC COBADEHD055</p>
             <li>Massimo Fabio</li>
             <li>Matt Pruitt</li>
             <li>Matthias Dörfler</li>
+            <li>Matthias Jantzen</li>
+            <li>Max Jaudas</li>
             <li>Michael Dierck</li>
             <li>Michael Gracie</li>
             <li>Michael Halsall</li>
@@ -228,6 +236,7 @@ BIC COBADEHD055</p>
             <li>Nicholas Hubbard</li>
             <li>Nishal Goburdhan</li>
             <li>Olaf Kolkman</li>
+            <li>Ole Hermansen</li>
             <li>Oleg Pak</li>
             <li>Omer Holzinger</li>
             <li>Oscar Koeroo</li>
@@ -235,6 +244,7 @@ BIC COBADEHD055</p>
             <li>Patrick Santana</li>
             <li>Patrik Faltstrom</li>
             <li>Patrick Vander Linden</li>
+            <li>Paul Miles</li>
             <li>Paul Morten Vikanes</li>
             <li>Paul Richardson</li>
             <li>Peter Eckel</li>
@@ -269,6 +279,7 @@ BIC COBADEHD055</p>
             <li>Stijn Jonker</li>
             <li>Sven Haskel</li>
             <li>Sven Schwyn</li>
+            <li>Taddong</li>
             <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
             <li>Thomas Bruehl</li>
@@ -278,8 +289,10 @@ BIC COBADEHD055</p>
             <li>TJ Marbois</li>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
+            <li>Uwe Arzt</li>
             <li>Uwe Ulrich</li>
             <li>Vikram Phatak</li>
+            <li>Volker John</li>
             <li>Volker Schwaberow</li>
             <li>Volker Thieme</li>
             <li>Walter Dula</li>
@@ -287,6 +300,7 @@ BIC COBADEHD055</p>
             <li>Wilbert Leeper</li>
             <li>William Buchaus</li>
             <li>William L Anderson</li>
+            <li>Wolfgang Klimt</li>
                 </ul>
             </div>
             <div class="table right">
@@ -301,9 +315,12 @@ BIC COBADEHD055</p>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc.</li>
                   <li>Cominvent AS</li>
+                  <li>Cube IT SRL</li>
+                  <li>d.k.d internet service</li>
                   <li>Endian Technologies AB</li>
                   <li>Enigma Software</li>
                   <li>Everlevel ldt</li>
+                  <li>Evio Group</li>
                   <li>Firehouse Network Consulting</li>
                   <li>Five Reels</li>
                   <li>Flexcellence UG</li>
@@ -314,7 +331,7 @@ BIC COBADEHD055</p>
                   <li>IS.Star SPRL</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
-                  <li>Lovely Systems GmbH</li>
+                  <li>Lovely Systems</li>
                   <li>macon.cc</li>
                   <li>MacPomoc</li>
                   <li>Matta</li>
@@ -323,11 +340,11 @@ BIC COBADEHD055</p>
                   <li>mg2 organization</li>
                   <li>MojoLingo</li>
                   <li>Nick McLarty Technologies</li>
-                  <li>Nine Internet Solutions AG</li>
+                  <li>Nine Internet Solutions</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
                   <li>PID1 Technical Services</li>
-                  <li>PC Universe ltd</li>
+                  <li>PC Universe</li>
                   <li>Rayzon Technologies</li>
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
