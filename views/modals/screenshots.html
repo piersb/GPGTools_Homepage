@@ -1,4 +1,3 @@
-<? $imageDir = dirname($_SERVER["SCRIPT_NAME"]) . "/images"; ?>
 <div class="modal special-modal clearfix gpgtools-screenshots" id="gpgmail-screenshots">
     <div class="big-image">
         <!--<img src="../images/screenshots/gpgmail/GPGS1.png" alt="GPGS1" width="690" height="312" />-->
@@ -10,7 +9,7 @@
     </div>
     
     <div class="thumbnails clearfix">
-        <a href="#" class="prev nav invisible"><img src="<?=$imageDir?>/screenshots/arrow-blue-prev.png" alt="Previous Screenshots" width="30" height="30" /></a>
+        <a href="#" class="prev nav invisible"><img src="../../images/screenshots/arrow-blue-prev.png" alt="Previous Screenshots" width="30" height="30" /></a>
         <div class="slider">
             <ul class="clearfix">
             <? foreach($screenshots as $screenshot): ?>
@@ -23,6 +22,6 @@
             <? endforeach; ?>
             </ul>
         </div>
-        <a href="#" class="next nav"><img src="<?=$imageDir?>/screenshots/arrow-blue-next.png" alt="Next Screenshots" width="30" height="30" /></a>
+        <a href="#" class="next nav"><img src="../../images/screenshots/arrow-blue-next.png" alt="Next Screenshots" width="30" height="30" /></a>
     </div>
 </div>

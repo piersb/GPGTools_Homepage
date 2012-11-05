@@ -41,7 +41,7 @@
     
     function screenshot_thumbnail($tool, $screenshot, $max_width, $max_height) {
 		$screenshot_path = BASE_DIR . '/images/screenshots/' . $tool;
-		$screenshot_url = dirname($_SERVER["SCRIPT_NAME"]) . '/images/screenshots/' . $tool;
+		$screenshot_url = '../../images/screenshots/' . $tool;
 		$path = $screenshot_path . '/' . $screenshot['image'];
 		$url = $screenshot_url . '/' . $screenshot['image'];
 		
