@@ -12,12 +12,9 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-/*a { color: #00e; }
+a { color: #00e; }
 a:visited { color: #551a8b; }
-a:hover { color: #06e; }*/
-a { color: #646464; text-decoration: none; }
-a:visited { color: #646464; }
-a:hover { color: #646464; }
+a:hover { color: #06e; }
 a:focus { outline: none; }
 a:hover, a:active { outline: 0; }
 abbr[title] { border-bottom: 1px dotted; }
@@ -66,6 +63,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+a { color: #646464; text-decoration: none; }
+a:visited { color: #646464; }
+a:hover { color: #646464; }
 
 /* Tutorial to calculate text and box-shadows: http://heygrady.com/blog/2011/08/06/recreating-photoshop-drop-shadows-in-css3-and-compass/ */
 .no-outline { outline: none; }
