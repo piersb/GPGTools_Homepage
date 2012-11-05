@@ -36,7 +36,7 @@
     function render_screenshots($uri) {
         $config = LLConfig::load("config/site.json");
 		
-		if (!preg_match("#/([^/]+)/screenshots#", $uri, &$matches))
+		if (!preg_match("#/([^/]+)/screenshots#", $uri, $matches))
 			return;
 		        
         $tool = $matches[1];
@@ -61,7 +61,7 @@
     function render_release_notes($uri) {
 	    $config = LLConfig::load("config/site.json");
 		
-		if (!preg_match("#/([^/]+)/screenshots#", $uri, &$matches))
+		if (!preg_match("#/([^/]+)/release-notes#", $uri, $matches))
 			return;
 		
         $tool = $matches[1];
