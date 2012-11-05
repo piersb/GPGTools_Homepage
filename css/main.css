@@ -474,7 +474,7 @@ section.gka header { background: url(../images/section/gpgkeychainaccess-logo.pn
 section.macgpg h1 { background: url(../images/titles/macgpg.png) no-repeat 0px 0px; width: 381px; }
 section.macgpg header { background: url(../images/section/macgpg-logo.png) no-repeat 7px 22px; }
 section.gpgservices h1 { background: url(../images/titles/gpgservices.png) no-repeat 0px 0px; width: 404px; }
-section.gpgservices header { background: url(../images/section/gpgservices-logo.png) no-repeat 7px 40px; }
+section.gpgservices header { background: url(../images/section/gpgservices-new-logo.png) no-repeat 7px 40px; }
 
 /* Release Notes. */
 /*
@@ -827,10 +827,27 @@ float: left; width: 140px; padding: 0px 10px; }
 .special-modal.release-notes .version h1 span { font-weight: normal; }
 .special-modal.release-notes .version > div { margin-bottom: 20px; }
 .special-modal.release-notes .version li { color: #969696; padding-left: 14px; background: url('../images/icons/list-arrow.png') no-repeat 0px 7px; }
-#gpgmail-release-notes .intro ul.versions li { padding-left: 80px;
+#gpgtools-release-notes .intro ul.versions li { padding-left: 80px;
 	background-image: url('../images/release-notes/gpgtools-logo.png');
 	background-position: 10px center;
 }
+#gpgmail-release-notes .intro ul.versions li { padding-left: 80px;
+	background-image: url('../images/release-notes/gpgmail-logo.png');
+	background-position: 10px center;
+}
+#gpgservices-release-notes .intro ul.versions li { padding-left: 80px;
+	background-image: url('../images/release-notes/gpgservices-logo.png');
+	background-position: 10px center;
+}
+#macgpg-release-notes .intro ul.versions li { padding-left: 80px;
+	background-image: url('../images/release-notes/macgpg-logo.png');
+	background-position: 14px center;
+}
+#gka-release-notes .intro ul.versions li { padding-left: 80px;
+	background-image: url('../images/release-notes/gka-logo.png');
+	background-position: 18px center;
+}
+
 .special-modal.release-notes .intro .version-scroller .shadow { position: absolute; bottom: 0px; height: 6px; width: 300px;
 z-index: 11;
 background: url('../images/release-notes/scroll-shadow.png') no-repeat 0px 0px;
