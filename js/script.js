@@ -34,9 +34,11 @@ var SITES_URL = '/sites'
 
 /* Author: Lukas Pitschl */
 $(function() {
-    var detector = new FontDetector()
-    if(!detector.isAvailable('futura-pt')) {
-        $("head").append($("<link>").attr("rel", "stylesheet").attr("href", "./css/futura.css"))
+    if(typeof FontDetector != 'undefined') {
+		var detector = new FontDetector()
+		if(!detector.isAvailable('futura-pt')) {
+        	$("head").append($("<link>").attr("rel", "stylesheet").attr("href", "./css/futura.css"))
+        }
     }
     
     var controller = new GPGToolsController()
