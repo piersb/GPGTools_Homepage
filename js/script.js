@@ -46,7 +46,7 @@ $(function() {
 var SANDBOX = true
 var PAYPAL_DONATION_URL = 'https://www.paypal.com/cgi-bin/webscr'
 var PAYPAL_SANDBOX_DONATION_URL = 'https://www.sandbox.paypal.com/cgi-bin/webscr'
-var DOWNLOAD_URL = '/download'
+var DOWNLOAD_URL = 'download'
 
 function downloadURLForTool(name, version) {
 	name = typeof name == 'undefined' ? '' : name
@@ -54,7 +54,18 @@ function downloadURLForTool(name, version) {
 	if(name == '' || version == '')
 		return null
 	
-	return [DOWNLOAD_URL, name, version].join("/")
+	return buildURL([DOWNLOAD_URL, name, version])
+}
+
+function buildURL(parts) {
+	var baseURL = document.location.origin + document.location.pathname
+	var urlParts = baseURL.split("/")
+	urlParts = urlParts.slice(0, -1)
+	
+	var url = $.merge(urlParts, parts).join("/")
+	console.log("Built URL: " + url)
+	
+	return url
 }
 
 $.Class.extend("Controller", {}, {
@@ -1372,7 +1383,7 @@ ModalPageController.extend("ReleaseNotesController", {}, {
 	init: function(name) {
 		this.$switcher = null
 		this.toolName = name
-		this._super(document.URL + '/' + this.toolName + '/release-notes' , {})
+		this._super(buildURL([this.toolName, "release-notes"]), {})
 	},
 	contentLoaded: function() {
 		var object = this
@@ -1777,8 +1788,7 @@ ModalPageController.extend("ScreenshotsPageController", {}, {
             overlay: {close: true}, viewport: 'scale'}
         }
 		
-		
-		this._super(document.URL + (document.URL[document.URL.length-1] == '/' ? '' : '/') + toolName + '/screenshots', options)
+		this._super(buildURL([this.toolName, "screenshots"]), options)
     },
     contentLoaded: function() {
 /*
