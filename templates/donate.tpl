@@ -126,6 +126,7 @@ BIC COBADEHD055</p>
             <li>Daniel Kullman</li>
             <li>Dave Diemer</li>
             <li>David Norman</li>
+            <li>David Ryan</li>
             <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
             <li>Dirk Ruediger</li>
@@ -181,6 +182,7 @@ BIC COBADEHD055</p>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Picht</li>
             <li>Jörg Bühmann</li>
+            <li>Jörg Quak</li>
             <li>Jorge Valencia Alvarez</li>
             <li>Jørn Martin Tysnes Holm</li>
             <li>Josh Ballard</li>
