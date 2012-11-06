@@ -1,21 +1,11 @@
 /* Adjust the Tipped light skin. */
 Tipped.Skins.light.background.opacity = 0.95
-/* No longer necessary as of 3.0? */
-/*Tipped.Skins.light.radius = {size: 10}
-Tipped.Skins.light.background.opacity = 0.95
-Tipped.Skins.light.shadow = {
-	blur: 2,
-	color: '#000',
-	offset: { x: 0, y: 1 },
-	opacity: .15
-}
-*/
 
 /* Adjust the Lightview skin. */
 $.extend(Lightview.Skins, {
     'gpgtools': {
     	radius: {size: 4},
-        background: {color: '#fff', opacity: 0.95},
+        background: {color: '#ffffff', opacity: 0.95},
         shadow: {
             blur: 2,
             color: '#000',
@@ -24,9 +14,9 @@ $.extend(Lightview.Skins, {
         },
         overlay: {
             close: true,
-            background: '#fff',
+            background: '#ffffff',
             opacity: .65
-        },
+        }
     }
 })
 
@@ -129,6 +119,91 @@ Controller.extend("ViewController", {}, {
     }
 })
 
+$.Class.extend("NonDiscreteGPUFixes", {
+	fixCanvasBug: function($content) {
+	    $content = $($content)
+	    if(!$content.hasClass("lv_content_wrapper") && !$content.hasClass("lv_content"))
+	    	return
+	    
+	    $window = $content.parents(".lv_window")
+	    
+	    if($window.data("fixNonDiscreteGPUCanvasBugFixed"))
+	    	return
+	    
+	    $bubble = $window.find(".lv_bubble")
+	    
+	    $bubble.find("canvas").hide()
+	    
+	    var skin = Lightview.Skins.gpgtools
+	    
+	    function hexToRgb(hex) {
+	    	var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+		    return result ? {
+		        r: parseInt(result[1], 16),
+		        g: parseInt(result[2], 16),
+		        b: parseInt(result[3], 16)
+		    } : null;
+		}
+	    
+	    if(skin.background.color) {
+			var rgbColor = hexToRgb(skin.background.color)
+			if(rgbColor) {
+				var rgbFunc = skin.background.opacity ? "rgba" : "rgb"
+				var colorText = rgbColor.r + "," + rgbColor.g + "," + rgbColor.b
+				if(skin.background.opacity)
+		    		colorText += "," + skin.background.opacity
+	    	
+		    	colorText = rgbFunc + "(" + colorText + ")"
+		    	$bubble.css("background-color", colorText)
+			}
+	    }
+	    
+	    if(skin.radius)
+		    $bubble.css("border-radius", skin.radius.size)
+	    
+	    if(skin.border && skin.border.color) {
+			var rgbColor = hexToRgb(skin.border.color)
+			if(rgbColor) {
+				var rgbFunc = skin.border.opacity ? "rgba" : "rgb"
+				var colorText = rgbColor.r + "," + rgbColor.g + "," + rgbColor.b
+				if(skin.border.opacity)
+		    		colorText += "," + skin.border.opacity
+	    	
+		    	colorText = rgbFunc + "(" + colorText + ")"
+		    	$bubble.css("border-color", colorText)
+			}
+			if(skin.border.size)
+	    		$bubble.css("border-width", skin.border.size)
+	    }
+	    
+	    $window.data("fixNonDiscreteGPUCanvasBugFixed", true)
+    },
+    fixSafariPositionFixedOverlayBug: function() {
+	    if(!$(".lv_overlay").is(":visible"))
+	    	return
+	    // Safari < 6.0.x seems to leak the background color of overlay with
+	    // position fixed.
+	    function fixOverlay() {
+			var $overlay = $(".lv_overlay")
+			if(!$overlay.size())
+				return
+			
+			console.log("Yello!")
+			
+			$overlay.css("width", $(window).width())
+	    			.css("height", $(window).height())
+	    			.css("height", $(document).height())
+	    			.css("width", Math.max($(window).width(), $(document).width()))
+	    			.css("position", "absolute")
+	    }
+	    
+	    fixOverlay()
+	    $(window).unbind("resize.fixOverlay").bind("resize.fixOverlay", debounce(function() {
+		  	fixOverlay()  
+	    }, 30))
+    }
+}, {})
+
 Controller.extend("PageController", {}, {
 
     init: function(url, additionalOptions) {
@@ -151,7 +226,10 @@ Controller.extend("PageController", {}, {
     show: function() {
         // contentLoaded allows the page to be further setup
         // after its content is loaded.
-        var options = {options: {afterUpdate: this._afterUpdateWrapper(this.contentLoaded)}}
+        var options = {options: {afterUpdate: this._afterUpdateWrapper(this.contentLoaded)
+,
+	        					 fixNonDiscreteGPUCanvasBug: NonDiscreteGPUFixes.fixCanvasBug}
+}
         $.extend(true, this.options, options)
         Lightview.show(this.options)
     },
@@ -159,6 +237,9 @@ Controller.extend("PageController", {}, {
         var self = this
         return function(content) {
             self.$pageContent = $(content)
+            // Hide the background canvas until it's fixed for non-discrete gpu macs (FUCK THAT!)
+            //self.fixNonDiscreteGPUCanvasBug($(content))
+             NonDiscreteGPUFixes.fixSafariPositionFixedOverlayBug()
             if($.isFunction(callback))
                 callback.apply(self, [])
         }
@@ -258,9 +339,9 @@ PageController.extend("ModalPageController", {}, {
         this.center()
         var object = this
         
-        $(window).unbind('resize')
+        $(window).unbind('resize.fitContent')
         var id;
-        $(window).resize(function() {
+        $(window).bind("resize.fitContent", function() {
 	        clearTimeout(id);
 	        id = setTimeout(function() {
 	        	object.center()
