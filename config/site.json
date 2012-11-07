@@ -17,11 +17,12 @@
 		"getting-started-button": "Getting Started"
     },
     "minor-features": {
-        "lion-only": {"text": "OS X Lion only", "image": "lion-only.png"},
-        "64bit-compatible": {"text": "64bit ready", "image": "64bit-compatible.png"},
-        "auto-update": {"text": "Automatically downloads new updates as they become available.", "image": "sparkle-updates.png"},
-        "part-of-gpgtools": {"text": "Part of the GPGTools installer.", "image": "part-of-gpgtools.png"}
-    },
+		"mountain-lion": {"text": "Supports Mountain Lion", "image": "mountain-lion.png"},
+		"lion-only": {"text": "OS X Lion only", "image": "lion-only.png"},
+		"64bit-compatible": {"text": "64bit ready", "image": "64bit-compatible.png"},
+		"part-of-gpgtools": {"text": "Part of the GPGTools installer.", "image": "part-of-gpgtools.png"},
+		"auto-update": {"text": "Automatically downloads new updates as they become available.", "image": "sparkle-updates.png"}
+	},
     "sections": {
         "gpgtools": {
             "version-info": {

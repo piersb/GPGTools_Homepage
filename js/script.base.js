@@ -1157,11 +1157,14 @@ this.$content.find(".action-button.download").click(function(e) {
 	    var object = this
 	    var $tool = this.$content
 	    $tool.find(".minor-features li").each(function() {
-	    	$(this).find("a").click(function(evt) { evt.preventDefault() })
-	    	$(this).find("a").hover(function() {
-	    		$tool.find(".bar").css("visibility","visible")
-		    	$tool.find(".arrow").show()
-		    	
+			var $a = $(this).find("a")
+	    	$a.click(function(evt) { evt.preventDefault() })
+	    	$a.hover(function() {
+				var $bar = $tool.find(".bar")
+				var $arrow = $tool.find(".arrow")
+	    		$bar.css("visibility","visible")
+		    	$arrow.show()
+				
 	    		var $li = $(this).parent()
 	    		var showDescription = function() {
 	    			if($tool.find(".arrow:visible").size() && $tool.find(".bar:visible").size()) {
@@ -1170,11 +1173,14 @@ this.$content.find(".action-button.download").click(function(e) {
 		    			
 	    			}
 	    		}
-	    		if(parseInt($tool.find(".arrow").css("left")) == $li.data("arrowPosition")) {
+				
+				var arrowLeft = this.offsetWidth / 2 + $li.offset().left - $bar.offset().left - 4
+				
+	    		if(parseInt($arrow.css("left")) == arrowLeft) {
 		    		showDescription()
 	    		}
 	    		else {
-		    		$tool.find(".arrow").animate({"left": $li.data("arrowPosition") + "px"}, 
+		    		$arrow.animate({"left": arrowLeft + "px"},
 	    			100, showDescription)
 		    		
 	    		}
