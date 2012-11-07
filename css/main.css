@@ -308,14 +308,12 @@ section.tool header .download, section.tool header .minor-features { padding-top
 section.tool ul.minor-features { padding-right: 25px; line-height: 26px; width: 484px; display: table-cell; }
 section.tool ul.minor-features li { padding-right: 30px; float: left; }
 section.tool ul.minor-features li:last-child { padding-right: 0px; }
-section.tool ul.minor-features li a {
-    background: url(../images/subfeatures/lion-only.png) no-repeat center center; width: 62px; height: 63px; 
-    font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px;  }
 section ul.minor-features li a { height: 63px; display: block; text-decoration: none; }
-section ul.minor-features li.lion-only a { background-image: url(../images/subfeatures/lion-only.png); }
-section ul.minor-features li.bit64-ready a { background-image: url(../images/subfeatures/64bit-compatible.png); }
-section ul.minor-features li.part-of-gpgtools a { background-image: url(../images/subfeatures/part-of-gpgtools.png); }
-section ul.minor-features li.sparkle a { background-image: url(../images/subfeatures/sparkle-updates.png); }
+
+section.tool ul.minor-features li a {
+    background: no-repeat center center; width: 62px; height: 63px;
+    font-family: "futura-pt-condensed"; font-weight: 400; font-size: 20px;  }
+
 section ul.minor-features li span { display: none; }
 section .feature-info { clear: both; width: auto; position: relative; font-family: "futura-pt", "Futura"; font-size: 15px; font-weight: 300; margin-top: 14px; }
 section .feature-info .arrow { background: url(../images/indicator-arrow.png) no-repeat 0px 0px; width: 12px; height: 10px; position: absolute;
