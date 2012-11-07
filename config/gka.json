@@ -4,7 +4,7 @@
 	"short-name": "gka",
 	"title": "Manage your GPG Keychain.",
 	"subtitle": "Key management done in a breeze.",
-	"minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
+	"minor-features": ["mountain-lion", "64bit-compatible", "part-of-gpgtools", "auto-update"],
 	"version-info": {
 		"current-version": "1.0b7",
 		"checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3",

@@ -4,7 +4,7 @@
 	"short-name": "gpgservices",
 	"title": "Perform GPG operations from the OS X Service Menu.",
 	"subtitle": "A right-click, that's all it takes.",
-	"minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
+	"minor-features": ["mountain-lion", "64bit-compatible", "part-of-gpgtools", "auto-update"],
 	"version-info": {
 		"current-version": "1.7",
 		"checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2",
