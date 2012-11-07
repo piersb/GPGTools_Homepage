@@ -2,7 +2,7 @@
 	"main-section-intro": "The GPG engine<br>for OS X.",
 	"short-name": "macgpg",
 	"title": "The GPG engine for OS X.",
-	"subtitle": "The unrelenting background worker.",
+	"subtitle": "An unrelenting background worker.",
 	"minor-features": ["mountain-lion", "64bit-compatible", "part-of-gpgtools"],
 	"version-info": {
 		"current-version": "2.0.17-9",
