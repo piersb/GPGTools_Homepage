@@ -16,11 +16,11 @@
 		"download-all-button": "Download All",
 		"getting-started-button": "Getting Started"
     },
-    "minor-feature-text": {
-        "lion-only": "OS X Lion only",
-        "64bit-compatible": "64bit ready",
-        "part-of-gpgtools": "Part of the GPGTools installer.",
-        "auto-update": "Automatically downloads new updates as they become available."
+    "minor-features": {
+        "lion-only": {"text": "OS X Lion only", "image": "lion-only.png"},
+        "64bit-compatible": {"text": "64bit ready", "image": "64bit-compatible.png"},
+        "auto-update": {"text": "Automatically downloads new updates as they become available.", "image": "sparkle-updates.png"},
+        "part-of-gpgtools": {"text": "Part of the GPGTools installer.", "image": "part-of-gpgtools.png"}
     },
     "sections": {
         "gpgtools": {
