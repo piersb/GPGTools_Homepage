@@ -79,6 +79,7 @@ BIC COBADEHD055</p>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
+            <li>Alfred Herrmann</li>
             <li>Alun J Carr</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
