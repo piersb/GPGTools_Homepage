@@ -74,4 +74,36 @@
 		
 		return render_image_tag($path, $url, $attrs);
     }
+    
+    function send_main_js() {
+	    ob_end_clean();
+	 	ob_start();
+	 	
+	 	$config = LLConfig::load("config/site.json");
+	 	$section_screenshots = array();
+	 	foreach(($sections = $config->get('sections')) as $name => $section) {
+		 	$screenshots = $section->get('screenshots');
+		 	if(!is_array($screenshots) && !is_object($screenshots))
+		 		continue;
+		 	
+		 	$section_screenshots[$name] = (array)$screenshots;
+	 	}
+	 	
+	 	js_variable("GPGTOOLS_SCREENSHOTS", $section_screenshots);
+	 	
+	 	readfile(BASE_DIR . '/js/script.base.js');
+	 	
+	 	$js_code = ob_get_clean();
+	 	
+	 	$dest_file = BASE_DIR . '/js/script.js';
+	 	file_put_contents($dest_file, $js_code);
+	 	
+	 	header("Content-Type: text/javascript");
+	 	echo $js_code;
+	 	exit();
+    }
+    
+	function js_variable($key, $value) {
+		echo "var $key = " . json_encode($value) . ";\n";
+	}
 ?>

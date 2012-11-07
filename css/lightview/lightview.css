@@ -701,3 +701,44 @@
 .lv_controls_top_skin_mac .lv_icon_disabled,
 .lv_controls_top_skin_mac .lv_icon_disabled:hover { color: #575757; }
 
+/* 
+ * skin: 'screenshots'
+ */
+/* title/caption */
+.lv_window_screenshots .lv_title_caption { text-shadow: 0px 1px 1px rgba(0,0,0,.25); }
+
+/* sprite */
+.lv_window_screenshots .lv_side_button_previous,
+.lv_window_screenshots .lv_side_button_next,
+.lv_window_screenshots .lv_button_top_close,
+.lv_window_screenshots .lv_controls_top_close_button,
+.lv_window_screenshots .lv_slider .lv_icon,
+.lv_window_screenshots .lv_slider_number,
+.lv_window_screenshots .lv_slider_number_empty,
+.lv_window_screenshots .lv_controls_top_close_button,
+.lv_controls_top_skin_screenshots .lv_icon,
+.lv_controls_top_close_skin_screenshots .lv_controls_top_close_button,
+.lv_thumbnails_skin_screenshots .lv_thumbnail_icon {
+  background-image: url('skins/mac/sprite.png') !important;
+  background-image: url('skins/mac/sprite_ie_lt_7.png'); IE < 7
+}
+
+/* close button */
+.lv_window_screenshots .lv_button_top_close {
+  top: 42px;
+  left: 42px;
+}
+
+/* controls: 'relative' */
+.lv_window_screenshots .lv_slider_number { color: #fff; font-size: 11px; }
+.lv_window_screenshots .lv_slider_number:hover { color: #fff; }
+.lv_window_screenshots .lv_slider_number_active,
+.lv_window_screenshots .lv_slider_number_active:hover { color: #fff; }
+
+/* controls: 'top' */
+.lv_controls_top_skin_screenshots .lv_icon { color: #a6a6a6; }
+.lv_controls_top_skin_screenshots .lv_icon:hover { color: #e0e0e0; }
+.lv_controls_top_skin_screenshots .lv_icon_disabled,
+.lv_controls_top_skin_screenshots .lv_icon_disabled:hover { color: #575757; }
+
+

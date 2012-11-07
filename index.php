@@ -21,6 +21,9 @@
     else if(stristr($_SERVER['REQUEST_URI'], '/download')) {
 	    download_tool($_SERVER['REQUEST_URI']);
     }
+    else if(stristr($_SERVER['REQUEST_URI'], '/script.js')) {
+	 	send_main_js();
+    }
     
     if(is_mobile()) {
 	    $view = LLView::load("ios");

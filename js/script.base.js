@@ -20,6 +20,14 @@ $.extend(Lightview.Skins, {
     }
 })
 
+$.extend(Lightview.Skins, {
+	'screenshots': $.extend(Lightview.Skins.mac, {
+		overlay: { background: '#ffffff', opacity: .78 },
+		background: {color: '#ffffff', opacity: 0.95},
+		radius: { size: 5 }
+	})
+})
+
 var SITES_URL = '/sites'
 
 /* Author: Lukas Pitschl */
@@ -55,9 +63,11 @@ function buildURL(parts) {
 	urlParts = urlParts.slice(0, -1)
 	
 	var url = $.merge(urlParts, parts).join("/")
-	console.log("Built URL: " + url)
-	
 	return url
+}
+
+function screenshotURL(toolName, image) {
+	return buildURL(["images", "screenshots", toolName, image])
 }
 
 $.Class.extend("Controller", {}, {
@@ -207,13 +217,20 @@ $.Class.extend("NonDiscreteGPUFixes", {
 Controller.extend("PageController", {}, {
 
     init: function(url, additionalOptions) {
+        this.gallery = $.isArray(url) ? true : false
         this.pageURL = url
         this.$pageContent = null;
-        // Define the basic design for the page lightview.
-        var type = this.typeOfSource(url)
-        this.options = {url: this.pageURL, options: {
+        
+        this.options = { options: {
             skin: 'gpgtools', padding: 0
-        }, type: type}
+        }}
+        if(!this.gallery) {
+	    	// Define the basic design for the page lightview.
+	    	var type = this.typeOfSource(url)
+            this.options = $.extend({url: this.pageURL, type: type},
+            						 this.options)
+        }
+        
         if($.isPlainObject(additionalOptions))
             $.extend(true, this.options, additionalOptions)
     },
@@ -231,7 +248,15 @@ Controller.extend("PageController", {}, {
 	        					 fixNonDiscreteGPUCanvasBug: NonDiscreteGPUFixes.fixCanvasBug}
 }
         $.extend(true, this.options, options)
-        Lightview.show(this.options)
+        var args = []
+        if(this.gallery)
+        	args.push(this.pageURL)
+        
+        args.push(this.gallery && this.options.options || this.options)
+        
+        console.log("Call show with args: ", args)
+        
+        Lightview.show.apply(Lightview, args)
     },
     _afterUpdateWrapper: function(callback) {
         var self = this
@@ -1077,6 +1102,15 @@ Controller.extend("ToolController", {}, {
 	   var object = this
         this.$content.find(".screenshots").click(function(evt) {
             evt.preventDefault()
+/*
+            Lightview.show([{url: 'images/screenshots/gpgmail/GPGMail encrypted - error.png',
+            				 title: 'GPGMail shows an error if the decryption failed. Show details contains the actual error from GPG and tries to give pointers on how to solve the problem.'}, 
+            				'images/screenshots/gpgmail/GPGMail encrypted - key missing.png', 
+            				'images/screenshots/gpgmail/GPGMail encrypted.png'], 
+            			   { controls: { type: 'relative', slider: { items: 5 } }, skin: 'screenshots',
+            			     fixNonDiscreteGPUCanvasBug: NonDiscreteGPUFixes.fixCanvasBug});
+*/
+            
             var controller = new ScreenshotsPageController(object.toolName)
             controller.show()
         })
@@ -1848,222 +1882,23 @@ Controller.extend("SectionHorizontalSliderController", {}, {
 	}
 })
 
-ModalPageController.extend("ScreenshotsPageController", {}, {
-    toolName: null,
-    $slider: null,
-    $gallery: null,
-    $fullsizeImage: null,
-    maxOffset: 0,
-    baseOffset: 0,
-    itemIndex: 0,
-    indexFromScreenshot: false,
-    screenshotIndex: 0,
-    $title: null,
-    $description: null,
+PageController.extend("ScreenshotsPageController", {}, {
     init: function(toolName) {
-/*
-    	this.$slider = this.$gallery = this.$fullsizeImage = this.$title = this.$description = null
-    	this.maxOffset = this.baseOffset = this.itemIndex = this.screenshotIndex = 0
-    	this.indexFromScreenshot = false
-*/    	
         this.toolName = toolName
         
         var options = {options: {
-            overlay: {close: true}, viewport: 'scale'}
+            overlay: {close: true}, viewport: 'scale',
+            skin: 'screenshots', padding: 10}
         }
 		
-		this._super(buildURL([this.toolName, "screenshots"]), options)
-    },
-    contentLoaded: function() {
-/*
-        this.$fullsizeImage = this.$pageContent.find(".big-image")
-        this.$slider = this.$pageContent.find(".slider")
-        this.$gallery = this.$slider.find("ul")
-        var $info = this.$pageContent.find(".info")
-        this.$title = $info.find("h1")
-        this.$description = $info.find(".description")
-        
-        this._setup()
-*/
-    },
-    calculateFullsizeMaxSize: function() {
-        var maxWidth = $(window).width() - 180
-        var maxHeight = $(window).height() - this.$pageContent.find("h1").outerHeight(true) - this.$pageContent.find(".thumbnails").outerHeight(true) - 180
-        
-        var $img = this.$fullsizeImage.find("img:visible")
-        var ratio = $img.width() / $img.height()
-        
-        var width, height = -1
-        
-        if($img.width() <= maxWidth && $img.height() <= maxHeight)
-            return 
-        
-        width = $img.width()
-        height = $img.height()
-        
-        var type = $img.width() >= $img.height() ? 'landscape' : 'portrait' 
-        
-        if(height > maxHeight) {
-            height = maxHeight
-            width = height * ratio
-        }
-        if(width > maxWidth) {
-            width = maxWidth
-            height = width / ratio
-        }
-        
-        width = Math.round(width)
-        height = Math.round(height)
-        
-        if(width > -1 && height > -1) {
-            $img.css("width", width).attr("width", width) 
-            $img.css("height",  height).attr("height", height)
-        }
-    },
-    _setup: function() {
-        this.bindThumbnails(this.selectScreenshot)
-        this.selectScreenshot(this.$gallery.find("li").eq(0).find("img"))
-        this._refresh()
-        this.baseOffset = this.$gallery.find("li").eq(0).position().left
-    },
-    _refresh: function() {
-        var object = this
-        this.calculateFullsizeMaxSize()
-        this.calculateGalleryWidth()
-
-        Lightview.refresh()
-
-        this.$slider.serialScroll({items: this.$slider.find("ul li"),
-            constant: false,
-            cycle: false,
-            duration: 400,
-            prev: this.$pageContent.find(".nav.prev"),
-            next: this.$pageContent.find(".nav.next"),
-            onAfter: function() {
-/*
-                if(!object.internalScroll)
-                    object.itemIndex++
-                else
-                    object.internalScroll = false
-*/
-                    
-                if(object.hidePrev())
-                    object.$pageContent.find(".nav.prev").addClass("invisible")
-                else
-                    object.$pageContent.find(".nav.prev").removeClass("invisible")
-                
-                if(object.hideNext())
-                    object.$pageContent.find(".nav.next").addClass("invisible")
-                else
-                    object.$pageContent.find(".nav.next").removeClass("invisible")
-            },
-            onBefore: function(evt) {
-                object.itemIndex = evt.data
-            }
-        })
-        
-        this.indexFromScreenshot = false
-        if(object.hidePrev())
-            object.$pageContent.find(".nav.prev").addClass("invisible")
-        else
-            object.$pageContent.find(".nav.prev").removeClass("invisible")
-                
-        if(object.hideNext())
-            object.$pageContent.find(".nav.next").addClass("invisible")
-        else {
-            object.$pageContent.find(".nav.next").removeClass("invisible")   
-        }
-        
-/*         if(object.hidePrev() && object.hideNext()) */
-            this.indexFromScreenshot = true
-        
-        this.internalScroll = true
-        this.$slider.trigger('goto', [this.scrollIndex()]);
-    },
-    hideNext: function() {
-        var target = this.lastItem()
-        return $(target).position().left + $(target).outerWidth(true) <= this.$slider.width() + this.baseOffset
-    },
-    hidePrev: function() {
-        var $item = this.item(0)
-        return $item.position().left >= this.baseOffset  
-    },
-    bindThumbnails: function(cb) {
-        var object = this
-        this.$gallery.find("li a").unbind('click').click(function(evt) {
-            evt.preventDefault()
-/*
-            if(object.indexFromScreenshot)
-                object.itemIndex = $(this).parents('li').index()
-*/
-            cb.apply(object, [$(this).find("img")])
-        })
-    },
-    selectScreenshot: function($img) {
-    	var $li = $img.parents('li')
-    	var id = $li.index()
-    	var id_str = "screenshot-" + this.toolName + "-" + id
-    	
-    	this.$fullsizeImage.find("img").hide()
-    	
-    	var $nextImage = this.$fullsizeImage.find("#" + id_str)
-    	
-    	if(!$nextImage.size()) {
-    	  	$nextImage = $("<img>").attr("src", $img.attr("src"))
-	    	$nextImage.data("idx", id).attr("id", "screenshot-" + this.toolName + "-" + id)
-        		  .attr("width", $img.data("full-width"))
-        		  .attr("height", $img.data("full-height"))	
-        	this.$fullsizeImage.append($nextImage)
-    	}
-    	
-    	$nextImage.show()
-    	
-        this.screenshotIndex = id
-        this.$slider.find("li").removeClass("active")
-        $li.addClass("active")
-        this.$title.html($li.find(".title").html())
-        this.$description.html($li.find(".description").html())
-        
-        this._refresh()
-    },
-    calculateGalleryWidth: function() {
-        var galleryWidth = this.$pageContent.find(".big-image img:visible").width()
-        var padding = this.$pageContent.find(".thumbnails").outerWidth() - this.$pageContent.find(".thumbnails").width()
-        galleryWidth -= padding
-        var navWidth = 0
-        this.$pageContent.find("a.nav").each(function() {
-            navWidth += $(this).outerWidth(true)
-        })
-        
-        this.$slider.css("width", galleryWidth - navWidth/*  - 8 */)
-        
-        var totalWidth = 0
-        this.$gallery.find("li").each(function() {
-            totalWidth += $(this).outerWidth(true)
-        })
-        this.$gallery.css("width", totalWidth/*  + 8 */)
-    },
-    lastItem: function() {
-        return this.item(-1)
-    },
-    item: function(idx) {
-        return this.$gallery.find("li").eq(idx)
-    },
-    scrollIndex: function() {
-        var offset = 0
-        var object = this
-        this.$gallery.find("li").each(function(i, o) {
-            offset += $(this).outerWidth(true)
-            if(i == object.screenshotIndex)
-                return false
-        })
-        if(offset <= $(".slider").width())
-            return 0
-        
-        baseIdx = Math.round(offset / this.$slider.width())
-        if(offset % this.$slider.width() > 0)
-            baseIdx += 1
-        return baseIdx 
+		var screenshots = GPGTOOLS_SCREENSHOTS[this.toolName]
+		
+		$.each(screenshots, function() {
+			this.url = screenshotURL(toolName, this.image)
+		})
+		console.log("Screenshots: ", screenshots)
+		
+		this._super(screenshots, options)
     }
 })
 

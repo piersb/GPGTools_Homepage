@@ -1045,6 +1045,12 @@ background-color: transparent !important; border: none !important; background-re
 .main h1 { text-indent: 0px; color: transparent; }
 .main h1::selection { line-height: 132px; color: transparent; }
 
+/* Lightview screenshot captions. */
+.lv_title_caption .lv_title { 
+	font-family: "futura-pt", "Futura"; line-height: 1.35; font-size: 15px; 
+	font-weight: 400; text-shadow: none; 
+	color: #656565 !important; }
+
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	.modal#download-page h1 {
