@@ -39,8 +39,10 @@ $(function() {
         }
     }
     
+    console.time("Initiate website")
     var controller = new GPGToolsController()
     controller.show()
+    console.timeEnd("Initiate website")
 })
 
 var SANDBOX = true
@@ -463,7 +465,6 @@ PageController.extend("TippedPageController", {}, {
 	},
 	show: function() {},
 	fitContent: function() {
-		console.log("Page content: ", this.$pageContent.get(0))
 		Tipped.refresh(this.$pageContent.get(0))
 	}
 })
@@ -589,7 +590,6 @@ ViewController.extend("DonationController", {}, {
     	this.fitContent()
 	},
 	setupDownload: function() {
-        console.log("Download button: ", this.view().find(".download-button"))
         this.view().find(".download-button").click(this._clickWrapper(this.download))
         this.disableDownload()
     },
@@ -995,7 +995,6 @@ ModalPageController.extend("DownloadPageController", {
 		this.$pageContent.find(".tool-logo ." + this.name).show()
 		var url = downloadURLForTool(this.name, this.version)
 		$button.attr("href", url)
-		console.log($button)
 		$button.click(function(evt) {
 			DownloadPageController.rememberDonation(object.name, object.version)
 			window.document.location.hash = ''
@@ -1211,6 +1210,7 @@ ModalPageController.extend("SignatureVerificationPageController", {}, {
 			var offset = Math.round((height - $step_nr.height()) / 2)
 			$step_nr.css("margin-top", offset)
 		})
+		console.error("Check this code.")
 		
 		var object = this
 		this.$pageContent.find(".verification-step-link").click(function(evt) {
@@ -1266,9 +1266,6 @@ TippedPageController.extend("FriendsPageController", {}, {
 	},
 	prepareSectionScroller: function(id) {		
 		var $container = $("<div>").attr("id", id)
-		console.log("Friends Page height: ", $("#friends-page").height())
-		console.log("Donation Page height: ", $("#call-for-donation").height())
-		
 		$container.append(
 			$("<div>").addClass("lp-slider")
 					  .addClass("lp-vertical-slider"))
@@ -1534,8 +1531,6 @@ ModalPageController.extend("ReleaseNotesController", {}, {
 				var currentIndex = $nav.data("idx")
 				var itemsVisible = Math.floor($versionScroller.height() / height)
 				
-				console.log("older versions: scroll to: ", currentIndex + itemsVisible)
-				
 				$nav.data("idx", (currentIndex + itemsVisible) - 1)
 				
 				
@@ -1557,8 +1552,6 @@ ModalPageController.extend("ReleaseNotesController", {}, {
 			var overlaps = marginTop % height != 0
 			var lastHiddenIndex = Math.floor(marginTop / height)  
 			var itemsVisible = Math.floor($versionScroller.height() / height)
-			
-			console.log("scroll to: to index: ", lastHiddenIndex - itemsVisible)
 			
 			if(overlaps)
 				$nav.data("idx", lastHiddenIndex - itemsVisible)
@@ -1735,15 +1728,12 @@ Controller.extend("SectionVerticalSliderController", {}, {
 	buildSlider: function(refresh) {
 		var refresh = typeof refresh == 'undefined' ? false : refresh 
 		this.$slider = this.$sliderParent.find(".lp-vertical-slider").first()
-		console.log("Slider: size: ", this.$slider.size())
 		this.padding = this.$slider.outerHeight() - this.$slider.height()
 		this.$slides = this.$slider.children(".lp-slide")
-		console.log("Slides: ", this.$slides, this.$sliderParent)
 		var maxHeight = 0
 		var totalHeight
 		this.$slides.each(function() {
 			$(this).css("height", "auto")
-			console.log("slide height: ", $(this).height(), $(this))
 			maxHeight = Math.max(maxHeight, $(this).height())
 		})
 		this.$slides.height(maxHeight + this.padding)
