@@ -260,7 +260,6 @@ BIC COBADEHD055</p>
             <li>Phillip Rotherham</li>
             <li>Radek Mrskos</li>
             <li>Raymond Chudzinski</li>
-            <li>Razvan Oprea</li>
             <li>Reinhard Eigner</li>
             <li>Richard Forno</li>
             <li>Richard Livingston</li>
@@ -354,6 +353,7 @@ BIC COBADEHD055</p>
                   <li>Rayzon Technologies</li>
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
+                  <li>RIPE NCC</li>
                   <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
