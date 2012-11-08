@@ -110,6 +110,7 @@ h1, h2 { margin: 0px; padding: 0px; }
 .main header nav ul li.special { background-image: url(../images/special-menu-bg.png); }
 .main header nav ul li a { color: #539DC8 !important; display: block; }
 .main header nav ul li.special a { color: #fff !important; }
+.main header nav ul li a.twitter { line-height: 28px; }
 /* Navigation section images and titles. */
 .main nav.sections a, .main nav a:hover, .main nav a:link, .main nav a:visited, .main nav a:active { text-decoration: none !important; }
 /* All code that should be necessary for the main navigation. */

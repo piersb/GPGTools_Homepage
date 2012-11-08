@@ -5,7 +5,7 @@
 						 {"title": "Donate", "link": "#donate", "class": "donate"},
 						 {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
 						 {"title": "Friends", "link": "#friends", "class": "friends"},
-						 {"title": "Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png"},
+						 {"title": "Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png", "class": "twitter"},
 						 {"title": "Contact", "link": "#contact", "list-class": "special"},
 						 {"title": "Team", "link": "#team", "class": "team", "list-class": "special"}
 						 ],
