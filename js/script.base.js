@@ -39,6 +39,8 @@ $(function() {
         }
     }
     
+    setupNavbar()
+    
     console.time("Initiate website")
     var controller = new GPGToolsController()
     controller.show()
@@ -70,6 +72,14 @@ function buildURL(parts) {
 
 function screenshotURL(toolName, image) {
 	return buildURL(["images", "screenshots", toolName, image])
+}
+
+function setupNavbar() {
+	$(".container > header nav > ul li a, .container .important-buttons li a").each(function() {
+		var href = $(this).attr("href")
+		if(href.substr(0,1) != '#' && href.substr(0,1) != '/')
+			$(this).attr("target", "_blank")
+	})	
 }
 
 $.Class.extend("Controller", {}, {
