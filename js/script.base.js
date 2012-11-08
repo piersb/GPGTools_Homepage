@@ -582,12 +582,15 @@ ViewController.extend("DonationController", {}, {
             $this.click(self._clickWrapper(self[fullFuncName], false))
         })
         
-        if(!this.donateOnly)
+        
+        if(!this.donateOnly) {
         	this.view().find(".intro .download").show().end()
         			   .find(".tool-logo div").hide().end().find("." + this.toolName).show()
-        else
+        }
+        else {
         	this.view().find(".intro .download").hide()
-        
+        	this.updateDownloadButton(null, "Donate")
+        }
         // Setup download buttons.
         this.setupDownload()
         
@@ -645,12 +648,17 @@ ViewController.extend("DonationController", {}, {
     disableDownload: function() {
 	    this.view().find(".download-button").css("opacity", 0.5)
     },
-    updateDownloadButton: function(type) {
+    updateDownloadButton: function(type, msg) {
     	var $button = this.view().find("a.button")
     	var type = typeof type == 'undefined' ? '' : type
 	    var title = 'Download'
 	    if(type == 'paypal')
 	    	title = 'Donate & Download'
+	    if(type == 'paypal' && this.donateOnly)
+	    	title = 'Donate'
+	    
+	    if(typeof msg != 'undefined')
+	    	title = msg
 	    $button.html(title)
     },
     setupSectionSlider: function() {
@@ -695,12 +703,15 @@ ViewController.extend("DonationController", {}, {
         this.fitContent()
     },
     launchPayPal: function(amount) {
+    	var toolInfo = this.toolName + '-' + this.toolVersion
+    	if(this.donateOnly)
+    		toolInfo = 'nodownload'
     	
     	paypalURL = SANDBOX ? PAYPAL_SANDBOX_DONATION_URL : PAYPAL_DONATION_URL
         var $form = $("<form>").attr("action", paypalURL).attr("method", "post")
         var data = {cmd: '_xclick', business: 'donations@gpgtools.org', lc: 'US', 
                     item_name: 'Help improving GPGTools', no_shipping: '1', 
-                    'return': createURL('#download-' + this.toolName + '-' + this.toolVersion),
+                    'return': createURL('#download-' + toolInfo),
                     cancel_return: createURL('#download-nodonation'),
                     no_note: '1', tax: '0', charset: 'utf-8', cbt: 'Return to GPGTools',
                     currency_code: 'EUR', amount: amount}
@@ -1001,13 +1012,25 @@ ModalPageController.extend("DownloadPageController", {
 	contentLoaded: function() {
 		var object = this
 		var $button = this.$pageContent.find("a.button")
-		this.$pageContent.find(".tool-logo").addClass(this.name)
-		this.$pageContent.find(".tool-logo ." + this.name).show()
-		var url = downloadURLForTool(this.name, this.version)
-		$button.attr("href", url)
+		if(this.name) {
+			this.$pageContent.find(".tool-logo").addClass(this.name)
+			this.$pageContent.find(".tool-logo ." + this.name).show()
+			var url = downloadURLForTool(this.name, this.version)
+			$button.attr("href", url)
+		}
+		else {
+			$button.html("Close")
+		}
 		$button.click(function(evt) {
-			DownloadPageController.rememberDonation(object.name, object.version)
+			if(!object.name)
+				evt.preventDefault()
+			if(object.name)
+				DownloadPageController.rememberDonation(object.name, object.version)
 			window.document.location.hash = ''
+			if(!object.name)
+				object.close()
+			else
+				setTimeout(function() { object.close() }, 500)
 		})
 		this.fitContent()
 	}
@@ -1047,8 +1070,8 @@ Controller.extend("GPGToolsController", {}, {
 	setupNavigation: function() {
 		// Scroll to tool section if one of the main 
 		$("nav.sections li a").click(function(e) {
-	        e.preventDefault()
 	        var href = $(this).attr("href")
+	        e.preventDefault()
 	        $(window).scrollTo(href, 600, function() {
 	            // Ajdust the hash value.
 	            window.document.location.hash = href
