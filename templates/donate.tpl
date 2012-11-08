@@ -254,6 +254,7 @@ BIC COBADEHD055</p>
             <li>Peter Krantz</li>
             <li>Peter Mack</li>
             <li>Peter Mueller</li>
+            <li>Pierre Malard</li>
             <li>Pieter van der Meulen</li>
             <li>Philip Jocks</li>
             <li>Phillip Rotherham</li>
@@ -357,6 +358,7 @@ BIC COBADEHD055</p>
                   <li>Sepher Software</li>
                   <li>Silvexis</li>
                   <li>sw4 Stefan Wild</li>
+                  <li>Tall Poppy Group</li>
                   <li>Tradeo</li>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
