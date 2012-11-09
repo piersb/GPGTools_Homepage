@@ -45,7 +45,7 @@ sparkle:version="2.0a1"
 sparkle:shortVersionString="2.0a1"
 sparkle:dsaSignature="MCwCFA4bt7Iad/8rLOVXc01ThGH1+BpJAhRC1iIU45+OAzfHGZPqMSbupF5P0w=="
 length="2746726"
-type="application/octet-stream" /> </item> <item><title>GPGMail version 1.4.1</title> <pubDate>Fri, 09 Nov 2012 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.4.1.dmg</guid> <description><![CDATA[<ul><li>Fix: Fixed compatibility with final OS X 10.6.8 release.</li><li>Checksum: ca0329ab56acd6f4bfb66327e914be39f2d70fad (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
+type="application/octet-stream" /> </item> <item><title>GPGMail version 1.4.1</title> <sparkle:maximumSystemVersion>10.6</sparkle:maximumSystemVersion> <pubDate>Fri, 09 Nov 2012 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.4.1.dmg</guid> <description><![CDATA[<ul><li>Fix: Fixed compatibility with final OS X 10.6.8 release.</li><li>Checksum: ca0329ab56acd6f4bfb66327e914be39f2d70fad (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.4.1.dmg"
 sparkle:version="1.4.1"
 sparkle:shortVersionString="1.4.1"
