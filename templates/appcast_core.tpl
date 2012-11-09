@@ -4,6 +4,9 @@
 				{if $changes[1]['sparkle_minOS'] neq ''}
 				<sparkle:minimumSystemVersion>{$changes[1]['sparkle_minOS']}</sparkle:minimumSystemVersion>
 				{/if}
+				{if $changes[1]['sparkle_maxOS'] neq ''}
+				<sparkle:maximumSystemVersion>{$changes[1]['sparkle_maxOS']}</sparkle:maximumSystemVersion>
+				{/if}
     		    <pubDate>{$changes[1]['sparkle_date']}</pubDate>
     		    <guid>{$changes[1]['sparkle_url']}</guid>
 		        <description><![CDATA[

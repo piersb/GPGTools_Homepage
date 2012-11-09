@@ -8,6 +8,7 @@ $release['2.0a4'] = mktime(14, 23, 0, 9, 4, 2011);
 $release['2.0a3'] = mktime(14, 23, 0, 8, 21, 2011);
 $release['2.0a2'] = mktime(21, 35, 0, 8, 19, 2011);
 $release['2.0a1'] = mktime(12, 0, 0, 8, 6, 2011);
+$release['1.4.1'] = mktime(12, 0, 0, 11, 9, 2012);
 $release['1.3.3'] = mktime(12, 0, 0, 03, 22, 2011);
 $release['1.3.2'] = mktime(12, 0, 0, 03, 02, 2011);
 $release['1.3.1'] = mktime(12, 0, 0, 11, 16, 2010);
@@ -39,7 +40,7 @@ $theSite->assign('date',     date('d. F Y', $current));
 $theSite->assign('month',  date('m', $current));
 $theSite->assign('day',  date('d', $current));
 $theSite->assign('year',  date('Y', $current));
-$theSite->assign('reqs', 'OS X 10.7<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.3.3.dmg">10.6</a>)');
+$theSite->assign('reqs', 'OS X 10.7<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.4.1.dmg">10.6</a>)');
 
 $theSite->assign('overview', '
 	<p>GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.</p>
@@ -154,6 +155,14 @@ $changelog = array(
         'a' => 'First alpha for 10.7',
         'sha' => 'Checksum: d3f4be6345f5ddb57162f97357c5c3efd2f1be78 (SHA-1)',
         )),
+    '1.4.1' => array(date('d. F Y', $release['1.4.1']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.4.1']),
+        'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.4.1.dmg',
+        'sparkle_sig' => '',
+        'sparkle_size' => '3453715',
+        'a' => 'Fix: Fixed compatibility with final OS X 10.6.8 release',
+        'sha' => 'Checksum: ca0329ab56acd6f4bfb66327e914be39f2d70fad (SHA-1)',
+        )),        
     '1.3.3' => array(date('d. F Y', $release['1.3.3']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.3.3']),
         'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip',
@@ -164,7 +173,16 @@ $changelog = array(
         '136' => 'Fix: Encryption/signing only with in-key-mentioned mail addresses broken',
         'sha' => 'Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1)',
         )),
-
+    '1.3.3' => array(date('d. F Y', $release['1.3.3']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.3.3']),
+        'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip',
+        'sparkle_sig' => 'MC0CFDF/nJUUuhpYNh25VUwb1yH+TgH0AhUAgpedhe7sUZqf9+IO+st35OQVw8o=',
+        'sparkle_size' => '3181052',
+        'a' => 'Important: Fixed compatibility with final OS X 10.6.7 release',
+        'b' => 'Fix: French localization',
+        '136' => 'Fix: Encryption/signing only with in-key-mentioned mail addresses broken',
+        'sha' => 'Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1)',
+        )),
     '1.3.2' => array(date('d. F Y', $release['1.3.2']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.3.2']),
         'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.2.zip',
