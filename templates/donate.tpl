@@ -85,6 +85,7 @@ BIC COBADEHD055</p>
             <li>Andrew Frangopoulos</li>
             <li>Andrew Zeneski</li>
             <li>Anja Marks</li>
+            <li>Antoine Delvaux</li>
             <li>Anton Umnitsyn</li>
             <li>Arne Fahrenwalde</li>
             <li>Art Taylor</li>
@@ -127,7 +128,6 @@ BIC COBADEHD055</p>
             <li>Daniel Kullman</li>
             <li>Dave Diemer</li>
             <li>David Norman</li>
-            <li>David Ryan</li>
             <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
             <li>Dirk Ruediger</li>
@@ -292,6 +292,7 @@ BIC COBADEHD055</p>
             <li>Thomas Ungricht</li>
             <li>Thore Siebrands</li>
             <li>TJ Marbois</li>
+            <li>Tom DeLozier</li>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
             <li>Uwe Arzt</li>
@@ -317,6 +318,7 @@ BIC COBADEHD055</p>
                   <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
+                  <li>CheckSec</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc.</li>
                   <li>Cominvent AS</li>
