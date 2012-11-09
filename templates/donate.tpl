@@ -1,4 +1,4 @@
-{extends file="index.tpl"}
+s {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
       <div id="o_content"><h2>Support us</h2></div>
@@ -139,6 +139,7 @@ BIC COBADEHD055</p>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
             <li>Eric Baur</li>
+            <li>Eric McMillen</li>
             <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
