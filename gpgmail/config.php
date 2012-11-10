@@ -155,16 +155,16 @@ $changelog = array(
         'a' => 'First alpha for 10.7',
         'sha' => 'Checksum: d3f4be6345f5ddb57162f97357c5c3efd2f1be78 (SHA-1)',
         )),
-    /*'1.4.1' => array(date('d. F Y', $release['1.4.1']), array(
+    '1.4.1' => array(date('d. F Y', $release['1.4.1']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.4.1']),
-        'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.4.1.dmg',
-        'sparkle_sig' => '',
-        //'sparkle_version' => '00001 (a0141)',
-        'sparkle_maxOS' => '10.6',
-        'sparkle_size' => '3453715',
+        'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.4.1.zip',
+        'sparkle_sig' => 'MCwCFBaTNwS/3JviKZkJddf9mJrhQ0ArAhQihSqz77I0QcLEzpDFy+ze1NAeog==',
+        'sparkle_maxOS' => '10.6.8',
+        'sparkle_size' => '3371463',
+		'sparkle_version' => '1.4.1b',
         'a' => 'Fix: Fixed compatibility with final OS X 10.6.8 release',
-        'sha' => 'Checksum: ca0329ab56acd6f4bfb66327e914be39f2d70fad (SHA-1)',
-        )),*/        
+        'sha' => 'Checksum: ddd5709be9ae83481dbc3aa01a6dd2b7dab31dc9 (SHA-1)',
+        )),
     '1.3.3' => array(date('d. F Y', $release['1.3.3']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.3.3']),
         'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip',
