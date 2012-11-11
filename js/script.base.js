@@ -1927,6 +1927,7 @@ PageController.extend("ScreenshotsPageController", {}, {
 		
 		$.each(screenshots, function() {
 			this.url = screenshotURL(toolName, this.image)
+			this.caption = this.description
 		})
 		console.log("Screenshots: ", screenshots)
 		

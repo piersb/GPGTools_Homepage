@@ -1045,11 +1045,16 @@ background-color: transparent !important; border: none !important; background-re
 .main h1::selection { line-height: 132px; color: transparent; }
 
 /* Lightview screenshot captions. */
-.lv_title_caption .lv_title { 
-	font-family: "futura-pt", "Futura"; line-height: 1.35; font-size: 15px; 
+.lv_title,
+.lv_caption { 
+	font-family: "futura-pt", "Futura"; line-height: 1.25; font-size: 15px; 
 	font-weight: 400; text-shadow: none; 
 	color: #656565 !important; }
 
+.lv_title { font-weight: 500 !important; margin-bottom: 2px; }
+.lv_title_caption_slide {
+	padding-top: 7px !important;
+}
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	.modal#download-page h1 {
