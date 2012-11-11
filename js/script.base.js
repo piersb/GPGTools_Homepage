@@ -124,10 +124,13 @@ Controller.extend("ViewController", {}, {
         this.viewWillAppear($superview)
         return $superview
     },
-    view: function() {
+    view: function($view) {
         if(!this.$view) {
         	this.$view = $(this.viewSelector)
         }
+        if($view)
+        	this.$view = $view
+        
         return this.$view
     },
     hide: function() {
@@ -247,6 +250,9 @@ Controller.extend("PageController", {}, {
             $.extend(true, this.options, additionalOptions)
     },
     typeOfSource: function(source) {
+	    // Allows nodes as sources.
+	    if(typeof source == 'object')
+	    	return 'inline'
 	    if(source.search(/http/) == -1 && source.substr(0,1) != '/' && source.substr(0, 2) != './')
 	    	return 'inline'
 	    
@@ -468,13 +474,14 @@ PageController.extend("TippedPageController", {}, {
 		if(this.typeOfSource(source) == 'inline')
 			return $(source).get(0)
 		
-		return source
+		return sourcesl
 	},
 	target: function(node) {
 		Tipped.create(node, this.nodeOrURLForSource(this.pageURL), this.options)
 	},
 	show: function() {},
 	fitContent: function() {
+		console.log(this.$pageContent.children())
 		Tipped.refresh(this.$pageContent.get(0))
 	}
 })
@@ -559,13 +566,16 @@ ViewController.extend("DonationController", {}, {
     toolVersion: null,
     sectionSliderController: null,
     donateOnly: false,
+    fitContentOnAppear: true,
     init: function(toolName, toolVersion) {
 	    this.sectionSliderController = null
 	    this.donateOnly = false
 	    this.toolName = toolName
 	    this.toolVersion = toolVersion
 	    
-	    this._super('#call-for-donation')
+	    var view = $('#call-for-donation').clone()
+	    
+	    this._super(view)
     },
 	viewWillAppear: function() {
 		this.setupPaymentOptions()
@@ -600,7 +610,8 @@ ViewController.extend("DonationController", {}, {
         /* this.fitContent() - Still necessary? */
         // Slide to the first section
     	this.sectionSliderController.showSection(0)
-    	this.fitContent()
+    	if(this.fitContentOnAppear)
+    		this.fitContent(refreshSlider=false)
 	},
 	setupDownload: function() {
         this.view().find(".download-button").click(this._clickWrapper(this.download))
@@ -662,6 +673,7 @@ ViewController.extend("DonationController", {}, {
 	    $button.html(title)
     },
     setupSectionSlider: function() {
+    	console.log("setting up slider for: ", this.view())
         this.sectionSliderController = new SectionVerticalSliderController(this.view())
         this.sectionSliderController.sectionCallback(1, "before", function($slide) {
             if($slide.data("spinner-is-setup"))
@@ -687,7 +699,7 @@ ViewController.extend("DonationController", {}, {
             		return;
             	}
             })
-            var controller = new DonationSliderController(5000, defaultGift)
+            var controller = new DonationSliderController(5000, defaultGift, this.view().find(".donation-slider-container").find(".donation-slider"))
             controller.setSuperview(this.view().find(".donation-slider-container").removeClass("hidden"))
             controller.slideToGift(defaultGift)
 
@@ -722,27 +734,50 @@ ViewController.extend("DonationController", {}, {
         this.view().find(".download-options").append($form)
         $form.submit()
     },
-    fitContent: function() {
-	    this.sectionSliderController.refresh()
+    fitContent: function(refreshSlider) {
+    	refreshSlider = refreshSlider || true
+	    if(refreshSlider)
+	    	this.sectionSliderController.refresh()
         this.parent().fitContent(this)
     }
 })
 
 TippedPageController.extend("DonationPageController", {}, {
-    
+	donationController: null,
     init: function() {
         var options = {showOn: 'click', hideOn: 'click-outside', offset: {y: 0},
         			   animate: true}
         /* var donationOption = null */
-        
-        this._super('#call-for-donation', options)
+        this.donationController = new DonationController()
+        this.donationController.donateOnly = true
+        this.donationController.parent(this)
+        console.log("View: ", this.donationController.view())
+        this._super(this.donationController.view(), options)
+        console.log("this.$pageContent: ", this.$pageContent)
+    },
+    viewDidShow: function() {
+    	this.reinsertDonationViewIfNecessary()
+    },
+    reinsertDonationViewIfNecessary: function() {
+	    // Check if pageContent has the call-for-donation view.
+    	// If it was hijacked by the friends page controller. re-insert it.
+	    if(!this.$pageContent.find("#call-for-donation").size()) {
+	    	this.$pageContent.append($("#call-for-donation"))
+	    	this.fitContent()
+	    }
+	    this.fitContent()
     },
     contentLoaded: function() {
-    	var controller = new DonationController()
+    	this.reinsertDonationViewIfNecessary()
+    	
+/*
+    	var controller = 
     	controller.donateOnly = true
     	controller.parent(this)
     	controller.setSuperview(this.$pageContent, add=false)
-    	controller.show()
+*/
+        this.donationController.setSuperview(this.$pageContent, add=false)
+    	this.donationController.show()
     }
 })
 
@@ -759,6 +794,11 @@ ModalPageController.extend("DownloadDonationPageController", {}, {
     	this.donationController = controller
         
         this._super('call-for-donation', options)
+        // In this case the view of the donation controller has to be replaced,
+        // otherwise it will point to the cloned node, which Lightview doesn't support.
+        // Fucking lightview!
+        // Man this is tedious!
+        controller.view($("#call-for-donation"))
     },
     contentLoaded: function() {
     	this.donationController.setSuperview(this.$pageContent, add=false)
@@ -771,10 +811,10 @@ ViewController.extend("DonationSliderController", {
     maxAmountUpdaterRuntime: 1000
 }, {
 
-    init: function(endAmount, defaultGift) {
+    init: function(endAmount, defaultGift, donationSliderView) {
 		this.defaultGift = defaultGift
 		
-		this._super('.donation-slider')
+		this._super(donationSliderView || '.donation-slider')
     },
     viewWillAppear: function() {
         // Setup Gift Markers.
@@ -1296,6 +1336,7 @@ TippedPageController.extend("FriendsPageController", {}, {
 	$switcher: null, 
 	sectionController: null,
 	setupCompleted: false,
+	previousDonationWindowOwner: null,
 	init: function() {
 		this.$switcher = null
 		this.sectionController = null
@@ -1317,18 +1358,19 @@ TippedPageController.extend("FriendsPageController", {}, {
 		
 		$("#modals").append($container)
 	},
+	viewDidHide: function() {
+		this.$pageContent.find("#friends-page").css("margin-top", "0px").show()
+		this.$pageContent.css("overflow", "")
+		// Append the call-for-donation window to the panels node again.
+		//$("#modals").append($("#call-for-donation").hide())	
+	},
+	viewDidShow: function() {
+		this.$pageContent.find("#call-for-donation").hide().end()
+						 .find("#friends-page").show()
+		this.fitContent()
+	},
 	contentLoaded: function() {
 		var object = this
-		/*
-this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-page"))
-		this.sectionSlider.showSection(0)
-		
-		this.donationController = new DonationController()
-		var controller = this.donationController
-    	controller.donateOnly = true
-    	controller.parent(this)
-    	controller.setSuperview(this.$pageContent, add=false)
-*/
     	
     	this.sectionController = new SectionController(this.$pageContent.find("#friends-page"))
 		this.sectionController.parent(this)
@@ -1336,11 +1378,30 @@ this.sectionSlider = new SectionVerticalSliderController($("#friends-donation-pa
 		
 		this.prepareSections()
 		
-		this.$pageContent.find(".lp-section .show-donation-page").click(function(evt) {
+		this.$pageContent.find(".lp-section .show-donation-page").unbind('click').click(function(evt) {
 			evt.preventDefault()
-			controller.show()
-    	
-			object.sectionSlider.showSection(1)
+			evt.stopPropagation()
+			
+			var controller = new DonationController()
+			controller.donateOnly = true
+			// We'll later fit the content into the tipped, once it has fully appeared
+			// otherwise the height calculation is fucked up (Yeah, might be a bug... but
+			// refactoring the whole slider thingy now is very very tedious.
+			controller.fitContentOnAppear = false
+			controller.parent(object)
+			// Adding the donation panel to the tipped friends window.
+			controller.setSuperview(object.$pageContent)
+			
+			// Set overflow to hidden so the old content properly disappears.
+			object.$pageContent.css("overflow", "hidden")
+			var $modal = object.$pageContent.find("#friends-page")
+			var height = $modal.outerHeight()
+			
+			$modal.animate({"margin-top": height * -1}, 300, function() {
+				$modal.hide()
+				controller.show()
+				controller.fitContent()
+			})
 		})
 		
 		this.$pageContent.find(".switcher").children(".lp-slide").each(function() {
@@ -1774,10 +1835,14 @@ Controller.extend("SectionVerticalSliderController", {}, {
 		this.$slides = this.$slider.children(".lp-slide")
 		var maxHeight = 0
 		var totalHeight
-		this.$slides.each(function() {
+		this.$sliderParent.show().css("visibility", "hidden")
+		this.$slides.show().css("visibility", "hidden").each(function() {
 			$(this).css("height", "auto")
 			maxHeight = Math.max(maxHeight, $(this).height())
 		})
+		this.$sliderParent.css("visibility", "visible").show()
+		this.$slides.css("visibility", "visible").show()
+		console.log("Max height: ", maxHeight)
 		this.$slides.height(maxHeight + this.padding)
 		this.$slider.height(maxHeight)
 		this.$slides.show()
