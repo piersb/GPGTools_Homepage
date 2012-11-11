@@ -605,7 +605,7 @@ section.gpgservices header { background: url(../images/section/gpgservices-new-l
 	margin-bottom: 8px;
 	font-family: "futura-pt"; font-size: 14px; color: #646464; padding-left: 5px;
 }
-.modal#contact-page input.error, .modal#contact-page textarea.error { border-color: #b75a5a; }
+.modal#contact-page input.error, .modal#contact-page textarea.error { border-color: #b75a5a; border-width: 2px; width: 294px; }
 .modal#contact-page textarea { height: 107px; }
 .modal#contact-page label.private { font-style: italic; font-size: 13px; width: 302px; }
 .modal#contact-page input.math { width: 114px; float: right; }
