@@ -93,8 +93,8 @@
 	},
     "donation-gifts": {
     	"gifts": [
-				  {"id": "first", "amount": 0, "nomarker": true, "steps": 5, "increment": 5},
-				  {"id": "25", "default": true, "amount": 25, "title": "Early acces to GPGMail for Mountain Lion<br>Your name in our Supporters section.", "steps": 7, "increment": 5 },
+				  {"id": "first", "amount": 0, "nomarker": true, "steps": 5, "increment": 3},
+				  {"id": "15", "default": true, "amount": 15, "title": "Early acces to GPGMail for Mountain Lion<br>Your name in our Supporters section.", "steps": 15, "increment": 4 },
 				  {"id": "75", "amount": 75, "title": "Let‘s be friends!<br>Your name will be in our Friends section!", "steps": 15, "increment": 5},
 				  {"id": "150", "amount": 150, "title": "Free T-Shirt", "steps": 34, "increment": 25},
 				  {"id": "1000", "amount": 1000, "title": "Your name with picture or logo in our VIP section.<br>Elevated support", "steps": 50, "increment": 80}
