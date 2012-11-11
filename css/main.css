@@ -365,16 +365,16 @@ section.tool.gpgfriends .friends ul {
 }
 
 /* Back to top */
-section.tool .back-to-top { position: absolute; z-index: 9997; 
-    left: 486px; bottom: 15px;
+.back-to-top { position: fixed; z-index: 9997; 
+    right: 15px; bottom: 15px;
 	width: 48px; height: 34px;    
 }
-section.tool .back-to-top a, section.tool .back-to-top a:link, section.tool .back-to-top a:visited, section.tool .back-to-top a:hover, section.tool .back-to-top a:active {
+.back-to-top a, .back-to-top a:link, .back-to-top a:visited, .back-to-top a:hover, .back-to-top a:active {
     display: block; line-height: 67px; width: auto;
     width: 48px; height: 34px;
     background: url(../images/icons/to-top.png) no-repeat 0px 0px;
 }
-section.tool .back-to-top a:hover {
+.back-to-top a:hover {
 	background: url(../images/icons/to-top.png) no-repeat -48px 0px;	 
 }
 

@@ -1084,24 +1084,27 @@ Controller.extend("GPGToolsController", {}, {
 	    var controller = new TeamPageController()
 	    $("nav a.team").tip(controller)
 	    
-	    // Display Back to top option on hover.
-	    $("section:not(:first-child)").hover(function() {
-	    	var $this = $(this)
-	    	if(!$this.find(".back-to-top").size()) {
-		        var $toTop = $("<div>")
-		        $toTop.addClass("back-to-top").click(function() {
-	            	$(window).scrollTo(0, 400, function() {
-	                	window.document.location.hash = '';
-	                })
-	            })
-	            $toTop.append($("<a>").css("display", "block").html("&nbsp;"))
-	            $(this).find(".container").prepend($toTop)
-	        }
-	        $this.find(".back-to-top").show()
-	    }, function() {
-	    	var $this = $(this)
-	    	$this.find(".back-to-top").hide()
-	    })
+	    this.setupBackToTop()
+	},
+	setupBackToTop: function() {
+		// Calculate main section height.
+	    mainSectionHeight = $("section#gpgtools.main").height()
+	    var $backToTop = $('<div><a href="#gpgtools"></a></div>').addClass("back-to-top")
+		console.log("SetupBack to Top")
+		$("body").append($backToTop)
+		$backToTop.hide()
+		$backToTop.find("a").click(function(e) {
+			e.preventDefault()
+			var href = $(this).attr("href")
+			$(window).scrollTo(href, 400, function() {})
+		})
+		$(window).scroll(function() {
+			var top = $(window).scrollTop()
+			if(top >= mainSectionHeight)
+				$backToTop.show()
+			else
+				$backToTop.hide()
+		})
 	},
 	setupSections: function() {
 		$("section").each(function() {
