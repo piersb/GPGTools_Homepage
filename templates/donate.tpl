@@ -74,6 +74,7 @@ BIC COBADEHD055</p>
                 <ul class="sub">
             <li>Abel O Nelson</li>
             <li>Adam Bishop</li>
+            <li>Adam Murphy</li>
             <li>Adiel Akplogan</li>
             <li>Adrian Sauer</li>
             <li>Alexander Nouak</li>
@@ -169,6 +170,7 @@ BIC COBADEHD055</p>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
             <li>Ivan Stojcevic</li>
+            <li>Ivan Storck</li>
             <li>James Martin</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
@@ -239,6 +241,7 @@ BIC COBADEHD055</p>
             <li>Neil Jarvis</li>
             <li>Nicholas Hubbard</li>
             <li>Nishal Goburdhan</li>
+            <li>Odo Wolbers</li>
             <li>Olaf Kolkman</li>
             <li>Ole Hermansen</li>
             <li>Oleg Pak</li>
@@ -319,6 +322,7 @@ BIC COBADEHD055</p>
                   <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
+                  <li>CertCenter AG</li>
                   <li>CheckSec</li>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc.</li>
