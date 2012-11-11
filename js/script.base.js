@@ -1130,7 +1130,6 @@ Controller.extend("GPGToolsController", {}, {
 		// Calculate main section height.
 	    mainSectionHeight = $("section#gpgtools.main").height()
 	    var $backToTop = $('<div><a href="#gpgtools"></a></div>').addClass("back-to-top")
-		console.log("SetupBack to Top")
 		$("body").append($backToTop)
 		$backToTop.hide()
 		$backToTop.find("a").click(function(e) {
@@ -1140,10 +1139,14 @@ Controller.extend("GPGToolsController", {}, {
 		})
 		$(window).scroll(function() {
 			var top = $(window).scrollTop()
-			if(top >= mainSectionHeight)
-				$backToTop.show()
+			if($backToTop.is(":animated"))
+				return
+			
+			if(top >= mainSectionHeight) {
+				 !$backToTop.is(":visible") && $backToTop.fadeIn(200)
+			}
 			else
-				$backToTop.hide()
+				$backToTop.fadeOut(200)
 		})
 	},
 	setupSections: function() {
