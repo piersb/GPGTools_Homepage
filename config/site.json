@@ -1,6 +1,7 @@
 {
     "url": "https://www.gpgtools.org",
     "title": "GPGTools: It is worth protecting what you &hearts;",
+    "debug": true,
     "navigation-items": [
 						 {"title": "Donate", "link": "#donate", "class": "donate"},
 						 {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
@@ -34,8 +35,8 @@
         },
         "gpgmail": "./gpgmail.json",
         "gka": "./gka.json",
-        "macgpg": "./macgpg.json",
-        "gpgservices": "./gpgservices.json"
+        "gpgservices": "./gpgservices.json",
+        "macgpg": "./macgpg.json"
 	},
 	"general": {
 		"new": "NEW",

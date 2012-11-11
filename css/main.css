@@ -84,7 +84,7 @@ h1, h2 { margin: 0px; padding: 0px; }
 
 /* Top GPGTools part. */
 /* .main { background: url(../images/section/gpgtools-pattern.gif) repeat-x 0px 0px; height: 740px; width: 100%; } */
-.main { background: url(../images/section/gpgtools-pattern-2.png) 0px 0px; height: 740px; width: 100%; }
+.main { background: url(../images/section/pattern-top.png) 0px 0px; height: 740px; width: 100%; }
 .main header { 
     background: url(../images/gpgtools-logo.png) no-repeat 85px 15px; width: 1020px; height: 357px; position: relative; }
 .main header hgroup { padding-top: 40px; }
@@ -126,7 +126,7 @@ h1, h2 { margin: 0px; padding: 0px; }
 .main nav.sections ul li hgroup {
 	position: relative; z-index: 10;
 	height: 173px;
-	background-image: url(../images/section/gpgmail-pattern.png);
+	background-image: url(../images/section/pattern-darkblue.png);
 	box-shadow: 0 2px 4px rgba(0,0,0,.5);
 	border-radius: 6px;
 	margin-top: -25px;
@@ -152,13 +152,13 @@ h1, h2 { margin: 0px; padding: 0px; }
 .main nav.sections ul li.gpgservices a::before { background: url(../images/navigation/gpgservices-logo.png) no-repeat 15px 2px; }
 
 .main nav.sections ul li.gka hgroup {
-	background-image: url(../images/section/gka-pattern.png);
+	background-image: url(../images/section/pattern-red.png);
 }
 .main nav.sections ul li.gpgservices hgroup {
-	background-image: url(../images/section/gpgservices-pattern.png);
+	background-image: url(../images/section/pattern-viola.png);
 }
 .main nav.sections ul li.gpg hgroup {
-	background-image: url(../images/section/macgpg-pattern.png);
+	background-image: url(../images/section/pattern-green2.png);
 }
 .main .container header > hgroup { clear: both; }
 
@@ -290,7 +290,7 @@ section.tool ul, section.tool li { list-style: none; margin: 0px; padding: 0px; 
 section.tool h3 { font-family: "futura-pt"; font-size: 15px; font-style: normal; font-weight: 700; text-transform: uppercase;
     margin: 0px; padding: 0px; line-height: 1.35; }
 /* GPGMail section. */
-section.tool { background: url(../images/section/gpgmail-pattern.png) 0 0; /* padding-bottom: 30px; */ }
+section.tool { background: url(../images/section/pattern-darkblue.png) 0 0; /* padding-bottom: 30px; */ }
 section.tool h1 { background: url(../images/titles/gpgmail.png) no-repeat 0px 0px    ; 
     text-indent: -9999px; width: 341px; height: 87px; }
 section.tool h2 { font-family: "futura-pt", "Futura"; font-weight: 400; font-size: 17px;
@@ -365,16 +365,16 @@ section.tool.gpgfriends .friends ul {
 }
 
 /* Back to top */
-section.tool .back-to-top { position: absolute; z-index: 9997; 
-    left: 486px; bottom: 15px;
+.back-to-top { position: fixed; z-index: 9997; 
+    right: 15px; bottom: 15px;
 	width: 48px; height: 34px;    
 }
-section.tool .back-to-top a, section.tool .back-to-top a:link, section.tool .back-to-top a:visited, section.tool .back-to-top a:hover, section.tool .back-to-top a:active {
+.back-to-top a, .back-to-top a:link, .back-to-top a:visited, .back-to-top a:hover, .back-to-top a:active {
     display: block; line-height: 67px; width: auto;
     width: 48px; height: 34px;
     background: url(../images/icons/to-top.png) no-repeat 0px 0px;
 }
-section.tool .back-to-top a:hover {
+.back-to-top a:hover {
 	background: url(../images/icons/to-top.png) no-repeat -48px 0px;	 
 }
 
@@ -465,9 +465,9 @@ section .container .release-notes a:hover { text-decoration: underline;
 }
 section .container .release-notes { text-align: center; }
 
-section.tool.gka { background: url(../images/section/gka-pattern.png) 0 0; }
-section.tool.macgpg { background: url(../images/section/macgpg-pattern.png) 0 0; }
-section.tool.gpgservices { background: url(../images/section/gpgservices-pattern.png) 0 0; }
+section.tool.gka { background: url(../images/section/pattern-red.png) 0 0; }
+section.tool.macgpg { background: url(../images/section/pattern-green2.png) 0 0; }
+section.tool.gpgservices { background: url(../images/section/pattern-viola.png) 0 0; }
 
 section.gka h1 { background: url(../images/titles/gpg-keychain-access.png) no-repeat 0px 0px; width: 439px; }
 section.gka header { background: url(../images/section/gpgkeychainaccess-logo.png) no-repeat 7px 0px }
@@ -1045,11 +1045,16 @@ background-color: transparent !important; border: none !important; background-re
 .main h1::selection { line-height: 132px; color: transparent; }
 
 /* Lightview screenshot captions. */
-.lv_title_caption .lv_title { 
-	font-family: "futura-pt", "Futura"; line-height: 1.35; font-size: 15px; 
+.lv_title,
+.lv_caption { 
+	font-family: "futura-pt", "Futura"; line-height: 1.25; font-size: 15px; 
 	font-weight: 400; text-shadow: none; 
 	color: #656565 !important; }
 
+.lv_title { font-weight: 500 !important; margin-bottom: 2px; }
+.lv_title_caption_slide {
+	padding-top: 7px !important;
+}
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	.modal#download-page h1 {
@@ -1064,6 +1069,7 @@ background-color: transparent !important; border: none !important; background-re
 		background-image: url('../images/allafine-logo@2x.png');
 		background-size: 37px 37px;
 	}
+/*
 	.main {
 		background-image: url('../images/section/gpgtools-pattern-2@2x.png');
 		background-size: 75px 68px;
@@ -1084,6 +1090,7 @@ background-color: transparent !important; border: none !important; background-re
 		background-image: url('../images/section/gpgservices-pattern@2x.png');
 		background-size: 75px 68px;
 	}
+*/
 	.modal.release-notes .version ul li {
 		background-image: url('../images/icons/list-arrow@2x.png');
 		background-size: 4px 7px;

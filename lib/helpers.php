@@ -75,8 +75,8 @@
 		return render_image_tag($path, $url, $attrs);
     }
     
-    function send_main_js() {
-	    ob_end_clean();
+    function send_main_js($date) {
+    	ob_end_clean();
 	 	ob_start();
 	 	
 	 	$config = LLConfig::load("config/site.json");
@@ -95,8 +95,12 @@
 	 	
 	 	$js_code = ob_get_clean();
 	 	
-	 	$dest_file = BASE_DIR . '/js/script.js';
-	 	file_put_contents($dest_file, $js_code);
+	 	// Write new js file to disk to cache it.
+	 	// Only if debug mode is not enabled.
+	 	if(!$config->get('debug')) {
+			$dest_file = BASE_DIR . sprintf("/js/script.%s.js", $date);
+			file_put_contents($dest_file, $js_code);
+	 	}
 	 	
 	 	header("Content-Type: text/javascript");
 	 	echo $js_code;
