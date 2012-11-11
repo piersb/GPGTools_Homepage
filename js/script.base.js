@@ -1302,6 +1302,9 @@ ModalPageController.extend("SignatureVerificationPageController", {}, {
 			evt.preventDefault()
 			evt.stopPropagation()
 			
+			object.$pageContent.find(".steps").find(".active").removeClass("active")
+			$(this).addClass("active")
+			
 			var regex = /#([^0-9]+)([0-9]+)/
 			var parts = regex.exec(this.hash)
 			var baseString = parts[1]

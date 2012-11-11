@@ -663,7 +663,7 @@ background-image: linear-gradient(270deg, #276d95 0%, #31779f 48.66%, #3b81a9 51
 	display: block; background-color: #eee; text-decoration: none;
 	padding: 7px 10px; color: #646464;
 }
-.modal.signature-verification-page li a:hover { background-color: #c9c9c9; color: #fff; }
+.modal.signature-verification-page li a:hover, .modal.signature-verification-page li a.active { background-color: #c9c9c9; color: #fff; }
 .modal.signature-verification-page li .step-nr, .modal.signature-verification-page .intro li p { 
 	line-height: 26px; float: left; }
 .modal.signature-verification-page li .step-nr { background-color: #979797;
