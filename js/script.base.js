@@ -1142,7 +1142,7 @@ Controller.extend("GPGToolsController", {}, {
 			if($backToTop.is(":animated"))
 				return
 			
-			if(top >= mainSectionHeight) {
+			if(top >= (mainSectionHeight - 20)) {
 				 !$backToTop.is(":visible") && $backToTop.fadeIn(200)
 			}
 			else
