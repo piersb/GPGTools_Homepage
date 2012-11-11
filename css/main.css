@@ -555,6 +555,8 @@ section.gpgservices header { background: url(../images/section/gpgservices-new-l
 
 .modal.signature-verification-page { font-family: "futura-pt"; font-size: 15px; color: #8c8c8c; 
 	width: 640px; padding: 10px; }
+.modal.signature-verification-page.hash-verification {
+	width: 715px; }
 
 .modal.signature-verification-page .intro, .modal.signature-verification-page .switcher {
 	padding: 10px 10px; width: 300px;

@@ -147,11 +147,11 @@
 		"footer": "Bravo...!",
 		"image-subline": "Click for larger screenshot",
 		"steps": [
-				  {"small-image": "hash-step-1.png", "image": "hash-step-1.jpg", "title": "Open Terminal in /Applications/Utilities"},
-				  {"small-image": "hash-step-2.png", "image": "hash-step-2.jpg", "title": "Type \"shasum&lt;\" without the \"."},
-				  {"small-image": "hash-step-3.png", "image": "hash-step-3.jpg", "title": "Drag the downloaded file into the Terminal window…"},
-				  {"small-image": "hash-step-4.png", "image": "hash-step-4.jpg", "title": "…and press return."},
-				  {"small-image": "hash-step-5.png", "image": "hash-step-5.jpg", "title": "Compare the hash from our website with the hash showed in the Terminal."}
+				  {"small-image": "hash-step-1.png", "title": "Open Terminal in /Applications/Utilities"},
+				  {"small-image": "hash-step-2.png", "title": "Type \"shasum&lt;\" without the \"."},
+				  {"small-image": "hash-step-3.png", "title": "Drag the downloaded file into the Terminal window…"},
+				  {"small-image": "hash-step-4.png", "title": "…and press return."},
+				  {"small-image": "hash-step-5.png", "title": "Compare the hash from our website with the hash showed in the Terminal."}
 				  ]
 	},
 	"ios": {
