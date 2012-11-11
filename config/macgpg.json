@@ -2,11 +2,27 @@
 	"main-section-intro": "The GPG engine<br>for OS X.",
 	"short-name": "macgpg",
 	"title": "The GPG engine for OS X.",
-	"subtitle": "An unrelenting background worker.",
+	"subtitle": "For fans of the Terminal.",
 	"minor-features": ["mountain-lion", "64bit-compatible", "part-of-gpgtools"],
 	"version-info": {
 		"current-version": "2.0.17-9",
 		"checksum": "6fc707319cd6f26fbc902aeec90939ac13aef7f3",
 		"versions": "./macgpg-versions.json"
-	}
+	},
+	"features": [
+		[
+			{"title": "In love with the Terminal?",
+			 "content": "Having a nice UI isn't your thing? The geek inside of you needs to tamper with obscure commands? If you feel, this is your thing: read on."}
+		],
+		[
+			{"title": "No UI, but does all the work",
+			 "content": "MacGPG is a port of <a href='http://gnupg.org'>GnuPG</a> and interacts with existing GnuPG tools for Mac OS X."},
+			{"title": "Pinentry",
+			 "content": "Provides a native OS X pinentry utility."}
+		],
+		[
+			{"title": "Encrypt and sign", "content": "Encrypt and sign your data and communication via Terminal."},
+			{"title": "Key management", "content": "Manage your keys and work with public key directories via Terminal."}
+		]
+	]
 }
