@@ -1612,6 +1612,25 @@ ModalPageController.extend("ReleaseNotesController", {}, {
 	},
 	contentLoaded: function() {
 		var object = this
+		
+		/* First, calculate if it's necessary to show the older-versions
+		 * scroller.
+		 */
+		$versionScroller = this.$pageContent.find(".version-scroller")
+		var scrollerIsActive = true
+		var height = $versionScroller.height()
+		var versionHeight = 0
+		$versionScroller.find(".versions .lp-section").each(function() {
+			versionHeight += $(this).height()
+		})
+		
+		// Hide the older-versions button if not necessary.
+		if(versionHeight <= height) {
+			scrollerIsActive = false
+			this.$pageContent.find(".older-versions").hide()
+			$versionScroller.find(".shadow").hide()
+		}
+		
 		/* Show your-area first, unless another one is selected. */
 		this.sectionController = new SectionController(this.$pageContent, noDefault=true)
 		this.sectionController.parent(this)
@@ -1621,10 +1640,12 @@ ModalPageController.extend("ReleaseNotesController", {}, {
 			if(idx != prevIdx) {
 				object.$pageContent.find(".version-scroller .scroll-top").fadeOut()
 				object.$pageContent.find(".lp-section-nav").data("idx", idx-1)
-				object.scrollVersionNav(direction, function() {
-					if(object.scrollUpAllowed)
-						object.$pageContent.find(".version-scroller .scroll-top").fadeIn()
-				})
+				if(scrollerIsActive) {
+					object.scrollVersionNav(direction, function() {
+						if(object.scrollUpAllowed)
+							object.$pageContent.find(".version-scroller .scroll-top").fadeIn()
+					})
+				} 
 			}
 		}
 		
