@@ -1,8 +1,9 @@
+<? $general = $config['general'] ?>
+<? $texts = $config['release-notes'] ?>
 <div class="modal special-modal clearfix release-notes" id="<?= $tool ?>-release-notes">
     <div class="intro">
-    	<h1>Release Notes</h1>
-    	
-    	<div>Here's a list of all notes connected to our releases. Take a look around and don't heistate to ask, if you?re missing something, alright?</div>
+    	<h1><?= $general['release-notes'] ?></h1>
+    	<div><?= $texts['text'] ?></div>
     	
     	<div class="version-scroller">
     		<div class="shadow-top" style="display:none">&nbsp;</div>
@@ -10,7 +11,7 @@
 	    	<ul class="versions lp-section-nav">
 	    		<? foreach($versions as $version): ?>
 	    		<li class="lp-section">
-	    			<h2>Version <?= $version["version"] ?> <? if($version["build"]): ?><span>(build <?= $version["build"] ?>)</span><? endif; ?></h2>
+	    			<h2><?= $general['version'] ?> <?= $version["version"] ?> <? if($version["build"]): ?><span>(<?= $general['build'] ?> <?= $version["build"] ?>)</span><? endif; ?></h2>
 	    			<time datetime="<?= date("Y-m-d", $version["release_date"]) ?>2012-02-13"><?= date("F, jS, Y", $version["release_date"]) ?></time>
 	    		</li>
 	    		<? endforeach ?>
@@ -18,12 +19,12 @@
 	    	<div class="shadow">&nbsp;</div>
     	</div>
     	
-    	<a href="#" class="older-versions">Older Versions</a>
+    	<a href="#" class="older-versions"><?= $general['old-versions'] ?></a>
     </div>
     <div class="switcher lp-slider lp-vertical-slider lp-sections">
     	<? foreach($versions as $version): ?>
     	<div class="version lp-slide" style="display:none">
-    		<h1>Version <?= $version["version"] ?> <? if($version["build"]): ?><span>(build <?= $version["build"] ?>)</span><? endif; ?></h1>
+    		<h1><?= $general['version'] ?> <?= $version["version"] ?> <? if($version["build"]): ?><span>(<?= $general['build'] ?> <?= $version["build"] ?>)</span><? endif; ?></h1>
     		
     		<div><?= $version["info"]["intro"] ?></div>
     		<div>

@@ -57,7 +57,7 @@
       location = "group:lib/helpers.php">
    </FileRef>
    <FileRef
-      location = "group:js/script.js">
+      location = "group:js/script.base.js">
    </FileRef>
    <FileRef
       location = "group:views/_minor-features.html">

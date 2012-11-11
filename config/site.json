@@ -49,7 +49,12 @@
 		"prev-entries": "Previous entries",
 		"next-entries": "Next entries",
 		"prev": "Prev",
-		"next": "Next"
+		"next": "Next",
+		"version": "Version",
+		"build": "build"
+	},
+	"release-notes": {
+		"text": "Here's a list of all notes connected to our releases. Take a look around and don't heistate to ask, if you?re missing something, alright?"
 	},
 	"gpgfriends": {
 		"left-title": "Supporters",
