@@ -6,6 +6,7 @@
 	"subtitle": "A right-click, that's all it takes.",
 	"minor-features": ["mountain-lion", "64bit-compatible", "part-of-gpgtools", "auto-update"],
 	"version-info": {
+		"release-date": 1335801600,
 		"current-version": "1.7",
 		"checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2",
 		"versions": "./gpgservices-versions.json"

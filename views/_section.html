@@ -19,12 +19,15 @@
 				<?= render_view("_minor-features", array("section" => $section, "config" => $config)) ?>
 				<div class="download">
 					<a href="#" class="gpgmail-download action-button gpgtools-download versions-tip"><span>Download</span></a>
-					<div class="versions-panel special-modal" style="display: none" id="gpgmail-versions">
-						<h1><?= $general['version-info-title'] ?></h1>
+					<div class="versions-panel special-modal" style="display: none" id="<?= short_name($section) ?>-versions">
+						<h1><?= $general['version-info-title'] ?> &mdash; <?= $section['version-info']['current-version'] ?></h1>
+						
 						<ul class="nav clearfix">
-							<li><?= $section['version-info']['current-version'] ?> <span>&bull;</span></li>
-							<li><a href="#release-notes"><?= $general['release-notes'] ?></a> <span>&bull;</span></li>
+							<li><?= date("M tS, Y", $section['version-info']['release-date']) ?></li>
+							<li class="bull">&bull;</li>
+							<li><a href="#release-notes"><?= $general['release-notes'] ?></a></li>
 							<? if ($section['version-info']['os-x-versions']): ?>
+								<li class="bull">&bull;</li>
 								<li><a href="#older-versions"><?= $general['old-versions'] ?></a></li>
 							<? endif ?>
 						</ul>

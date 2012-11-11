@@ -6,6 +6,7 @@
 	"minor-features": ["lion-only", "64bit-compatible", "part-of-gpgtools", "auto-update"],
 	"version-info": {
 		"current-version": "2.0b4",
+		"release-date": 1329141900,
 		"checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525",
 		"versions": "./gpgmail-versions.json",
 		"is-new-version": true,

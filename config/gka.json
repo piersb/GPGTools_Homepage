@@ -7,6 +7,7 @@
 	"minor-features": ["mountain-lion", "64bit-compatible", "part-of-gpgtools", "auto-update"],
 	"version-info": {
 		"current-version": "1.0b7",
+		"release-date": 1331204400,
 		"checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3",
 		"versions": "./gka-versions.json",
 		"announcement": "Whatever",
