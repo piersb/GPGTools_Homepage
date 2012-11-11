@@ -5,6 +5,7 @@
     
     $config = LLConfig::load("config/site.json");
     
+    $js_date = array();
     if($_SERVER['REQUEST_URI'] == '/message') {
 		require_once './lib/message.php';
 		send_support_message();
@@ -21,8 +22,8 @@
     else if(stristr($_SERVER['REQUEST_URI'], '/download')) {
 	    download_tool($_SERVER['REQUEST_URI']);
     }
-    else if(stristr($_SERVER['REQUEST_URI'], '/script.js')) {
-	 	send_main_js();
+    else if(preg_match("{/script\.([0-9]+)\.js}", $_SERVER['REQUEST_URI'], $js_date)) {
+	 	send_main_js($js_date[1]);
     }
     
     if(is_mobile()) {
