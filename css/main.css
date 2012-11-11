@@ -204,6 +204,25 @@ section.macgpg a.action-button.gpgtools-download span {
 	background-image: url('../images/icons/download-arrow-color-green.png')
 }
 
+section.macgpg a.action-button {
+	background-color: #f0feee !important;
+	color: #537d4b !important;
+}
+section.gpgservices a.action-button {
+	background-color: #f7e8ff !important;
+	color: #674e75 !important;
+}
+section.gpgmail a.action-button {
+	background-color: #e9f5ff !important;
+	color: #3a5e7b !important;
+}
+section.gka a.action-button {
+	background-color: #fce5e5 !important;
+	color: #993333 !important;
+}
+
+
+
 a.action-button:hover {
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
