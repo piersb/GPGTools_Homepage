@@ -77,6 +77,7 @@ BIC COBADEHD055</p>
             <li>Adam Murphy</li>
             <li>Adiel Akplogan</li>
             <li>Adrian Sauer</li>
+            <li>Alan Green</li>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
@@ -184,6 +185,7 @@ BIC COBADEHD055</p>
             <li>Joe Abley</li>
             <li>Joël Brogniart</li>
             <li>John Duggins</li>
+            <li>John Grimes</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Picht</li>
@@ -207,6 +209,7 @@ BIC COBADEHD055</p>
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
             <li>Lincoln Bertin</li>
+            <li>Linwood Ma</li>
             <li>Lorenzo Grespan</li>
             <li>Luca Carettoni</li>
             <li>Lucas Fowler</li>
@@ -277,6 +280,7 @@ BIC COBADEHD055</p>
             <li>Rodney Serkowski</li>
             <li>Roger Loeb</li>
             <li>Ronny Schöbel</li>
+            <li>Ryan Maple</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
             <li>Sean Moss-Pultz</li>
