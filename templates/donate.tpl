@@ -85,6 +85,7 @@ BIC COBADEHD055</p>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
             <li>Andrew Zeneski</li>
+            <li>Andy Powell</li>
             <li>Anja Marks</li>
             <li>Antoine Delvaux</li>
             <li>Anton Umnitsyn</li>
@@ -129,6 +130,7 @@ BIC COBADEHD055</p>
             <li>Daniel Kullman</li>
             <li>Dave Diemer</li>
             <li>David Norman</li>
+            <li>David Oran</li>
             <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
             <li>Dirk Ruediger</li>
@@ -285,12 +287,14 @@ BIC COBADEHD055</p>
             <li>Steffen W Soerensen</li>
             <li>Stephan Hansen-Oest</li>
             <li>Stephen Ulmer</li>
+            <li>Steven Herr</li>
             <li>Stijn Jonker</li>
             <li>Sven Haskel</li>
             <li>Sven Schwyn</li>
             <li>Taddong</li>
             <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
+            <li>Theresa ONeill</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
             <li>Thomas Ungricht</li>
@@ -337,6 +341,7 @@ BIC COBADEHD055</p>
                   <li>Firehouse Network Consulting</li>
                   <li>Five Reels</li>
                   <li>Flexcellence UG</li>
+                  <li>freistil IT GbR</li>
                   <li>Forced Web</li>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
