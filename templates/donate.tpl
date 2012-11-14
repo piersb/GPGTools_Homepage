@@ -96,7 +96,8 @@ BIC COBADEHD055</p>
             <li>Arthur Feldman</li>
             <li>Asko Hochdorn</li>
             <li>Aurimas Mikalauskas</li>
-            <li>Austin Saucier
+            <li>Austin Saucier</li>
+            <li>Абдурахманов Магомед</li>
             <li>Balazs Boros</li>
             <li>Bartosz Rybinski</li>
             <li>Beat Stehrenberger</li>
@@ -237,6 +238,7 @@ BIC COBADEHD055</p>
             <li>Miguel Cordas</li>
             <li>Mika Goeckel</li>
             <li>Mike Davis</li>
+            <li>Mike Fleischer</li>
             <li>Mike Hellers</li>
             <li>Mio Shimizu</li>
             <li>N J L Macassey</li>
