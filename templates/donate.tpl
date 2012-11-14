@@ -259,6 +259,7 @@ BIC COBADEHD055</p>
             <li>Paul Miles</li>
             <li>Paul Morten Vikanes</li>
             <li>Paul Richardson</li>
+            <li>Pete Toscano</li>
             <li>Peter Eckel</li>
             <li>Peter Krantz</li>
             <li>Peter Mack</li>
