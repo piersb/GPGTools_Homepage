@@ -194,6 +194,7 @@ BIC COBADEHD055</p>
             <li>Jörg Quak</li>
             <li>Jorge Valencia Alvarez</li>
             <li>Jørn Martin Tysnes Holm</li>
+            <li>Joseph Kelley</li>
             <li>Josh Ballard</li>
             <li>Jozef Mares</li>
             <li>Jürgen Ehmann</li>
