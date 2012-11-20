@@ -262,7 +262,6 @@ BIC COBADEHD055</p>
             <li>Paul Miles</li>
             <li>Paul Morten Vikanes</li>
             <li>Paul Richardson</li>
-            <li>Pete Toscano</li>
             <li>Peter Eckel</li>
             <li>Peter Krantz</li>
             <li>Peter Mack</li>
@@ -330,7 +329,8 @@ BIC COBADEHD055</p>
                 <ul class="sub">
                   <li>A. Martin IT-Consulting</li>
                   <li>Akademia Bezpieczenstwa</li>
-                  <li>Audeo Inc</li>
+                  <li>American Registry for Internet Numbers</li>
+				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
