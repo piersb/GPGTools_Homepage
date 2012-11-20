@@ -134,11 +134,9 @@
 		"footer": "Bravo, you've just verified your first file!",
 		"image-subline": "Click for larger screenshot",
 		"steps": [
-				  {"small-image": "sig-step-1.png", "image": "sig-step-1.jpg", "title": "Install GPGTools"},
-				  {"small-image": "sig-step-2.png", "image": "sig-step-2.jpg", "title": "Download the GPGTools OpenPGP key and import it using GPG Keychain Access"},
-				  {"small-image": "sig-step-3.png", "image": "sig-step-3.jpg", "title": "Select the signature file you've downloaded in Finder"},
-				  {"small-image": "sig-step-4.png", "image": "sig-step-4.jpg", "title": "Right-click and select Services › OpenPGP: Verify signature of file"},
-				  {"small-image": "sig-step-5.png", "image": "sig-step-5.jpg", "title": "Check the message shown in the opening window"}
+				  {"small-image": "sig-step-1.png", "image": "sig-step-1.jpg", "title": "Retrieve the GPGTools OpenPGP key (ID 00D026C4) using GPG Keychain Access (⌥⌘K)"},
+				  {"small-image": "sig-step-2.png", "image": "sig-step-2.jpg", "title": "Double-click the downloaded signature file."},
+				  {"small-image": "sig-step-3.png", "image": "sig-step-3.jpg", "title": "Check the message shown in the opening window."}
 				  ]
 	},
 	"hash-verification": {
