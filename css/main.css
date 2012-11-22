@@ -946,12 +946,82 @@ background-image: linear-gradient(270deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,0));
 #call-for-donation .lp-slide { position: relative; }
 #call-for-donation a.download-button { position: absolute; right: 0px; bottom: 12px; }
 
+/* Flip payment options. */
+#call-for-donation .payment-options-container { 
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	perspective: 1000;
+	-moz-transform: perspective(1000px);
+	-moz-transform-style: preserve-3d;
+}
+#call-for-donation .payment-options-container.hover .flipper {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg)
+}
+#call-for-donation .payment-options-container,
+#call-for-donation .payment-options-container .front,
+#call-for-donation .payment-options-container .back {
+	width: 300px; height: 122px;
+}
+#call-for-donation .payment-options-container .flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+	
+	position: relative;
+}
+#call-for-donation .payment-options-container .front,
+#call-for-donation .payment-options-container .back {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#call-for-donation .payment-options-container .front { z-index: 2; }
+#call-for-donation .payment-options-container .back { 
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg)
+}
+
+.no-csstransforms3d #call-for-donation .payment-options-container .front { display: block; }
+.no-csstransforms3d #call-for-donation .payment-options-container .back { display: none; }
+.no-csstransforms3d #call-for-donation .payment-options-container.hover .front { display: none; }
+.no-csstransforms3d #call-for-donation .payment-options-container.hover .back {
+	display: block;
+}
+
 #call-for-donation ul.payment-options {
 	background-color: #ebebeb; padding: 12px 10px; border: #e1e1e1 1px solid;
 	border-radius: 2px;	color: #646464;
 }
 #call-for-donation ul.payment-options li label { padding-left: 10px; }
-#call-for-donation ul.payment-options li { margin-bottom: 10px; }
+#call-for-donation ul.payment-options li { margin-bottom: 10px; float: left; }
+#call-for-donation .back ul.payment-options li { margin-bottom: 5px; }
+#call-for-donation ul.payment-options li.credit-card { margin-left: 40px; }
+#call-for-donation ul.payment-options li.credit-card span,
+#call-for-donation ul.payment-options li.credit-card label,
+#call-for-donation ul.payment-options li.credit-card input,
+#call-for-donation ul.payment-options li.credit-card label img { display: block; float: left; }
+#call-for-donation ul.payment-options li.credit-card input { margin-top: 9px; }
+#call-for-donation ul.payment-options li.credit-card span { padding-top: 3px; padding-left: 8px; line-height: 1; }
+#call-for-donation ul.payment-options li.payment-option-bitcoin span { font-size: 11px; margin-left: 4px; }
+#call-for-donation ul.payment-options li.bank-transfer { text-transform: none; font-size: 14px; }
+#call-for-donation ul.payment-options li.bank-transfer input,
+#call-for-donation ul.payment-options li.bank-transfer label { display: block; float: left; }
+#call-for-donation ul.payment-options li.bank-transfer input { margin-top: 3px; }
+#call-for-donation ul.payment-options li.bank-transfer .recipient { font-weight: 500; }
+#call-for-donation ul.payment-options li.bank-transfer .bic,
+#call-for-donation ul.payment-options li.bank-transfer .iban { color: #326ea0; }
+#call-for-donation ul.payment-options li.payment-option-back { text-transform: none; }
+
 #call-for-donation ul.payment-options li:last-child { margin-bottom: 0px; }
 #call-for-donation .donation-slider { clear: both; width: 620px; position: relative; }
 #call-for-donation .donation-slider ul { margin-top: 7px; background-color: #f5f5f5;

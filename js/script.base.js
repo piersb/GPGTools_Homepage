@@ -652,6 +652,18 @@ ViewController.extend("DonationController", {}, {
         this.hideAmountSlider()
         this.enableDownload()
     },
+    useAlternative: function(target) {
+	  	this.view().find(".payment-options-container").removeClass("hover").addClass("hover")
+	  	this.donationOption = null
+	  	this.disableDownload()
+	  	  
+    },
+    useBack: function(target) {
+	  	this.view().find(".payment-options-container").removeClass("hover")
+	  	this.donationOption = null
+	  	this.disableDownload()
+	  	  
+    },
     enableDownload: function() {
        this.view().find(".download-button").css("opacity", 1.0)
        this.updateDownloadButton(this.donationOption)
