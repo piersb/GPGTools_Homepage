@@ -571,7 +571,7 @@ section.gpgservices header { background: url(../images/section/gpgservices-new-l
 .modal#news-page ul li p { padding-bottom: 0px; }
 
 .modal.signature-verification-page { font-family: "futura-pt"; font-size: 15px; color: #8c8c8c; 
-	width: 640px; padding: 10px; }
+	width: 930px; padding: 10px; }
 .modal.signature-verification-page.hash-verification {
 	width: 658px; }
 

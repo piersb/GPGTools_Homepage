@@ -19,14 +19,11 @@
 	<div class="preview-screenshot">
 		<div class="switcher">
 			
-			<!-- TODO: Beim klicken auf ein Vorschaubild das Original anzeigen. -->
 			<div class="panel">
-				<a href="javascript:alert('TODO: Großes bild anzeigen.');">
-				<img class="verification-image current-image" src="images/verification/<?= $texts['steps']['0']['small-image'] ?>" alt="" width="300" height="327" />
-				<img class="verification-image" src="" alt="" width="300" height="327" />
-				</a>
+				<img class="verification-image current-image" src="images/verification/<?= $texts['steps']['0']['small-image'] ?>" alt="" width="590" height="280" />
+				<img class="verification-image" src="" alt="" width="590" height="280" />
 				
-				<div class="placeholder" style=" width:300px; height:327px;" />
+				<div class="placeholder" style=" width:590; height:280px;" />
 
 				<script>
 					var signature_verification_images=new Array(""<?
@@ -38,7 +35,6 @@
 							echo ',"images/verification/' . $step['small-image'] . '"';
 					?>)
 				</script>
-				<span><?= $texts['image-subline'] ?></span>
 			</div>
 			
 		</div>
