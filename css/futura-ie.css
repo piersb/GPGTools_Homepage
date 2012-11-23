@@ -1,0 +1,54 @@
+@font-face {
+font-family:"futura-pt";
+src:url(./fonts/futura-n5.eot);
+font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url(./fonts/futura-n7.eot);
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt-condensed";
+src:url(./fonts/futura-condensed-n4.eot);
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt-n5";
+src:url(./fonts/futura-n5.eot);
+font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"futura-pt-n7";
+src:url(./fonts/futura-n7.eot);
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt-n4";
+src:url(./fonts/futura-n4.eot);
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt-n3";
+src:url(./fonts/futura-n3.eot);
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"futura-pt-condensed-n4";
+src:url(./fonts/futura-condensed-n4.eot);
+font-style:normal;font-weight:400;
+}
+
+.tk-futura-pt-condensed{
+font-family:"futura-pt-condensed",sans-serif;
+}
+.tk-futura-pt{
+font-family:"futura-pt",sans-serif;
+}
