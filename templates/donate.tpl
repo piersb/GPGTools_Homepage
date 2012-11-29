@@ -122,6 +122,7 @@ BIC COBADEHD055</p>
             <li>Chad Stanke</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
+            <li>Chris Hoofnagle</li>
             <li>Christian Bockermann</li>
             <li>Christian Roessner</li>
             <li>Christian Tanner</li>
