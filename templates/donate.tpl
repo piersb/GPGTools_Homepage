@@ -1,4 +1,4 @@
-s {extends file="index.tpl"}
+{extends file="index.tpl"}
 {block name=body}
     <div id="overview">
       <div id="o_content"><h2>Support us</h2></div>
@@ -83,6 +83,7 @@ BIC COBADEHD055</p>
             <li>Alfonso Carrillo</li>
             <li>Alfred Herrmann</li>
             <li>Alun J Carr</li>
+            <li>Anders Nor Berle</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
             <li>Andrew Zeneski</li>
@@ -91,6 +92,7 @@ BIC COBADEHD055</p>
             <li>Antoine Delvaux</li>
             <li>Anton Umnitsyn</li>
             <li>Arne Fahrenwalde</li>
+            <li>Arne Frick</li>
             <li>Art Taylor</li>
             <li>Arthur Bauer</li>
             <li>Arthur Feldman</li>
@@ -103,8 +105,10 @@ BIC COBADEHD055</p>
             <li>Beat Stehrenberger</li>
             <li>Benjamin Wilson</li>
             <li>Bernd Wiese</li>
+            <li>Bill Bohlman</li>
             <li>Bill Woodcock</li>
             <li>Bjoern Brauel</li>
+            <li>Boris-Michael Steinke</li>
             <li>Brian Farrell</li>
             <li>Brian Long</li>
             <li>Brian S Poe</li>
@@ -130,9 +134,14 @@ BIC COBADEHD055</p>
             <li>Cristiano Mattos</li>
             <li>Daniel Guido</li>
             <li>Daniel Kullman</li>
+            <li>Daryl Hunter</li>
             <li>Dave Diemer</li>
             <li>David Norman</li>
             <li>David Oran</li>
+            <li>David Theroff</li>
+            <li>David Wagner</li>
+            <li>Demetri Mouratis</li>
+            <li>Derek Curry</li>
             <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
             <li>Dirk Ruediger</li>
@@ -140,9 +149,11 @@ BIC COBADEHD055</p>
             <li>Dmitry Nedospasov</li>
             <li>Dmitry Paranyushkin</li>            
             <li>Doug Laakso</li>
+            <li>Douglas Hewes</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
+            <li>Ermakov Ivan</li>
             <li>Eric Baur</li>
             <li>Eric McMillen</li>
             <li>Erwin Kooi</li>
@@ -173,9 +184,12 @@ BIC COBADEHD055</p>
             <li>Horst Kapfenberger</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
+            <li>Isabelle Bettez</li>
             <li>Ivan Stojcevic</li>
             <li>Ivan Storck</li>
             <li>James Martin</li>
+            <li>James Moya</li>
+            <li>Jamie MacIsaac</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
             <li>Jason Waldhelm</li>
@@ -185,8 +199,10 @@ BIC COBADEHD055</p>
             <li>Joakim Norbäck</li>
             <li>Joe Abley</li>
             <li>Joël Brogniart</li>
+            <li>Johann Dinges</li>
             <li>John Duggins</li>
             <li>John Grimes</li>
+            <li>John Young</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Picht</li>
@@ -202,6 +218,7 @@ BIC COBADEHD055</p>
             <li>Julian Albert</li>
             <li>Karl Pietrzak</li>
             <li>Kaspar Vollenweider</li>
+            <li>Kay Fricke</li>
             <li>Keith Paskett</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
@@ -213,6 +230,7 @@ BIC COBADEHD055</p>
             <li>Lincoln Bertin</li>
             <li>Linwood Ma</li>
             <li>Lorenzo Grespan</li>
+            <li>Luc Dandoy</li>
             <li>Luca Carettoni</li>
             <li>Lucas Fowler</li>
             <li>Lutz Krebs</li>
@@ -220,10 +238,13 @@ BIC COBADEHD055</p>
             <li>Marc Ahr</li>
             <li>Marc Eubanks</li>
             <li>Marcel Dietzmann</li>
+            <li>Marcus Lagergren</li>
             <li>Mark Harrigan</li>
             <li>Markus Talas</li>
+            <li>Martin Waschbüsch</li>
             <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
+            <li>Matt Hogstrom</li>
             <li>Matt Pruitt</li>
             <li>Matthias Dörfler</li>
             <li>Matthias Jantzen</li>
@@ -240,13 +261,17 @@ BIC COBADEHD055</p>
             <li>Mika Goeckel</li>
             <li>Mike Davis</li>
             <li>Mike Fleischer</li>
+            <li>Mike Gordon</li>
             <li>Mike Hellers</li>
             <li>Mio Shimizu</li>
+            <li>Moritz Zumbuehl</li>
             <li>N J L Macassey</li>
             <li>Nagib Tharani</li>
             <li>Nathan Pearlstein</li>
             <li>Neil Brown</li>
             <li>Neil Jarvis</li>
+            <li>Nelson R A De Britoax</li>
+            <li>Nicholas Glorioso</li>
             <li>Nicholas Hubbard</li>
             <li>Nishal Goburdhan</li>
             <li>Odo Wolbers</li>
@@ -259,6 +284,7 @@ BIC COBADEHD055</p>
             <li>Patrick Santana</li>
             <li>Patrik Faltstrom</li>
             <li>Patrick Vander Linden</li>
+            <li>Paul King</li>
             <li>Paul Miles</li>
             <li>Paul Morten Vikanes</li>
             <li>Paul Richardson</li>
@@ -273,8 +299,12 @@ BIC COBADEHD055</p>
             <li>Radek Mrskos</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
+            <li>Remko Lodder</li>
+            <li>Renato Wada</li>
+            <li>Rene Gerlich</li>
             <li>Richard Forno</li>
             <li>Richard Livingston</li>
+            <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
             <li>Robert Schulze</li>
@@ -283,7 +313,9 @@ BIC COBADEHD055</p>
             <li>Rodney Serkowski</li>
             <li>Roger Loeb</li>
             <li>Ronny Schöbel</li>
+            <li>Ryan Brooks</li>
             <li>Ryan Maple</li>
+            <li>Sanjana Hattotuwa</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
             <li>Sean Moss-Pultz</li>
@@ -301,9 +333,11 @@ BIC COBADEHD055</p>
             <li>Taddong</li>
             <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
+            <li>Teodor Cimpoesu</li>
             <li>Theresa ONeill</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
+            <li>Thomas Neumann</li>
             <li>Thomas Ungricht</li>
             <li>Thore Siebrands</li>
             <li>TJ Marbois</li>
@@ -311,6 +345,7 @@ BIC COBADEHD055</p>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
             <li>Uwe Arzt</li>
+            <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
             <li>Vikram Phatak</li>
             <li>Volker John</li>
@@ -319,8 +354,10 @@ BIC COBADEHD055</p>
             <li>Walter Dula</li>
             <li>Wayne Veilleux</li>
             <li>Wilbert Leeper</li>
+            <li>William Bloom</li>
             <li>William Buchaus</li>
             <li>William L Anderson</li>
+            <li>William McCoy</li>
             <li>Wolfgang Klimt</li>
                 </ul>
             </div>
@@ -332,6 +369,7 @@ BIC COBADEHD055</p>
                   <li>American Registry for Internet Numbers</li>
 				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
+                  <li>BPRAgency</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
                   <li>CertCenter AG</li>
@@ -349,10 +387,12 @@ BIC COBADEHD055</p>
                   <li>Firehouse Network Consulting</li>
                   <li>Five Reels</li>
                   <li>Flexcellence UG</li>
+		  <li>Fotostudio Ludwig</li>
                   <li>freistil IT GbR</li>
                   <li>Forced Web</li>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
+                  <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
                   <li>IS.Star SPRL</li>
                   <li>Loopshot</li>
@@ -365,19 +405,24 @@ BIC COBADEHD055</p>
                   <li>Midnight Oil Consulting</li>
                   <li>mg2 organization</li>
                   <li>MojoLingo</li>
+                  <li>Multimage</li>
                   <li>Nick McLarty Technologies</li>
                   <li>Nine Internet Solutions</li>
+                  <li>Nitro Mobile Solutions</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
                   <li>PID1 Technical Services</li>
                   <li>PC Universe</li>
+                  <li>phone4</li>
                   <li>Rayzon Technologies</li>
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
                   <li>RIPE NCC</li>
                   <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
+                  <li>sevian7</li>
                   <li>Silvexis</li>
+                  <li>Somerset Technical Solutions</li>
                   <li>sw4 Stefan Wild</li>
                   <li>Tall Poppy Group</li>
                   <li>Tradeo</li>
