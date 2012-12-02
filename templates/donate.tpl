@@ -1,3 +1,4 @@
+
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
@@ -75,6 +76,7 @@ BIC COBADEHD055</p>
             <li>Abel O Nelson</li>
             <li>Adam Bishop</li>
             <li>Adam Murphy</li>
+            <li>Adam Pointon</li>
             <li>Adiel Akplogan</li>
             <li>Adrian Sauer</li>
             <li>Alan Green</li>
@@ -114,6 +116,7 @@ BIC COBADEHD055</p>
             <li>Brian S Poe</li>
             <li>Bruce Alan Johnson</li>
             <li>Bruce Robinson</li>
+            <li>Bryan Whitehead</li>
             <li>Burnsitech</li>
             <li>Carlos Alberto Lizarralde</li>            
             <li>Carlos Eduardo Bezerra</li>
@@ -181,6 +184,7 @@ BIC COBADEHD055</p>
             <li>Guido Viarengo</li>
             <li>Guillaume Destuynder</li>
             <li>Hans-Peter Scholz</li>
+            <li>Heinz Gies</li>
             <li>Henry Stryker</li>
             <li>Horst Kapfenberger</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
@@ -240,6 +244,7 @@ BIC COBADEHD055</p>
             <li>Marc Eubanks</li>
             <li>Marcel Dietzmann</li>
             <li>Marcus Lagergren</li>
+            <li>Mark Adler</li>
             <li>Mark Harrigan</li>
             <li>Markus Talas</li>
             <li>Martin Waschbüsch</li>
@@ -314,6 +319,7 @@ BIC COBADEHD055</p>
             <li>Rodney Serkowski</li>
             <li>Roger Loeb</li>
             <li>Ronny Schöbel</li>
+            <li>Rodolfo Rubio-Garcia</li>
             <li>Ryan Brooks</li>
             <li>Ryan Maple</li>
             <li>Sanjana Hattotuwa</li>
