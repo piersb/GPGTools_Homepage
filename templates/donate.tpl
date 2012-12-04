@@ -151,12 +151,14 @@ BIC COBADEHD055</p>
             <li>Dirk Ruediger</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
-            <li>Dmitry Paranyushkin</li>            
+            <li>Dmitry Paranyushkin</li>
+            <li>Dennis Otte</li>            
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
+            <li>Erich Neuwirth</li>
             <li>Ermakov Ivan</li>
             <li>Eric Baur</li>
             <li>Eric McMillen</li>
@@ -183,6 +185,7 @@ BIC COBADEHD055</p>
             <li>Greg Smith</li>
             <li>Guido Viarengo</li>
             <li>Guillaume Destuynder</li>
+            <li>Hans De Geetere</li>
             <li>Hans-Peter Scholz</li>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
@@ -256,6 +259,7 @@ BIC COBADEHD055</p>
             <li>Matthias Jantzen</li>
             <li>Max Jaudas</li>
             <li>Michael Dierck</li>
+            <li>Michael Geller</li>
             <li>Michael Gracie</li>
             <li>Michael Halsall</li>
             <li>Michael Klotz</li>
@@ -354,6 +358,7 @@ BIC COBADEHD055</p>
             <li>Uwe Arzt</li>
             <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
+            <li>Veit Stephan</li>
             <li>Vikram Phatak</li>
             <li>Volker John</li>
             <li>Volker Schwaberow</li>
@@ -371,6 +376,7 @@ BIC COBADEHD055</p>
             <div class="table right">
                 <h4>Companies</h4>
                 <ul class="sub">
+                  <li>1000°Digital</li>
                   <li>A. Martin IT-Consulting</li>
                   <li>Akademia Bezpieczenstwa</li>
                   <li>American Registry for Internet Numbers</li>
@@ -402,6 +408,7 @@ BIC COBADEHD055</p>
                   <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
                   <li>IS.Star SPRL</li>
+                  <li>Libertad</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems</li>
