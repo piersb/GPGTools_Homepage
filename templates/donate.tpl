@@ -341,6 +341,7 @@ BIC COBADEHD055</p>
             <li>Stijn Jonker</li>
             <li>Sven Haskel</li>
             <li>Sven Schwyn</li>
+            <li>Sven Steinheißer</li>
             <li>Taddong</li>
             <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
