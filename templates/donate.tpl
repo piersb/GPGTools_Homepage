@@ -410,6 +410,7 @@ BIC COBADEHD055</p>
                   <li>Forced Web</li>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
+                  <li>Ilscipio</li>
                   <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
                   <li>IS.Star SPRL</li>
