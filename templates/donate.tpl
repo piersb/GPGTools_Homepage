@@ -138,6 +138,7 @@ BIC COBADEHD055</p>
             <li>Cristiano Mattos</li>
             <li>Daniel Guido</li>
             <li>Daniel Kullman</li>
+            <li>Daniel Roig</li>
             <li>Daryl Hunter</li>
             <li>Dave Diemer</li>
             <li>David Norman</li>
@@ -158,10 +159,11 @@ BIC COBADEHD055</p>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
+            <li>Eric Baur</li>
+            <li>Eric Fitzgerald</li>
+            <li>Eric McMillen</li>
             <li>Erich Neuwirth</li>
             <li>Ermakov Ivan</li>
-            <li>Eric Baur</li>
-            <li>Eric McMillen</li>
             <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
             <li>Felix Hermann</li>
@@ -210,6 +212,7 @@ BIC COBADEHD055</p>
             <li>Johann Dinges</li>
             <li>John Duggins</li>
             <li>John Grimes</li>
+            <li>John Wunderlich</li>
             <li>John Young</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
@@ -291,6 +294,7 @@ BIC COBADEHD055</p>
             <li>Omer Holzinger</li>
             <li>Oscar Koeroo</li>
             <li>Olivier Morel</li>
+            <li>Patrick Gilmore</li>
             <li>Patrick Santana</li>
             <li>Patrik Faltstrom</li>
             <li>Patrick Vander Linden</li>
