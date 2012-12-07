@@ -311,6 +311,7 @@ BIC COBADEHD055</p>
             <li>Philip Jocks</li>
             <li>Phillip Rotherham</li>
             <li>Radek Mrskos</li>
+            <li>Rasmus Vuori</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
             <li>Remko Lodder</li>
@@ -405,7 +406,7 @@ BIC COBADEHD055</p>
                   <li>Firehouse Network Consulting</li>
                   <li>Five Reels</li>
                   <li>Flexcellence UG</li>
-		  <li>Fotostudio Ludwig</li>
+	          	  <li>Fotostudio Ludwig</li>
                   <li>freistil IT GbR</li>
                   <li>Forced Web</li>
                   <li>Heindel - IT Solutions & Consulting</li>
@@ -429,6 +430,7 @@ BIC COBADEHD055</p>
                   <li>Nick McLarty Technologies</li>
                   <li>Nine Internet Solutions</li>
                   <li>Nitro Mobile Solutions</li>
+                  <li>Noble Technology Group</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
                   <li>PID1 Technical Services</li>
