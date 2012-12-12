@@ -190,6 +190,7 @@ BIC COBADEHD055</p>
             <li>Guillaume Destuynder</li>
             <li>Hans De Geetere</li>
             <li>Hans-Peter Scholz</li>
+            <li>Harold Teunissen</li>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
             <li>Horst Kapfenberger</li>
