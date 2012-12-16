@@ -80,6 +80,7 @@ BIC COBADEHD055</p>
             <li>Adiel Akplogan</li>
             <li>Adrian Sauer</li>
             <li>Alan Green</li>
+            <li>Alexander Kornbrust</li>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
             <li>Alfonso Carrillo</li>
@@ -163,6 +164,7 @@ BIC COBADEHD055</p>
             <li>Eric Baur</li>
             <li>Eric Fitzgerald</li>
             <li>Eric McMillen</li>
+            <li>Eric Burger</li>
             <li>Erich Neuwirth</li>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
@@ -178,6 +180,7 @@ BIC COBADEHD055</p>
             <li>Fredrik Ulfson</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
+            <li>Gabe Hammersmith</li>
             <li>Gary Greene</li>
             <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
@@ -186,10 +189,12 @@ BIC COBADEHD055</p>
             <li>Graham Perrin</li>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
+            <li>Gregory Panera</li>
             <li>Guido Viarengo</li>
             <li>Guillaume Destuynder</li>
             <li>Hans De Geetere</li>
             <li>Hans-Peter Scholz</li>
+            <li>Hans Van de Looy</li>
             <li>Harold Teunissen</li>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
@@ -201,6 +206,7 @@ BIC COBADEHD055</p>
             <li>Ivan Storck</li>
             <li>James Martin</li>
             <li>James Moya</li>
+            <li>James Rigsbee</li>
             <li>Jamie MacIsaac</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
@@ -208,6 +214,7 @@ BIC COBADEHD055</p>
             <li>Jeff Smith</li>
             <li>Jerry W Dixon Jr</li>
             <li>Jessica Stolz</li>
+            <li>Jim Killock</li>
             <li>Joakim Norbäck</li>
             <li>Joe Abley</li>
             <li>Joël Brogniart</li>
@@ -216,6 +223,7 @@ BIC COBADEHD055</p>
             <li>John Grimes</li>
             <li>John Wunderlich</li>
             <li>John Young</li>
+            <li>Jon Whipple</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Picht</li>
@@ -246,20 +254,24 @@ BIC COBADEHD055</p>
             <li>Luc Dandoy</li>
             <li>Luca Carettoni</li>
             <li>Lucas Fowler</li>
+            <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
             <li>Marc Ahr</li>
             <li>Marc Eubanks</li>
+            <li>Marc Radtke</li>
             <li>Marcel Dietzmann</li>
             <li>Marcus Lagergren</li>
             <li>Mark Adler</li>
             <li>Mark Harrigan</li>
+            <li>Markus Auferkorte</li>
             <li>Markus Talas</li>
             <li>Martin Waschbüsch</li>
             <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
             <li>Matt Hogstrom</li>
             <li>Matt Pruitt</li>
+            <li>Matthew David Stears</li>
             <li>Matthias Dörfler</li>
             <li>Matthias Jantzen</li>
             <li>Max Jaudas</li>
@@ -278,6 +290,7 @@ BIC COBADEHD055</p>
             <li>Mike Fleischer</li>
             <li>Mike Gordon</li>
             <li>Mike Hellers</li>
+            <li>Mike Jones</li>
             <li>Mio Shimizu</li>
             <li>Moritz Zumbuehl</li>
             <li>N J L Macassey</li>
@@ -324,6 +337,7 @@ BIC COBADEHD055</p>
             <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
+            <li>Robert Mueller</li>
             <li>Robert Schulze</li>
             <li>Robert Tirrell</li>
             <li>Robert Vaessen</li>
@@ -396,7 +410,7 @@ BIC COBADEHD055</p>
                   <li>CertCenter AG</li>
                   <li>CheckSec</li>
                   <li class="premium">Clockwork Active Media Systems</li>
-                  <li>CogniSec Inc.</li>
+                  <li>CogniSec Inc</li>
                   <li>Cominvent AS</li>
                   <li>Cube IT SRL</li>
                   <li>d.k.d internet service</li>
@@ -427,6 +441,7 @@ BIC COBADEHD055</p>
                   <li>MakaluMedia</li>
                   <li>Midnight Oil Consulting</li>
                   <li>mg2 organization</li>
+                  <li>MobileActive</li>
                   <li>MojoLingo</li>
                   <li>Multimage</li>
                   <li>Nick McLarty Technologies</li>
@@ -447,6 +462,7 @@ BIC COBADEHD055</p>
                   <li>sevian7</li>
                   <li>Silvexis</li>
                   <li>Somerset Technical Solutions</li>
+                  <li class="premium">SURFnet</li>
                   <li>sw4 Stefan Wild</li>
                   <li>Tall Poppy Group</li>
                   <li>Tradeo</li>
