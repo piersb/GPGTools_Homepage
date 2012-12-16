@@ -224,6 +224,7 @@ BIC COBADEHD055</p>
             <li>John Wunderlich</li>
             <li>John Young</li>
             <li>Jon Whipple</li>
+            <li>Jonas Beckman</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Picht</li>
