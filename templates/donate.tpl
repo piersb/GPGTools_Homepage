@@ -99,6 +99,7 @@ BIC COBADEHD055</p>
             <li>Art Taylor</li>
             <li>Arthur Bauer</li>
             <li>Arthur Feldman</li>
+            <li>Asad Quraishi</li>
             <li>Asko Hochdorn</li>
             <li>Aurimas Mikalauskas</li>
             <li>Austin Saucier</li>
@@ -207,6 +208,7 @@ BIC COBADEHD055</p>
             <li>James Martin</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
+            <li>James Wissick</li>
             <li>Jamie MacIsaac</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
