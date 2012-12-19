@@ -73,6 +73,7 @@ BIC COBADEHD055</p>
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
+            <li>Aaron Ash</li>    
             <li>Abel O Nelson</li>
             <li>Adam Bishop</li>
             <li>Adam Murphy</li>
@@ -196,6 +197,7 @@ BIC COBADEHD055</p>
             <li>Hans De Geetere</li>
             <li>Hans-Peter Scholz</li>
             <li>Hans Van de Looy</li>
+            <li>Hans-Werner Weber</li>
             <li>Harold Teunissen</li>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
@@ -278,6 +280,7 @@ BIC COBADEHD055</p>
             <li>Matthias Dörfler</li>
             <li>Matthias Jantzen</li>
             <li>Max Jaudas</li>
+            <li>Meit</li>
             <li>Michael Dierck</li>
             <li>Michael Geller</li>
             <li>Michael Gracie</li>
@@ -295,6 +298,7 @@ BIC COBADEHD055</p>
             <li>Mike Hellers</li>
             <li>Mike Jones</li>
             <li>Mio Shimizu</li>
+            <li>Molly Fletcher</li>
             <li>Moritz Zumbuehl</li>
             <li>N J L Macassey</li>
             <li>Nagib Tharani</li>
@@ -307,6 +311,7 @@ BIC COBADEHD055</p>
             <li>Nishal Goburdhan</li>
             <li>Odo Wolbers</li>
             <li>Olaf Kolkman</li>
+            <li>Olav Seyfarth</li>
             <li>Ole Hermansen</li>
             <li>Oleg Pak</li>
             <li>Omer Holzinger</li>
@@ -350,6 +355,7 @@ BIC COBADEHD055</p>
             <li>Rodolfo Rubio-Garcia</li>
             <li>Ryan Brooks</li>
             <li>Ryan Maple</li>
+            <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
@@ -403,6 +409,7 @@ BIC COBADEHD055</p>
                 <ul class="sub">
                   <li>1000°Digital</li>
                   <li>A. Martin IT-Consulting</li>
+                  <li>Acuron</li>
                   <li>Akademia Bezpieczenstwa</li>
                   <li>American Registry for Internet Numbers</li>
 				  <li>Audeo Inc</li>
