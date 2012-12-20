@@ -135,6 +135,7 @@ BIC COBADEHD055</p>
             <li>Christer Klasson</li>
             <li>Christoph Deinhard</li>
             <li>Christopher Gibson</li>
+            <li>Cindy Cohn</li>
             <li>Claudius Wettstein</li>
             <li>Clytie Siddall</li>
             <li>Craig Stacey</li>
@@ -334,6 +335,7 @@ BIC COBADEHD055</p>
             <li>Philip Jocks</li>
             <li>Phillip Rotherham</li>
             <li>Radek Mrskos</li>
+            <li>Ralph Moonen</li>
             <li>Rasmus Vuori</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
