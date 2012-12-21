@@ -142,6 +142,7 @@ BIC COBADEHD055</p>
             <li>Cristiano Mattos</li>
             <li>Daniel Guido</li>
             <li>Daniel Kullman</li>
+            <li>Daniel Potts</li>
             <li>Daniel Roig</li>
             <li>Daryl Hunter</li>
             <li>Dave Diemer</li>
@@ -243,6 +244,7 @@ BIC COBADEHD055</p>
             <li>Jürgen Ehmann</li>
             <li>Jürgen Nickelsen</li>
             <li>Julian Albert</li>
+            <li>Kamil Shakirov</li>
             <li>Karl Pietrzak</li>
             <li>Kaspar Vollenweider</li>
             <li>Kay Fricke</li>
