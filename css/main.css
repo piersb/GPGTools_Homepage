@@ -601,7 +601,7 @@ section.gpgservices header { background: url(../images/section/gpgservices-new-l
 	padding: 10px 10px; width: 300px;
 	float: left; line-height: 1.2;
 }
-.modal#contact-page legend { padding-bottom: 16px; }
+.modal#contact-page legend { padding-bottom: 5px; }
 .modal#contact-page h1, .modal#contact-page legend { color: #286e96; font-weight: bold; font-size: 15px; margin-bottom: 20px; }
 .modal#contact-page .intro p, .modal#contact-page .switcher p { padding: 0px; margin: 0px; padding-bottom: 12px; font-size: 16px; line-height: 1.3 }
 .modal#contact-page div p:first-child { color: #656565; }

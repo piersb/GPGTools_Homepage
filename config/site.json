@@ -4,10 +4,9 @@
     "debug": true,
     "navigation-items": [
 						 {"title": "Donate", "link": "#donate", "class": "donate"},
-						 {"title": "Support", "link": "http://support.gpgtools.org", "class": "support"},
+						 {"title": "Support", "link": "#contact"},
 						 {"title": "Friends", "link": "#friends", "class": "friends"},
 						 {"title": "Twitter", "link": "http://twitter.com/gpgtools", "image": "twitter-bird.png", "class": "twitter"},
-						 {"title": "Contact", "link": "#contact", "list-class": "special"},
 						 {"title": "Team", "link": "#team", "class": "team", "list-class": "special"}
 						 ],
     "introduction": {
@@ -116,7 +115,7 @@
 	},
 	"contact": {
 		"intro-title": "May we help?",
-		"intro-text": "<p>We would be pleased to hear from you! If you need assistance, visit our Support Site, but first consider reading our Quickstart Tutorial.</p><p>In order to answer your questions as fast as possible, your message will be posted to our public support forum where other GPGTools users will be able to help out as well.</p><p>If you're message contains cofidential information or you only want us to see it,please make sure to activate the checkbox underneath your message.</p>",
+		"intro-text": "<p>We would be pleased to hear from you! If you need assistance, visit our <a href='http://support.gpgtools.org/'>Support Site</a>, but first consider reading our <a href='http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin'>Quickstart Tutorial</a>.</p><p>In order to answer your questions as fast as possible, your message will be posted to our public support forum where other GPGTools users will be able to help out as well.</p><p>If you're message contains cofidential information or you only want us to see it,please make sure to activate the checkbox underneath your message.</p>",
 		"form-title": "Post a question to our support site",
 		"form-email": "E-Mail (so we can respond. Optional)",
 		"form-subject": "Subject",
