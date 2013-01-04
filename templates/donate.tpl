@@ -213,6 +213,7 @@ BIC COBADEHD055</p>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
             <li>Horst Kapfenberger</li>
+            <li>Hynek Schlawack</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
             <li>Isabelle Bettez</li>
@@ -283,6 +284,7 @@ BIC COBADEHD055</p>
             <li>Marcus Lagergren</li>
             <li>Mark Adler</li>
             <li>Mark Harrigan</li>
+            <li>Mark Vriesenga</li>
             <li>Markus Auferkorte</li>
             <li>Markus Talas</li>
             <li>Martin Waschbüsch</li>
@@ -362,6 +364,7 @@ BIC COBADEHD055</p>
             <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
+            <li>Robert James</li>
             <li>Robert Mueller</li>
             <li>Robert Schulze</li>
             <li>Robert Tirrell</li>
@@ -369,6 +372,7 @@ BIC COBADEHD055</p>
             <li>Roberto Witt</li>
             <li>Rodney Serkowski</li>
             <li>Roger Loeb</li>
+            <li>Rolf Joho</li>
             <li>Ronny Schöbel</li>
             <li>Rodolfo Rubio-Garcia</li>
             <li>Ryan Brooks</li>
