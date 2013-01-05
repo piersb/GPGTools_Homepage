@@ -446,6 +446,7 @@ BIC COBADEHD055</p>
                   <li class="premium">Clockwork Active Media Systems</li>
                   <li>CogniSec Inc</li>
                   <li>Cominvent AS</li>
+                  <li>Consoltec</li>
                   <li>Cube IT SRL</li>
                   <li>d.k.d internet service</li>
                   <li>Endian Technologies AB</li>
