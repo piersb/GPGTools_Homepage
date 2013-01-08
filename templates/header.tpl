@@ -32,7 +32,7 @@
     <header>
       <div id="foo">
           <div id="logo">
-            <a href="{$root}/index.php"><img src="{$root}/images/gpgtools_xmas.png" alt="GPGTools" title="GPGTools" class="logo"/></a>
+            <a href="{$root}/index.php"><img src="{$root}/macgpg1/images/logo-128px.png" alt="GPGTools" title="GPGTools" class="logo"/></a>
             <h1><a href="{$root}/index.php" id="header">GPGTools</a></h1>
           </div>
           <div id="navigation">
