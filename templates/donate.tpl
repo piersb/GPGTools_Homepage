@@ -89,6 +89,7 @@ BIC COBADEHD055</p>
             <li>Alun J Carr</li>
             <li>Amber Tyree</li>
             <li>Anders Nor Berle</li>
+            <li>Andreas Hahn</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
             <li>Andrew Zeneski</li>
@@ -281,15 +282,18 @@ BIC COBADEHD055</p>
             <li>Marc Eubanks</li>
             <li>Marc Radtke</li>
             <li>Marcel Dietzmann</li>
+            <li>Marco Rademacher</li>
             <li>Marcus Lagergren</li>
             <li>Mark Adler</li>
             <li>Mark Harrigan</li>
             <li>Mark Vriesenga</li>
             <li>Markus Auferkorte</li>
             <li>Markus Talas</li>
+            <li>Martin Grellmann</li>
             <li>Martin Waschbüsch</li>
             <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
+            <li>Mats Karsbrink</li>
             <li>Matt Hogstrom</li>
             <li>Matt Pruitt</li>
             <li>Matthew David Stears</li>
@@ -365,6 +369,7 @@ BIC COBADEHD055</p>
             <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
+            <li>Robert Bahmann</li>
             <li>Robert James</li>
             <li>Robert Mueller</li>
             <li>Robert Schulze</li>
@@ -383,6 +388,7 @@ BIC COBADEHD055</p>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
             <li>Sean Moss-Pultz</li>
+            <li>Sebastian Gutierrez</li>
             <li>Sebastiaan Kruit</li>
             <li>Shawn Becker</li>
             <li>Shlok Datye</li>
@@ -390,6 +396,7 @@ BIC COBADEHD055</p>
             <li>Steffen W Soerensen</li>
             <li>Stephan Hansen-Oest</li>
             <li>Stephan Steinbach</li>
+            <li>Stephen D. Scotti</li>
             <li>Stephen Ulmer</li>
             <li>Steven Herr</li>
             <li>Stijn Jonker</li>
@@ -437,6 +444,7 @@ BIC COBADEHD055</p>
                   <li>Acuron</li>
                   <li>Akademia Bezpieczenstwa</li>
                   <li>American Registry for Internet Numbers</li>
+                  <li>Artistic Hosting</li>
 				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
                   <li>BPRAgency</li>
