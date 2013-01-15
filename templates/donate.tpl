@@ -84,6 +84,7 @@ BIC COBADEHD055</p>
             <li>Alexander Kornbrust</li>
             <li>Alexander Nouak</li>
             <li>Alexandre Harano</li>
+            <li>Alexandru Balan</li>
             <li>Alfonso Carrillo</li>
             <li>Alfred Herrmann</li>
             <li>Alun J Carr</li>
@@ -162,6 +163,7 @@ BIC COBADEHD055</p>
             <li>Derek Curry</li>
             <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
+            <li>Dirk Riemekasten</li>
             <li>Dirk Ruediger</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
@@ -211,6 +213,7 @@ BIC COBADEHD055</p>
             <li>Hans Van de Looy</li>
             <li>Hans-Werner Weber</li>
             <li>Harold Teunissen</li>
+            <li>Heiko Bollert</li>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
             <li>Horst Kapfenberger</li>
@@ -239,6 +242,7 @@ BIC COBADEHD055</p>
             <li>Johannes Koller</li>
             <li>John Duggins</li>
             <li>John Grimes</li>
+            <li>John Hritz</li>
             <li>John-Paul Mead</li>
             <li>John Wunderlich</li>
             <li>John Young</li>
@@ -330,6 +334,7 @@ BIC COBADEHD055</p>
             <li>Nelson R A De Britoax</li>
             <li>Nicholas Glorioso</li>
             <li>Nicholas Hubbard</li>
+            <li>Nicolas Rudaz</li>
             <li>Nishal Goburdhan</li>
             <li>Odo Wolbers</li>
             <li>Olaf Kolkman</li>
@@ -504,6 +509,7 @@ BIC COBADEHD055</p>
                   <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
                   <li>sevian7</li>
+                  <li>Shopify</li>
                   <li>Silvexis</li>
                   <li>Somerset Technical Solutions</li>
                   <li class="premium">SURFnet</li>
