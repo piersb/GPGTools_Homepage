@@ -421,6 +421,7 @@ BIC COBADEHD055</p>
             <li>Thore Siebrands</li>
             <li>TJ Marbois</li>
             <li>Tom DeLozier</li>
+            <li>Tomáš Kohút</li>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
             <li>Uwe Arzt</li>
@@ -480,6 +481,7 @@ BIC COBADEHD055</p>
                   <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
                   <li>IS.Star SPRL</li>
+                  <li>Jirasek Security Consulting</li>
                   <li>Libertad</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
