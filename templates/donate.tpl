@@ -291,7 +291,6 @@ BIC COBADEHD055</p>
             <li>Mark Adler</li>
             <li>Mark Harrigan</li>
             <li>Mark Vriesenga</li>
-            <li>Markus Auferkorte</li>
             <li>Markus Talas</li>
             <li>Martin Grellmann</li>
             <li>Martin Waschbüsch</li>
@@ -452,6 +451,7 @@ BIC COBADEHD055</p>
                   <li>Acuron</li>
                   <li>Akademia Bezpieczenstwa</li>
                   <li>American Registry for Internet Numbers</li>
+                  <li>anykey GmbH</li>
                   <li>Artistic Hosting</li>
 				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
