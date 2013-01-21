@@ -130,6 +130,7 @@ BIC COBADEHD055</p>
             <li>Carsten Bormann</li>
             <li>Carsten Zeitz</li>
             <li>Chad Stanke</li>
+            <li>Charles Meyer-Amiez</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
             <li>Chris Hoofnagle</li>
