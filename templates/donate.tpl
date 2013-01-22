@@ -119,6 +119,7 @@ BIC COBADEHD055</p>
             <li>Bjoern Brauel</li>
             <li>Boris-Michael Steinke</li>
             <li>Brian Farrell</li>
+            <li>Brian Flores</li>
             <li>Brian Long</li>
             <li>Brian S Poe</li>
             <li>Bruce Alan Johnson</li>
@@ -183,6 +184,7 @@ BIC COBADEHD055</p>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
             <li>Fabian Zeindl</li>
+            <li>Federico Hatoum</li>
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
             <li>Florian Stocker</li>
@@ -249,6 +251,7 @@ BIC COBADEHD055</p>
             <li>John Young</li>
             <li>Jon Whipple</li>
             <li>Jonas Beckman</li>
+            <li>Jonas Karlsson</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Picht</li>
@@ -259,6 +262,7 @@ BIC COBADEHD055</p>
             <li>Joseph Kelley</li>
             <li>Josh Ballard</li>
             <li>Jozef Mares</li>
+            <li>Juan Larrañaga Arriaga</li>
             <li>Jürgen Ehmann</li>
             <li>Jürgen Nickelsen</li>
             <li>Julian Albert</li>
@@ -370,6 +374,7 @@ BIC COBADEHD055</p>
             <li>Remko Lodder</li>
             <li>Renato Wada</li>
             <li>Rene Gerlich</li>
+            <li>Richard Carver</li>
             <li>Richard Forno</li>
             <li>Richard Livingston</li>
             <li>Richard Outerbridge</li>
@@ -428,6 +433,7 @@ BIC COBADEHD055</p>
             <li>Tomáš Kohút</li>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
+            <li>Troy Murray</li>
             <li>Uwe Arzt</li>
             <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
