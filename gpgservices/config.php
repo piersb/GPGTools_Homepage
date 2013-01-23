@@ -43,7 +43,7 @@ $theSite->assign('short_description', 'GPGServices is a plugin for the global Se
 $theSite->assign('lighthouse', '67607');
 
 $limitations = array(
-'4' => 'Services are not automatically enabled',
+'4' => 'Services are not automatically enabled. See Knowledge Base article for <a href="http://support.gpgtools.org/kb/faq-gpgservices/how-do-i-activate-the-gpgservices">Workaround</a>'
 );
 $theSite->assign('limitations', $limitations);
 

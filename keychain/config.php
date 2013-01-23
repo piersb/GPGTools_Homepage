@@ -40,7 +40,7 @@ $theSite->assign('minOS', '10.6');
 $theSite->assign('overview', '
 	GPG Keychain Access is an open source application for Mac OS X.
 	It allows the user to manage OpenPGP keys, e.g. creating, adjusting and verifying keys and communication with the key servers.<p>
-	<p>Please have a look at the <a href="https://github.com/GPGTools/GPGKeychainAccess/wiki/Getting-started">getting started</a> wiki.</p>
+	<p>Please have a look at the <a href="http://support.gpgtools.org/kb">Knowledge Base</a>.</p>
 ');
 $theSite->assign('short_description', 'GPG Keychain Access is an open source application for Mac OS X. It allows the user to manage OpenPGP keys, e.g. creating, adjusting and verifying keys and communication with the key servers.');
 

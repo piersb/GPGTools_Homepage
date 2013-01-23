@@ -44,7 +44,7 @@ $theSite->assign('reqs', 'OS X 10.7<br/>(get old releases for: <a href="https://
 
 $theSite->assign('overview', '
 	<p>GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.</p>
-	<p>Please have a look at the <a href="https://github.com/GPGTools/GPGMail/wiki/Getting-started">getting started</a> and <a href="https://github.com/GPGTools/GPGMail/wiki/FAQ">FAQ</a> section.
+	<p>Please have a look at the <a href="http://support.gpgtools.org/kb">Knowledge Base and GPGMail FAQ-Section</a>.
 	It would be nice to <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support bundles for Mail.app officially.</p>
 ');
 $theSite->assign('short_description', 'GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.');

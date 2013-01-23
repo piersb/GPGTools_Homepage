@@ -7,10 +7,6 @@
     </div>
     <div id="main">
         <div id="m_content">
-            <h3 class="clear">Overview</h3>
-            <p>This page provides a list of software projects that are related
-            to the GPGTools project.</p>
-            <p class="clear"><br/></p>
             <h3 id="installer" class="clear">The GPGTools Installer</h3>
             <p>The main goal is to provide an easy installer for GnuPG and
             all related tools on OS X.</p>
@@ -28,12 +24,6 @@
                 <li><div class="project"><a href="gpgservices/index.php"><img src="{$root}/gpgservices/images/logo-128px.png" alt="Mac OS X GPG Services Menu" title="Mac OS X GPG Services Menu" class="logo"/><br/>GPGServices</a></div></li>
                 <li><div class="project"><a href="gpgpreferences/index.php"><img src="{$root}/gpgpreferences/images/logo-128px.png" alt="Mac OS X GPG System Preferences" title="Mac OS X GPG System Preferences" class="logo"/><br/>GPGPreferences</a></div></li>
                 <li><div class="project"><a href="mobile/index.php"><img src="{$root}/mobile/images/logo-128px.png" alt="Mobile OpenPGP" title="Mobile OpenPGP" class="logo"/><br/>Mobile OpenPGP</a></div></li>
-            </ul>
-            <p class="clear"><br/></p>
-            <h3 id="related" class="clear">Related Projects</h3>
-            <p>List of related projects that are included in the installer:</p>
-            <ul class="sub projects">
-                <li><div class="project"><a href="http://enigmail.mozdev.org"><img src="{$root}/images/enigmail.png" alt="Enigmail" title="Enigmail" class="logo"/><br/>Enigmail</a></div></li>
             </ul>
             <p class="clear"><br/></p>
         </div>
