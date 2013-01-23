@@ -195,6 +195,7 @@ BIC COBADEHD055</p>
             <li>Franco Fichtner</li>
             <li>Frank Reta</li>
             <li>Frederic Jouvin</li>
+            <li>Fredric Moses</li>
             <li>Fredrik Ulfson</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
