@@ -465,6 +465,7 @@ BIC COBADEHD055</p>
                   <li>Artistic Hosting</li>
 				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
+                  <li>Bimatics</li>
                   <li>BPRAgency</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
