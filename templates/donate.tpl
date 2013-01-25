@@ -279,6 +279,7 @@ BIC COBADEHD055</p>
             <li>Kurt Erik Lindqvist</li>
             <li>Laradji Nacer</li>
             <li>Laurens Bonnema</li>
+            <li>Leonard Libitz</li>
             <li>Lincoln Bertin</li>
             <li>Linwood Ma</li>
             <li>Lorenzo Grespan</li>
@@ -309,6 +310,7 @@ BIC COBADEHD055</p>
             <li>Matthias Dörfler</li>
             <li>Matthias Jantzen</li>
             <li>Max Jaudas</li>
+            <li>Max Sikström</li>
             <li>Meit</li>
             <li>Michael Dierck</li>
             <li>Michael Geller</li>
@@ -340,6 +342,7 @@ BIC COBADEHD055</p>
             <li>Nelson R A De Britoax</li>
             <li>Nicholas Glorioso</li>
             <li>Nicholas Hubbard</li>
+            <li>Nicolai Moles-Benfell</li>
             <li>Nicolas Rudaz</li>
             <li>Nishal Goburdhan</li>
             <li>Odo Wolbers</li>
@@ -477,6 +480,7 @@ BIC COBADEHD055</p>
                   <li>Consoltec</li>
                   <li>Cube IT SRL</li>
                   <li>d.k.d internet service</li>
+                  <li>Double Shot Security</li>
                   <li>Endian Technologies AB</li>
                   <li>Enigma Software</li>
                   <li>Euclidian Consulting</li>
