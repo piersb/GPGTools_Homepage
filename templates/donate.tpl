@@ -177,6 +177,7 @@ BIC COBADEHD055</p>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
             <li>Eric Baur</li>
+            <li>Eric Brown</li>
             <li>Eric Fitzgerald</li>
             <li>Eric McMillen</li>
             <li>Eric Burger</li>
@@ -236,6 +237,7 @@ BIC COBADEHD055</p>
             <li>Jarbas de Freitas Peixoto</li>
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
+            <li>Jeffrey Pajor</li>
             <li>Jerry W Dixon Jr</li>
             <li>Jessica Stolz</li>
             <li>Jim Killock</li>
@@ -272,6 +274,7 @@ BIC COBADEHD055</p>
             <li>Kaspar Vollenweider</li>
             <li>Kay Fricke</li>
             <li>Keith Paskett</li>
+            <li>Ken Erney</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
             <li>Kenneth R Van Wyk</li>
@@ -286,9 +289,11 @@ BIC COBADEHD055</p>
             <li>Luc Dandoy</li>
             <li>Luca Carettoni</li>
             <li>Lucas Fowler</li>
+            <li>Lukas Spieß</li>
             <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
+            <li>Manuel Tiedtke</li>
             <li>Marc Ahr</li>
             <li>Marc Eubanks</li>
             <li>Marc Radtke</li>
@@ -515,6 +520,7 @@ BIC COBADEHD055</p>
                   <li>Nick McLarty Technologies</li>
                   <li>Nine Internet Solutions</li>
                   <li>Nitro Mobile Solutions</li>
+                  <li>No-IP</li>
                   <li>Noble Technology Group</li>
                   <li class="premium">NORDUnet</li>
                   <li>Operation Mobilisation</li>
