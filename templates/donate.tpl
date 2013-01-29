@@ -91,6 +91,7 @@ BIC COBADEHD055</p>
             <li>Amber Tyree</li>
             <li>Anders Nor Berle</li>
             <li>Andreas Hahn</li>
+            <li>Andreas Wenzel</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
             <li>Andrew Zeneski</li>
@@ -106,6 +107,7 @@ BIC COBADEHD055</p>
             <li>Asad Quraishi</li>
             <li>Ash Varma</li>
             <li>Asko Hochdorn</li>
+            <li>Augustin Luton</li>
             <li>Aurimas Mikalauskas</li>
             <li>Austin Saucier</li>
             <li>Абдурахманов Магомед</li>
@@ -134,6 +136,7 @@ BIC COBADEHD055</p>
             <li>Charles Meyer-Amiez</li>
             <li>Chavalit Srisathapornphat</li>
             <li>Chia Chik Pai</li>
+            <li>Chris Gatford</li>
             <li>Chris Hoofnagle</li>
             <li>Chris O'Halloran</li>
             <li>Christian Bockermann</li>
@@ -195,6 +198,7 @@ BIC COBADEHD055</p>
             <li>Francisco Craig</li>
             <li>Franco Fichtner</li>
             <li>Frank Reta</li>
+            <li>Frederic Jacquet</li>
             <li>Frederic Jouvin</li>
             <li>Fredric Moses</li>
             <li>Fredrik Ulfson</li>
@@ -392,6 +396,7 @@ BIC COBADEHD055</p>
             <li>Robert Bahmann</li>
             <li>Robert James</li>
             <li>Robert Mueller</li>
+            <li>Robert Patoine</li>
             <li>Robert Schulze</li>
             <li>Robert Tirrell</li>
             <li>Robert Vaessen</li>
@@ -502,6 +507,7 @@ BIC COBADEHD055</p>
                   <li>Ilscipio</li>
                   <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
+                  <li>IPNED Networks & Security</li>
                   <li>IS.Star SPRL</li>
                   <li>Jirasek Security Consulting</li>
                   <li>Libertad</li>
