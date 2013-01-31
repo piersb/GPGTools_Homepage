@@ -222,6 +222,7 @@ BIC COBADEHD055</p>
             <li>Hans Van de Looy</li>
             <li>Hans-Werner Weber</li>
             <li>Harold Teunissen</li>
+            <li>Harri Sylvander</li>
             <li>Heiko Bollert</li>
             <li>Heinz Gies</li>
             <li>Henry Stryker</li>
@@ -253,6 +254,7 @@ BIC COBADEHD055</p>
             <li>John Duggins</li>
             <li>John Grimes</li>
             <li>John Hritz</li>
+            <li>John Kean</li>
             <li>John-Paul Mead</li>
             <li>John Wunderlich</li>
             <li>John Young</li>
@@ -384,6 +386,7 @@ BIC COBADEHD055</p>
             <li>Rasmus Vuori</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
+            <li>Rembert Oldenboom</li>
             <li>Remko Lodder</li>
             <li>Renato Wada</li>
             <li>Rene Gerlich</li>
@@ -510,10 +513,12 @@ BIC COBADEHD055</p>
                   <li>IPNED Networks & Security</li>
                   <li>IS.Star SPRL</li>
                   <li>Jirasek Security Consulting</li>
+                  <li>JWJS Word Productions</li>
                   <li>Libertad</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems</li>
+                  <li>M & C Enterprises</li>
                   <li>macon.cc</li>
                   <li>MacPomoc</li>
                   <li>Matta</li>
