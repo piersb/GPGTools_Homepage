@@ -422,6 +422,7 @@ BIC COBADEHD055</p>
             <li>Sebastiaan Kruit</li>
             <li>Shawn Becker</li>
             <li>Shlok Datye</li>
+            <li>Stefan Larsson</li>
             <li>Steffen Gebert</li>
             <li>Steffen W Soerensen</li>
             <li>Stephan Hansen-Oest</li>
@@ -517,6 +518,7 @@ BIC COBADEHD055</p>
                   <li>IS.Star SPRL</li>
                   <li>Jirasek Security Consulting</li>
                   <li>JWJS Word Productions</li>
+                  <li>Kombinat</li>
                   <li>Libertad</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
