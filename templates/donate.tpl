@@ -89,6 +89,7 @@ BIC COBADEHD055</p>
             <li>Alfred Herrmann</li>
             <li>Alun J Carr</li>
             <li>Amber Tyree</li>
+            <li>Anaximandro Furtado</li>
             <li>Anders Nor Berle</li>
             <li>Andreas Hahn</li>
             <li>Andreas Wenzel</li>
@@ -119,6 +120,7 @@ BIC COBADEHD055</p>
             <li>Bill Bohlman</li>
             <li>Bill Woodcock</li>
             <li>Bjoern Brauel</li>
+            <li>Bjørn Olav Listog</li>
             <li>Boris-Michael Steinke</li>
             <li>Brian Farrell</li>
             <li>Brian Flores</li>
@@ -460,6 +462,7 @@ BIC COBADEHD055</p>
             <li>Volker Schwaberow</li>
             <li>Volker Thieme</li>
             <li>Walter Dula</li>
+            <li>Warren Alexander</li>
             <li>Wayne Veilleux</li>
             <li>Wilbert Leeper</li>
             <li>William Bloom</li>
