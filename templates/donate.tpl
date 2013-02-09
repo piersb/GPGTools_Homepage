@@ -161,8 +161,10 @@ BIC COBADEHD055</p>
             <li>Daryl Hunter</li>
             <li>Dave Diemer</li>
             <li>David G Gray</li>
+            <li>David Moser</li>
             <li>David Norman</li>
             <li>David Oran</li>
+            <li>David Ripley</li>
             <li>David Theroff</li>
             <li>David Wagner</li>
             <li>Demetri Mouratis</li>
@@ -235,6 +237,7 @@ BIC COBADEHD055</p>
             <li>Isabelle Bettez</li>
             <li>Ivan Stojcevic</li>
             <li>Ivan Storck</li>
+            <li>James Hart</li>
             <li>James Martin</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
@@ -289,6 +292,7 @@ BIC COBADEHD055</p>
             <li>Konstantin Krauter</li>
             <li>Kurt Erik Lindqvist</li>
             <li>Laradji Nacer</li>
+            <li>Lars Uffmann</li>
             <li>Laurens Bonnema</li>
             <li>Leonard Libitz</li>
             <li>Lincoln Bertin</li>
@@ -346,6 +350,7 @@ BIC COBADEHD055</p>
             <li>Molly Fletcher</li>
             <li>Moritz Zumbuehl</li>
             <li>Mragth78p24f132l</li>
+            <li>Muzaffer Karasulu</li>
             <li>N J L Macassey</li>
             <li>Nagib Tharani</li>
             <li>Narath Carlile</li>
@@ -385,6 +390,7 @@ BIC COBADEHD055</p>
             <li>Phillip Rotherham</li>
             <li>Radek Mrskos</li>
             <li>Ralph Moonen</li>
+            <li>Randolph Resnick</li>
             <li>Rasmus Vuori</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
@@ -422,6 +428,7 @@ BIC COBADEHD055</p>
             <li>Sebastiaan Kruit</li>
             <li>Shawn Becker</li>
             <li>Shlok Datye</li>
+            <li>Simon Entwistle</li>
             <li>Stefan Larsson</li>
             <li>Steffen Gebert</li>
             <li>Steffen W Soerensen</li>
@@ -447,6 +454,7 @@ BIC COBADEHD055</p>
             <li>Thomas Leuxner</li>
             <li>Thomas Neumann</li>
             <li>Thomas Ungricht</li>
+            <li>Thomas Vander Velde</li>
             <li>Thore Siebrands</li>
             <li>TJ Marbois</li>
             <li>Tom DeLozier</li>
@@ -509,6 +517,7 @@ BIC COBADEHD055</p>
 	          	  <li>Fotostudio Ludwig</li>
                   <li>freistil IT GbR</li>
                   <li>Forced Web</li>
+                  <li>Hacking Team</li>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
                   <li>Ilscipio</li>
@@ -530,6 +539,7 @@ BIC COBADEHD055</p>
                   <li>MakaluMedia</li>
                   <li>Midnight Oil Consulting</li>
                   <li>mg2 organization</li>
+                  <li>Mnemonic Communication</li>
                   <li>MobileActive</li>
                   <li>MojoLingo</li>
                   <li>Multimage</li>
