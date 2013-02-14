@@ -83,6 +83,7 @@ BIC COBADEHD055</p>
             <li>Alan Green</li>
             <li>Alexander Kornbrust</li>
             <li>Alexander Nouak</li>
+            <li>Alexander Sallamon</li>
             <li>Alexandre Harano</li>
             <li>Alexandru Balan</li>
             <li>Alfonso Carrillo</li>
@@ -339,6 +340,7 @@ BIC COBADEHD055</p>
             <li>Michael Langford</li>
             <li>Michael Prewitt</li>
             <li>Michael Ruse</li>
+            <li>Michael Sarabosing</li>
             <li>Miguel Cordas</li>
             <li>Mika Goeckel</li>
             <li>Mike Davis</li>
@@ -363,6 +365,7 @@ BIC COBADEHD055</p>
             <li>Nicolai Moles-Benfell</li>
             <li>Nicolas Rudaz</li>
             <li>Nishal Goburdhan</li>
+            <li>Noel Ambroise Spinec</li>
             <li>Odo Wolbers</li>
             <li>Olaf Kolkman</li>
             <li>Olav Seyfarth</li>
@@ -391,6 +394,7 @@ BIC COBADEHD055</p>
             <li>Radek Mrskos</li>
             <li>Ralph Moonen</li>
             <li>Randolph Resnick</li>
+            <li>Raphael Kruetli</li>
             <li>Rasmus Vuori</li>
             <li>Raymond Chudzinski</li>
             <li>Reinhard Eigner</li>
@@ -398,6 +402,7 @@ BIC COBADEHD055</p>
             <li>Remko Lodder</li>
             <li>Renato Wada</li>
             <li>Rene Gerlich</li>
+            <li>Ricardo José Ulisses Filho</li>
             <li>Richard Carver</li>
             <li>Richard Forno</li>
             <li>Richard Livingston</li>
@@ -456,6 +461,7 @@ BIC COBADEHD055</p>
             <li>Thomas Ungricht</li>
             <li>Thomas Vander Velde</li>
             <li>Thore Siebrands</li>
+            <li>Timo Achilles</li>
             <li>TJ Marbois</li>
             <li>Tom DeLozier</li>
             <li>Tomáš Kohút</li>
@@ -466,6 +472,7 @@ BIC COBADEHD055</p>
             <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
             <li>Veit Stephan</li>
+            <li>Veronica Merryfield</li>
             <li>Vikram Phatak</li>
             <li>Volker John</li>
             <li>Volker Schwaberow</li>
@@ -549,6 +556,7 @@ BIC COBADEHD055</p>
                   <li>No-IP</li>
                   <li>Noble Technology Group</li>
                   <li class="premium">NORDUnet</li>
+                  <li>Octarine Labs</li>
                   <li>Operation Mobilisation</li>
                   <li>PID1 Technical Services</li>
                   <li>PC Universe</li>
