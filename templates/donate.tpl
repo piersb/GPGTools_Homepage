@@ -148,6 +148,7 @@ BIC COBADEHD055</p>
             <li>Christer Klasson</li>
             <li>Christoph Deinhard</li>
             <li>Christopher Gibson</li>
+            <li>Christopher Snyder</li>
             <li>Cindy Cohn</li>
             <li>Claudius Wettstein</li>
             <li>Clytie Siddall</li>
@@ -364,6 +365,7 @@ BIC COBADEHD055</p>
             <li>Nicholas Hubbard</li>
             <li>Nicolai Moles-Benfell</li>
             <li>Nicolas Rudaz</li>
+            <li>Niels Huijbregts</li>
             <li>Nishal Goburdhan</li>
             <li>Noel Ambroise Spinec</li>
             <li>Odo Wolbers</li>
@@ -565,6 +567,7 @@ BIC COBADEHD055</p>
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
                   <li>RIPE NCC</li>
+                  <li>S4Si LTD</li>
                   <li>Saffron Solutions</li>
                   <li>Sepher Software</li>
                   <li>sevian7</li>
