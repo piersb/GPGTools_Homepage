@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mein Test Titel</title>
+		<link>https://www.gpgtools.org/gpgservices/test-appcast.xml</link>
+		<atom:link href="https://www.gpgtools.org/gpgservices/test-appcast.xml" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>https://www.gpgtools.org/gpgservices/test-appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
+		<language>en</language>
+		
+		<item>
+			<title>GPGServices sparkle test-version X</title>
+			<sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
+			<pubDate>Mon, 13 Feb 2012 15:05:00 +0100</pubDate>
+			<guid>https://s3.amazonaws.com/gpgtools/GPGServices-Sparkle-Test.dmg</guid>
+			<sparkle:releaseNotesLink>https://www.gpgtools.org/gpgservices/index.html</sparkle:releaseNotesLink>
+			<enclosure
+			url="https://s3.amazonaws.com/gpgtools/GPGServices-Sparkle-Test.dmg"
+			sparkle:version="5n"
+			sparkle:shortVersionString="1.0"
+			length="2475483"
+			type="application/octet-stream" />
+		</item>
+	</channel>
+</rss>
+
