@@ -82,6 +82,7 @@ BIC COBADEHD055</p>
             <li>Adrian Sauer</li>
             <li>Alan Green</li>
             <li>Alexander Kornbrust</li>
+            <li>Alexander Kraut</li>
             <li>Alexander Nouak</li>
             <li>Alexander Sallamon</li>
             <li>Alexandre Harano</li>
@@ -131,6 +132,7 @@ BIC COBADEHD055</p>
             <li>Bruce Robinson</li>
             <li>Bryan Whitehead</li>
             <li>Burnsitech</li>
+            <li>Cabo Pay</li>
             <li>Carlos Alberto Lizarralde</li>            
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
@@ -240,6 +242,7 @@ BIC COBADEHD055</p>
             <li>Ivan Stojcevic</li>
             <li>Ivan Storck</li>
             <li>James Hart</li>
+            <li>James Lyne</li>
             <li>James Martin</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
@@ -250,6 +253,7 @@ BIC COBADEHD055</p>
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
             <li>Jeffrey Pajor</li>
+            <li>Jennifer Savage</li>
             <li>Jerry W Dixon Jr</li>
             <li>Jessica Stolz</li>
             <li>Jim Killock</li>
@@ -270,6 +274,7 @@ BIC COBADEHD055</p>
             <li>Jonas Karlsson</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jaffe</li>
+            <li>Jonathan Phebus</li>
             <li>Jonathan Picht</li>
             <li>Jörg Bühmann</li>
             <li>Jörg Quak</li>
@@ -286,11 +291,13 @@ BIC COBADEHD055</p>
             <li>Karl Pietrzak</li>
             <li>Kaspar Vollenweider</li>
             <li>Kay Fricke</li>
+            <li>Keith McCammon</li>
             <li>Keith Paskett</li>
             <li>Ken Erney</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
             <li>Kenneth R Van Wyk</li>
+            <li>Kinash Ivan</li>
             <li>Konstantin Krauter</li>
             <li>Kurt Erik Lindqvist</li>
             <li>Laradji Nacer</li>
@@ -307,6 +314,7 @@ BIC COBADEHD055</p>
             <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
             <li>Magne Larsen</li>
+            <li>Magnus Hellmark</li>
             <li>Manuel Tiedtke</li>
             <li>Marc Ahr</li>
             <li>Marc Eubanks</li>
@@ -428,6 +436,8 @@ BIC COBADEHD055</p>
             <li>Ryan Maple</li>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
+            <li>Scott Davies</li>
+            <li>Scott Kuntzelman</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
             <li>Sean Moss-Pultz</li>
@@ -552,6 +562,8 @@ BIC COBADEHD055</p>
                   <li>MobileActive</li>
                   <li>MojoLingo</li>
                   <li>Multimage</li>
+                  <li>Neomailbox</li>
+                  <li>NewEurasia</li>
                   <li>Nick McLarty Technologies</li>
                   <li>Nine Internet Solutions</li>
                   <li>Nitro Mobile Solutions</li>
