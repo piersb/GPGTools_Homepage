@@ -73,7 +73,8 @@ BIC COBADEHD055</p>
             <div class="table left">
                 <h4>Private Persons</h4>
                 <ul class="sub">
-            <li>Aaron Ash</li>    
+            <li>A Chase Turner</li>
+            <li>Aaron Ash</li>  
             <li>Abel O Nelson</li>
             <li>Adam Bishop</li>
             <li>Adam Murphy</li>
@@ -117,6 +118,7 @@ BIC COBADEHD055</p>
             <li>Balazs Boros</li>
             <li>Bartosz Rybinski</li>
             <li>Beat Stehrenberger</li>
+            <li>Benjamin Bosum</li>
             <li>Benjamin Wilson</li>
             <li>Bernd Wiese</li>
             <li>Bill Bohlman</li>
@@ -247,6 +249,7 @@ BIC COBADEHD055</p>
             <li>James Moya</li>
             <li>James Rigsbee</li>
             <li>James Wissick</li>
+            <li>Jameson Farrell</li>
             <li>Jamie MacIsaac</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
@@ -293,6 +296,7 @@ BIC COBADEHD055</p>
             <li>Kay Fricke</li>
             <li>Keith McCammon</li>
             <li>Keith Paskett</li>
+            <li>Keith Roshangar</li>
             <li>Ken Erney</li>
             <li>Ken Joy</li>
             <li>Ken van Wyk</li>
@@ -319,6 +323,7 @@ BIC COBADEHD055</p>
             <li>Marc Ahr</li>
             <li>Marc Eubanks</li>
             <li>Marc Radtke</li>
+            <li>Marc Roberts</li>
             <li>Marcel Dietzmann</li>
             <li>Marco Rademacher</li>
             <li>Marcus Lagergren</li>
@@ -480,6 +485,7 @@ BIC COBADEHD055</p>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
             <li>Troy Murray</li>
+            <li>TRU Networks</li>
             <li>Uwe Arzt</li>
             <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
@@ -536,6 +542,7 @@ BIC COBADEHD055</p>
 	          	  <li>Fotostudio Ludwig</li>
                   <li>freistil IT GbR</li>
                   <li>Forced Web</li>
+                  <li>Gekko IT</li>
                   <li>Hacking Team</li>
                   <li>Heindel - IT Solutions & Consulting</li>
                   <li>I-T-M</li>
