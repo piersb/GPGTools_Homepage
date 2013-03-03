@@ -126,6 +126,7 @@ BIC COBADEHD055</p>
             <li>Bjoern Brauel</li>
             <li>Bjørn Olav Listog</li>
             <li>Boris-Michael Steinke</li>
+            <li>Brian Bodemann</li>
             <li>Brian Farrell</li>
             <li>Brian Flores</li>
             <li>Brian Long</li>
@@ -238,6 +239,7 @@ BIC COBADEHD055</p>
             <li>Henry Stryker</li>
             <li>Horst Kapfenberger</li>
             <li>Hynek Schlawack</li>
+            <li>Iain Threadgould</li>
             <li>Ignacio Lorenzo Subirá Otal</li>
             <li>Ingo Schmitt</li>
             <li>Isabelle Bettez</li>
@@ -288,6 +290,7 @@ BIC COBADEHD055</p>
             <li>Jozef Mares</li>
             <li>Juan Larrañaga Arriaga</li>
             <li>Jürgen Ehmann</li>
+            <li>Jürgen Kessler</li>
             <li>Jürgen Nickelsen</li>
             <li>Julian Albert</li>
             <li>Kamil Shakirov</li>
@@ -425,6 +428,7 @@ BIC COBADEHD055</p>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
             <li>Robert Bahmann</li>
+            <li>Robert Dudley</li>
             <li>Robert James</li>
             <li>Robert Mueller</li>
             <li>Robert Patoine</li>
@@ -503,6 +507,7 @@ BIC COBADEHD055</p>
             <li>William Buchaus</li>
             <li>William L Anderson</li>
             <li>William McCoy</li>
+            <li>William Wellington</li>
             <li>Wolfgang Klimt</li>
                 </ul>
             </div>
@@ -593,6 +598,7 @@ BIC COBADEHD055</p>
                   <li>Shopify</li>
                   <li>Silvexis</li>
                   <li>Somerset Technical Solutions</li>
+                  <li>Soler GdI</li>
                   <li class="premium">SURFnet</li>
                   <li>sw4 Stefan Wild</li>
                   <li>Tall Poppy Group</li>
