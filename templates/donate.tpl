@@ -1,4 +1,4 @@
-
+o
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
@@ -220,6 +220,7 @@ BIC COBADEHD055</p>
             <li>Gavin Reid</li>
             <li>Georges Rodriguez</li>
             <li>Gernot Starke</li>
+            <li>Gerrit Beine</li>
             <li>Giovanni Vigna</li>
             <li>Graham Perrin</li>
             <li>Greg Hetrick</li>
@@ -307,6 +308,7 @@ BIC COBADEHD055</p>
             <li>Kinash Ivan</li>
             <li>Konstantin Krauter</li>
             <li>Kurt Erik Lindqvist</li>
+            <li>Lantao Liu</li>
             <li>Laradji Nacer</li>
             <li>Lars Uffmann</li>
             <li>Laurens Bonnema</li>
@@ -374,6 +376,7 @@ BIC COBADEHD055</p>
             <li>Nagib Tharani</li>
             <li>Narath Carlile</li>
             <li>Nathan Pearlstein</li>
+            <li>Neal Connor</li>
             <li>Neil Brown</li>
             <li>Neil Jarvis</li>
             <li>Nelson R A De Britoax</li>
@@ -587,6 +590,7 @@ BIC COBADEHD055</p>
                   <li>PID1 Technical Services</li>
                   <li>PC Universe</li>
                   <li>phone4</li>
+                  <li>pyfidelity UG</li>
                   <li>Rayzon Technologies</li>
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
@@ -602,6 +606,7 @@ BIC COBADEHD055</p>
                   <li class="premium">SURFnet</li>
                   <li>sw4 Stefan Wild</li>
                   <li>Tall Poppy Group</li>
+                  <li>TeKnack</li>
                   <li>Tradeo</li>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
