@@ -187,9 +187,11 @@ BIC COBADEHD055</p>
             <li>Dennis Otte</li>            
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
+            <li>E. Neuburger</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
+            <li>Enguerrand Dibanda</li>
             <li>Eric Baur</li>
             <li>Eric Brown</li>
             <li>Eric Fitzgerald</li>
@@ -212,6 +214,7 @@ BIC COBADEHD055</p>
             <li>Frederic Jacquet</li>
             <li>Frederic Jouvin</li>
             <li>Fredric Moses</li>
+            <li>Frederik Braad</li>
             <li>Fredrik Ulfson</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
@@ -256,6 +259,7 @@ BIC COBADEHD055</p>
             <li>Jamie MacIsaac</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
+            <li>Jarrad Wilkinson</li>
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
             <li>Jeffrey Pajor</li>
@@ -441,6 +445,7 @@ BIC COBADEHD055</p>
             <li>Roberto Witt</li>
             <li>Rodney Serkowski</li>
             <li>Roger Loeb</li>
+            <li>Roland Peters</li>
             <li>Rolf Joho</li>
             <li>Ronny Schöbel</li>
             <li>Rodolfo Rubio-Garcia</li>
@@ -572,6 +577,7 @@ BIC COBADEHD055</p>
                   <li>Matta</li>
                   <li>MakaluMedia</li>
                   <li>Midnight Oil Consulting</li>
+                  <li>Mimeya Technology</li>
                   <li>mg2 organization</li>
                   <li>Mnemonic Communication</li>
                   <li>MobileActive</li>
@@ -611,6 +617,7 @@ BIC COBADEHD055</p>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
                   <li>TX512 Web Services</li>
+                  <li>Webmacher</li>
                   <li>XIAG AG</li>
                   <li>XPD AB</li>
                   <li>Your Creative Solutions</li>
