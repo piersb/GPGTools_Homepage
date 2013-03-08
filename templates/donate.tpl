@@ -187,7 +187,6 @@ BIC COBADEHD055</p>
             <li>Dennis Otte</li>            
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
-            <li>E. Neuburger</li>
             <li>Eero Volotinen</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
@@ -584,6 +583,7 @@ BIC COBADEHD055</p>
                   <li>MojoLingo</li>
                   <li>Multimage</li>
                   <li>Neomailbox</li>
+                  <li>Neuburger & Partner</li>
                   <li>NewEurasia</li>
                   <li>Nick McLarty Technologies</li>
                   <li>Nine Internet Solutions</li>
