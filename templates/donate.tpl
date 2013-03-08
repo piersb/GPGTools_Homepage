@@ -258,7 +258,6 @@ BIC COBADEHD055</p>
             <li>Jamie MacIsaac</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
-            <li>Jarrad Wilkinson</li>
             <li>Jason Waldhelm</li>
             <li>Jeff Smith</li>
             <li>Jeffrey Pajor</li>
@@ -618,6 +617,7 @@ BIC COBADEHD055</p>
                   <li>Translucent ApS</li>
                   <li>TX512 Web Services</li>
                   <li>Webmacher</li>
+                  <li>Windstream Hosted Solutions</li>
                   <li>XIAG AG</li>
                   <li>XPD AB</li>
                   <li>Your Creative Solutions</li>
