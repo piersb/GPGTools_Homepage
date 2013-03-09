@@ -10,6 +10,24 @@
             ]
         },
         "newest-version": true,
+        "release_date": 1362799212,
+        "sparkle": {
+            "size": 1717424,
+            "url": "dmg_url.strip()"
+        },
+        "version": "1.8.9a3-for-mountain-lion-2"
+    },
+    {
+        "build": "650",
+        "checksum": "sha1.strip()",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Release of version: 1.8.8a1-for-mountain-lion-2",
+                ""
+            ]
+        },
+        "newest-version": false,
         "release_date": 1362799020,
         "sparkle": {
             "size": 1717424,
