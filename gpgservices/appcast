@@ -17,10 +17,10 @@
 			<title>GPGServices test-version X</title>
 			<sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
 			<pubDate>Mon, 13 Feb 2012 15:05:00 +0100</pubDate>
-			<guid>https://s3.amazonaws.com/gpgtools/GPGServices-0n.dmg</guid>
+			<guid>https://s3.amazonaws.com/gpgtools/GPGServices-Test.dmg</guid>
 			<sparkle:releaseNotesLink>http://gpgtools.org/</sparkle:releaseNotesLink>
 			<enclosure
-			url="https://s3.amazonaws.com/gpgtools/GPGServices-0n.dmg"
+			url="https://s3.amazonaws.com/gpgtools/GPGServices-Test.dmg"
 			sparkle:version="5n"
 			sparkle:shortVersionString="1.0"
 			length="2496137"
