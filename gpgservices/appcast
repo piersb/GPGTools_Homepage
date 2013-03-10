@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>GPGTools - GPGServices - Changelog</title><link>http://www.gpgtools.org/gpgservices/appcast.xml</link> <atom:link href="http://www.gpgtools.org/gpgservices/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/gpgservices/appcast.xml</link><title>GPGTools</title> </image> <language>en</language></channel>
-
-	<item>
-		<title>GPGServices test-version X</title>
-		<sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
-		<pubDate>Mon, 13 Feb 2012 15:05:00 +0100</pubDate>
-		<guid>https://s3.amazonaws.com/gpgtools/GPGServices-0n.dmg</guid>
-		<sparkle:releaseNotesLink>http://localhost/</sparkle:releaseNotesLink>
-		<enclosure
-		url="https://s3.amazonaws.com/gpgtools/GPGServices-0n.dmg"
-		sparkle:version="5n"
-		sparkle:shortVersionString="1.0"
-		length="2496137"
-		type="application/octet-stream" />
-	</item>
-
-
-
+	<channel>
+		<title>Mein Test Titel</title>
+		<link>https://gpgtools.org/gpgservices/appcast</link>
+		<atom:link href="https://gpgtools.org/gpgservices/appcast" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>https://gpgtools.org/gpgservices/appcast</link>
+			<title>GPGTools</title>
+		</image>
+		<language>en</language>
+		
+		<item>
+			<title>GPGServices test-version X</title>
+			<sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
+			<pubDate>Mon, 13 Feb 2012 15:05:00 +0100</pubDate>
+			<guid>https://s3.amazonaws.com/gpgtools/GPGServices-0n.dmg</guid>
+			<sparkle:releaseNotesLink>http://gpgtools.org/</sparkle:releaseNotesLink>
+			<enclosure
+			url="https://s3.amazonaws.com/gpgtools/GPGServices-0n.dmg"
+			sparkle:version="5n"
+			sparkle:shortVersionString="1.0"
+			length="2496137"
+			type="application/octet-stream" />
+		</item>
+	</channel>
 </rss>
+
