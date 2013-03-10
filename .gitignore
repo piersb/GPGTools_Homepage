@@ -3,3 +3,4 @@
 *.pbxuser
 build/
 *xcuserdata/
+*/config.inc.php
