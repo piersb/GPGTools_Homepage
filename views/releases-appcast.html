@@ -1,0 +1,15 @@
+<?= '<?xml version="1.0" encoding="utf-8"?>'; ?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title><?= $tool["tool-name"] ?> - <?= $tool["title"] ?></title>
+        <link><?= build_url(array("releases", $name, "appcast.xml")) ?></link>
+        <description>Release Notes for the latest versions of <?= $tool["tool-name"] ?></description>
+        <language>en</language>
+        <item>
+            <title><?= $tool["tool-name"] ?>: v<?= $v["version"] ?></title>
+            <sparkle:releaseNotesLink><?= "http://gpgtools.org" ?></sparkle:releaseNotesLink>
+            <pubDate></pubDate>
+            <enclosure url="<? "http://gpgtools.org" ?>" sparkle:version="<?= "http://gpgtools.org" ?>" length="<?= "http://gpgtools.org" ?>" type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>

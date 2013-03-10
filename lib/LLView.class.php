@@ -34,14 +34,18 @@
             $this->_config[$key] = $value;
         }
         
-        public function render($config=array()) {
+        public function render($config=array(), $fetch=false) {
             if(is_array($config))
                 $this->_config = array_merge($this->_config, $config);
             
-            return $this->_render($this->_config);   
+            return $this->_render($this->_config, $fetch);   
         }
         
-        private function _render($config=array()) {
+        public function fetch($config=array()) {
+	        return $this->render($config, true);
+        }
+        
+        private function _render($config=array(), $fetch=false) {
             $doc_stack = array();
         
             // Load the given view as doc.
@@ -55,7 +59,7 @@
             }
         
             if(count($doc_stack) == 1)
-                return $doc_stack[0]->htmlOuter();
+                return $fetch ? $doc_stack[0] : $doc_stack[0]->htmlOuter();
         
             $doc_stack = array_reverse($doc_stack);
         
@@ -67,7 +71,11 @@
                 $doc = $this->fillDocument($doc, $site_doc);
             }
         
-            $content = phpQuery::newDocumentHTML($doc)->htmlOuter();
+            $content = phpQuery::newDocumentHTML($doc);
+            if($fetch)
+            	return $content;
+            
+            $content = $content->htmlOuter();
         
             $content = $this->cleanContent($content);
         
