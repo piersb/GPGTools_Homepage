@@ -1,7 +1,7 @@
 [
     {
-        "build": "650",
-        "checksum": "sha1.strip()",
+        "build": "0a",
+        "checksum": "345853de6a8d5ce786ffb7790acaed06d183b655",
         "info": {
             "features": [],
             "fixes": [
@@ -10,11 +10,11 @@
             ]
         },
         "newest-version": true,
-        "release_date": 1362799300,
+        "release_date": 1363034091,
         "sparkle": {
-            "minOS": "10.6",
+            "minOS": "10.7",
             "size": 1717424,
-            "url": "dmg_url.strip()"
+            "url": "https://s3.amazonaws.com/gpgtools/GPGServices-1.8a1-for-mountain-lion-2.dmg"
         },
         "version": "1.8.9a3-for-mountain-lion-2"
     },
@@ -29,12 +29,13 @@
             ]
         },
         "newest-version": false,
-        "release_date": 1362799212,
+        "release_date": 1362799300,
         "sparkle": {
+            "minOS": "10.6",
             "size": 1717424,
             "url": "dmg_url.strip()"
         },
-        "version": "1.8.9a3-for-mountain-lion-2"
+        "version": "1.8.9a3-for-mountain-lion-0"
     },
     {
         "build": "650",
