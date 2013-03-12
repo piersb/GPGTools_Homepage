@@ -60,20 +60,14 @@
         if(!$version_info)
             exit();
         
-        echo "<pre>";
-        print_r($_SERVER);
-        echo "</pre>";
+        $newest_version = newest_version_from_versions($version_info["versions"]);
+        if($newest_version === null)
+            exit();
         
-        echo "<pre>";
-        print_r($section);
-        echo "</pre>";
+        $app->response()->header("Content-Type", "text/xml");
+        $app->render("releases-appcast:xml", array("version_info" => $version_info, "tool" => $section, 
+                                               "name" => $name, "newest_version" => $newest_version));
         
-        echo "<pre>";
-        print_r($version_info);
-        echo "</pre>";
-        
-        $app->render("releases-appcast", array("version_info" => $version_info, "tool" => $section, 
-                                               "name" => $name));
     });
     
     $app->post('/ipn/:type', function($type) use($app) {

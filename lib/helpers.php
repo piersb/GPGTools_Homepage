@@ -287,4 +287,19 @@
 	function gumroad_price_for_amount($amount) {
 		return $amount * 100;
 	}
+	
+	function newest_version_from_versions($versions) {
+	    if(!is_array($versions) && get_class($versions) != "LLSmartArray")
+	        return null;
+	    
+	    $newest_version = null;
+	    foreach($versions as $version) {
+	        if($version["newest-version"]) {
+	            $newest_version = $version;
+	            break;
+	        }
+	    }
+	    
+	    return $newest_version;
+	}
 ?>

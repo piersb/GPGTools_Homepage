@@ -6,10 +6,14 @@
         <description>Release Notes for the latest versions of <?= $tool["tool-name"] ?></description>
         <language>en</language>
         <item>
-            <title><?= $tool["tool-name"] ?>: v<?= $v["version"] ?></title>
-            <sparkle:releaseNotesLink><?= "http://gpgtools.org" ?></sparkle:releaseNotesLink>
-            <pubDate></pubDate>
-            <enclosure url="<? "http://gpgtools.org" ?>" sparkle:version="<?= "http://gpgtools.org" ?>" length="<?= "http://gpgtools.org" ?>" type="application/octet-stream" />
+            <title><?= $tool["tool-name"] ?> v<?= $newest_version["version"] ?></title>
+            <sparkle:releaseNotesLink><?= build_url(array("releases", $name, "release-notes", sprintf("%s.html", $newest_version["version"]))) ?></sparkle:releaseNotesLink>
+            <pubDate><?= date("r", $newest_version["release_date"])?></pubDate>
+            <enclosure url="<?= $newest_version["sparkle"]["url"] ?>" sparkle:version="2.0" length="<?= $newest_version["sparkle"]["size"] ?>" type="application/octet-stream" />
+            <? if(!empty($newest_version["sparkle"]["minOS"])): ?><sparkle:minimumSystemVersion><?= $newest_version["sparkle"]["minOS"] ?></sparkle:minimumSystemVersion>
+            <? endif ?>
+            <? if(!empty($newest_version["sparkle"]["maxOS"])): ?><sparkle:maximumSystemVersion><?= $newest_version["sparkle"]["maxOS"] ?></sparkle:maximumSystemVersion>
+            <? endif ?>
         </item>
     </channel>
 </rss>

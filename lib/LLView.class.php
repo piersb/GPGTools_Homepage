@@ -10,8 +10,17 @@
         public static $_viewBaseDir = BASE_DIR_VIEW;
         public $_config = array();
         public static $_extension = "html";
-    
+        public $outputType = "html";
+        
         public static function load($view) {
+            // Check if the output type of the view is defined.
+            $parts = preg_split("/:/", $view);
+            
+            $outputType = "html";
+            if(!empty($parts[1]) && $parts[1] == "xml")
+                $outputType = "xml";
+            
+            $view = $parts[0];
         	$view = substr($view, 0, strrpos($view, ".") ? strrpos($view, ".") : strlen($view));
         	$viewPath = realpath(self::$_viewBaseDir . '/' . $view . "." . self::$_extension);
             
@@ -20,6 +29,7 @@
             
             if(!isset($instances[$viewPath])) {
                 $instance = new LLView($viewPath);
+                $instance->outputType = $outputType;
                 self::$_instances[$viewPath] = $instance;
             }
             
@@ -84,6 +94,11 @@
         
         private function loadDocument($view_path, $config) {
             $content = $this->loadViewContents($view_path, $config);
+            if($this->outputType == "xml") {
+                $doc = phpQuery::newDocumentXML($content);
+                return $doc;
+            }
+            
             try {
                 $doc = phpQuery::newDocumentXHTML($content);
             }
@@ -150,9 +165,11 @@
         }
         
         private function cleanContent($content) {
-            $content = str_replace('<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">' . "\n", '', $content);
-            $content = str_replace('<?xml version="1.0"?>', '', $content);
-        
+            if($this->outputType != "xml") {
+                $content = str_replace('<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">' . "\n", '', $content);
+                $content = str_replace('<?xml version="1.0"?>', '', $content);
+            }
+            
             return $content;
         }
         
