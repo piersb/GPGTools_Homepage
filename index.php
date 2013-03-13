@@ -9,6 +9,8 @@
     
     // Register Slim framework auto loader.
     register_autoloaders();
+    // Check if the script is called from cli and react appropriately.
+    intercept_run_from_cli();
     
     $config = LLConfig::load("config/site.json");
     

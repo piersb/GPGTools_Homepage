@@ -302,4 +302,114 @@
 	    
 	    return $newest_version;
 	}
+	
+	function intercept_run_from_cli() {
+	    if(php_sapi_name() != "cli")
+	        return;
+	    
+	    $argv = $GLOBALS["argv"];
+	    // The first arg is the filename, don't really care about that.
+	    array_shift($argv);
+	    
+	    $shortopts = "m:";
+	    $longopts = array("method:");
+        $usage = "Usage: index.php [options...] <url>\nOptions:\n -m, --method\tThe HTTP method to simulate: GET, POST, PUT or DELETE";
+        
+        $fail_with_error = function($error, $retcode=1) use($usage) {
+	        echo sprintf("%s\n%s\n", $error, $usage);
+	        exit($retcode);
+	    };
+	    
+	    $emphasize = function($msg) {
+	        if(!posix_isatty(STDOUT))
+	            return $msg;
+	        
+	        return sprintf("\033[1m%s\033[0m", $msg);
+	    };
+        
+        list($arguments, $options) = parse_cli_options($argv, $shortopts, $longopts);
+        
+        $url = count($arguments) ? parse_url($arguments[0], PHP_URL_PATH) : "";
+        if(!count($arguments) || count($arguments) > 1 || empty($url))
+            $fail_with_error($emphasize("No or invalid URL specified."));
+	    
+	    // Check the method if any given.
+	    if(isset($options["method"]) && !in_array(strtolower($options["method"]), array("get", "post", "put", "delete")))
+	        $fail_with_error($emphasize(sprintf("Invalid HTTP method: %s", $options["method"])));
+	    
+	    $url = $arguments[0];
+	    $url_parts = parse_url($url);
+	    $method = isset($options["method"]) ? strtoupper($options["method"]) : "GET";
+	    
+	    $data = array();
+	    parse_str($url_parts["query"], $data);
+        
+	    $_SERVER["SERVER_PROTOCOL"] = "HTTP/1.1";
+	    $_SERVER["REQUEST_METHOD"] = $method;
+	    $_SERVER["REQUEST_URI"] = $url_parts["path"] . (!empty($url_parts["query"]) ? "?" . $url_parts["query"] : "");
+	    $_SERVER["QUERY_STRING"] = $url_parts["query"];
+	    
+	    if($method == "GET")
+	        $_GET = array_merge($_GET, $data);
+	    if($method == "POST")
+	        $_POST = array_merge($_POST, $data);
+        
+        $_REQUEST = array_merge($_POST, $_GET);
+	}
+	
+	function parse_cli_options($arguments, $shortopts, $longopts=array()) {
+	    $arguments = $arguments === null ? $GLOBALS["argv"] : $arguments;
+	    
+	    $options = getopt($shortopts, $longopts);
+	    
+	    $options_map = array("m" => "method");
+	    $reversed_options_map = array_flip($options_map);
+	    
+	    // Clean ARGV so it only contains the actual arguments and none
+	    // of the options.
+	    foreach($arguments as $i => $arg) {
+	        if(substr($arg, 0, 1) != "-")
+	            continue;
+	        
+	        // We have an option, remove it.
+	        unset($arguments[$i]);
+	        
+	        // Now let's find if the option has a value.
+	        $pos = strpos($arg, "=");
+	        // If there's an = in the option, simply remove the arg and be done with it.
+	        if($pos !== false)
+	            unset($arguments[$i]);
+	        else {
+	            // Check if the option is in shortops or long opts
+	            // and if it allows values.
+	            $arg = str_replace("-", "", $arg);
+	            
+	            if(preg_match("/^.*{$arg}:{1,2}.*$/i", $shortopts)) {
+	                unset($arguments[$i + 1]);
+	            }
+	            else {
+	                // Check the longopts.
+	                foreach($longopts as $opt) {
+	                    if(preg_match("/^{$arg}:{1,2}$/i", $opt))
+	                        unset($arguments[$i + 1]);
+	                }
+	            }
+	        }
+	    }
+	    // Join shortops and longopts if there's a corresponding
+	    // longopt for a given shortopt.
+	    foreach($options as $o => $a) {
+	        // Determine if there's a matching long method. If so,
+            // register the option under that name.
+            $new_key = in_array($o, array_keys($options_map)) ? $options_map[$o] : (
+                in_array($o, array_values($options_map)) ? $reversed_options_map[$o] : null);
+            if($new_key !== null && $new_key != $o) {
+                $options[$new_key] = $options[$o];
+                unset($options[$o]);
+            }
+	    }
+	    $arguments = array_merge($arguments);
+        
+        return array($arguments, $options);
+	}
 ?>
