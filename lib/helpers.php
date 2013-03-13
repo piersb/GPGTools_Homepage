@@ -303,6 +303,17 @@
 	    return $newest_version;
 	}
 	
+	function static_file_with_content($filename, $content) {
+	    $dir = dirname($filename);
+	    
+	    if(!is_dir($dir) && !mkdir($dir, 0775, true))
+	        return;
+	    
+	    $fp = fopen($filename, "w");
+	    fputs($fp, $content);
+	    fclose($fp);
+	}
+	
 	function intercept_run_from_cli() {
 	    if(php_sapi_name() != "cli")
 	        return;

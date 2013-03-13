@@ -67,9 +67,13 @@
             exit();
         
         $app->response()->header("Content-Type", "text/xml");
+        ob_start();
         $app->render("releases-appcast:xml", array("version_info" => $version_info, "tool" => $section, 
                                                "name" => $name, "newest_version" => $newest_version));
+        $output = ob_get_flush();
         
+        // Cache the output so it only has to be regenerated if the file changes.
+        static_file_with_content("releases/$name/appcast.xml", $output);
     });
     
     $app->post('/ipn/:type', function($type) use($app) {
