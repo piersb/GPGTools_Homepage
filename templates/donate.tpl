@@ -94,6 +94,7 @@ BIC COBADEHD055</p>
             <li>Amber Tyree</li>
             <li>Anaximandro Furtado</li>
             <li>Anders Nor Berle</li>
+            <li>Anders Rayner-Karlsson</li>
             <li>Andreas Hahn</li>
             <li>Andreas Wenzel</li>
             <li>Andreas Wuerl</li>
@@ -150,6 +151,7 @@ BIC COBADEHD055</p>
             <li>Christian Bockermann</li>
             <li>Christian Roessner</li>
             <li>Christian Tanner</li>
+            <li>Christian Van Heurck</li>
             <li>Christer Klasson</li>
             <li>Christoph Deinhard</li>
             <li>Christopher Gibson</li>
@@ -160,6 +162,7 @@ BIC COBADEHD055</p>
             <li>Craig Stacey</li>
             <li>Cristiano Mattos</li>
             <li>Daniel Guido</li>
+            <li>Daniel Jones</li>
             <li>Daniel Kullman</li>
             <li>Daniel Potts</li>
             <li>Daniel Roig</li>
@@ -210,6 +213,7 @@ BIC COBADEHD055</p>
             <li>Francisco Craig</li>
             <li>Franco Fichtner</li>
             <li>Frank Reta</li>
+            <li>Fred Faber</li>
             <li>Frederic Jacquet</li>
             <li>Frederic Jouvin</li>
             <li>Fredric Moses</li>
@@ -288,8 +292,10 @@ BIC COBADEHD055</p>
             <li>Jörg Quak</li>
             <li>Jorge Valencia Alvarez</li>
             <li>Jørn Martin Tysnes Holm</li>
+            <li>Josef Buergler</li>
             <li>Joseph Kelley</li>
             <li>Josh Ballard</li>
+            <li>Josh Ellis</li>
             <li>Jozef Mares</li>
             <li>Juan Larrañaga Arriaga</li>
             <li>Jürgen Ehmann</li>
@@ -337,6 +343,7 @@ BIC COBADEHD055</p>
             <li>Mark Adler</li>
             <li>Mark Harrigan</li>
             <li>Mark Vriesenga</li>
+            <li>Markus Kuhnt</li>
             <li>Markus Talas</li>
             <li>Martin Grellmann</li>
             <li>Martin Waschbüsch</li>
@@ -351,6 +358,7 @@ BIC COBADEHD055</p>
             <li>Max Jaudas</li>
             <li>Max Sikström</li>
             <li>Meit</li>
+            <li>Michael Campbell</li>
             <li>Michael Dierck</li>
             <li>Michael Geller</li>
             <li>Michael Gracie</li>
@@ -395,6 +403,7 @@ BIC COBADEHD055</p>
             <li>Ole Hermansen</li>
             <li>Oleg Pak</li>
             <li>Omer Holzinger</li>
+            <li>Onno Johan van Dommelen</li>
             <li>Oscar Koeroo</li>
             <li>Olivier Morel</li>
             <li>Patrick Gilmore</li>
@@ -406,6 +415,7 @@ BIC COBADEHD055</p>
             <li>Paul Morten Vikanes</li>
             <li>Paul Richardson</li>
             <li>Pedro Emanuel De Castro Faria Salgado</li>
+            <li>Peet McKinney</li>
             <li>Peter Eckel</li>
             <li>Peter Krantz</li>
             <li>Peter Mack</li>
@@ -433,6 +443,7 @@ BIC COBADEHD055</p>
             <li>Richard Valk</li>
             <li>Riku Meskanen</li>
             <li>Robert Bahmann</li>
+            <li>Robert Balfour</li>
             <li>Robert Dudley</li>
             <li>Robert James</li>
             <li>Robert Mueller</li>
@@ -496,6 +507,7 @@ BIC COBADEHD055</p>
             <li>Toshinao Ishii</li>
             <li>Troy Murray</li>
             <li>TRU Networks</li>
+            <li>Twan van der Schoot</li>
             <li>Uwe Arzt</li>
             <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
@@ -515,6 +527,7 @@ BIC COBADEHD055</p>
             <li>William McCoy</li>
             <li>William Wellington</li>
             <li>Wolfgang Klimt</li>
+            <li>Yann Philipp Kraetzschmann</li>
                 </ul>
             </div>
             <div class="table right">
@@ -541,6 +554,7 @@ BIC COBADEHD055</p>
                   <li>Consoltec</li>
                   <li>Cube IT SRL</li>
                   <li>d.k.d internet service</li>
+                  <li>Data in Transit</li>
                   <li>Double Shot Security</li>
                   <li>Endian Technologies AB</li>
                   <li>Enigma Software</li>
@@ -563,6 +577,7 @@ BIC COBADEHD055</p>
                   <li>IPNED Networks & Security</li>
                   <li>IS.Star SPRL</li>
                   <li>Jirasek Security Consulting</li>
+                  <li>Jones Olson Ltd</li>
                   <li>JWJS Word Productions</li>
                   <li>Kombinat</li>
                   <li>Libertad</li>
@@ -570,6 +585,7 @@ BIC COBADEHD055</p>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems</li>
                   <li>M & C Enterprises</li>
+                  <li>MacLeo</li>
                   <li>macon.cc</li>
                   <li>MacPomoc</li>
                   <li>Matta</li>
@@ -581,6 +597,8 @@ BIC COBADEHD055</p>
                   <li>MobileActive</li>
                   <li>MojoLingo</li>
                   <li>Multimage</li>
+                  <li>NakamuraSystem</li>
+                  <li>National Lawyers Guild</li>
                   <li>Neomailbox</li>
                   <li>Neuburger & Partner</li>
                   <li>NewEurasia</li>
@@ -590,6 +608,7 @@ BIC COBADEHD055</p>
                   <li>No-IP</li>
                   <li>Noble Technology Group</li>
                   <li class="premium">NORDUnet</li>
+                  <li>Nutri s.r.o.</li>
                   <li>Octarine Labs</li>
                   <li>Operation Mobilisation</li>
                   <li>PID1 Technical Services</li>
@@ -602,6 +621,7 @@ BIC COBADEHD055</p>
                   <li>RIPE NCC</li>
                   <li>S4Si LTD</li>
                   <li>Saffron Solutions</li>
+                  <li>SemiDirect</li>
                   <li>Sepher Software</li>
                   <li>sevian7</li>
                   <li>Shopify</li>
@@ -616,6 +636,7 @@ BIC COBADEHD055</p>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
                   <li>TX512 Web Services</li>
+                  <li>uscreen GmbH</li>
                   <li>Webmacher</li>
                   <li>Windstream Hosted Solutions</li>
                   <li>XIAG AG</li>
