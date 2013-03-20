@@ -1,0 +1,38 @@
+body { width: auto !important; min-width: 300px !important; 
+    color: #656565; font-family: "futura-pt", "Futura", Arial, sans-serif; font-weight: 400;
+    font-style: normal;
+}
+a { color: #0088cc; text-decoration: none; font-weight: 400; }
+a:visited { color: #0088cc; }
+a:hover { color: #0088cc; text-decoration: underline; }
+
+.sparkle-release-notes { font-size: 15px; max-width: 800px; padding-top: 10px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; line-height: 1.35; }
+.sparkle-release-notes h1, .sparkle-release-notes h2, .sparkle-release-notes h3 { margin: 0px; padding: 0px; }
+.sparkle-release-notes .version { margin-bottom: 40px; }
+.sparkle-release-notes .version h1 { color: #286e96; font-size: inherit; position: relative; }
+.sparkle-release-notes .version h1 span.build { font-weight: normal; font-size: inherit; }
+.sparkle-release-notes .version h1 time {
+     background-color: #286e96; color: #fff; font-size: 13px; padding: 5px; border-radius: 3px; 
+     font-weight: normal; padding-top: 1px; padding-bottom: 1px; margin-left: 15px; 
+     position: absolute; top: 0px;
+}
+.sparkle-release-notes .version .feature h3 { color: #646464; font-weight: normal; font-size: inherit; }
+.sparkle-release-notes .version h2 { color: #646464; font-size: inherit; }
+.sparkle-release-notes .version .fixes ul, .sparkle-release-notes .version .fixes ul li { list-style: none;
+    margin: 0px; padding: 0px; color: #60a3c8; }
+.sparkle-release-notes .version .fixes ul li {
+    background: url(/images/icons/list-arrow-blue.png) no-repeat 0px 8px;
+    padding-left: 10px; }
+.sparkle-release-notes .version .feature ul, .sparkle-release-notes .version .feature ul li {
+    margin: 0px; padding: 0px; list-style: none;
+}
+.sparkle-release-notes .version .feature ul li { color: #969696;
+    background: url(/images/icons/list-arrow.png) no-repeat 0px 8px;
+    padding-left: 10px;
+}
+.sparkle-release-notes .feature h3, .sparkle-release-notes .features { margin-bottom: 20px; }
+.sparkle-release-notes .feature h3, .sparkle-release-notes .fixes { margin-top: 20px; }
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

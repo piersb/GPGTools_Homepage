@@ -34,8 +34,8 @@
         exit();
     });
     
-    $app->get('/:tool/release-notes', function() {
-	    render_release_notes($_SERVER['REQUEST_URI']);
+    $app->get('/:tool/release-notes', function($tool) {
+	    render_release_notes($tool);
 	    exit();
     });
     
@@ -53,6 +53,9 @@
 	    add_donation($_REQUEST);
     })->via('GET', 'POST');
     
+    // Generate the appcast for the requested tool.
+    // The appcast will only include the latest version, since older
+    // versions are irrelevant.
     $app->get('/releases/:name/appcast.xml', function($name) use($app, $config) {
         $section = $config->get('sections')->get($name);
         if(!$section)
@@ -68,12 +71,28 @@
         
         $app->response()->header("Content-Type", "text/xml");
         ob_start();
-        $app->render("releases-appcast:xml", array("version_info" => $version_info, "tool" => $section, 
+        $app->render("release/appcast:xml", array("version_info" => $version_info, "tool" => $section, 
                                                "name" => $name, "newest_version" => $newest_version));
         $output = ob_get_flush();
-        
         // Cache the output so it only has to be regenerated if the file changes.
         static_file_with_content("releases/$name/appcast.xml", $output);
+    });
+    
+    // Generate the release notes for a tool from its version file.
+    $app->get('/releases/:name/release-notes.html', function($name) use($app, $config) {
+        $section = $config->get('sections')->get($name);
+        if(!$section)
+            exit();
+        
+        $version_info = $section->get('version-info');
+        if(!$version_info)
+            exit();
+        
+        ob_start();
+        $app->render("release/release-notes", array("general" => $config->get("general"), "versions" => $version_info->get("versions")));
+        $output = ob_get_flush();
+        // Cache the output so it only has to be regenerated if the file changes.
+        static_file_with_content("releases/$name/release-notes.html", $output);
     });
     
     $app->post('/ipn/:type', function($type) use($app) {
@@ -312,10 +331,10 @@ $_POST = array();
         echo $view->render();
     }
     
-    function render_release_notes($uri) {
+    function render_release_notes($name) {
 	    $config = LLConfig::load("config/site.json");
 		
-        $tool = $matches[1];
+		$tool = $name;
         $sections = $config->get('sections');
         
         if(!$sections)

@@ -303,10 +303,29 @@
 	    return $newest_version;
 	}
 	
+	function info_from_feature_line($line) {
+	    $info = array();
+	    $commit_keywords = array("[PATCH]", "[FIX]", "[FEATURE]");
+	    $parts = preg_split("/\n\n/", $line);
+	    $info["title"] = trim(str_replace($commit_keywords, "", $parts[0]));
+	    if(count($parts) > 1) {
+	        $lines = preg_split("/\n/", $parts[1]);
+	        $info["description"] = array();
+	        foreach($lines as $line) {
+	            $line = trim($line);
+	            if(empty($line))
+	                continue;
+	            $info["description"][] = $line;
+	        }
+	    }
+	    
+	    return $info;
+	}
+	
 	function static_file_with_content($filename, $content) {
 	    $dir = dirname($filename);
 	    
-	    if(!is_dir($dir) && !mkdir($dir, 0775, true))
+	    if(!is_dir($dir) && !mkdir($dir, 0755, true))
 	        return;
 	    
 	    $fp = fopen($filename, "w");
