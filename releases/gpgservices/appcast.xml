@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>GPGServices - Perform GPG operations from the OS X Service Menu.</title>
+        <link>http:///releases/gpgservices/appcast.xml</link>
+        <description>Release Notes for the latest versions of GPGServices</description>
+        <language>en</language>
+        <item>
+            <title>GPGServices v1.7.13</title>
+            <sparkle:releaseNotesLink>http:///releases/gpgservices/release-notes/1.7.13.html</sparkle:releaseNotesLink>
+            <pubDate>Wed, 13 Mar 2013 17:19:27 +0100</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.7.13.dmg" sparkle:version="2.0" length="1724391" type="application/octet-stream"/>
+            <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
+                                </item>
+    </channel>
+</rss>

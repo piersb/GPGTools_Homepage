@@ -68,69 +68,13 @@
             ]
         },
         "newest-version": true,
-        "release_date": 1363115931,
+        "release_date": 1363191567,
         "sparkle": {
             "minOS": "10.7",
             "size": 1724391,
             "url": "https://s3.amazonaws.com/gpgtools/GPGServices-1.7.13.dmg"
         },
         "version": "1.7.13"
-    },
-    {
-        "build": "0a",
-        "checksum": "345853de6a8d5ce786ffb7790acaed06d183b655",
-        "info": {
-            "features": [],
-            "fixes": [
-                "Release of version: 1.8.8a1-for-mountain-lion-2",
-                ""
-            ]
-        },
-        "newest-version": false,
-        "release_date": 1363034257,
-        "sparkle": {
-            "minOS": "10.7",
-            "size": 1717424,
-            "url": "https://s3.amazonaws.com/gpgtools/GPGServices-1.8a1-for-mountain-lion-2.dmg"
-        },
-        "version": "1.8.9a3-for-mountain-lion-2"
-    },
-    {
-        "build": "650",
-        "checksum": "sha1.strip()",
-        "info": {
-            "features": [],
-            "fixes": [
-                "Release of version: 1.8.8a1-for-mountain-lion-2",
-                ""
-            ]
-        },
-        "newest-version": false,
-        "release_date": 1362799300,
-        "sparkle": {
-            "minOS": "10.6",
-            "size": 1717424,
-            "url": "dmg_url.strip()"
-        },
-        "version": "1.8.9a3-for-mountain-lion-0"
-    },
-    {
-        "build": "650",
-        "checksum": "sha1.strip()",
-        "info": {
-            "features": [],
-            "fixes": [
-                "Release of version: 1.8.8a1-for-mountain-lion-2",
-                ""
-            ]
-        },
-        "newest-version": false,
-        "release_date": 1362799020,
-        "sparkle": {
-            "size": 1717424,
-            "url": "dmg_url.strip()"
-        },
-        "version": "1.8.9a1-for-mountain-lion-2"
     },
     {
         "checksum": "ad00dcfc9b75394bf60a68c0cf75baee44f718f2 ",
