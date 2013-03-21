@@ -161,6 +161,7 @@ BIC COBADEHD055</p>
             <li>Clytie Siddall</li>
             <li>Craig Stacey</li>
             <li>Cristiano Mattos</li>
+            <li>Cygnus</li>
             <li>Daniel Guido</li>
             <li>Daniel Jones</li>
             <li>Daniel Kullman</li>
