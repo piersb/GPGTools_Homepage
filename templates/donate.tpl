@@ -178,6 +178,7 @@ BIC COBADEHD055</p>
             <li>David Ripley</li>
             <li>David Theroff</li>
             <li>David Wagner</li>
+            <li>Dean Bailey</li>
             <li>Demetri Mouratis</li>
             <li>Dennis Wegner</li>
             <li>Derek Curry</li>
@@ -315,6 +316,7 @@ BIC COBADEHD055</p>
             <li>Ken van Wyk</li>
             <li>Kenneth R Van Wyk</li>
             <li>Kinash Ivan</li>
+            <li>Kitazawa</li>
             <li>Konstantin Krauter</li>
             <li>Kurt Erik Lindqvist</li>
             <li>Lantao Liu</li>
