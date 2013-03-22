@@ -6,11 +6,13 @@
         <description>Release Notes for the latest versions of GPGServices</description>
         <language>en</language>
         <item>
-            <title>GPGServices v1.7.13</title>
-            <sparkle:releaseNotesLink>http:///releases/gpgservices/release-notes/1.7.13.html</sparkle:releaseNotesLink>
-            <pubDate>Wed, 13 Mar 2013 17:19:27 +0100</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.7.13.dmg" sparkle:version="2.0" length="1724391" type="application/octet-stream"/>
+            <title>GPGServices v1.8.2</title>
+            <sparkle:releaseNotesLink>http:///releases/gpgservices/release-notes.html</sparkle:releaseNotesLink>
+            <pubDate>Fri, 22 Mar 2013 21:42:58 +0100</pubDate>
+            <!--<enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.8.2.dmg" sparkle:version="2.0" length="2494164" type="application/octet-stream" />
             <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
-                                </item>
+                                    -->
+            <enclosure url="http://andymatuschak.org/files/Sparkle Test App_2.0.zip" sparkle:version="2.0" length="1600000" type="application/octet-stream" sparkle:dsaSignature="MCwCFAmB39sazl2xGIxSF8pHBbBh1zBLAhRmawuNanltHMlkCLv6R8OYiDRigQ=="/>
+        </item>
     </channel>
 </rss>
