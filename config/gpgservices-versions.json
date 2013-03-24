@@ -22,7 +22,7 @@
         "newest-version": true,
         "release_date": 1364003668,
         "sparkle": {
-            "minOS": "10.7",
+            "minOS": "10.6",
             "size": 2494186,
             "url": "https://s3.amazonaws.com/gpgtools/GPGServices-1.8.2.dmg"
         },
