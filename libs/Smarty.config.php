@@ -9,7 +9,7 @@
 
     $theSite = new Smarty;
     $theSite->assign('IDSITE', '1');
-    $theSite->assign('PIWIK_URL', 'www.gpgtools.org/piwik/');
+    $theSite->assign('PIWIK_URL', 'gpgtools.org/piwik/');
     $theSite->assign('subtitle', '');
     $root = '.';
     $theSite->assign('root', $root);
