@@ -1,5 +1,23 @@
 [
     {
+        "build": "100",
+        "checksum": "d0fd3ba3f6d9aef174a86c3ae9dab1ec2470bf7d",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Load the progress window in languages other than english."
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1364174698,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 2494171,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGServices-1.8.3.dmg"
+        },
+        "version": "1.8.3"
+    },
+    {
         "build": "88",
         "checksum": "3e987a09bdd41f0d4d43a176fd96ac79c42354d1",
         "info": {
@@ -19,7 +37,7 @@
                 "Something Else describing a fix"
             ]
         },
-        "newest-version": true,
+        "newest-version": false,
         "release_date": 1364003668,
         "sparkle": {
             "minOS": "10.6",
