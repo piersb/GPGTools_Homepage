@@ -8,8 +8,8 @@
         <item>
             <title>GPGServices v1.8.3</title>
             <sparkle:releaseNotesLink>https://gpgtools.org/releases/gpgservices/release-notes.html</sparkle:releaseNotesLink>
-            <pubDate>Mon, 25 Mar 2013 02:24:58 +0100</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.8.3.dmg" sparkle:version="100" sparkle:shortVersionString="1.8.3" length="2494171" type="application/octet-stream"/>
+            <pubDate>Mon, 25 Mar 2013 02:41:09 +0100</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.8.3.dmg" sparkle:version="101" sparkle:shortVersionString="1.8.3" length="2498572" type="application/octet-stream"/>
             <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
                                 </item>
     </channel>
