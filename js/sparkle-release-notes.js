@@ -20,6 +20,10 @@ $(function() {
         if($(this).index() >= updateVersionIdx && $(this).index() < currentVersionIdx && versionSatisfiesRequirements)
             $(this).show()
     })
+    
+    /* If no item is visible, display the first one at least. */
+    if($(".version:visible").size() == 0)
+        $(".version:first").show()
 })
 
 var URL_QUERY_STRING = null
