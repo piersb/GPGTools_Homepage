@@ -65,14 +65,17 @@ function compareVersions(a, b) {
 }
 
 function newestVersionForOS($versions, osVersion) {
+    var $foundVersion = null
     $versions.each(function() {
         var satisfiesMinVersion = !$(this).data("min-os") ? 1 : compareVersions(osVersion, $(this).data("min-os")) >= 0
         var satisfiesMaxVersion = !$(this).data("max-os") ? 1 : compareVersions(osVersion, $(this).data("max-os")) <= 0
         var versionSatisfiesRequirements = satisfiesMinVersion && satisfiesMaxVersion
         
-        if(versionSatisfiesRequirements)
-            return $(this)
+        if(versionSatisfiesRequirements) {
+            $foundVersion = $(this)
+            return false
+        }
     })
     
-    return null
+    return $foundVersion
 }
