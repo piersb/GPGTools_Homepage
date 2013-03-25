@@ -2,7 +2,7 @@
 #main-table { background:#fff !important;}
 
 /* GPGTools CD */
-body { background:url("http://www.gpgtools.org/images/bg.jpg"); }
+body { background:url("https://gpgtools.org/images/bg.jpg"); }
 body, select, input, textarea, div {
     font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
 }
