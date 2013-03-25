@@ -11,7 +11,9 @@
     
     function build_url($path) {
         $protocol = isset($_SERVER["HTTPS"]) ? (($_SERVER["HTTPS"] === "on" || $_SERVER["HTTPS"] === 1 || $_SERVER["SERVER_PORT"] === SSL_PORT) ? "https://" : "http://") :  (($_SERVER["SERVER_PORT"] === SSL_PORT) ? "https://" : "http://");
-        $url = sprintf("%s%s/%s", $protocol, $_SERVER["HTTP_HOST"], is_array($path) ? join($path, "/") : $path);
+        $protocol = empty($_SERVER["HTTP_HOST"]) ? "https://" : "http://";
+        $host = !empty($_SERVER["HTTP_HOST"]) ? $_SERVER["HTTP_HOST"] : "gpgtools.org";
+        $url = sprintf("%s%s/%s", $protocol, $host, is_array($path) ? join($path, "/") : $path);
         
         return $url;
     }
