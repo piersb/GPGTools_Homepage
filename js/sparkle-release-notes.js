@@ -1,6 +1,6 @@
 $(function() {
-    var updateVersion = paramFromQuery("updateVersion")
-    var appVersion = paramFromQuery("appVersion")
+    var updateVersion = paramFromQuery("updateVersion") || ""
+    var appVersion = paramFromQuery("appVersion") || ""
     
     // version can be either x.x.x or only the build number.
     var updateCheckAttribute = "version"
