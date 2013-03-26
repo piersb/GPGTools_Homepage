@@ -6,10 +6,10 @@
         <description>Release Notes for the latest versions of GPGServices</description>
         <language>en</language>
         <item>
-            <title>GPGServices v1.8.4</title>
+            <title>GPGServices v1.8</title>
             <sparkle:releaseNotesLink>https://gpgtools.org/releases/gpgservices/release-notes.html</sparkle:releaseNotesLink>
-            <pubDate>Tue, 26 Mar 2013 14:07:39 +0100</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.8.4.dmg" sparkle:version="102" sparkle:shortVersionString="1.8.4" length="2498578" type="application/octet-stream"/>
+            <pubDate>Tue, 26 Mar 2013 20:42:09 +0100</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGServices-1.8.dmg" sparkle:version="109" sparkle:shortVersionString="1.8" length="2498632" type="application/octet-stream"/>
             <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
                                 </item>
     </channel>
