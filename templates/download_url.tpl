@@ -1,1 +1,1 @@
-https://github.com/downloads/{$url_base}/{$url_dl}
+{$changelog[$changelog|@key][1]['sparkle_url']}
