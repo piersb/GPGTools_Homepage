@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version="1.7";
+$version="1.8";
+$release['1.8'] = mktime(20, 0, 0, 03, 26, 2013);
 $release['1.7'] = mktime(18, 0, 0, 04, 30, 2012);
 $release['1.6'] = mktime(15, 0, 0, 05, 18, 2011);
 $release['1.5'] = mktime(12, 0, 0, 03, 22, 2011);
@@ -43,7 +44,7 @@ $theSite->assign('short_description', 'GPGServices is a plugin for the global Se
 $theSite->assign('lighthouse', '67607');
 
 $limitations = array(
-'4' => 'Services are not automatically enabled. See Knowledge Base article for <a href="http://support.gpgtools.org/kb/faq-gpgservices/how-do-i-activate-the-gpgservices">Workaround</a>'
+'4' => 'Services are not automatically enabled',
 );
 $theSite->assign('limitations', $limitations);
 
@@ -51,7 +52,7 @@ $theSite->assign('limitations', $limitations);
 $features = array(
     "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
     "$root/images/hotkeys.png" => array('Can be used via keyboard shortcuts: cmd + shift + <span title="decrypt">d</span>|<span title="encrypt">e</span>|<span title="verify">v</span>|<span title="sign">r</span>|<span title="import key">i</span>|<span title="insert fingerprint">f</span>|<span title="insert key">k</span>', 'shortcuts'),
-    "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
+    "$root/images/lion.png" => array("Compatible with OS X Mountain Lion", 'lion compatible'),
 );
 $theSite->assign('features', $features);
 
@@ -65,6 +66,24 @@ $screencasts = array('gpgservices/file.m4v' => 'Encrypt and sign a file');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '1.8' => array(date("d. F Y", $release['1.8']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.8']),
+        'sparkle_url' => 'https://s3.amazonaws.com/gpgtools/GPGServices-1.8.dmg',
+        'sparkle_sig' => '',
+        'sparkle_size' => '2498632',
+        "74" => "<b>Symmetric encryption</b><br><br>One of the most requested GPGServices features has arrived. You can now encrypt with a password.<br><br>",
+        "73" => "<b>Encrypt read-only text selections</b><br><br>Now GPGServices will work in most used browsers like Safari, Chrome, Firefox, Chromium and more as well as in Mail.app.<br><br>",
+        "116" => "<b>Added Version information</b><br><br>Now displaying the version of GPGServices being used so users easily can find out which version they have.<br><br>",
+        "" => "<b>Automatically informs you of new versions</b><br><br>The same update process you're familiar with from GPGMail is now included in GPGServices to always keep you up to date.<br><br>",
+        "146" => "Fix for double encryption / decryption",
+        "131" => "Fix for signature not being found",
+        "121" => "Fix broken Growl icon",
+        "125" => "Fix for canceling encryption resulting in finished encryption",
+        "102" => "Display missing error messages to the user",
+        "155" => "Fix for PathFinder creating duplicate files when decrypting and some other minor oddities with PathFinder",
+        "" => "Load the progress window in languages other than english.",
+        "sha" => "Checksum: 5836bf9585b89db2f65f08673a7110453f32e5d0 (SHA-1)"
+    )),
     '1.7' => array(date("d. F Y", $release['1.7']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.7']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.7.dmg",

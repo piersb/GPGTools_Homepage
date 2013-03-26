@@ -7,14 +7,14 @@
     </div>
     <div id="info" {if $title|strtolower == 'gpgmail'}style="margin-top: 8em"{/if}>
     {if $url_dl neq ''}
-    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="{$root}/images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="ceil(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
+    <a href="{$changelog[$changelog|@key][1]['sparkle_url']}" class='piwik_download' target='_blank' title='start the download'><img src="{$root}/images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="{$changelog[$changelog|@key][1]['sparkle_url']}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="ceil(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
     {/if}
     <p>Version {$version}<br/></p>
     <p>{$date}<br/></p>
     <p>Requires {$reqs}<br/></p>
         <hr>
-    <p>({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a>|{/if}{if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a>|{/if}{if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions' target='_blank'>others</a>|{/if}<a href="https://github.com/{$url_base}" title='the sources of this project' target='_blank'>src</a>|<a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project' target='_blank'>license</a>{if $url_beta neq ''}|<a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)" target='_blank'>pre-release</a>{/if}|{if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>|{/if}<a href="appcast.xml" title='a feed with the latest versions' target='_blank'>feed</a>)</p>
+    <p>({if $url_sig neq ''}<a href="{$changelog[$changelog|@key][1]['sparkle_url']}.sig" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a>|{/if}{if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a>|{/if}{if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions' target='_blank'>others</a>|{/if}<a href="https://github.com/{$url_base}" title='the sources of this project' target='_blank'>src</a>|<a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project' target='_blank'>license</a>{if $url_beta neq ''}|<a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)" target='_blank'>pre-release</a>{/if}|{if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>|{/if}<a href="appcast.xml" title='a feed with the latest versions' target='_blank'>feed</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
@@ -105,9 +105,9 @@
                 {foreach $changes[1] as $change}
                     {if $change@key|substr:0:7 == 'sparkle'}{continue}{/if}
                     {if $change@key > 0}
-                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}' target='_blank'>Issue {$change@key}</a>: {$change}.</li>
+                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}' target='_blank'>Issue {$change@key}</a>: {$change}</li>
                     {else}
-                        <li>{$change}.</li>
+                        <li>{$change}</li>
                     {/if}
                 {/foreach}
                 </ul>
