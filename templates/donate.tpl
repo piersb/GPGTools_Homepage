@@ -472,6 +472,7 @@ BIC COBADEHD055</p>
             <li>Sean Moss-Pultz</li>
             <li>Sebastian Gutierrez</li>
             <li>Sebastiaan Kruit</li>
+            <li>Shaun Johnson</li>
             <li>Shawn Becker</li>
             <li>Shlok Datye</li>
             <li>Simon Entwistle</li>
