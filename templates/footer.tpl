@@ -19,7 +19,7 @@ var _paq = _paq || [];
     _paq.push(['enableLinkTracking']);
     _paq.push(['setDownloadExtensions', 'dmg|zip|pkg|sig']);
     _paq.push(['setDownloadClasses', 'piwik_download']);
-    _paq.push(['setDomains', ['*.gpgtools.org', 'github.com']]);
+    _paq.push(['setDomains', ['*.gpgtools.org', 'github.com', 's3.amazonaws.com']]);
     var d=document,
         g=d.createElement('script'),
         s=d.getElementsByTagName('script')[0];
