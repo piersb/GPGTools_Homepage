@@ -337,6 +337,7 @@ BIC COBADEHD055</p>
             <li>Magnus Hellmark</li>
             <li>Manuel Tiedtke</li>
             <li>Marc Ahr</li>
+            <li>Marc DeLegge</li>
             <li>Marc Eubanks</li>
             <li>Marc Radtke</li>
             <li>Marc Roberts</li>
@@ -512,6 +513,7 @@ BIC COBADEHD055</p>
             <li>Troy Murray</li>
             <li>TRU Networks</li>
             <li>Twan van der Schoot</li>
+            <li>Ty Shipman</li>
             <li>Uwe Arzt</li>
             <li>Uwe Nestmann</li>
             <li>Uwe Ulrich</li>
@@ -541,6 +543,7 @@ BIC COBADEHD055</p>
                   <li>A. Martin IT-Consulting</li>
                   <li>Acuron</li>
                   <li>Akademia Bezpieczenstwa</li>
+                  <li>Amerandus Research</li>
                   <li>American Registry for Internet Numbers</li>
                   <li>anykey GmbH</li>
                   <li>Artistic Hosting</li>
@@ -615,6 +618,7 @@ BIC COBADEHD055</p>
                   <li>Nutri s.r.o.</li>
                   <li>Octarine Labs</li>
                   <li>Operation Mobilisation</li>
+                  <li>OSNet</li>
                   <li>PID1 Technical Services</li>
                   <li>PC Universe</li>
                   <li>phone4</li>
