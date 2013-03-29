@@ -450,6 +450,6 @@
 	}
     
     function is_array_type($array) {
-        return is_array($array) || get_class($array) == "LLSmartArray";
+        return is_array($array) || (is_object($array) && get_class($array) == "LLSmartArray");
     }
 ?>
