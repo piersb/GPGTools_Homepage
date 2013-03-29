@@ -95,6 +95,19 @@
         static_file_with_content("releases/$name/release-notes.html", $output);
     });
     
+    // Display a preview of what the release notes will look like.
+    // Release notes are coming from post data.
+    $app->post('/releases/:name/preview-release-notes', function($name) use($app, $config) {
+        $release_notes_json = $_POST["release_notes"];
+        $release_notes = json_decode($release_notes_json);
+        
+        if($release_notes === null)
+            exit();
+        if(!isset($release_notes->info))
+            exit();
+        $app->render("release/release-notes", array("general" => $config->get("general"), "versions" => new LLSmartArray(array($release_notes))));
+    });
+    
     $app->post('/ipn/:type', function($type) use($app) {
 	    $type = strtolower($type);
 	    

@@ -444,4 +444,8 @@
         
         return array($arguments, $options);
 	}
+    
+    function is_array_type($array) {
+        return is_array($array) || get_class($array) == "LLSmartArray";
+    }
 ?>
