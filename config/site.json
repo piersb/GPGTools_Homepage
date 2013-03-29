@@ -34,6 +34,7 @@
         },
         "gpgmail": "./gpgmail.json",
         "gka": "./gka.json",
+        "gpg-keychain-access": "./gka.json",
         "gpgservices": "./gpgservices.json",
         "macgpg": "./macgpg.json"
 	},
