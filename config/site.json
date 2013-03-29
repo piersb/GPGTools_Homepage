@@ -36,7 +36,8 @@
         "gka": "./gka.json",
         "gpg-keychain-access": "./gka.json",
         "gpgservices": "./gpgservices.json",
-        "macgpg": "./macgpg.json"
+        "macgpg": "./macgpg.json",
+        "macgpg2": "./macgpg.json"
 	},
 	"general": {
 		"new": "NEW",
