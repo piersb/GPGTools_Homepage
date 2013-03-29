@@ -331,12 +331,12 @@
 	function static_file_with_content($filename, $content) {
 	    $dir = dirname($filename);
 	    
-	    if(!is_dir($dir) && !mkdir($dir, 0755, true))
+	    if(!is_dir($dir) && @!mkdir($dir, 0755, true))
 	        return;
 	    
-	    $fp = fopen($filename, "w");
-	    fputs($fp, $content);
-	    fclose($fp);
+	    $fp = @fopen($filename, "w");
+	    @fputs($fp, $content);
+	    @fclose($fp);
 	}
 	
 	function intercept_run_from_cli() {
