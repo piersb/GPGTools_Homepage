@@ -302,6 +302,10 @@
 	        }
 	    }
 	    
+	    if($newest_version === null)
+	        // Pick the first version as newest version.
+	        return $versions[0];
+	    
 	    return $newest_version;
 	}
 	
