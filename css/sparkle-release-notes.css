@@ -21,13 +21,13 @@ a:hover { color: #0088cc; text-decoration: underline; }
 .sparkle-release-notes .version .fixes ul, .sparkle-release-notes .version .fixes ul li { list-style: none;
     margin: 0px; padding: 0px; color: #60a3c8; }
 .sparkle-release-notes .version .fixes ul li {
-    background: url(/images/icons/list-arrow-blue.png) no-repeat 0px 8px;
+    background: url(/images/icons/list-arrow-blue.png) no-repeat 0px 7px;
     padding-left: 10px; }
 .sparkle-release-notes .version .feature ul, .sparkle-release-notes .version .feature ul li {
     margin: 0px; padding: 0px; list-style: none;
 }
 .sparkle-release-notes .version .feature ul li { color: #969696;
-    background: url(/images/icons/list-arrow.png) no-repeat 0px 8px;
+    background: url(/images/icons/list-arrow.png) no-repeat 0px 7px;
     padding-left: 10px;
 }
 .sparkle-release-notes .feature h3, .sparkle-release-notes .features { margin-bottom: 10px; }
