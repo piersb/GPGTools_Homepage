@@ -9,7 +9,7 @@
 		"current-version": "1.0b7",
 		"release-date": 1331204400,
 		"checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3",
-		"versions": "./gka-versions.json",
+		"versions": "./gpg-keychain-access-versions.json",
 		"announcement": "Whatever",
 		"os-x-versions": [
 						  {"version": "10.5", "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg"},
