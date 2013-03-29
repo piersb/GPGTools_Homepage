@@ -6,14 +6,14 @@
         <div class="version" data-version="<?= $version["version"] ?>" data-build="<?= $version["build"] ?>" data-min-os="<?= !isset($version["sparkle"]["minOS"]) ? "10.6" : $version["sparkle"]["minOS"] ?>" <? if(isset($version["sparkle"]["maxOS"])): ?>data-max-os="<?= $version["sparkle"]["maxOS"] ?>"<? endif ?>>
             <h1 class="clearfix"><span>Version <?= $version["version"] ?> <? if((int) $version["build"]): ?><span class="build">(build <?= $version["build"] ?>)</span><? endif ?></span> <time datetime="<?= date("Y-m-d", $version["release_date"]) ?>"><?= date("F jS, Y", $version["release_date"]) ?></time></h1>
             
-            <? if(get_class($version["info"]["features"]) == "LLSmartArray" && count($version["info"]["features"])): ?>
+            <? if(is_array_type($version["info"]["features"])): ?>
             <div class="features">
                 <? foreach($version["info"]["features"] as $feature): ?>
                 <div class="feature">
-                    <? $feature_info = info_from_feature_line($feature) ?>
+                    <? $feature_info = is_array_type($feature) ? $feature : info_from_feature_line($feature) ?>
                     <h3><?= $feature_info["title"] ?></h3>
                     
-                    <? if(is_array($feature_info["description"]) && count($feature_info["description"])): ?>
+                    <? if(is_array_type($feature_info["description"]) && count($feature_info["description"])): ?>
                     <ul>
                         <? foreach($feature_info["description"] as $description): ?>
                         <li><?= $description ?></li>
@@ -25,7 +25,7 @@
             </div>
             <? endif ?>
             
-            <? if(get_class($version["info"]["fixes"]) == "LLSmartArray" && count($version["info"]["fixes"])): ?>
+            <? if(is_array_type($version["info"]["fixes"]) && count($version["info"]["fixes"])): ?>
             <div class="fixes">
                 <h2>Bugfixes:</h2>
                 

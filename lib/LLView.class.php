@@ -131,9 +131,7 @@
                 $pq_el = pq($el);
                 $this->fill($doc, $site_doc, $pq_el);
             }
-        
-            $doc->find('body')->addClass("ASWOME");
-        
+            
             return $doc;
         }
         
