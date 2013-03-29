@@ -145,7 +145,14 @@ class Environment implements \ArrayAccess, \IteratorAggregate
             } else {
                 $env['SCRIPT_NAME'] = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']) ); //With URL rewrite
             }
-            $env['PATH_INFO'] = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($env['SCRIPT_NAME']));
+            /* This fails for some reason if SCRIPT_NAME is not part of REQUEST_URI,
+             * which is the case on gpgtools rewrites config.
+             */
+            if(strpos($_SERVER['REQUEST_URI'], $_SERVER['SCRIPT_NAME']) !== false) 
+                $env['PATH_INFO'] = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($env['SCRIPT_NAME']));
+            else
+                $env['PATH_INFO'] = $_SERVER['REQUEST_URI'];
+            
             if (strpos($env['PATH_INFO'], '?') !== false) {
                 $env['PATH_INFO'] = substr_replace($env['PATH_INFO'], '', strpos($env['PATH_INFO'], '?')); //query string is not removed automatically
             }
