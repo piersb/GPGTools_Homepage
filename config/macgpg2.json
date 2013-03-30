@@ -9,7 +9,7 @@
 		"current-version": "2.0.17-9",
 		"release-date": 1297696800,
 		"checksum": "6fc707319cd6f26fbc902aeec90939ac13aef7f3",
-		"versions": "./macgpg-versions.json"
+		"versions": "./macgpg2-versions.json"
 	},
 	"features": [
 		[
