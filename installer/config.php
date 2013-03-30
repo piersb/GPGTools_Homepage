@@ -4,7 +4,9 @@
 //$release["$bversion"] = mktime(12, 0, 0, 11, 9, 2011);
 $theSite->assign('url_beta',  "");//"GPGTools-$bversion.dmg");
 
-$version="20120318";
+$version='20130330';
+
+$release['20130330'] = mktime(12, 0, 0, 03, 30, 2013);
 $release['20120318'] = mktime(12, 0, 0, 03, 18, 2012);
 $release['20120317'] = mktime(12, 0, 0, 03, 17, 2012);
 $release['20111224'] = mktime(12, 0, 0, 12, 24, 2011);
@@ -57,13 +59,12 @@ $theSite->assign('cnet', "3000-2092_4-75335253");
 $features = array(
     "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
     "$root/images/64bit.jpg" => array("All applications are 64-bit compatible", '64 bit'),
-    "$root/gpgmail/images/logo-35px.png" => array("Integrated <a href='$root/gpgmail/index.php'>GPGMail</a> (OS X 10.5 to 10.7, Universal)", 'GPGMail'),
-    "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.5 to 10.7, Universal)", 'GPG Keychain Access'),
-    "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a> (OS X 10.6 to 10.7)", 'GPGServices'),
-    "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGPreferences</a> (OS X 10.6 to 10.7)", 'GPGPreferences'),
-    "$root/macgpg2/images/logo-35px.png" => array("Integrated <a href='$root/macgpg2/index.php'>MacGPG 2</a> (OS X 10.5 to 10.7, Intel)", 'gpg2, gpg-agent, pinentry-mac, macgpg2'),
-    "$root/macgpg1/images/logo-35px.png" => array("Integrated <a href='$root/macgpg1/index.php'>MacGPG 1</a> (OS X 10.5 to 10.7, Universal)", 'gpg1, macgpg1'),
-    "$root/images/enigmail.png" => array("Integrated <a href='http://enigmail.mozdev.org/'>Enigmail</a> (Thunderbird 3 to 8)", 'Mozilla Enigmail'),
+    "$root/gpgmail/images/logo-35px.png" => array("Integrated <a href='$root/gpgmail/index.php'>GPGMail</a> (OS X 10.6 to 10.7, Universal)", 'GPGMail'),
+    "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.5 to 10.8, Universal)", 'GPG Keychain Access'),
+    "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a> (OS X 10.6 to 10.8)", 'GPGServices'),
+    "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGPreferences</a> (OS X 10.6 to 10.8)", 'GPGPreferences'),
+    "$root/macgpg2/images/logo-35px.png" => array("Integrated <a href='$root/macgpg2/index.php'>MacGPG 2</a> (OS X 10.6 to 10.8, Intel)", 'gpg2, gpg-agent, pinentry-mac, macgpg2'),
+    "$root/macgpg1/images/logo-35px.png" => array("Integrated <a href='$root/macgpg1/index.php'>MacGPG 1</a> (OS X 10.5 to 10.7, Universal)", 'gpg1, macgpg1')
 );
 $theSite->assign('features', $features);
 
@@ -79,6 +80,12 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', $screencasts);
 */
 $changelog = array(
+    '20130330' => array(date("d. F Y", $release['20130330']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['20130330']),
+        'sparkle_url' => 'https://s3.amazonaws.com/gpgtools/GPGTools-20130330.dmg',
+        'sparkle_size' => '16733302',
+        'sha' => "Checksum: 617427f478990228f72683cc15d359df5b56a69c (SHA-1)",
+        )),
     "20120318" => array(date("d. F Y", $release["20120318"]), array(
         'sparkle_date' => date(DATE_RFC2822, $release["20120318"]),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg",

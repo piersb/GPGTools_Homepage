@@ -37,10 +37,10 @@ Warning: include(): Failed opening '/Users/Roman/OpenSource/GPG/GPGTools_Homepag
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>GPGTools Installer</Program_Name>
-		<Program_Version>2012.03.18</Program_Version>
+		<Program_Version>2013.03.30</Program_Version>
 		<Program_Release_Month>03</Program_Release_Month>
-		<Program_Release_Day>18</Program_Release_Day>
-		<Program_Release_Year>2012</Program_Release_Year>
+		<Program_Release_Day>30</Program_Release_Day>
+		<Program_Release_Year>2013</Program_Release_Year>
 		<Program_Cost_Dollars />
 		<Program_Cost_Other_Code />
 		<Program_Cost_Other />
@@ -55,6 +55,6 @@ Warning: include(): Failed opening '/Users/Roman/OpenSource/GPG/GPGTools_Homepag
 		<Program_Categories />
 		<Program_System_Requirements />
 		<File_Info>
-			<File_Size_Bytes>50402184</File_Size_Bytes>
+			<File_Size_Bytes>16733302</File_Size_Bytes>
 			<File_Size_K>
 Fatal error: Call to undefined function smarty_function_math() in /Users/Roman/OpenSource/GPG/GPGTools_Homepage_alt/templates_c/5e61c174b9bca51aa9956cccaf763e6926853e84.file.pad.tpl.php on line 83
