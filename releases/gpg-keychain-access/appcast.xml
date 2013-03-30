@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>GPG Keychain Access - Manage your GPG Keychain.</title>
+        <link>https://gpgtools.org/releases/gpg-keychain-access/appcast.xml</link>
+        <description>Release Notes for the latest versions of GPG Keychain Access</description>
+        <language>en</language>
+        <item>
+            <title>GPG Keychain Access v1.0</title>
+            <sparkle:releaseNotesLink>https://gpgtools.org/releases/gpg-keychain-access/release-notes.html</sparkle:releaseNotesLink>
+            <pubDate>Fri, 29 Mar 2013 23:01:24 +0100</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPG Keychain Access-1.0.dmg" sparkle:version="196" sparkle:shortVersionString="1.0" length="4089328" type="application/octet-stream"/>
+            <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
+                                </item>
+    </channel>
+</rss>

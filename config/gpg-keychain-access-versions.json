@@ -1,202 +1,323 @@
-[{
-    "version": "1.0b7",
-    "release_date": 1331204400,
-    "checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3 ",
-    "info": {
-        "fixes": ["Toolbar info button added", "Tone expired keys gray", "Offer a key upload after key generation", "Italian localization", "Russian localization", "Dutch localization"],
-        "features": []
+[
+    {
+        "build": "196",
+        "checksum": "8fd8268094865ec278ac60f2bfdd01a23be180d0",
+        "info": {
+            "features": [
+                {
+                    "description": [
+                        "We now support catalan, czech, danish, indonesian, norwegian, polish (22%), portuguese (brazil), slovak, chinese (81%).",
+                        "Thanks to all who contributed to localizations on <a href=\"https://www.transifex.com/projects/p/GPGKeychainAccess/\">Transifex</a>.",
+                        "Credit goes to pau.selles, czechxteam, ulrikls, sumodirjo, Se7enTime, andika, lateralus, tsawko, JohnCalistro, fsoares, teseu, tes0, Boffin, easior."
+                    ],
+                    "title": "9 new languages."
+                },
+                {
+                    "description": [
+                        "Open the UserID in the key inspector, simply select any text and press \u2318C"
+                    ],
+                    "title": "Allow Copy & Paste of UserIDs."
+                }
+            ],
+            "fixes": [
+                "Improved Dutch translation",
+                "Update the context menu in order to better explain that only the public part of the secret key is sent to the keyserver.",
+                "Update the description in the key list in order to show that the secret key contains the public key part as well.",
+                "Search key-id bug <a href=\"https://gpgtools.lighthouseapp.com/projects/65684-gpg-keychain-access/tickets/147-improve-key-search\">#147</a>.",
+                "Added 'Generate Revoke Certificate' to the context menu <a href=\"https://gpgtools.lighthouseapp.com/projects/65684-gpg-keychain-access/tickets/142-add-create-revocation-certificate-to-the-right-click-menu\">#142</a>.",
+                "'Choose another...' now let's you select another photo. <a href=\"https://gpgtools.lighthouseapp.com/projects/65684-gpg-keychain-access/tickets/145-key-inspector-photos-ignores-choose-another\">#145</a>."
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1364594484,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 4089328,
+            "url": "https://s3.amazonaws.com/gpgtools/GPG Keychain Access-1.0.dmg"
+        },
+        "version": "1.0"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG Keychain Access-1.0b7.dmg",
-        "sig": "MC0CFGyPE3bV8D\/7vn0+AgHdCbi9j69IAhUAjE1cLWRs9vnggyqazNQGioy0Rz8=",
-        "size": "2331332",
-        "minOS": "10.6"
-    }
-}, {
-    "version": "1.0b6",
-    "release_date": 1324292400,
-    "checksum": "b42465bf3af02eb5dfdc5b82cc1a0a9322868316 ",
-    "info": {
-        "fixes": ["Copy & Paste for files", "Spanish bug fixed"],
-        "features": []
+    {
+        "checksum": "467813128dff9e7e5958033b760e8b4f729cf1f3 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Toolbar info button added",
+                "Tone expired keys gray",
+                "Offer a key upload after key generation",
+                "Italian localization",
+                "Russian localization",
+                "Dutch localization"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1331204400,
+        "sparkle": {
+            "minOS": "10.6",
+            "sig": "MC0CFGyPE3bV8D/7vn0+AgHdCbi9j69IAhUAjE1cLWRs9vnggyqazNQGioy0Rz8=",
+            "size": "2331332",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b7.dmg"
+        },
+        "version": "1.0b7"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG Keychain Access-1.0b6.dmg",
-        "sig": "MC0CFHwJqoOQtJswVZsov3sU7WfwY6x6AhUAq3XvpaO7tHfmZNFeESH5a7ksVmA=",
-        "size": "1948826",
-        "minOS": "10.6"
-    }
-}, {
-    "version": "1.0b5",
-    "release_date": 1322218800,
-    "checksum": "7a705bcf869b5bb949d3e980cd15984cc3327f1f ",
-    "info": {
-        "fixes": ["--gen-key command line argument added", "Import revocation certificate bug fixed", "Sign key bug fixed"],
-        "features": []
+    {
+        "checksum": "b42465bf3af02eb5dfdc5b82cc1a0a9322868316 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Copy & Paste for files",
+                "Spanish bug fixed"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1324292400,
+        "sparkle": {
+            "minOS": "10.6",
+            "sig": "MC0CFHwJqoOQtJswVZsov3sU7WfwY6x6AhUAq3XvpaO7tHfmZNFeESH5a7ksVmA=",
+            "size": "1948826",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b6.dmg"
+        },
+        "version": "1.0b6"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG Keychain Access-1.0b5.dmg",
-        "sig": "MC0CFAphEA5vxFgJlgpAf60aszukDSOZAhUAiGOWvuUggVahhdWY4zas2dtNr9c=",
-        "size": "1579707",
-        "minOS": "10.6"
-    }
-}, {
-    "version": "1.0b3",
-    "release_date": 1321441200,
-    "checksum": "9853ea898ae1f3f61c1aa5f156db6f8835994cf5 ",
-    "info": {
-        "fixes": ["No default-key bug fixed"],
-        "features": []
+    {
+        "checksum": "7a705bcf869b5bb949d3e980cd15984cc3327f1f ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "--gen-key command line argument added",
+                "Import revocation certificate bug fixed",
+                "Sign key bug fixed"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1322218800,
+        "sparkle": {
+            "minOS": "10.6",
+            "sig": "MC0CFAphEA5vxFgJlgpAf60aszukDSOZAhUAiGOWvuUggVahhdWY4zas2dtNr9c=",
+            "size": "1579707",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b5.dmg"
+        },
+        "version": "1.0b5"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG Keychain Access-1.0b3.dmg",
-        "sig": "MC0CFHX7lciB2SuqL0a\/yXrqAhcEWvslAhUAmoZjmmKwbxrtJ7kjkVjtdynCNT4=",
-        "size": "1575244",
-        "minOS": "10.6"
-    }
-}, {
-    "version": "1.0b2",
-    "release_date": 1321354800,
-    "checksum": "a4b5670d2484f61f83aa35c3a7123818b16a6373 ",
-    "info": {
-        "fixes": ["FOUND_KEY_DESCRIPTION_FORMAT bug fixed", "Algorithm name bug fixed", "Support to import keys from files with non standard extension"],
-        "features": []
+    {
+        "checksum": "9853ea898ae1f3f61c1aa5f156db6f8835994cf5 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "No default-key bug fixed"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1321441200,
+        "sparkle": {
+            "minOS": "10.6",
+            "sig": "MC0CFHX7lciB2SuqL0a/yXrqAhcEWvslAhUAmoZjmmKwbxrtJ7kjkVjtdynCNT4=",
+            "size": "1575244",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b3.dmg"
+        },
+        "version": "1.0b3"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG Keychain Access-1.0b2.dmg",
-        "sig": "MCwCFGHIIEyaJXMrsgYFTtRyQuN707EsAhRYk\/LRfiz+xYkBL9ykk8mxxlDpfg==",
-        "size": "1576246",
-        "minOS": "10.6"
-    }
-}, {
-    "version": "1.0b1",
-    "release_date": 1321095600,
-    "checksum": "086e8aa88d7d34176631867e8d6986308b3a1332 ",
-    "info": {
-        "fixes": ["Use Libmacgpg", "Better keyserver support", "Better error messages"],
-        "features": []
+    {
+        "checksum": "a4b5670d2484f61f83aa35c3a7123818b16a6373 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "FOUND_KEY_DESCRIPTION_FORMAT bug fixed",
+                "Algorithm name bug fixed",
+                "Support to import keys from files with non standard extension"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1321354800,
+        "sparkle": {
+            "minOS": "10.6",
+            "sig": "MCwCFGHIIEyaJXMrsgYFTtRyQuN707EsAhRYk/LRfiz+xYkBL9ykk8mxxlDpfg==",
+            "size": "1576246",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b2.dmg"
+        },
+        "version": "1.0b2"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-1.0b1.dmg",
-        "sig": "MCwCFC9h2fRuhyjK86yLvmcM+DaZLfJ7AhRT5fFi826H1Tem\/5wwPOwTmrOdxQ==",
-        "size": "1569975",
-        "minOS": "10.6"
-    }
-}, {
-    "version": "0.8.13",
-    "release_date": 1310378400,
-    "checksum": "36454c5a72d062c8b0c3ffc473008811b456cabe ",
-    "info": {
-        "fixes": ["Subkey selection bug fixed", "Some fixes in the localizations"],
-        "features": []
+    {
+        "checksum": "086e8aa88d7d34176631867e8d6986308b3a1332 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Use Libmacgpg",
+                "Better keyserver support",
+                "Better error messages"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1321095600,
+        "sparkle": {
+            "minOS": "10.6",
+            "sig": "MCwCFC9h2fRuhyjK86yLvmcM+DaZLfJ7AhRT5fFi826H1Tem/5wwPOwTmrOdxQ==",
+            "size": "1569975",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-1.0b1.dmg"
+        },
+        "version": "1.0b1"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.13.dmg",
-        "sig": "MCwCFCZhBce+cV1NZiERCAMAyjGcsZjnAhR9DL9aQgEMlXgghuSjix+XhZa3vQ==",
-        "size": "1409076"
-    }
-}, {
-    "version": "0.8.10",
-    "release_date": 1304071200,
-    "checksum": "ef105e5a0b01e843d2cd1ad539d24dc7664fc828 ",
-    "info": {
-        "fixes": ["Added *.gpg to Drag & Drop file types", "#48: Added findExecutableWithName", "Use --keyserver parameter"],
-        "features": []
+    {
+        "checksum": "36454c5a72d062c8b0c3ffc473008811b456cabe ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Subkey selection bug fixed",
+                "Some fixes in the localizations"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1310378400,
+        "sparkle": {
+            "sig": "MCwCFCZhBce+cV1NZiERCAMAyjGcsZjnAhR9DL9aQgEMlXgghuSjix+XhZa3vQ==",
+            "size": "1409076",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.13.dmg"
+        },
+        "version": "0.8.13"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.10.dmg",
-        "sig": "MC0CFErZFkgCBVyCOIg1poI\/POR8QNywAhUAhXmsNF266rFUDWPAC2KxpXiEHyY=",
-        "size": "1518043"
-    }
-}, {
-    "version": "0.8.7",
-    "release_date": 1300964400,
-    "checksum": "fa06410597db8e258c5199b1a2c8fad9f23a9bc5 ",
-    "info": {
-        "fixes": ["Fixed crash on startup", "Better german localization"],
-        "features": []
+    {
+        "checksum": "ef105e5a0b01e843d2cd1ad539d24dc7664fc828 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Added *.gpg to Drag & Drop file types",
+                "#48: Added findExecutableWithName",
+                "Use --keyserver parameter"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1304071200,
+        "sparkle": {
+            "sig": "MC0CFErZFkgCBVyCOIg1poI/POR8QNywAhUAhXmsNF266rFUDWPAC2KxpXiEHyY=",
+            "size": "1518043",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.10.dmg"
+        },
+        "version": "0.8.10"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.7.dmg",
-        "sig": "MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==",
-        "size": "1516862"
-    }
-}, {
-    "version": "0.8.6",
-    "release_date": 1300791600,
-    "checksum": "73a71cc8b42b0a97aa30398b03a6956b46431c3a ",
-    "info": {
-        "fixes": ["French localization", "Fixed a bug with the algorithm preferences"],
-        "features": []
+    {
+        "checksum": "fa06410597db8e258c5199b1a2c8fad9f23a9bc5 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Fixed crash on startup",
+                "Better german localization"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1300964400,
+        "sparkle": {
+            "sig": "MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==",
+            "size": "1516862",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.7.dmg"
+        },
+        "version": "0.8.7"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.6.dmg",
-        "sig": "MCwCFAFcJaNuFoTiADilH\/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA==",
-        "size": "1517149"
-    }
-}, {
-    "version": "0.8.4",
-    "release_date": 1298372400,
-    "checksum": "e8e696bc879e0d9de9aa7d9e9e54bf052cf6baaf ",
-    "info": {
-        "fixes": ["Save toolbar configuration", "Added Cmd+R shortcut to View > Refresh menu item", "Added long key type to Key Inspector"],
-        "features": []
+    {
+        "checksum": "73a71cc8b42b0a97aa30398b03a6956b46431c3a ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "French localization",
+                "Fixed a bug with the algorithm preferences"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1300791600,
+        "sparkle": {
+            "sig": "MCwCFAFcJaNuFoTiADilH/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA==",
+            "size": "1517149",
+            "url": "https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.6.dmg"
+        },
+        "version": "0.8.6"
     },
-    "sparkle": {
-        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.4.dmg",
-        "sig": "MCwCFCy2D7OdIs5pI9akgg\/LA\/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg==",
-        "size": "1262263"
-    }
-}, {
-    "version": "0.8.2b",
-    "release_date": 1295780400,
-    "checksum": "510e67b107bf5b97a404d68828d24ad7e6864521 ",
-    "info": {
-        "fixes": ["Removed support to start gpg-agent"],
-        "features": []
+    {
+        "checksum": "e8e696bc879e0d9de9aa7d9e9e54bf052cf6baaf ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Save toolbar configuration",
+                "Added Cmd+R shortcut to View > Refresh menu item",
+                "Added long key type to Key Inspector"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1298372400,
+        "sparkle": {
+            "sig": "MCwCFCy2D7OdIs5pI9akgg/LA/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg==",
+            "size": "1262263",
+            "url": "http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg"
+        },
+        "version": "0.8.4"
     },
-    "sparkle": {
-        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.2b.dmg",
-        "sig": "MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA==",
-        "size": "1786936"
-    }
-}, {
-    "version": "0.8.1b",
-    "release_date": 1295694000,
-    "checksum": "",
-    "info": {
-        "fixes": ["Added keyserver preferences"],
-        "features": []
+    {
+        "checksum": "510e67b107bf5b97a404d68828d24ad7e6864521 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Removed support to start gpg-agent"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1295780400,
+        "sparkle": {
+            "sig": "MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA==",
+            "size": "1786936",
+            "url": "http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg"
+        },
+        "version": "0.8.2b"
     },
-    "sparkle": {
-        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPG%20Keychain%20Access-0.8.1b.dmg",
-        "sig": "MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8\/fqH4diqA=",
-        "size": "1784179"
-    }
-}, {
-    "version": "0.8.0b",
-    "release_date": 1295175600,
-    "checksum": "",
-    "info": {
-        "fixes": ["Added support for MacGPG2-2.0.17"],
-        "features": []
+    {
+        "checksum": "",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Added keyserver preferences"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1295694000,
+        "sparkle": {
+            "sig": "MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8/fqH4diqA=",
+            "size": "1784179",
+            "url": "http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg"
+        },
+        "version": "0.8.1b"
     },
-    "sparkle": {
-        "url": "http:\/\/github.com\/downloads\/GPGTools\/GPGKeychainAccess\/GPGKeychainAccess-0_8_0b.tar.bz2",
-        "sig": "MC4CFQCO61zx\/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm",
-        "size": "1069156"
-    }
-}, {
-    "version": "0.3.1b",
-    "release_date": 1292065200,
-    "checksum": "",
-    "info": {
-        "fixes": ["Right click context menu", "Added new icons", "Added support for algorithm preferences", "Showing validity"],
-        "features": []
+    {
+        "checksum": "",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Added support for MacGPG2-2.0.17"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1295175600,
+        "sparkle": {
+            "sig": "MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm",
+            "size": "1069156",
+            "url": "http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2"
+        },
+        "version": "0.8.0b"
     },
-    "sparkle": {
-        "url": "http:\/\/github.com\/downloads\/gpgmail\/GPGKeychainAccess\/GPGKeychainAccess-0_3_1b.tar.bz2",
-        "sig": "MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg==",
-        "size": "1069448"
+    {
+        "checksum": "",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Right click context menu",
+                "Added new icons",
+                "Added support for algorithm preferences",
+                "Showing validity"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1292065200,
+        "sparkle": {
+            "sig": "MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg==",
+            "size": "1069448",
+            "url": "http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"
+        },
+        "version": "0.3.1b"
     }
-}]
+]
