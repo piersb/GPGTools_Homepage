@@ -19,8 +19,7 @@
     <div id="main">
         <div id="m_content">
         	{if $title|strtolower == 'gpgmail'}
-<div id="announcement"> <b>IMPORTANT:</b> We have a first preview of GPGMail for Mountain Lion. Get early access and help development by <a href="https://www.gpgtools.org/donate.html#donate-paypal" title="10.8_Donate">donating</a>.<br>
-			<b>IMPORTANT:</b> If you're running <b>10.7.5</b> please download and install the newest GPGMail version from <a href="https://nightly.gpgtools.org">nightly.gpgtools.org</a>.<br>
+<div id="announcement"> <b>IMPORTANT:</b> We have a first preview of GPGMail for 10.8 Mountain Lion. Get early access and help development by <a href="https://www.gpgtools.org/donate.html#donate-paypal" title="10.8_Donate">donating</a>.<br>
 			</div>
 {/if}<br><br>
         	
