@@ -16,7 +16,7 @@
                     <? if(is_array_type($feature_info["description"]) && count($feature_info["description"])): ?>
                     <ul>
                         <? foreach($feature_info["description"] as $description): ?>
-                        <li><?= $description ?></li>
+                        <li><?= nl2br($description) ?></li>
                         <? endforeach ?>
                     </ul>
                     <? endif ?>
@@ -31,7 +31,7 @@
                 
                 <ul>
                     <? foreach($version["info"]["fixes"] as $fix): ?>
-                    <li><?= $fix ?></li>
+                    <li><?= nl2br($fix) ?></li>
                     <? endforeach ?>
                 </ul>
             </div>
