@@ -1,5 +1,65 @@
 [
     {
+        "build": "87",
+        "checksum": "3fda54bbb5df5a8c00b5857a7c8ee9f0b29408f9",
+        "info": {
+            "features": [
+                {
+                    "description": [
+                        "MacGPG2 keeps checking for new versions automatically and will\n    tell you if one is available."
+                    ],
+                    "title": "Be automatically informed of new MacGPG2 versions"
+                },
+                {
+                    "description": [
+                        "Uses the much more stable curl library to query keyservers instead of the\n    curl wrapper included in gnupg, which is the default one if libcurl can't be found."
+                    ],
+                    "title": "No more nasty Keyserver errors"
+                },
+                {
+                    "description": [
+                        "The patent of IDEA has expired in most countries and is now part of MacGPG2.",
+                        "While it's possible to use IDEA for decrypting messages and files, it's not\n    possible to use it to create new keys <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/30-add-idea-support\">#30</a>."
+                    ],
+                    "title": "Supports the legacy IDEA cipher"
+                },
+                {
+                    "description": [
+                        "MacGPG2 supports a variety of different smart cards now <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/85-add-smartcard-support\">#85</a>."
+                    ],
+                    "title": "OpenPGP smart card support"
+                },
+                {
+                    "description": [
+                        "You can easily uninstall MacGPG2 with a single click now <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/6-create-an-uninstaller-script\">#6</a>."
+                    ],
+                    "title": "Uninstaller now included"
+                },
+                {
+                    "description": [
+                        "Latest Pinentry is now included <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/8-pinentry-update-to-081\">#8</a>.",
+                        "Pinentry now allows to store passphrases in givin keychain <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/73-pinentry-mac-should-allow-to-store-passphrases-in-a-given-keychain\">#73</a>.",
+                        "Pinentry used to fail on some systems under certain circumstances. The new version should work everywhere."
+                    ],
+                    "title": "Pinentry updated to 0.8.1"
+                }
+            ],
+            "fixes": [
+                "Enable AES-NI <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/84-via-tender-enable-aes-ni\">#84</a>.",
+                "Added version file for homebrew compatability. <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/95-add-version-file-for-homebrew-compatability\">#95</a>.",
+                "Bug with network shares and GnuPG home <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/71-gpg-with-network-users\">#71</a>."
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1364653180,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 4850527,
+            "url": "https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.19.dmg"
+        },
+        "version": "2.0.19"
+    },
+    {
         "checksum": "6fc707319cd6f26fbc902aeec90939ac13aef7f3 ",
         "info": {
             "features": [],
@@ -12,14 +72,14 @@
                 "fixing unusable secret keys on 32-bit machines"
             ]
         },
+        "newest-version": false,
         "release_date": 1297696800,
         "sparkle": {
             "sig": "",
             "size": "8446511",
             "url": "http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip"
         },
-        "version": "2.0.17-9",
-        "newest-version": true
+        "version": "2.0.17-9"
     },
     {
         "checksum": "",
@@ -40,6 +100,7 @@
                 "Libusb upgraded to v1.0.8"
             ]
         },
+        "newest-version": false,
         "release_date": 1295953200,
         "sparkle": {
             "sig": "",
@@ -64,6 +125,7 @@
                 "The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms"
             ]
         },
+        "newest-version": false,
         "release_date": 1288522800,
         "sparkle": {
             "sig": "",
