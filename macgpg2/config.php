@@ -1,6 +1,8 @@
 <?php /*compileIgnore*/
 
-$version='2.0.17-9';
+$version='2.0.19';
+	
+$release['2.0.19'] = mktime(12, 0, 0, 3, 30, 2013);
 $release['2.0.17-9'] = mktime(16, 20, 0, 02, 14, 2011);
 $release['2.0.17-6'] = mktime(12, 0, 0, 01, 25, 2011);
 $release['2.0.16'] = mktime(12, 0, 0, 10, 31, 2010);
@@ -49,6 +51,22 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");
 
 $changelog = array(
+    '2.0.19' => array(date("d. F Y", $release['2.0.19']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['2.0.19']),
+        'sparkle_url' => 'https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.19.dmg',
+        'sparkle_size' => '4850527',
+		'sparkle_minOS' => '10.6',
+		'a' => 'MacGPG2 keeps checking for new versions automatically and will tell you if one is available',
+		'b' => "Uses the much more stable curl library to query keyservers instead of the curl wrapper included in gnupg, which is the default one if libcurl can't be found",
+		'c' => 'Supports the legacy IDEA cipher',
+		'd' => 'OpenPGP smart card support',
+		'e' => 'Uninstaller now included',
+		'f' => 'Pinentry updated to 0.8.1',
+		'84' => 'Enable AES-NI',
+		'95' => 'Added version file for homebrew compatability',
+		'71' => 'Bug with network shares and GnuPG home',
+        'sha' => 'Checksum: 3fda54bbb5df5a8c00b5857a7c8ee9f0b29408f9 (SHA-1)',
+        )),
     '2.0.17-9' => array(date("d. F Y", $release['2.0.17-9']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0.17-9']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip",

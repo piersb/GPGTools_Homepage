@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='1.0b7';
+$version='1.0';
 
+$release['1.0'] = mktime(12, 0, 0, 3, 30, 2013);
 $release['1.0b7'] = mktime(12, 0, 0, 3, 8, 2012);
 $release['1.0b6'] = mktime(12, 0, 0, 12, 19, 2011);
 $release['1.0b5'] = mktime(12, 0, 0, 11, 25, 2011);
@@ -72,6 +73,21 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'1.0' => array(date('d. F Y', $release['1.0']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['1.0']),
+		'sparkle_url' => 'https://s3.amazonaws.com/gpgtools/GPG+Keychain+Access-1.0.dmg',
+		'sparkle_size' => '4089328',
+		'sparkle_minOS' => '10.6',
+		'147' => 'Search key-id bug',
+		'142' => "Added 'Generate Revoke Certificate' to the context menu",
+		'145' => "'Choose another...' now let's you select another photo",
+		'a' => 'Improved Dutch translation',
+		'b' => 'Update the context menu in order to better explain that only the public part of the secret key is sent to the keyserver',
+		'c' => 'Update the description in the key list in order to show that the secret key contains the public key part as well',
+		'd' => 'Open the UserID in the key inspector, simply select any text and press ⌘C',
+		'e' => 'We now support catalan, czech, danish, indonesian, norwegian, polish (22%), portuguese (brazil), slovak, chinese (81%)',
+		'sha' => 'Checksum: 8fd8268094865ec278ac60f2bfdd01a23be180d0 (SHA-1)'
+	)),
 	'1.0b7' => array(date('d. F Y', $release['1.0b7']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['1.0b7']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-1.0b7.dmg',
