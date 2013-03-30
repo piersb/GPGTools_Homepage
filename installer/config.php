@@ -84,6 +84,7 @@ $changelog = array(
         'sparkle_date' => date(DATE_RFC2822, $release['20130330']),
         'sparkle_url' => 'https://s3.amazonaws.com/gpgtools/GPGTools-20130330.dmg',
         'sparkle_size' => '16733302',
+        'a' => 'Update: Added the latest versions (GPG Keychain Access 1.0, GPGServices 1.8, MacGPG2 2.0.19)',
         'sha' => "Checksum: 617427f478990228f72683cc15d359df5b56a69c (SHA-1)",
         )),
     "20120318" => array(date("d. F Y", $release["20120318"]), array(
