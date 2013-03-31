@@ -178,6 +178,7 @@ BIC COBADEHD055</p>
             <li>David Ripley</li>
             <li>David Theroff</li>
             <li>David Wagner</li>
+            <li>David Williams</li>
             <li>Dean Bailey</li>
             <li>Demetri Mouratis</li>
             <li>Dennis Wegner</li>
@@ -410,6 +411,7 @@ BIC COBADEHD055</p>
             <li>Omer Holzinger</li>
             <li>Onno Johan van Dommelen</li>
             <li>Oscar Koeroo</li>
+            <li>Olivier Melcher</li>
             <li>Olivier Morel</li>
             <li>Patrick Gilmore</li>
             <li>Patrick Santana</li>
@@ -481,6 +483,7 @@ BIC COBADEHD055</p>
             <li>Stefan Larsson</li>
             <li>Steffen Gebert</li>
             <li>Steffen W Soerensen</li>
+            <li>Stephan Azor</li>
             <li>Stephan Hansen-Oest</li>
             <li>Stephan Steinbach</li>
             <li>Stephen D. Scotti</li>
@@ -534,6 +537,7 @@ BIC COBADEHD055</p>
             <li>William McCoy</li>
             <li>William Wellington</li>
             <li>Wolfgang Klimt</li>
+            <li>Wolfgang Müller</li>
             <li>Yann Philipp Kraetzschmann</li>
                 </ul>
             </div>
