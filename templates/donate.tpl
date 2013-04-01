@@ -255,6 +255,7 @@ BIC COBADEHD055</p>
             <li>Isabelle Bettez</li>
             <li>Ivan Stojcevic</li>
             <li>Ivan Storck</li>
+            <li>James Conroy-Finn</li>
             <li>James Hart</li>
             <li>James Lyne</li>
             <li>James Martin</li>
@@ -420,6 +421,7 @@ BIC COBADEHD055</p>
             <li>Paul King</li>
             <li>Paul Miles</li>
             <li>Paul Morten Vikanes</li>
+            <li>Paul Randall</li>
             <li>Paul Richardson</li>
             <li>Pedro Emanuel De Castro Faria Salgado</li>
             <li>Peet McKinney</li>
@@ -448,6 +450,7 @@ BIC COBADEHD055</p>
             <li>Richard Livingston</li>
             <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
+            <li>Rick Hobbs</li>
             <li>Riku Meskanen</li>
             <li>Robert Bahmann</li>
             <li>Robert Balfour</li>
