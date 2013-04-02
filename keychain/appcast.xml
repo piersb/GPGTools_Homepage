@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>GPGTools - GPG Keychain Access - Changelog</title><link>http://www.gpgtools.org/keychain/appcast.xml</link> <atom:link href="http://www.gpgtools.org/keychain/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/keychain/appcast.xml</link><title>GPGTools</title> </image> <language>en</language></channel>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>GPG Keychain Access - Manage your GPG Keychain.</title>
+        <link>https://gpgtools.org/keychain/appcast.xml</link>
+        <description>Release Notes for the latest versions of GPG Keychain Access</description>
+        <language>en</language>
+        <item>
+            <title>GPG Keychain Access v1.0</title>
+            <sparkle:releaseNotesLink>http://gpgtools.org/releases/gka/release-notes.html</sparkle:releaseNotesLink>
+            <pubDate>Fri, 29 Mar 2013 23:01:24 +0100</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGKeychainAccess_1.0.pkg"
+				sparkle:version="196"
+				sparkle:shortVersionString="1.0"
+				length="4089328"
+				type="application/octet-stream"
+				sparkle:dsaSignature="MC4CFQCdLt+GOMlQ00cadJhXdWyTAXMgQgIVAIpbyUmxigTBssNWegCre0NLoaRP" />
+            <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
+		</item>
+    </channel>
 </rss>
