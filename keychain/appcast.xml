@@ -9,12 +9,12 @@
             <title>GPG Keychain Access v1.0</title>
             <sparkle:releaseNotesLink>http://gpgtools.org/releases/gka/release-notes.html</sparkle:releaseNotesLink>
             <pubDate>Fri, 29 Mar 2013 23:01:24 +0100</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGKeychainAccess_1.0.pkg"
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPG Keychain Access-1.0.zip"
 				sparkle:version="196"
 				sparkle:shortVersionString="1.0"
 				length="4089328"
 				type="application/octet-stream"
-				sparkle:dsaSignature="MC4CFQCdLt+GOMlQ00cadJhXdWyTAXMgQgIVAIpbyUmxigTBssNWegCre0NLoaRP" />
+				sparkle:dsaSignature="MC0CFAnxGPa1yG6mer+eB0QxH5IZhKitAhUAjTPGKPAF+DNZn/CNNP4kMgiKPE4=" />
             <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
 		</item>
     </channel>
