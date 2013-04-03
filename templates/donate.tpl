@@ -173,6 +173,7 @@ BIC COBADEHD055</p>
             <li>Dave Diemer</li>
             <li>David G Gray</li>
             <li>David Moser</li>
+            <li>David Noble</li>
             <li>David Norman</li>
             <li>David Oran</li>
             <li>David Ripley</li>
@@ -194,6 +195,7 @@ BIC COBADEHD055</p>
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
             <li>Eero Volotinen</li>
+            <li>Einar Oftedal</li>
             <li>Eirik Øverby</li>
             <li>Ekkehard Gentz</li>
             <li>Enguerrand Dibanda</li>
@@ -452,6 +454,7 @@ BIC COBADEHD055</p>
             <li>Richard Valk</li>
             <li>Rick Hobbs</li>
             <li>Riku Meskanen</li>
+            <li>Robert Allred</li>
             <li>Robert Bahmann</li>
             <li>Robert Balfour</li>
             <li>Robert Dudley</li>
@@ -473,6 +476,7 @@ BIC COBADEHD055</p>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
             <li>Scott Davies</li>
+            <li>Scott Fretheim</li>
             <li>Scott Kuntzelman</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
@@ -550,6 +554,7 @@ BIC COBADEHD055</p>
                   <li>1000°Digital</li>
                   <li>A. Martin IT-Consulting</li>
                   <li>Acuron</li>
+                  <li>Advanced Biocomputing</li>
                   <li>Akademia Bezpieczenstwa</li>
                   <li>Amerandus Research</li>
                   <li>American Registry for Internet Numbers</li>
