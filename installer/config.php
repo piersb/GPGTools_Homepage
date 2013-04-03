@@ -63,8 +63,7 @@ $features = array(
     "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.5 to 10.8, Universal)", 'GPG Keychain Access'),
     "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a> (OS X 10.6 to 10.8)", 'GPGServices'),
     "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGPreferences</a> (OS X 10.6 to 10.8)", 'GPGPreferences'),
-    "$root/macgpg2/images/logo-35px.png" => array("Integrated <a href='$root/macgpg2/index.php'>MacGPG 2</a> (OS X 10.6 to 10.8, Intel)", 'gpg2, gpg-agent, pinentry-mac, macgpg2'),
-    "$root/macgpg1/images/logo-35px.png" => array("Integrated <a href='$root/macgpg1/index.php'>MacGPG 1</a> (OS X 10.5 to 10.7, Universal)", 'gpg1, macgpg1')
+    "$root/macgpg2/images/logo-35px.png" => array("Integrated <a href='$root/macgpg2/index.php'>MacGPG 2</a> (OS X 10.6 to 10.8, Intel)", 'gpg2, gpg-agent, pinentry-mac, macgpg2')
 );
 $theSite->assign('features', $features);
 
