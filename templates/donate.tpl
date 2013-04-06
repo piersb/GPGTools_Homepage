@@ -81,6 +81,7 @@ BIC COBADEHD055</p>
             <li>Adam Pointon</li>
             <li>Adiel Akplogan</li>
             <li>Adrian Sauer</li>
+            <li>Alan Andrews</li>
             <li>Alan Green</li>
             <li>Alexander Kornbrust</li>
             <li>Alexander Kraut</li>
@@ -191,7 +192,8 @@ BIC COBADEHD055</p>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Dmitry Paranyushkin</li>
-            <li>Dennis Otte</li>            
+            <li>Dennis Otte</li>
+            <li>Dominik Miklaszewski</li>
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
             <li>Eero Volotinen</li>
@@ -476,7 +478,6 @@ BIC COBADEHD055</p>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
             <li>Scott Davies</li>
-            <li>Scott Fretheim</li>
             <li>Scott Kuntzelman</li>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
@@ -543,6 +544,7 @@ BIC COBADEHD055</p>
             <li>William L Anderson</li>
             <li>William McCoy</li>
             <li>William Wellington</li>
+            <li>Wolfgang Kilian</li>
             <li>Wolfgang Klimt</li>
             <li>Wolfgang Müller</li>
             <li>Yann Philipp Kraetzschmann</li>
@@ -601,6 +603,7 @@ BIC COBADEHD055</p>
                   <li>JWJS Word Productions</li>
                   <li>Kombinat</li>
                   <li>Libertad</li>
+                  <li>LMG Security</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems</li>
