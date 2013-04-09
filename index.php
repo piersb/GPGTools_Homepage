@@ -15,6 +15,7 @@
     $config = LLConfig::load("config/site.json");
     
     $app = new \Slim\Slim(array('view' => new \Slim\Extras\Views\LLView()));
+    $app->add(new \Slim\Middleware\ContentTypes());
     
     $app->get('/', function() use($app, $config) {
 	   	$view = is_mobile() ? "ios" : "index";
@@ -107,6 +108,38 @@
             exit();
         $app->render("release/release-notes", array("general" => $config->get("general"), "versions" => new LLSmartArray(array($release_notes))));
     });
+    
+    // React to updates on lighthouse, by for example posting them to our HipChat room.
+    $app->map('/api/lighthouse-update', function() use($app, $config) {
+        $notification = $app->request()->getBody();
+        $notification = $notification["version"];
+        flog(sprintf("[LIGHTHOUSE UPDATE] [%s]:\n\t%s", date("Y-m-d H:i:s"), json_encode($notification)), "cache/lighthouse.log");
+        
+        $projects = array("65764" => "GPGMail",
+                          "65684" => "GPG Keychain Access",
+                          "66966" => "GPGPreferences",
+                          "67607" => "GPGServices",
+                          "65161" => "GPGTools Homepage",
+                          "65162" => "GPGTools Installer",
+                          "73378" => "Libmacgpg",
+                          "66001" => "MacGPG2",
+                          "65964" => "Organization");
+        
+        $url = "https://api.hipchat.com/v1/rooms/message";
+        $room_id = "GPGTools";
+        $from = "Lighthouse";
+        $params = array("format" => "json", "auth_token" => HIPCHAT_TOKEN,
+                        "room_id" => $room_id, "from" => "Lighthouse",
+                        "message" => sprintf('New ticket "%s" was created in %s by %s<br><a href="%s">%s</a>', 
+                                             $notification["title"], $projects[$notification["project_id"]], 
+                                             $notification["creator_name"], $notification["url"]),
+                        "message_format" => "html",
+                        "color" => "purple");
+        $response = http_request($url, true, $params);
+        
+        flog(sprintf("\t%s\n", json_encode($response)), "cache/lighthouse.log");
+        return;
+    })->via('POST', 'GET');
     
     $app->post('/ipn/:type', function($type) use($app) {
 	    $type = strtolower($type);
@@ -309,11 +342,11 @@ $_POST = array();
     
     $app->run();
     
-    function flog($msg) {
+    function flog($msg, $file="./paypal-ipn.log") {
 	    if(!DEBUG)
 	    	return;
 	    
-	    $fh = @fopen("./papypal-ipn.log", "a");
+	    $fh = @fopen($file, "a");
         if(!$fh) {
         	echo $msg . "\n";
         	return;
