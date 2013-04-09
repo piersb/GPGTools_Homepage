@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>MacGPG 2 - The GPG engine for OS X.</title>
+        <link>https://gpgtools.org/releases/macgpg2/appcast.xml</link>
+        <description>Release Notes for the latest versions of MacGPG 2</description>
+        <language>en</language>
+        <item>
+            <title>MacGPG 2 v2.0.19</title>
+            <sparkle:releaseNotesLink>https://gpgtools.org/releases/macgpg2/release-notes.html</sparkle:releaseNotesLink>
+            <pubDate>Sat, 30 Mar 2013 15:19:40 +0100</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.19.dmg" sparkle:version="87" sparkle:shortVersionString="2.0.19" length="4850527" type="application/octet-stream"/>
+            <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
+                                </item>
+    </channel>
+</rss>

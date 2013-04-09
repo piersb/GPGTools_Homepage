@@ -23,7 +23,7 @@
          location = "group:config/gpgtools-versions.json">
       </FileRef>
       <FileRef
-         location = "group:config/macgpg-versions.json">
+         location = "group:config/macgpg2-versions.json">
       </FileRef>
       <FileRef
          location = "group:config/supporters.json">
@@ -41,7 +41,7 @@
          location = "group:config/gpgservices.json">
       </FileRef>
       <FileRef
-         location = "group:config/macgpg.json">
+         location = "group:config/macgpg2.json">
       </FileRef>
    </Group>
    <FileRef

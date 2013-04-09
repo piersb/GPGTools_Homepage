@@ -1,0 +1,137 @@
+[
+    {
+        "build": "87",
+        "checksum": "3fda54bbb5df5a8c00b5857a7c8ee9f0b29408f9",
+        "info": {
+            "features": [
+                {
+                    "description": [
+                        "MacGPG2 keeps checking for new versions automatically and will\n    tell you if one is available."
+                    ],
+                    "title": "Be automatically informed of new MacGPG2 versions"
+                },
+                {
+                    "description": [
+                        "Uses the much more stable curl library to query keyservers instead of the\n    curl wrapper included in gnupg, which is the default one if libcurl can't be found."
+                    ],
+                    "title": "No more nasty Keyserver errors"
+                },
+                {
+                    "description": [
+                        "The patent of IDEA has expired in most countries and is now part of MacGPG2.",
+                        "While it's possible to use IDEA for decrypting messages and files, it's not\n    possible to use it to create new keys <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/30-add-idea-support\">#30</a>."
+                    ],
+                    "title": "Supports the legacy IDEA cipher"
+                },
+                {
+                    "description": [
+                        "MacGPG2 supports a variety of different smart cards now <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/85-add-smartcard-support\">#85</a>."
+                    ],
+                    "title": "OpenPGP smart card support"
+                },
+                {
+                    "description": [
+                        "You can easily uninstall MacGPG2 with a single click now <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/6-create-an-uninstaller-script\">#6</a>."
+                    ],
+                    "title": "Uninstaller now included"
+                },
+                {
+                    "description": [
+                        "Latest Pinentry is now included <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/8-pinentry-update-to-081\">#8</a>.",
+                        "Pinentry now allows to store passphrases in givin keychain <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/73-pinentry-mac-should-allow-to-store-passphrases-in-a-given-keychain\">#73</a>.",
+                        "Pinentry used to fail on some systems under certain circumstances. The new version should work everywhere."
+                    ],
+                    "title": "Pinentry updated to 0.8.1"
+                }
+            ],
+            "fixes": [
+                "Enable AES-NI <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/84-via-tender-enable-aes-ni\">#84</a>.",
+                "Added version file for homebrew compatability. <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/95-add-version-file-for-homebrew-compatability\">#95</a>.",
+                "Bug with network shares and GnuPG home <a href=\"https://gpgtools.lighthouseapp.com/projects/66001/tickets/71-gpg-with-network-users\">#71</a>."
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1364653180,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 4850527,
+            "url": "https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.19.dmg"
+        },
+        "version": "2.0.19"
+    },
+    {
+        "checksum": "6fc707319cd6f26fbc902aeec90939ac13aef7f3 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "added missing gpg-agent patch",
+                "fixing invalid gpg.conf files",
+                "Patch to facilitate IDEA support; requires alternative encryption library (NOT INCLUDED)",
+                "fixing permissions",
+                "fixing incorrect options in gpg-agent.conf",
+                "fixing unusable secret keys on 32-bit machines"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1297696800,
+        "sparkle": {
+            "sig": "",
+            "size": "8446511",
+            "url": "http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip"
+        },
+        "version": "2.0.17-9"
+    },
+    {
+        "checksum": "",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Tiger and PPC chips no longer supported",
+                "v2.0.16 will be deleted from your system",
+                "You may need to change the file path for gpg2 to /usr/local/MacGPG2/bin/gpg2",
+                "Removal now as simple as 'sudo rm -fr /usr/local/MacGPG2'",
+                "Core upgraded to GnuPG v2.0.17",
+                "Configured to use standard socket and daemonise gpg agent on the fly if required",
+                "Maximum key size increased to 8192 bits; recommended for expert users only",
+                "Includes GPGTools gpg-agent cache-id option patch",
+                "Installs exclusively under /usr/local/MacGPG2/ removing previous v2.0.16 install",
+                "Creates default gpg configuration file if none exists",
+                "Libksba upgraded to v1.1.0",
+                "Libusb upgraded to v1.0.8"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1295953200,
+        "sparkle": {
+            "sig": "",
+            "size": "8446511",
+            "url": "http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip"
+        },
+        "version": "2.0.17-6"
+    },
+    {
+        "checksum": "",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Last version to support PPC and MacOSX Tiger",
+                "Maximum key size increased to 8192 bits; recommended for expert users only",
+                "Core upgraded to GnuPG v2.0.16",
+                "Configured to use standard socket and daemonise gpg agent on the fly if required",
+                "Libassuan upgraded to v2.0.2-svn389",
+                "Libgpg-error updated to v1.9",
+                "Libgcrypt updated to v1.4.6",
+                "If the agent's --use-standard-socket option is active, all tools try to start and daemonize the agent on the fly. In the past this was only supported on W32; on non-W32 systems the new configure option --use-standard-socket may now be used to use this feature by default",
+                "The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1288522800,
+        "sparkle": {
+            "sig": "",
+            "size": "8446511",
+            "url": "http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip"
+        },
+        "version": "2.0.16"
+    }
+]
