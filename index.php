@@ -128,16 +128,18 @@
         $url = "https://api.hipchat.com/v1/rooms/message";
         $room_id = "GPGTools";
         $from = "Lighthouse";
+        $project_url = sprintf("https://gpgtools.lighthouseapp.com/projects/%s/tickets", $notification["project_id"]);
         $params = array("format" => "json", "auth_token" => HIPCHAT_TOKEN,
                         "room_id" => $room_id, "from" => "Lighthouse",
-                        "message" => sprintf('New ticket "%s" was created in %s by %s<br><a href="%s">%s</a>', 
-                                             $notification["title"], $projects[$notification["project_id"]], 
-                                             $notification["creator_name"], $notification["url"]),
+                        "message" => sprintf('New ticket "%s" was created in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>', 
+                                             $notification["title"], $project_url, $projects[$notification["project_id"]], 
+                                             $notification["creator_name"], $notification["url"], $notification["url"]),
                         "message_format" => "html",
                         "color" => "purple");
+        flog(sprintf("\tHIPCHAT MESSAGE: %s\n", json_encode($params)), "cache/lighthouse.log");
         $response = http_request($url, true, $params);
         
-        flog(sprintf("\t%s\n", json_encode($response)), "cache/lighthouse.log");
+        flog(sprintf("\tRESPONSE: %s\n", json_encode($response)), "cache/lighthouse.log");
         return;
     })->via('POST', 'GET');
     
