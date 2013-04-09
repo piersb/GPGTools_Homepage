@@ -452,4 +452,35 @@
     function is_array_type($array) {
         return is_array($array) || (is_object($array) && get_class($array) == "LLSmartArray");
     }
+    
+    function http_request($url, $get=true, $data=null, $onSuccess=null, $onError=null) {
+        // If data is an array, send a POST request.
+        // Otherwise, use get.
+        $method = $get ? "GET" : "POST";
+        if($get && !empty($data)) {
+            $data = is_array($data) ? http_build_query($data) : $data;
+            $url .= (strpos($url, "?") != -1 ? "&" : "?") . $data;
+        }
+        $request = new \cURL\Request($url);
+        $request->getOptions()->setTimeout(5)
+                              ->setReturnTransfer(true)
+                              ->setHTTPVersion(CURL_HTTP_VERSION_1_1)
+                              ->setSSLVerifyPeer(1)
+                              ->setSSLVerifyHost(2)
+                              ->setForbidReuse(1)
+                              ->setHTTPHeader(array("Connection: Close"));
+        if($method == "POST")
+            $request->getOptions()->setPost(true)
+                                  ->setPostfields($data);
+
+        $response = $request->send();
+        
+        if($response->hasError()) {
+            is_callable($onError) && $onError($response);
+        }
+        
+        is_callable($onSuccess) && $onSuccess($response);
+        
+        return $response;
+    }
 ?>
