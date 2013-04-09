@@ -184,7 +184,7 @@
         
         $params = array("format" => "json", "auth_token" => HIPCHAT_TOKEN,
                         "room_id" => $room_id, "from" => "Lighthouse",
-                        "message" => $message),
+                        "message" => $message,
                         "message_format" => "html",
                         "color" => "purple");
         flog(sprintf("\tHIPCHAT MESSAGE: %s\n", json_encode($params)), "cache/lighthouse.log");
