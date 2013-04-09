@@ -112,10 +112,10 @@
     // React to updates on lighthouse, by for example posting them to our HipChat room.
     $app->map('/api/lighthouse-update', function() use($app, $config) {
         $notification = $app->request()->getBody();
-        $notification = $notification["version"];
         if(!isset($notification["version"]) || !isset($notification["version"]["project_id"]))
             return;
         
+        $notification = $notification["version"];
         $url = "https://api.hipchat.com/v1/rooms/message";
         $room_id = "GPGTools";
         $from = "Lighthouse";
