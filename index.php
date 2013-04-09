@@ -186,19 +186,19 @@
                                    $notification["url"], $notification["url"]);
             }
             else {
-                if(in_array("milestone", $notification["diffable_attributes"]))
+                if(in_array("milestone", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('Milestone of ticket "%s" has been changed to "%s" in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>',
                                        $notification["title"], $notification["milestone_title"], $project_url, $project_name, $notification["creator_name"],
                                        $notification["url"], $notification["url"]);
-                elseif(in_array("state", $notification["diffable_attributes"]))
+                elseif(in_array("state", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('Status of ticket "%s" has been changed to "%s" in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>',
                                        $notification["title"], $notification["state"], $project_url, $project_name, $notification["creator_name"],
                                        $notification["url"], $notification["url"]);
-                elseif(in_array("assigned_user", $notification["diffable_attributes"]))
+                elseif(in_array("assigned_user", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('%s is now responsible for ticket "%s" in <a href="%s">%s</a><br><a href="%s">%s</a>',
                                        $notification["assigned_user_name"], $notification["title"], $project_url, $project_name,
                                        $notification["url"], $notification["url"]);
-                elseif(in_array("importance", $notification["diffable_attributes"]))
+                elseif(in_array("importance", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('Importance of ticket "%s" has been changed to "%s" in <a href="%s">%s</a><br><a href="%s">%s</a>',
                                        $notification["title"], $notification["importance_name"], $project_url, $project_name, 
                                        $notification["url"], $notification["url"]);
