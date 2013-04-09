@@ -459,7 +459,7 @@
         $method = $get ? "GET" : "POST";
         if($get && !empty($data)) {
             $data = is_array($data) ? http_build_query($data) : $data;
-            $url .= (strpos($url, "?") != -1 ? "&" : "?") . $data;
+            $url .= (strpos($url, "?") !== false ? "&" : "?") . $data;
         }
         $request = new \cURL\Request($url);
         $request->getOptions()->setTimeout(5)
