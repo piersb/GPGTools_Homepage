@@ -139,7 +139,7 @@
         flog(sprintf("\tHIPCHAT MESSAGE: %s\n", json_encode($params)), "cache/lighthouse.log");
         $response = http_request($url, true, $params);
         
-        flog(sprintf("\tRESPONSE: %s\n", json_encode($response)), "cache/lighthouse.log");
+        flog(sprintf("\tRESPONSE: %s\n", json_encode($response->content)), "cache/lighthouse.log");
         return;
     })->via('POST', 'GET');
     
