@@ -113,8 +113,13 @@
     $app->map('/api/lighthouse-update', function() use($app, $config) {
         $notification = $app->request()->getBody();
         $notification = $notification["version"];
-        flog(sprintf("[LIGHTHOUSE UPDATE] [%s]:\n\t%s", date("Y-m-d H:i:s"), json_encode($notification)), "cache/lighthouse.log");
+        if(!isset($notification["version"]) || !isset($notification["version"]["project_id"]))
+            return;
         
+        $url = "https://api.hipchat.com/v1/rooms/message";
+        $room_id = "GPGTools";
+        $from = "Lighthouse";
+        $project_url = sprintf("https://gpgtools.lighthouseapp.com/projects/%s/tickets", $notification["project_id"]);
         $projects = array("65764" => "GPGMail",
                           "65684" => "GPG Keychain Access",
                           "66966" => "GPGPreferences",
@@ -125,15 +130,61 @@
                           "66001" => "MacGPG2",
                           "65964" => "Organization");
         
-        $url = "https://api.hipchat.com/v1/rooms/message";
-        $room_id = "GPGTools";
-        $from = "Lighthouse";
-        $project_url = sprintf("https://gpgtools.lighthouseapp.com/projects/%s/tickets", $notification["project_id"]);
+        flog(sprintf("[LIGHTHOUSE UPDATE] [%s]:\n\t%s", date("Y-m-d H:i:s"), json_encode($notification)), "cache/lighthouse.log");
+        
+        // Check if attributes have been added.
+        $attribute_update = count($notification["diffable_attributes"]);
+        // Check if a ticket or a comment has been added.
+        $new_ticket_or_comment = !$attribute_update && !empty($notification["body"]);
+        $new_ticket = $notification["version"] == 1;
+        $new_comment = !$new_ticket;
+        $project_name = $projects[$notification["project_id"]];
+        
+        $attribute_map = array("state" => "Ticket state", "assigned_user" => "Responsible User", "importance" => "Importance",
+                               "milestone" => "Milestone");
+        $importance_map = array("1" => "High", "2" => "Medium", "3" => "Low");
+        
+        $message = "";
+        if($new_ticket_or_comment) {
+            if($new_ticket) {
+                $message = sprintf('New ticket "%s" was created in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>', 
+                                     $notification["title"], $project_url, $project_name, 
+                                     $notification["creator_name"], $notification["url"], $notification["url"]);
+            }
+            else {
+                $message = sprintf('%s added a comment to ticket "%s" in <a href="%s">%s</a><br><br>%s<br><br><a href="%s">%s</a>',
+                                   $notification["creator_name"], $notification["title"], $project_url, $project_name,
+                                   mb_substr($notification["body_html"], 0, 200), $notification["url"], $notification["url"]);
+            }
+        }
+        else if($attribute_update) {
+            $attribute_info = array();
+            foreach($notification["diffable_attributes"] as $attribute => $old_value) {
+                $name = isset($attribute_map[$attribute]) ? $attribute_map[$attribute] : $attribute;
+                $to_value = "";
+                if($attribute == "importance") {
+                    $old_value = $importance_map[$old_value];
+                    $to_value = $importance_map[$notification["importance"]];
+                }
+                else if($attribute == "assigned_user") {
+                    $to_value = $notification["assigned_user_name"];
+                }
+                else if($attribute == "milestone") {
+                    $to_value = $notification["milestone_title"];
+                }
+                $attribute_info[] = sprintf("%s was changed from %s to %s", $name, $old_value === null ? "N/A" : $old_value, 
+                                            $to_value);
+            }
+            $attribute_info_str = join($attribute_info, "<br>");
+            
+            $message = sprintf('Attributes of ticket "%s" in <a href="%s">%s</a> have been changed by %s<br><br>%s<br><br><a href="%s">%s</a>',
+                               $notification["title"], $project_url, $project_name, $notification["creator_name"], $attribute_info_str,
+                               $notification["url"], $notification["url"]);
+        }
+        
         $params = array("format" => "json", "auth_token" => HIPCHAT_TOKEN,
                         "room_id" => $room_id, "from" => "Lighthouse",
-                        "message" => sprintf('New ticket "%s" was created in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>', 
-                                             $notification["title"], $project_url, $projects[$notification["project_id"]], 
-                                             $notification["creator_name"], $notification["url"], $notification["url"]),
+                        "message" => $message),
                         "message_format" => "html",
                         "color" => "purple");
         flog(sprintf("\tHIPCHAT MESSAGE: %s\n", json_encode($params)), "cache/lighthouse.log");
