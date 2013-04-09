@@ -159,27 +159,50 @@
         }
         else if($attribute_update) {
             $attribute_info = array();
-            foreach($notification["diffable_attributes"] as $attribute => $old_value) {
-                $name = isset($attribute_map[$attribute]) ? $attribute_map[$attribute] : $attribute;
-                $to_value = "";
-                if($attribute == "importance") {
-                    $old_value = $importance_map[$old_value];
-                    $to_value = $importance_map[$notification["importance"]];
+            if(count($notification["diffable_attributes"]) > 1) {
+                foreach($notification["diffable_attributes"] as $attribute => $old_value) {
+                    $name = isset($attribute_map[$attribute]) ? $attribute_map[$attribute] : $attribute;
+                    $to_value = "";
+                    if($attribute == "importance") {
+                        $old_value = $importance_map[$old_value];
+                        $to_value = $importance_map[$notification["importance"]];
+                    }
+                    else if($attribute == "assigned_user") {
+                        $to_value = $notification["assigned_user_name"];
+                    }
+                    else if($attribute == "milestone") {
+                        $to_value = $notification["milestone_title"];
+                    }
+                    else if($attribute == "state")
+                        $to_value = $notification["state"];
+                    
+                    $attribute_info[] = sprintf("* %s was changed from %s to %s", $name, $old_value === null ? "N/A" : $old_value, 
+                                                $to_value);
                 }
-                else if($attribute == "assigned_user") {
-                    $to_value = $notification["assigned_user_name"];
-                }
-                else if($attribute == "milestone") {
-                    $to_value = $notification["milestone_title"];
-                }
-                $attribute_info[] = sprintf("%s was changed from %s to %s", $name, $old_value === null ? "N/A" : $old_value, 
-                                            $to_value);
+                $attribute_info_str = join($attribute_info, "<br>");
+
+                $message = sprintf('Attributes of ticket "%s" in <a href="%s">%s</a> have been changed by %s<br><br>%s<br><br><a href="%s">%s</a>',
+                                   $notification["title"], $project_url, $project_name, $notification["creator_name"], $attribute_info_str,
+                                   $notification["url"], $notification["url"]);
             }
-            $attribute_info_str = join($attribute_info, "<br>");
-            
-            $message = sprintf('Attributes of ticket "%s" in <a href="%s">%s</a> have been changed by %s<br><br>%s<br><br><a href="%s">%s</a>',
-                               $notification["title"], $project_url, $project_name, $notification["creator_name"], $attribute_info_str,
-                               $notification["url"], $notification["url"]);
+            else {
+                if(in_array("milestone", $notification["diffable_attributes"]))
+                    $message = sprintf('Milestone of ticket "%s" has been changed to "%s" in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>',
+                                       $notification["title"], $notification["milestone_title"], $project_url, $project_name, $notification["creator_name"],
+                                       $notification["url"], $notification["url"]);
+                elseif(in_array("state", $notification["diffable_attributes"]))
+                    $message = sprintf('Status of ticket "%s" has been changed to "%s" in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>',
+                                       $notification["title"], $notification["state"], $project_url, $project_name, $notification["creator_name"],
+                                       $notification["url"], $notification["url"]);
+                elseif(in_array("assigned_user", $notification["diffable_attributes"]))
+                    $message = sprintf('%s is now responsible for ticket "%s" in <a href="%s">%s</a><br><a href="%s">%s</a>',
+                                       $notification["assigned_user_name"], $notification["title"], $project_url, $project_name,
+                                       $notification["url"], $notification["url"]);
+                elseif(in_array("importance", $notification["diffable_attributes"]))
+                    $message = sprintf('Importance of ticket "%s" has been changed to "%s" in <a href="%s">%s</a><br><a href="%s">%s</a>',
+                                       $notification["title"], $notification["importance_name"], $project_url, $project_name, 
+                                       $notification["url"], $notification["url"]);
+            }
         }
         
         $params = array("format" => "json", "auth_token" => HIPCHAT_TOKEN,
