@@ -377,6 +377,7 @@ BIC COBADEHD055</p>
             <li>Michael Klotz</li>
             <li>Michael Krzyzanski</li>
             <li>Michael Langford</li>
+            <li>Michael Lenk</li>
             <li>Michael Prewitt</li>
             <li>Michael Ruse</li>
             <li>Michael Sarabosing</li>
@@ -427,6 +428,7 @@ BIC COBADEHD055</p>
             <li>Paul Morten Vikanes</li>
             <li>Paul Randall</li>
             <li>Paul Richardson</li>
+            <li>Paul van Schaik</li>
             <li>Pedro Emanuel De Castro Faria Salgado</li>
             <li>Peet McKinney</li>
             <li>Peter Eckel</li>
@@ -477,6 +479,7 @@ BIC COBADEHD055</p>
             <li>Ryan Maple</li>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
+            <li>Scott Blystone</li>
             <li>Scott Davies</li>
             <li>Scott Kuntzelman</li>
             <li>Scott Stonefield</li>
@@ -548,6 +551,7 @@ BIC COBADEHD055</p>
             <li>Wolfgang Klimt</li>
             <li>Wolfgang Müller</li>
             <li>Yann Philipp Kraetzschmann</li>
+            <li>Zaid Ali Kahn</li>
                 </ul>
             </div>
             <div class="table right">
@@ -661,6 +665,7 @@ BIC COBADEHD055</p>
                   <li>Translucent ApS</li>
                   <li>Triton Limited</li>
                   <li>TX512 Web Services</li>
+                  <li>Upyolic Soft</li>
                   <li>uscreen GmbH</li>
                   <li>Webmacher</li>
                   <li>Windstream Hosted Solutions</li>
