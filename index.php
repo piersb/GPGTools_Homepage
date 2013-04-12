@@ -153,7 +153,7 @@
             }
             else {
                 $message = sprintf('%s added a comment to ticket "%s" in <a href="%s">%s</a><br><br>%s<br><br><a href="%s">%s</a>',
-                                   $notification["creator_name"], $notification["title"], $project_url, $project_name,
+                                   $notification["user_name"], $notification["title"], $project_url, $project_name,
                                    mb_substr($notification["body_html"], 0, 200), $notification["url"], $notification["url"]);
             }
         }
@@ -182,17 +182,17 @@
                 $attribute_info_str = join($attribute_info, "<br>");
 
                 $message = sprintf('Attributes of ticket "%s" in <a href="%s">%s</a> have been changed by %s<br><br>%s<br><br><a href="%s">%s</a>',
-                                   $notification["title"], $project_url, $project_name, $notification["creator_name"], $attribute_info_str,
+                                   $notification["title"], $project_url, $project_name, $notification["user_name"], $attribute_info_str,
                                    $notification["url"], $notification["url"]);
             }
             else {
                 if(in_array("milestone", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('<b>Milestone</b> of ticket "%s" has been changed to "<b>%s</b>" in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>',
-                                       $notification["title"], $notification["milestone_title"], $project_url, $project_name, $notification["creator_name"],
+                                       $notification["title"], $notification["milestone_title"], $project_url, $project_name, $notification["user_name"],
                                        $notification["url"], $notification["url"]);
                 elseif(in_array("state", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('<b>Status</b> of ticket "%s" has been changed to "<b>%s</b>" in <a href="%s">%s</a> by %s<br><a href="%s">%s</a>',
-                                       $notification["title"], $notification["state"], $project_url, $project_name, $notification["creator_name"],
+                                       $notification["title"], $notification["state"], $project_url, $project_name, $notification["user_name"],
                                        $notification["url"], $notification["url"]);
                 elseif(in_array("assigned_user", array_keys($notification["diffable_attributes"])))
                     $message = sprintf('<b>%s</b> is now responsible for ticket "%s" in <a href="%s">%s</a><br><a href="%s">%s</a>',
