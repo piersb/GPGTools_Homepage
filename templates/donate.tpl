@@ -126,6 +126,7 @@ BIC COBADEHD055</p>
             <li>Bill Bohlman</li>
             <li>Bill Woodcock</li>
             <li>Bjoern Brauel</li>
+            <li>Björn Heller</li>
             <li>Bjørn Olav Listog</li>
             <li>Boris-Michael Steinke</li>
             <li>Brian Bodemann</li>
@@ -173,6 +174,7 @@ BIC COBADEHD055</p>
             <li>Daryl Hunter</li>
             <li>Dave Diemer</li>
             <li>David G Gray</li>
+            <li>David Haag</li>
             <li>David Moser</li>
             <li>David Noble</li>
             <li>David Norman</li>
@@ -221,10 +223,11 @@ BIC COBADEHD055</p>
             <li>Franco Fichtner</li>
             <li>Frank Reta</li>
             <li>Fred Faber</li>
+            <li>Frederic Jacobs</li>
             <li>Frederic Jacquet</li>
             <li>Frederic Jouvin</li>
-            <li>Fredric Moses</li>
             <li>Frederik Braad</li>
+            <li>Fredric Moses</li>
             <li>Fredrik Ulfson</li>
             <li>Fritz Mielert</li>
             <li>Furuno Satoshi</li>
@@ -264,6 +267,7 @@ BIC COBADEHD055</p>
             <li>James Hart</li>
             <li>James Lyne</li>
             <li>James Martin</li>
+            <li>James Mecham</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
             <li>James Wissick</li>
@@ -382,6 +386,7 @@ BIC COBADEHD055</p>
             <li>Michael Prewitt</li>
             <li>Michael Ruse</li>
             <li>Michael Sarabosing</li>
+            <li>Michael Weiß</li>
             <li>Miguel Cordas</li>
             <li>Mika Goeckel</li>
             <li>Mike Davis</li>
