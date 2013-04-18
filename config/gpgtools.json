@@ -1,0 +1,6 @@
+{
+	"version-info": {
+		"versions": "./gpgtools-versions.json"
+	},
+	"view": "gpgtools"
+}

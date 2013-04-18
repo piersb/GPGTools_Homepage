@@ -24,14 +24,7 @@
 		"auto-update": {"text": "Automatically downloads new updates as they become available.", "image": "sparkle-updates.png"}
 	},
     "sections": {
-        "gpgtools": {
-            "version-info": {
-                "current-version": "20120318",
-                "checksum": "184bf74e55c509da0aa4943ab7cc39ecd5caf99f",
-                "versions": "./gpgtools-versions.json"
-            },
-            "view": "gpgtools"
-        },
+        "gpgtools": "./gpgtools.json",
         "gpgmail": "./gpgmail.json",
         "gka": "./gka.json",
         "gpg-keychain-access": "./gka.json",
