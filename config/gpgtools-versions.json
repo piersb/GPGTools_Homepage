@@ -1,4 +1,30 @@
 [
-    {"version": "0.1", "url": "http://"},
-    {"version": "0.2", "url": "http://"}
+    {
+        "build": "180",
+        "checksum": "d42dd37dedeb92bcb99eefc50086588020acf74d",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Nothing"
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1366280750,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 16782625,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGTools-1.0.dmg"
+        },
+        "version": "1.0"
+    },
+    {
+        "newest-version": false,
+        "url": "http://",
+        "version": "0.1"
+    },
+    {
+        "newest-version": false,
+        "url": "http://",
+        "version": "0.2"
+    }
 ]
