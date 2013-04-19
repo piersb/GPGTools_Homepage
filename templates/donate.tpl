@@ -100,6 +100,7 @@ BIC COBADEHD055</p>
             <li>Andreas Wenzel</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
+            <li>Andrew Rabbitt</li>
             <li>Andrew Zeneski</li>
             <li>Andy Powell</li>
             <li>Anja Marks</li>
@@ -198,6 +199,7 @@ BIC COBADEHD055</p>
             <li>Dominik Miklaszewski</li>
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
+            <li>Earl Robinson</li>
             <li>Eero Volotinen</li>
             <li>Einar Oftedal</li>
             <li>Eirik Øverby</li>
@@ -307,6 +309,7 @@ BIC COBADEHD055</p>
             <li>Jørn Martin Tysnes Holm</li>
             <li>Josef Buergler</li>
             <li>Joseph Kelley</li>
+            <li>Joseph Stevensen</li>
             <li>Josh Ballard</li>
             <li>Josh Ellis</li>
             <li>Jozef Mares</li>
@@ -413,6 +416,7 @@ BIC COBADEHD055</p>
             <li>Nicolai Moles-Benfell</li>
             <li>Nicolas Rudaz</li>
             <li>Niels Huijbregts</li>
+            <li>Niko Auer</li>
             <li>Nishal Goburdhan</li>
             <li>Noel Ambroise Spinec</li>
             <li>Odo Wolbers</li>
@@ -497,6 +501,7 @@ BIC COBADEHD055</p>
             <li>Shawn Becker</li>
             <li>Shlok Datye</li>
             <li>Simon Entwistle</li>
+            <li>Simon Schlachter</li>
             <li>Stefan Larsson</li>
             <li>Steffen Gebert</li>
             <li>Steffen W Soerensen</li>
@@ -514,6 +519,7 @@ BIC COBADEHD055</p>
             <li>Sven Schwyn</li>
             <li>Sven Steinheißer</li>
             <li>Taddong</li>
+            <li>Tadeusz Motylewski</li>
             <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
             <li>Teodor Cimpoesu</li>
@@ -598,8 +604,9 @@ BIC COBADEHD055</p>
                   <li>Five Reels</li>
                   <li>Flexcellence UG</li>
 	          	  <li>Fotostudio Ludwig</li>
-                  <li>freistil IT GbR</li>
                   <li>Forced Web</li>
+                  <li>freistil IT GbR</li>
+                  <li>friends4net</li>
                   <li>Gekko IT</li>
                   <li>Hacking Team</li>
                   <li>Heindel - IT Solutions & Consulting</li>
