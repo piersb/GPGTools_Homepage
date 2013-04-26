@@ -97,6 +97,7 @@ BIC COBADEHD055</p>
             <li>Anders Nor Berle</li>
             <li>Anders Rayner-Karlsson</li>
             <li>Andreas Hahn</li>
+            <li>Andreas Karsten</li>
             <li>Andreas Wenzel</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
@@ -200,6 +201,7 @@ BIC COBADEHD055</p>
             <li>Dominik Miklaszewski</li>
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
+            <li>Duri Campell</li>
             <li>Earl Robinson</li>
             <li>Eero Volotinen</li>
             <li>Einar Oftedal</li>
@@ -214,6 +216,7 @@ BIC COBADEHD055</p>
             <li>Erich Neuwirth</li>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
+            <li>Eugene Myers</li>
             <li>Fabian Zeindl</li>
             <li>Federico Hatoum</li>
             <li>Felix Hermann</li>
@@ -348,6 +351,7 @@ BIC COBADEHD055</p>
             <li>Lukas Spieß</li>
             <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
+            <li>Marcel Seeber</li>
             <li>Magne Larsen</li>
             <li>Magnus Hellmark</li>
             <li>Manuel Tiedtke</li>
@@ -409,6 +413,7 @@ BIC COBADEHD055</p>
             <li>Narath Carlile</li>
             <li>Nathan Pearlstein</li>
             <li>Neal Connor</li>
+            <li>Nebolsin Sergey</li>
             <li>Neil Brown</li>
             <li>Neil Jarvis</li>
             <li>Nelson R A De Britoax</li>
@@ -511,6 +516,7 @@ BIC COBADEHD055</p>
             <li>Stephan Steinbach</li>
             <li>Stephen D. Scotti</li>
             <li>Stephen Ulmer</li>
+            <li>Steve Zipfel</li>
             <li>Steven Crow</li>
             <li>Steven Herr</li>
             <li>Stijn Jonker</li>
@@ -524,6 +530,7 @@ BIC COBADEHD055</p>
             <li>Takashi Matsushita</li>
             <li>Tax Return Team</li>
             <li>Teodor Cimpoesu</li>
+            <li>Terrence OConnor</li>
             <li>Theresa ONeill</li>
             <li>Thomas Bruehl</li>
             <li>Thomas Gillier</li>
@@ -534,6 +541,7 @@ BIC COBADEHD055</p>
             <li>Thore Siebrands</li>
             <li>Timo Achilles</li>
             <li>TJ Marbois</li>
+            <li>Todd Kuebler</li>
             <li>Tom DeLozier</li>
             <li>Tomáš Kohút</li>
             <li>Tony Di Bernardo</li>
@@ -674,6 +682,7 @@ BIC COBADEHD055</p>
                   <li class="premium">SURFnet</li>
                   <li>sw4 Stefan Wild</li>
                   <li>Tall Poppy Group</li>
+                  <li>team A design</li>
                   <li>TeKnack</li>
                   <li>Tradeo</li>
                   <li>train4media</li>
