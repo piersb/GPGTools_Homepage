@@ -275,6 +275,7 @@ BIC COBADEHD055</p>
             <li>James Conroy-Finn</li>
             <li>James Hart</li>
             <li>James Lyne</li>
+            <li>James Manley</li>
             <li>James Martin</li>
             <li>James Mecham</li>
             <li>James Moya</li>
@@ -451,6 +452,7 @@ BIC COBADEHD055</p>
             <li>Paul van Schaik</li>
             <li>Pedro Emanuel De Castro Faria Salgado</li>
             <li>Peet McKinney</li>
+            <li>Perry Smith</li>
             <li>Peter Eckel</li>
             <li>Peter Krantz</li>
             <li>Peter Mack</li>
@@ -500,6 +502,7 @@ BIC COBADEHD055</p>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
             <li>Scott Blystone</li>
+            <li>Scott Brenner</li>
             <li>Scott Davies</li>
             <li>Scott Kuntzelman</li>
             <li>Scott Stonefield</li>
@@ -574,6 +577,7 @@ BIC COBADEHD055</p>
             <li>William L Anderson</li>
             <li>William McCoy</li>
             <li>William Wellington</li>
+            <li>Wilson Miller</li>
             <li>Wolfgang Kilian</li>
             <li>Wolfgang Klimt</li>
             <li>Wolfgang Müller</li>
@@ -588,6 +592,7 @@ BIC COBADEHD055</p>
                   <li>A. Martin IT-Consulting</li>
                   <li>Acuron</li>
                   <li>Advanced Biocomputing</li>
+                  <li>AG Projects</li>
                   <li>Akademia Bezpieczenstwa</li>
                   <li>Amerandus Research</li>
                   <li>American Registry for Internet Numbers</li>
