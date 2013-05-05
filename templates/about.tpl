@@ -41,16 +41,9 @@
                  </form>
 
             <p class="clear"><br/></p>
-            <h3 id="contactyou">For Users</h3>
+            <h3 id="contactyou">Important Links</h3>
             <ul class="sub projects">
-                <li><div class="project smallicons"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Announcements</a></div></li>
                 <li><div class="project smallicons"><a href="./files/gpgtools.asc" title="Our OpenPGP Key"><img src="{$root}/images/gpgkey.png" title="Our OpenPGP Key" alt="gpgkey" class="logo2" /><br/>Our OpenPGP Key</a></div></li>
-                <li><div class="project smallicons"><a href="appcast.xml" title="subscribe our appcast feed"><img src="{$root}/images/rss.png" title="subscribe our appcast feed" alt="rss" /><br/>Appcast Feed</a></div></li>
-            </ul>
-            <p class="clear"><br/></p>
-            <h3 id="getinvolved">For Developers</h3>
-            <ul class="sub projects">
-                 <li><div class="project smallicons"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /><br/>Developer List</a></div></li>
                 <li><div class="project smallicons"><a href="http://github.com/gpgtools/" title="Github page"><img src="{$root}/images/octocat.png" title="github page" alt="github" class="logo2" /><br/>Github Page</a></div></li>
                 <li><div class="project smallicons"><a href="http://gpgtools.lighthouseapp.com/tickets" title="issue tracker"><img src="{$root}/images/lighthouseapp.png" title="issue tracker" alt="lighthouseapp" /><br/>Bug Tracker</a></div></li>
                 <li><div class="project smallicons"><a href="http://gpgtools.lighthouseapp.com/events.atom" title="subscribe our bug tracker feed"><img src="{$root}/images/rss.png" title="subscribe our bug tracker feed" alt="rss" /><br/>Tracker Feed</a></div></li>
