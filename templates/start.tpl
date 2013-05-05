@@ -41,13 +41,11 @@
             </div>
 
             <ul class="sub"></ul>
-            <p>GPGTools is a collection of several softwares, bringing
-            encryption/decryption and signing of e-mails and files, to you on your mac. (See
-            <a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
-            if you use Windows.) The main goal is to bring
+            <p>GPGTools is a software collection that brings encryption/decryption and signing of e-mails and files, to you on your mac (for Windows use
+            <a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>). The main goal is to bring
             <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">OpenPGP</a>
             - in the form of an easy installer package based on
-            <a href="http://www.gpgtools.org/macgpg2/index.html" title="MacGPG2">MacGPG</a> - to Apple's OS X.
+            <a href="http://www.gpgtools.org/macgpg2/index.html" title="MacGPG2">MacGPG</a> - to Mac OS X.
             Read the <a href="http://support.gpgtools.org/kb/how-to/introduction-to-cryptography" title="Introduction to OpenPGP">introduction</a>,
             in order to get a detailed idea of how PGP works.</p><br>
             <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a>
