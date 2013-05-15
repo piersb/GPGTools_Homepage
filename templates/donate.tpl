@@ -109,6 +109,7 @@ BIC COBADEHD055</p>
             <li>Anja Marks</li>
             <li>Antoine Delvaux</li>
             <li>Anton Umnitsyn</li>
+            <li>Antonio Salguero</li>
             <li>Arne Fahrenwalde</li>
             <li>Arne Frick</li>
             <li>Art Taylor</li>
@@ -147,6 +148,7 @@ BIC COBADEHD055</p>
             <li>Carlos Eduardo Bezerra</li>
             <li>Carsten Bormann</li>
             <li>Carsten Zeitz</li>
+            <li>Casey Robb</li>
             <li>Chad Stanke</li>
             <li>Charles Meyer-Amiez</li>
             <li>Chavalit Srisathapornphat</li>
@@ -289,6 +291,7 @@ BIC COBADEHD055</p>
             <li>Jeff Smith</li>
             <li>Jeffrey Pajor</li>
             <li>Jennifer Savage</li>
+            <li>Jens Ziegler</li>
             <li>Jerry W Dixon Jr</li>
             <li>Jessica Stolz</li>
             <li>Jim Killock</li>
@@ -326,6 +329,7 @@ BIC COBADEHD055</p>
             <li>Jürgen Kessler</li>
             <li>Jürgen Nickelsen</li>
             <li>Julian Albert</li>
+            <li>Julio Sangrador-Paton</li>
             <li>Kamil Shakirov</li>
             <li>Karl Pietrzak</li>
             <li>Kaspar Vollenweider</li>
@@ -350,6 +354,7 @@ BIC COBADEHD055</p>
             <li>Linwood Ma</li>
             <li>Lorenzo Grespan</li>
             <li>Luc Dandoy</li>
+            <li>Luca Bertagnolio</li>
             <li>Luca Carettoni</li>
             <li>Lucas Fowler</li>
             <li>Lukas Spieß</li>
@@ -387,6 +392,7 @@ BIC COBADEHD055</p>
             <li>Meit</li>
             <li>Michael Campbell</li>
             <li>Michael Dierck</li>
+            <li>Michael Drake</li>
             <li>Michael Geller</li>
             <li>Michael Gracie</li>
             <li>Michael Halsall</li>
@@ -601,6 +607,7 @@ BIC COBADEHD055</p>
 				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
                   <li>Bimatics</li>
+                  <li>Bivol</li>
                   <li>BPRAgency</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
@@ -621,10 +628,11 @@ BIC COBADEHD055</p>
                   <li>Evio Group</li>
                   <li>Firehouse Network Consulting</li>
                   <li>Five Reels</li>
-                  <li>Flexcellence UG</li>
+                  <li>Flexcellence</li>
 	          	  <li>Fotostudio Ludwig</li>
                   <li>Forced Web</li>
                   <li>freistil IT GbR</li>
+                  <li>Freshworx</li>
                   <li>friends4net</li>
                   <li>Gekko IT</li>
                   <li>Hacking Team</li>
