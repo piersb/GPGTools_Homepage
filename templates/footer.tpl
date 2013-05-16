@@ -34,6 +34,11 @@ var _paq = _paq || [];
 <!-- End Piwik Tag -->
 
   <!-- openPGP -->
+  		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  		<script src="{$root}/js/jquery.lettering.js"></script>
+  		<script src="{$root}/js/jquery.textillate.js"></script>
+  		<script src="{$root}/js/jquery.cookie.js"></script>
+  		<script src="{$root}/js/ml-teaser.js"></script>
         <script src="{$root}/js/mail.js"></script>
         <script src="{$root}/js/hanewin/sha1.js" type="text/javascript" charset="utf-8" defer="defer"></script>
         <script src="{$root}/js/hanewin/cast5.js" type="text/javascript" charset="utf-8" defer="defer"></script>

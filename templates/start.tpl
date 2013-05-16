@@ -1,6 +1,6 @@
 {extends file="index.tpl"}
 {block name=body}
-    <div id="overview">
+	<div id="overview">
       <div id="o_content"></div>
     </div>
     <div id="spacer">

@@ -20,14 +20,39 @@
   <link rel="shortcut icon" href="{$root}/favicon.ico">
   <link rel="apple-touch-icon" href="{$root}/apple-touch-icon.png">
   <link rel="stylesheet" media="all" href="{$root}/css/style.css?v=2">
+  <link rel="stylesheet" media="all" href="{$root}/css/ml-teaser.css">
   <!--[if (gt IE 9)|!(IE)]><!-->   <link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="{$root}/css/badge.css?v=2" /> <!--<![endif]-->
   <link href="http://twitter.com/statuses/user_timeline/170783148.rss" rel="alternate" title="recent tweets" type="application/rss+xml" />
   <link href="appcast.xml" rel="alternate" title="recent releases" type="application/rss+xml" />
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="{$root}/js/libs/modernizr-1.6.min.js"></script>
+  {literal}
+  <script type="text/javascript" src="//use.typekit.net/cnm0xto.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  {/literal}
 </head>
 
 <body>
+  <div id="gpgmail-ml-overlay"></div>
+  <div id="gpgmail-ml-teaser">
+    <div class="ml-content clearfix">
+      <div class="ml-logo">
+        <img src="/images/ml-teaser/gpgmail-ml-logo.png" width="408" height="687" alt="GPGMail Mountain Lion Logo">
+      </div>
+      <div class="ml-text">
+	    <div class="ml-new"><img src="/images/ml-teaser/new-badge.png" alt="new-badge" width="95" height="53" /></div>
+		<hgroup>
+		  <h1>GPGMail</h1>
+		  <h2><span>The new GPGMail is here with full support for</span><span class="highlight">OS X 10.8 Mountain Lion</span>.</span><span>We couldn't be more excited to finally share it with you!</span></h2>
+		</hgroup>
+		<p>Please consider that while this version is working really well,
+		   we still consider it to be a beta version. Expect the occasional crash
+		   and please report any bugs on our <a href="http://support.gpgtools.org">Support Platform</a>.</p>
+		<a href="{$gpgmail_ml_url}" class="download-ml"><span>GET IT NOW!</span></a>
+		<div class="continue-to-site"> or <a href="#">&nbsp;&nbsp;&nbsp;Continue to site</a></div>
+      </div>
+    </div>
+  </div>
   <div id="container">
     <header>
       <div id="foo">
