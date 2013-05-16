@@ -34,7 +34,7 @@ var _paq = _paq || [];
 <!-- End Piwik Tag -->
 
   <!-- openPGP -->
-  		<script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   		<script src="{$root}/js/jquery.lettering.js"></script>
   		<script src="{$root}/js/jquery.textillate.js"></script>
   		<script src="{$root}/js/jquery.cookie.js"></script>
