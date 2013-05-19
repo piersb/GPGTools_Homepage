@@ -9,7 +9,7 @@
 			type = null
 		}
 			
-		type = typeof $el != 'undefined' && $el.constructor == String ? $el : type;
+		type = (typeof $el != 'undefined') && $el != null && $el.constructor == String ? $el : type;
 		$el = $el instanceof jQuery ? $el : $(this); 
 		
 		// Get the deferred from the current element. If it doesn't exist, well
@@ -107,6 +107,15 @@ function showMLTeaser() {
 				 })
 				 .delayedTransition($textSection.find(".download-ml"), "scaleFade")
 				 .delayedTransition($continue, "fade")
+				 .delayedTransition(null, function() {
+					 // Hide when the user presses esc.
+					 $(document).on("keyup.custom", function(e) {
+						 if(e.keyCode == 27) {
+						 	hideMLTeaser()
+						 	$(document).unbind("keypress.custom")
+						 }
+					 })
+				 })
 	$(".ml-logo").startTransitions()
 	
 	$("#gpgmail-ml-teaser .download-ml").unbind("click").click(function(evt) {
@@ -120,6 +129,8 @@ function showMLTeaser() {
 			$("#gpgmail-ml-teaser .ml-description").fadeIn()
 		})
 	})
+	
+	
 	
 	$continue.find("a").unbind("click").click(function(evt) {
 		evt.preventDefault()
