@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en">
+<!--<![endif]--><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/sparkle-release-notes.1364588334.css">
+<link rel="stylesheet" href="/css/futura-general.css">
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript">
+  (function() {
+    var config = {
+      kitId: 'cnm0xto',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+  </script>
+</head>
+<body>
+  <div role="main"><div class="sparkle-release-notes">
+                <div class="version" data-version="2.0b6" data-build="140b" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0b6 <span class="build">(build 140b)</span></span> <time datetime="2013-05-20">May 20th, 2013</time>
+</h1>
+            
+                        <div class="features">
+                                <div class="feature">
+                                        <h3>Full support for OS X Mountain Lion.</h3>
+                    
+                                        <ul>
+<li>Finally, the sandboxing issues are resolved and this version is<br>
+completely compatible with OS X Mountain Lion.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Added Sparkle update support on Mountain Lion</h3>
+                    
+                                        <ul>
+<li>You'll be seeing an alert from within Mail.app if a new version of GPGMail<br>
+is available.</li>
+                                                <li>You can choose between different types of releases:<ul>
+<br><li>nightly: each development build will appear as an update</li>
+<br><li>pre-release: alpha and beta builds will appear as an update</li>
+<br><li>stable: only stable builds will appear as an update<br>
+(requires upcoming GPGPreferences)</li>
+<br>
+</ul>
+<br>
+</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Proper error handling of encryption or signing failures.</h3>
+                    
+                                        <ul>
+<li>Each error message you'll see includes some hint on how to fix it.</li>
+                                                <li>If GPGMail can't handle an error, you'll see some detailed information from<br>
+the underlying gnupg engine, which you can post on our support forum.<br>
+That will help us to find a solution much quicker.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Defaults, gpg.conf and gpg-agent.conf are now parsed again on Mountain Lion</h3>
+                    
+                                        <ul>
+<li>Previously the OS X sandbox didn't allow GPGMail to access the config files.</li>
+                                                <li>Config files are saved outside of the sandbox as they were on Lion.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Support seamless switching between S/MIME and OpenPGP</h3>
+                    
+                                        <ul>
+<li>The security indicator on the upper right side of the composer window<br>
+allows you to choose between using OpenPGP or S/MIME.</li>
+                                                <li>We've added handy shortcuts to switch between them quickly.</li>
+                                                <li>When either sign or encrypt is enabled, the security indicator will change color,<br>
+from grey to green.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Support for groups in gpg.conf</h3>
+                    
+                                        <ul>
+<li>You can use the groups feature of the gpg.conf to map a specific address (e.g. mailing list)<br>
+to a specific key.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Create list preview snippets.</h3>
+                    
+                                        <ul>
+<li>Show a preview of your encrypted message in the Mail.app list preview (2nd column).</li>
+                                                <li>Choose whether you want to create these previews in the GPGMail preference pane.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Support the selection of the secret key to use if more than one exists for the same address</h3>
+                    
+                                        <ul>
+<li>Select the correct secret key to use from the "From: " drop down.</li>
+                                                <li>For each available key the key id is displayed so it's easy to spot the right key.</li>
+                                            </ul>
+</div>
+                                <div class="feature">
+                                        <h3>Display hints why encryption or signing might not be possible</h3>
+                    
+                                        <ul>
+<li>When hovering over one of the encrypt or sign buttons in the composer window,<br>
+a message is now displayed, explaining why encryption or signing is not possible.</li>
+                                                <li>For example if the public key is missing, or no secret key for the from address<br>
+could be found.</li>
+                                            </ul>
+</div>
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>User choice for encrypt/sign status always sticks now.</li>
+                                        <li>Better installation handling.</li>
+                                        <li>Added all UUIDs since 10.7.0.</li>
+                                        <li>FlippedView error message is no longer shown in Console.</li>
+                                        <li>Version string is no longer cut off in the GPGMail preference pane.</li>
+                                        <li>The signature view now shows the creation date of the signature.</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0b4" data-build="405" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0b4 <span class="build">(build 405)</span></span> <time datetime="2012-02-13">February 13th, 2012</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>A huge bunch of fixes</li>
+                                        <li>So crazy much</li>
+                                        <li>It's not even real how much is in there...</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a30" data-build="230" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a30 <span class="build">(build 230)</span></span> <time datetime="2012-02-13">February 13th, 2012</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>Disables excessive logging which might have written sensitive information to /var/log/system.log* in some cases.</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a21" data-build="" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a21 </span> <time datetime="2011-12-27">December 27th, 2011</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>Just another update that fixes some issues and enhances the stability</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a19" data-build="" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a19 </span> <time datetime="2011-12-24">December 24th, 2011</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>Special binary-only Xmas Release 2011 for 10.7</li>
+                                        <li>Enhanced the stability a lot, not introduced new features</li>
+                                        <li>Still alpha quality (e.g. missing error messages)</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a4" data-build="" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a4 </span> <time datetime="2011-09-04">September 4th, 2011</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>Fourth alpha for 10.7</li>
+                                        <li>Closed <a href="http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4">38 tickets</a>
+</li>
+                                        <li>Submitted <a href="https://github.com/GPGTools/GPGMail/commits/lion">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>
+</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a3" data-build="" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a3 </span> <time datetime="2011-08-21">August 21st, 2011</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>Third alpha for 10.7</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a2" data-build="" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a2 </span> <time datetime="2011-08-19">August 19th, 2011</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>Second alpha for 10.7</li>
+                                        <li>Fixed over 50 major and minor issues</li>
+                                    </ul>
+</div>
+                    </div>
+                <div class="version" data-version="2.0a1" data-build="" data-min-os="10.7">
+            <h1 class="clearfix">
+<span>Version 2.0a1 </span> <time datetime="2011-08-06">August 6th, 2011</time>
+</h1>
+            
+                        <div class="features">
+                            </div>
+                        
+                        <div class="fixes">
+                <h2>Bugfixes:</h2>
+                
+                <ul>
+<li>First alpha for 10.7</li>
+                                    </ul>
+</div>
+                    </div>
+            </div></div>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script><script src="/js/sparkle-release-notes.1364588334.js"></script>
+</body>
+</html>

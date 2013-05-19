@@ -1,116 +1,241 @@
-[{
-    "version": "2.0b4",
-    "build": "405",
-    "release_date": 1329141900,
-    "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525 ",
-    "info": {
-        "fixes": ["A huge bunch of fixes", "So crazy much", "It's not even real how much is in there..."],
-        "features": []
+[
+    {
+        "build": "140b",
+        "checksum": "f9384b9e941684daae71184e6141e00c5c9549cd",
+        "info": {
+            "features": [
+                {
+                    "description": [
+                        "Finally, the sandboxing issues are resolved and this version is\ncompletely compatible with OS X Mountain Lion."
+                    ],
+                    "title": "Full support for OS X Mountain Lion."
+                },
+                {
+                    "description": [
+                        "You'll be seeing an alert from within Mail.app if a new version of GPGMail\nis available.",
+                        "You can choose between different types of releases:<ul>\n<li>nightly: each development build will appear as an update</li>\n<li>pre-release: alpha and beta builds will appear as an update</li>\n<li>stable: only stable builds will appear as an update\n(requires upcoming GPGPreferences)</li>\n</ul>\n"
+                    ],
+                    "title": "Added Sparkle update support on Mountain Lion"
+                },
+                {
+                    "description": [
+                        "Each error message you'll see includes some hint on how to fix it.",
+                        "If GPGMail can't handle an error, you'll see some detailed information from\nthe underlying gnupg engine, which you can post on our support forum.\nThat will help us to find a solution much quicker."
+                    ],
+                    "title": "Proper error handling of encryption or signing failures."
+                },
+                {
+                    "description": [
+                        "Previously the OS X sandbox didn't allow GPGMail to access the config files.",
+                        "Config files are saved outside of the sandbox as they were on Lion."
+                    ],
+                    "title": "Defaults, gpg.conf and gpg-agent.conf are now parsed again on Mountain Lion"
+                },
+                {
+                    "description": [
+                        "The security indicator on the upper right side of the composer window\nallows you to choose between using OpenPGP or S/MIME.",
+                        "We've added handy shortcuts to switch between them quickly.",
+                        "When either sign or encrypt is enabled, the security indicator will change color,\nfrom grey to green."
+                    ],
+                    "title": "Support seamless switching between S/MIME and OpenPGP"
+                },
+                {
+                    "description": [
+                        "You can use the groups feature of the gpg.conf to map a specific address (e.g. mailing list)\nto a specific key."
+                    ],
+                    "title": "Support for groups in gpg.conf"
+                },
+                {
+                    "description": [
+                        "Show a preview of your encrypted message in the Mail.app list preview (2nd column).",
+                        "Choose whether you want to create these previews in the GPGMail preference pane."
+                    ],
+                    "title": "Create list preview snippets."
+                },
+                {
+                    "description": [
+                        "Select the correct secret key to use from the \"From: \" drop down.",
+                        "For each available key the key id is displayed so it's easy to spot the right key."
+                    ],
+                    "title": "Support the selection of the secret key to use if more than one exists for the same address"
+                },
+                {
+                    "description": [
+                        "When hovering over one of the encrypt or sign buttons in the composer window,\na message is now displayed, explaining why encryption or signing is not possible.",
+                        "For example if the public key is missing, or no secret key for the from address\ncould be found."
+                    ],
+                    "title": "Display hints why encryption or signing might not be possible"
+                }
+            ],
+            "fixes": [
+                "User choice for encrypt/sign status always sticks now.",
+                "Better installation handling.",
+                "Added all UUIDs since 10.7.0.",
+                "FlippedView error message is no longer shown in Console.",
+                "Version string is no longer cut off in the GPGMail preference pane.",
+                "The signature view now shows the creation date of the signature."
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1369006111,
+        "sparkle": {
+            "minOS": "10.7",
+            "size": 4022189,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGMail-2.0b6.dmg"
+        },
+        "version": "2.0b6"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a30.zip",
-        "sig": "MC0CFC5Lw\/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=",
-        "size": "5779188",
-        "minOS": "10.7"
-    }
-},
-{
-    "version": "2.0a30",
-    "build": "230",
-    "release_date": 1329141900,
-    "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525 ",
-    "info": {
-        "fixes": ["Disables excessive logging which might have written sensitive information to \/var\/log\/system.log* in some cases."],
-        "features": []
+    {
+        "build": "405",
+        "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "A huge bunch of fixes",
+                "So crazy much",
+                "It's not even real how much is in there..."
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1329141900,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MC0CFC5Lw/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=",
+            "size": "5779188",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a30.zip"
+        },
+        "version": "2.0b4"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a30.zip",
-        "sig": "MC0CFC5Lw\/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=",
-        "size": "5779188",
-        "minOS": "10.7"
-    }
-}, {
-    "version": "2.0a21",
-    "release_date": 1324992180,
-    "checksum": "65aa08be0b05324c82bd73af95e4c7985648342d ",
-    "info": {
-        "fixes": ["Just another update that fixes some issues and enhances the stability"],
-        "features": []
+    {
+        "build": "230",
+        "checksum": "cce665b098ec7cc747d3a2995f9c06be15ad6525 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Disables excessive logging which might have written sensitive information to /var/log/system.log* in some cases."
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1329141900,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MC0CFC5Lw/SoO5f+NnTbBcQHopTTJg5SAhUAhwCu0QMBMh2UdzBc5MJNFeTjFps=",
+            "size": "5779188",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a30.zip"
+        },
+        "version": "2.0a30"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a21.zip",
-        "sig": "MCwCFFbaiEjAcorXsJxSstsTL+u08lm6AhQrBEEarWClFbMl2r8Py\/TA1T3hdg==",
-        "size": "3463494",
-        "minOS": "10.7"
-    }
-}, {
-    "version": "2.0a19",
-    "release_date": 1324732980,
-    "checksum": "7849dc2c6ebb9a16622a71f336033d330e936f13 ",
-    "info": {
-        "fixes": ["Special binary-only Xmas Release 2011 for 10.7", "Enhanced the stability a lot, not introduced new features", "Still alpha quality (e.g. missing error messages)"],
-        "features": []
+    {
+        "checksum": "65aa08be0b05324c82bd73af95e4c7985648342d ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Just another update that fixes some issues and enhances the stability"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1324992180,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MCwCFFbaiEjAcorXsJxSstsTL+u08lm6AhQrBEEarWClFbMl2r8Py/TA1T3hdg==",
+            "size": "3463494",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a21.zip"
+        },
+        "version": "2.0a21"
     },
-    "sparkle": {
-        "url": "",
-        "sig": "",
-        "size": "3485385",
-        "minOS": "10.7"
-    }
-}, {
-    "version": "2.0a4",
-    "release_date": 1315138980,
-    "checksum": "91463d97da7a302cca2fbc93695ad980485b9264 ",
-    "info": {
-        "fixes": ["Fourth alpha for 10.7", "Closed <a href=\"http:\/\/gpgtools.lighthouseapp.com\/projects\/65764-gpgmail\/tickets?q=tagged%3A2.0a4\">38 tickets<\/a>", "Submitted <a href=\"https:\/\/github.com\/GPGTools\/GPGMail\/commits\/lion\">65 commits,  119 files changed, 6675 insertions, 3461 deletions<\/a>"],
-        "features": []
+    {
+        "checksum": "7849dc2c6ebb9a16622a71f336033d330e936f13 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Special binary-only Xmas Release 2011 for 10.7",
+                "Enhanced the stability a lot, not introduced new features",
+                "Still alpha quality (e.g. missing error messages)"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1324732980,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "",
+            "size": "3485385",
+            "url": ""
+        },
+        "version": "2.0a19"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a4.zip",
-        "sig": "MCwCFB0X4UZ5O6lxmc7DwEBaqYv5njoSAhQNkP9QjXiAQsfDcPRBZlkuw5ZmRg==",
-        "size": "1955283",
-        "minOS": "10.7"
-    }
-}, {
-    "version": "2.0a3",
-    "release_date": 1313929380,
-    "checksum": "3f21326824fa108bae0c97c4c22716e6b485b824 ",
-    "info": {
-        "fixes": ["Third alpha for 10.7"],
-        "features": []
+    {
+        "checksum": "91463d97da7a302cca2fbc93695ad980485b9264 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Fourth alpha for 10.7",
+                "Closed <a href=\"http://gpgtools.lighthouseapp.com/projects/65764-gpgmail/tickets?q=tagged%3A2.0a4\">38 tickets</a>",
+                "Submitted <a href=\"https://github.com/GPGTools/GPGMail/commits/lion\">65 commits,  119 files changed, 6675 insertions, 3461 deletions</a>"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1315138980,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MCwCFB0X4UZ5O6lxmc7DwEBaqYv5njoSAhQNkP9QjXiAQsfDcPRBZlkuw5ZmRg==",
+            "size": "1955283",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a4.zip"
+        },
+        "version": "2.0a4"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a3.zip",
-        "sig": "MCwCFAkO9b3aqEX4PYpOsz2\/sbZ8bQUFAhQhmnTKXr37yE3Ov+kFsbTd1BQtGA==",
-        "size": "1936168",
-        "minOS": "10.7"
-    }
-}, {
-    "version": "2.0a2",
-    "release_date": 1313782500,
-    "checksum": "0d7b8e9d53d4d122f790146515de4f043e3c8458 ",
-    "info": {
-        "fixes": ["Second alpha for 10.7", "Fixed over 50 major and minor issues"],
-        "features": []
+    {
+        "checksum": "3f21326824fa108bae0c97c4c22716e6b485b824 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Third alpha for 10.7"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1313929380,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MCwCFAkO9b3aqEX4PYpOsz2/sbZ8bQUFAhQhmnTKXr37yE3Ov+kFsbTd1BQtGA==",
+            "size": "1936168",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a3.zip"
+        },
+        "version": "2.0a3"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a2.zip",
-        "sig": "MCwCFFboZcQHP0j6CVH8SYDRBmFs9fA2AhRYxSU3dgFNPXoVMJwnKcGxjad\/0w==",
-        "size": "1946022",
-        "minOS": "10.7"
-    }
-}, {
-    "version": "2.0a1",
-    "release_date": 1312624800,
-    "checksum": "d3f4be6345f5ddb57162f97357c5c3efd2f1be78 ",
-    "info": {
-        "fixes": ["First alpha for 10.7"],
-        "features": []
+    {
+        "checksum": "0d7b8e9d53d4d122f790146515de4f043e3c8458 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "Second alpha for 10.7",
+                "Fixed over 50 major and minor issues"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1313782500,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MCwCFFboZcQHP0j6CVH8SYDRBmFs9fA2AhRYxSU3dgFNPXoVMJwnKcGxjad/0w==",
+            "size": "1946022",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a2.zip"
+        },
+        "version": "2.0a2"
     },
-    "sparkle": {
-        "url": "https:\/\/github.com\/downloads\/GPGTools\/GPGMail\/GPGMail-2.0a1.mailbundle.zip",
-        "sig": "MCwCFA4bt7Iad\/8rLOVXc01ThGH1+BpJAhRC1iIU45+OAzfHGZPqMSbupF5P0w==",
-        "size": "2746726",
-        "minOS": "10.7"
+    {
+        "checksum": "d3f4be6345f5ddb57162f97357c5c3efd2f1be78 ",
+        "info": {
+            "features": [],
+            "fixes": [
+                "First alpha for 10.7"
+            ]
+        },
+        "newest-version": false,
+        "release_date": 1312624800,
+        "sparkle": {
+            "minOS": "10.7",
+            "sig": "MCwCFA4bt7Iad/8rLOVXc01ThGH1+BpJAhRC1iIU45+OAzfHGZPqMSbupF5P0w==",
+            "size": "2746726",
+            "url": "https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a1.mailbundle.zip"
+        },
+        "version": "2.0a1"
     }
-}]
+]
