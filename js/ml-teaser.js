@@ -102,12 +102,24 @@ function showMLTeaser() {
 				 .delayedTransition($textSectionParts.eq(2), function(next) {
 					 $(this).textillate({in: {effect: "fadeIn", delayScale: 1.4, animationCompleted: next}})
 				 })
-				 .delayedTransition($textSection.find("p"), function(next) {
+				 .delayedTransition($textSection.find("p").not(".call-for-donation"), function(next) {
 					 $(this).css("visibility", "visible").css("opacity", "1").hide().fadeIn(next)
 				 })
 				 .delayedTransition($textSection.find(".download-ml"), "scaleFade")
 				 .delayedTransition($continue, "fade")
 	$(".ml-logo").startTransitions()
+	
+	$("#gpgmail-ml-teaser .download-ml").unbind("click").click(function(evt) {
+		evt.preventDefault()
+		$("#gpgmail-ml-teaser .ml-text").fadeOut(function() {
+			$("#gpgmail-ml-teaser .ml-text").find("h2,a,p,.continue-to-site").hide()
+			$("#gpgmail-ml-teaser .ml-text").find("h1,.ml-new").removeClass("animated").removeClass("scaleFade").css("opacity", "1").show()
+			
+			$("#gpgmail-ml-teaser .ml-text").find(".call-for-donation").css("visibility", "visible").show()
+			
+			$("#gpgmail-ml-teaser .ml-text").fadeIn()	
+		})
+	})
 	
 	$continue.find("a").unbind("click").click(function(evt) {
 		evt.preventDefault()
