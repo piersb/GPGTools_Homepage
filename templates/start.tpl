@@ -8,7 +8,7 @@
     <div id="main">
         <div id="m_content">
         <div id="announcement">
-        <b>Fresh GPGTools Installer</b> with new GPG Keychain Access, MacGPG2 and GPGServices is out. Happy easter, your GPGTools team.<br>
+        <b>We've got big news tomorrow!</b> Stay tuned.<br>
         <!-- Transifex announcment: <b>Wanna enjoy GPGTools in your local language:</b> help translate <a href="https://www.transifex.net/projects/p/GPGMail/" title="TransGPGMail">GPGMail</a> and <a href="https://www.transifex.net/projects/p/GPGKeychainAccess/" title="TransGKA">GPG Keychain Access</a> -->
         
         </div>
