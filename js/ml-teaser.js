@@ -111,19 +111,26 @@ function showMLTeaser() {
 	
 	$("#gpgmail-ml-teaser .download-ml").unbind("click").click(function(evt) {
 		evt.preventDefault()
-		$("#gpgmail-ml-teaser .ml-text").fadeOut(function() {
+		$("#gpgmail-ml-teaser .ml-description").fadeOut(function() {
 			$("#gpgmail-ml-teaser .ml-text").find("h2,a,p,.continue-to-site").hide()
 			$("#gpgmail-ml-teaser .ml-text").find("h1,.ml-new").removeClass("animated").removeClass("scaleFade").css("opacity", "1").show()
 			
 			$("#gpgmail-ml-teaser .ml-text").find(".call-for-donation").css("visibility", "visible").show()
 			
-			$("#gpgmail-ml-teaser .ml-text").fadeIn()	
+			$("#gpgmail-ml-teaser .ml-description").fadeIn()
 		})
 	})
 	
 	$continue.find("a").unbind("click").click(function(evt) {
 		evt.preventDefault()
 		
-		$("#gpgmail-ml-teaser, #gpgmail-ml-overlay").fadeOut()
+		hideMLTeaser()
 	})
+	$("#gpgmail-ml-teaser").find(".donate-creditcard").click(function(evt) {
+		hideMLTeaser()
+	})
+}
+
+function hideMLTeaser() {
+	$("#gpgmail-ml-teaser, #gpgmail-ml-overlay").fadeOut()
 }

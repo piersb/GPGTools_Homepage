@@ -38,7 +38,8 @@ var _paq = _paq || [];
   		<script src="{$root}/js/jquery.lettering.js"></script>
   		<script src="{$root}/js/jquery.textillate.js"></script>
   		<script src="{$root}/js/jquery.cookie.js"></script>
-  		<script src="{$root}/js/ml-teaser.js?1368977159"></script>
+  		<script src="{$root}/js/ml-teaser.js?1368980088"></script>
+  		<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
         <script src="{$root}/js/mail.js"></script>
         <script src="{$root}/js/hanewin/sha1.js" type="text/javascript" charset="utf-8" defer="defer"></script>
         <script src="{$root}/js/hanewin/cast5.js" type="text/javascript" charset="utf-8" defer="defer"></script>

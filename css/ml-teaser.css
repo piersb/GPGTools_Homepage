@@ -25,7 +25,8 @@ html, body { height: 100%; min-height: 100%; }
 #gpgmail-ml-teaser .ml-text .other-donation-options,
 #gpgmail-ml-teaser .ml-text h1, 
 #gpgmail-ml-teaser .ml-text h2,
-#gpgmail-ml-teaser .ml-text h3 { font-family: "futura-pt", "Futura", Arial, sans-serif;
+#gpgmail-ml-teaser .ml-text h3,
+#gpgmail-ml-teaser .ml-text .ml-description p { font-family: "futura-pt", "Futura", Arial, sans-serif;
 	font-size: 26px; font-weight: 400;
 }
 
@@ -33,15 +34,15 @@ html, body { height: 100%; min-height: 100%; }
 #gpgmail-ml-teaser .ml-text .highlight { font-weight: bold; }
 #gpgmail-ml-teaser .ml-text { padding-left: 52px; width: 500px; position: relative; }
 #gpgmail-ml-teaser hgroup {
-	margin-bottom: 32px;
+	/*margin-bottom: 32px;*/
 }
 #gpgmail-ml-teaser h1, #gpgmail-ml-teaser h2, #gpgmail-ml-teaser h3 { float: none; }
 #gpgmail-ml-teaser h1 { text-indent: -9999px; color: transparent; width: 358px; height: 163px; 
 	background: url(../images/ml-teaser/gpgmail-text-logo.png) no-repeat 0px 27px;
 }
-#gpgmail-ml-teaser h2 { color: #c7c7c7; }
+#gpgmail-ml-teaser h2 { color: #c7c7c7; margin-bottom: 32px; }
 #gpgmail-ml-teaser h2 > span { display: inline-block; }
-#gpgmail-ml-teaser p { color: #a5a5a5; font-size: 19px; font-weight: 400; float: none; }
+#gpgmail-ml-teaser .ml-text .ml-description p { color: #a5a5a5; font-size: 19px; font-weight: 400; float: none; }
 #gpgmail-ml-teaser .ml-text .download-ml { display: block; }
 #gpgmail-ml-teaser .ml-text .continue-to-site { 
 	position: absolute; right: 76px; top: 436px;
@@ -62,6 +63,8 @@ html, body { height: 100%; min-height: 100%; }
 #gpgmail-ml-teaser .call-for-donation { display: none; }
 #gpgmail-ml-teaser .donate-creditcard { top: 415px; }
 
+.gumroad-button { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size: 13px !important; line-height: 17px !important; font-weight: 500 !important; text-align: left !important; color: #8e8e8e !important; text-shadow: 0 1px 2px white !important; background: url(https://gumroad.com/assets/favicon.png) 5px 49% no-repeat white !important; border-radius: 3px !important; border: 1px solid #c8c8c8 !important; padding: 4px 6px 4px 26px !important; box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .02), 0 1px 2px rgba(0, 0, 0, .1) !important; text-decoration: none !important; display: inline-block; } .gumroad-button:hover { text-decoration: none !important; color: #777 !important; border-color: #bbb !important; box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .02), 0 1px 2px rgba(0, 0, 0, .1), 0 0 4px rgba(0, 0, 0, .1) !important; } .gumroad-button:active { box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 -1px 2px rgba(0, 0, 0, .02), 0 1px 2px rgba(0, 0, 0, .1) !important; background-color: #fafafa !important; } .gumroad-button strong { color: #666 !important; font-weight: bold !important; }
+
 a.action-button, a.action-button:link, a.action-button:visited, a.action-button:active, a.action-button:hover {
 -moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -76,9 +79,13 @@ a.action-button, a.action-button:link, a.action-button:visited, a.action-button:
 	background-image: -webkit-linear-gradient(top, #a34767 0%, #471123 64.65%, #471123 100%); /* gradient overlay */
 	background-image: linear-gradient(top, #a34767 0%, #471123 64.65%, #471123 100%); /* gradient overlay */
 
-	font-family: "futura-pt-condensed"; font-size: 20px; line-height: 48px; font-weight: normal;
+	font-family: "futura-pt-condensed", "Helvetica Neue", "Lucida Grande", Helvetica, Arial, sans-serif !important; 
+	font-size: 20px; line-height: 48px; font-weight: normal;
 	padding: 0px 12px; padding-right: 14px; color: #fff; text-transform: uppercase; letter-spacing: 3px; text-decoration: none;
 	display: block; position: absolute; top: 430px;
+	
+	/* Disable and override Gumroad styles. */
+	
 }
 
 a.action-button:hover {
