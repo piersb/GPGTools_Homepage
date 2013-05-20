@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version='2.0a30';
+$version='2.0b6';
+$release['2.0b6'] = mktime(13, 0, 0, 5, 20, 2013);
 $release['2.0a30'] = mktime(15, 5, 0, 2, 13, 2012);
 $release['2.0a21'] = mktime(14, 23, 0, 12, 27, 2011);
 $release['2.0a19'] = mktime(14, 23, 0, 12, 24, 2011);
@@ -40,7 +41,7 @@ $theSite->assign('date',     date('d. F Y', $current));
 $theSite->assign('month',  date('m', $current));
 $theSite->assign('day',  date('d', $current));
 $theSite->assign('year',  date('Y', $current));
-$theSite->assign('reqs', 'OS X 10.7<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.4.1.dmg">10.6</a>)');
+$theSite->assign('reqs', 'OS X 10.7 or 10.8<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.4.1.dmg">10.6</a>)');
 
 $theSite->assign('overview', '
 	<p>GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.</p>
@@ -55,14 +56,12 @@ $theSite->assign('iusethis', 'gpgmail');
 $theSite->assign('heise', '74690');
 $theSite->assign('cnet', '3000-2144_4-7335');
 
-$limitations = array(
-'' => 'Currently GPGMail for Lion is an early alpha version under development',
-'439' => 'GPGMail is not compatible with 10.8. Look <a href="http://support.gpgtools.org/kb/faq/how-can-i-uninstall-your-software">here</a> for info, on how to remove GPGMail.',
+/*$limitations = array(
 );
-$theSite->assign('limitations', $limitations);
+$theSite->assign('limitations', $limitations);*/
 
 $features = array(
-    "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
+    "$root/images/osx108_64px.png" => array("Compatible with OS X Mountain Lion", 'mountain lion compatible'),
     "$root/images/64bit.jpg" => array('The bundle is 64-bit ready', '64 bit'),
     "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
     "$root/images/secure.jpg" => array('Sign, encrypt, decrypt, and verify all your mails', 'mail security'),
@@ -81,6 +80,30 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '2.0b6' => array(date('d. F Y', $release['2.0b6']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['2.0b6']),
+        'sparkle_url' => 'https://s3.amazonaws.com/gpgtools/GPGMail-2.0b6.dmg',
+        'sparkle_size' => '4022189',
+        'sparkle_minOS' => '10.7',
+        'sparkle_version' => '999 (b6)',
+        'a' => 'Full support for OS X Mountain Lion.',
+        'b' => 'Added Sparkle update support on Mountain Lion',
+        'c' => 'Proper error handling of encryption or signing failures.',
+        'd' => 'Defaults, gpg.conf and gpg-agent.conf are now parsed again on Mountain Lion',
+        'e' => 'Support seamless switching between S/MIME and OpenPGP',
+        'f' => 'Support for groups in gpg.conf',
+        'g' => 'Create list preview snippets.',
+        'h' => 'Support the selection of the secret key to use if more than one exists for the same address',
+        'i' => 'Display hints why encryption or signing might not be possible<br /><br /><b>Bugfixes:</b>',
+        'k' => 'User choice for encrypt/sign status always sticks now.',
+        'l' => 'Better installation handling.',
+        'm' => 'Added all UUIDs since 10.7.0.',
+        'n' => 'FlippedView error message is no longer shown in Console.',
+        'o' => 'Version string is no longer cut off in the GPGMail preference pane.',
+        'p' => 'The signature view now shows the creation date of the signature.<br /><br />',
+        'sha' => 'Checksum: f9384b9e941684daae71184e6141e00c5c9549cd (SHA-1)',
+        'q' => '<a href="https://gpgtools.org/releases/gpgmail/release-notes.html">Full Release Notes</a>',
+        )),
     '2.0a30' => array(date('d. F Y', $release['2.0a30']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['2.0a30']),
         'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGMail/GPGMail-2.0a30.zip',
