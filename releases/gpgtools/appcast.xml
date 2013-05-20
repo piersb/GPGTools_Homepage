@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title> - </title>
+        <link>https://gpgtools.org/releases/gpgtools/appcast.xml</link>
+        <description>Release Notes for the latest versions of </description>
+        <language>en</language>
+        <item>
+            <title> v2013.5.20</title>
+            <sparkle:releaseNotesLink>https://gpgtools.org/releases/gpgtools/release-notes.html</sparkle:releaseNotesLink>
+            <pubDate>Mon, 20 May 2013 16:52:54 +0200</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGTools-2013.5.20.dmg" sparkle:version="277" sparkle:shortVersionString="2013.5.20" length="16558134" type="application/octet-stream"/>
+            <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
+                                </item>
+    </channel>
+</rss>

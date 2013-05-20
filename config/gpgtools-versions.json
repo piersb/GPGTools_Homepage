@@ -1,5 +1,33 @@
 [
     {
+        "build": "277",
+        "checksum": "9f9fea935b3ce90d8d04542a754b8778f82a8b1b",
+        "info": {
+            "features": [
+                {
+                    "description": [
+                        "GPGMail 2.0b6 (with support for Lion & Mountain Lion)",
+                        "GPG Keychain Access 1.0",
+                        "GPGMail 1.4.1 (for Snow Leopard)",
+                        "GPGPreferences 0.9.2",
+                        "MacGPG 2.0.19",
+                        "GPGServices 1.8"
+                    ],
+                    "title": "Latest and greatest releases"
+                }
+            ],
+            "fixes": []
+        },
+        "newest-version": true,
+        "release_date": 1369061574,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 16558134,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGTools-2013.5.20.dmg"
+        },
+        "version": "2013.5.20"
+    },
+    {
         "build": "180",
         "checksum": "d42dd37dedeb92bcb99eefc50086588020acf74d",
         "info": {
@@ -8,7 +36,7 @@
                 "Nothing"
             ]
         },
-        "newest-version": true,
+        "newest-version": false,
         "release_date": 1366280750,
         "sparkle": {
             "minOS": "10.6",
