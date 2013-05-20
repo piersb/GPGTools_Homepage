@@ -120,13 +120,16 @@ function showMLTeaser() {
 	
 	$("#gpgmail-ml-teaser .download-ml").unbind("click").click(function(evt) {
 		evt.preventDefault()
+		var $a = $(this)
 		$("#gpgmail-ml-teaser .ml-description").fadeOut(function() {
 			$("#gpgmail-ml-teaser .ml-text").find("h2,a,p,.continue-to-site").hide()
 			$("#gpgmail-ml-teaser .ml-text").find("h1,.ml-new").removeClass("animated").removeClass("scaleFade").css("opacity", "1").show()
 			
 			$("#gpgmail-ml-teaser .ml-text").find(".call-for-donation").css("visibility", "visible").show()
 			
-			$("#gpgmail-ml-teaser .ml-description").fadeIn()
+			$("#gpgmail-ml-teaser .ml-description").fadeIn(function() {
+				document.location.href = $a.attr("href")	
+			})
 		})
 	})
 	

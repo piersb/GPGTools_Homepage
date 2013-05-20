@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="{$root}/favicon.ico">
   <link rel="apple-touch-icon" href="{$root}/apple-touch-icon.png">
   <link rel="stylesheet" media="all" href="{$root}/css/style.css?v=2">
-  <link rel="stylesheet" media="all" href="{$root}/css/ml-teaser.css?1368982054">
+  <link rel="stylesheet" media="all" href="{$root}/css/ml-teaser.css?1369007859">
   <!--[if (gt IE 9)|!(IE)]><!-->   <link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="{$root}/css/badge.css?v=2" /> <!--<![endif]-->
   <link href="http://twitter.com/statuses/user_timeline/170783148.rss" rel="alternate" title="recent tweets" type="application/rss+xml" />
   <link href="appcast.xml" rel="alternate" title="recent releases" type="application/rss+xml" />
@@ -49,7 +49,7 @@
 		     we still consider it to be a beta version. Expect the occasional crash
 		     and please report any bugs on our <a href="http://support.gpgtools.org">Support Platform</a>.</p>
 		  <p class="call-for-donation">We couldn't have done this without our fantastic donators!<br>If you like our apps, please consider donating so we can keep making them even better for you.<br><br>We really appreciate it.</p>
-		  <a href="{$gpgmail_ml_url}" class="action-button download-ml"><span>GET IT NOW!</span></a>
+		  <a href="https://s3.amazonaws.com/gpgtools/GPGMail-2.0b6.dmg" class="action-button download-ml"><span>GET IT NOW!</span></a>
 		  <a class="call-for-donation donate-creditcard action-button" href="http://gum.co/support-gpgtools-dev">Donate via Credit Card</a>
 		  <div class="continue-to-site"> or <a href="#">&nbsp;&nbsp;&nbsp;Continue to site</a></div>
 		  <div class="call-for-donation other-donation-options"> or <a href="/donate.html#donate-paypal" class="call-for-donation">&nbsp;&nbsp;see other payment options</a></div>
