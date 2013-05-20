@@ -35,9 +35,18 @@ o
             <li><a href="http://gpgtools.lighthouseapp.com/events.atom">How to keep up to date with all issues</a></li>
             </ul>
             <h4 id="donate-paypal">Donate money</h4>
-            <p>We love to contribute to the world. We love encryption and secure communication. The entire GPGTools project is build in our spare time and we rely on donations. Your donation will be used for the development of the
-            GPGTools project: developer accounts, marketing, design, etc. Currently, we offer PayPal and Bitcoin donations. Should you want to use another service please let us know.</p>
+            <p>Our ultimate goal is to deliver the best possible experience of using OpenPGP on your Mac.<br>
+               Regardless whether you want to encrypt or sign your emails, files or any text,<br>or simply manage your keys – with our tools, we've got you covered.<br>
+               As you can imagine, developing GPGTools requires a lot of time, and since we really love working on it,<br>we gladly invest that time.<br>
+               By donating you really help us to make sure we can continue to keep making our tools<br>even better for you.<br><br>
+               
+			   Currently, we offer Gumroad (credit card), PayPal and Bitcoin donations.<br>
+			   If you're infatuated with the good ol' days, you can also make a wire transfer</p>
             <ul class="sub"></ul>
+            <p><b>Gumroad (Credit card)</b><br><br>
+            <a href="http://gum.co/support-gpgtools-dev" class="gumroad-button">Support GPGTools</a>
+            <br><br></p>
+            
 <p><b>PayPal</b><br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_xclick">
@@ -54,16 +63,16 @@ o
 <input name="os0" value="No" type="hidden">
 <input name="on1" value="Comment" type="hidden">
 <input name="os1" value="Nothing" type="hidden">
-<ul >
-<li><input name="os0" value="Yes" type="checkbox" style="width:1.5em; vertical-align:middle; margin-top: 0em; margin-bottom: 0em;">Publish my sponsor name (if I donated more than 20 EUR)</li>
-<li>Drop us a line (optional): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
+<ul style="list-style: none; margin: 0px; ">
+<li style="margin: 0px;"><input name="os0" value="Yes" type="checkbox" style="width:1.5em; vertical-align:middle; margin-top: 0em; margin-bottom: 0em;">Publish my sponsor name (if I donated more than 20 EUR)</li>
+<li style="margin: 0px; margin-top: 4px; margin-left: 19px;">Drop us a line (optional): <input name="os1" value="" type="text" style="margin-top: 0em; margin-bottom: 0em;"></li>
 </ul>
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
 </form>
-<p><b>Bitcoin</b><br>
+<p><b>Bitcoin</b><br><br>
 <a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
 <br><br>
-<p><b>Wire transfer</b><br>
+<p><b>Wire transfer</b><br><br>
 IBAN DE20200411550787916600<br>
 BIC COBADEHD055</p>
 

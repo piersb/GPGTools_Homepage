@@ -88,7 +88,9 @@
       // If this is the last char, trigger the animationCompleted event
       if(i == $chars.size() -1 && $.isFunction(options.animationCompleted))	 {
 	      var delay = options.sync ? options.delay : options.delay * (i + 1) * options.delayScale;
-	      setTimeout(function() { options.animationCompleted() }, delay);
+	      options.completedTimeout = setTimeout(function() { 
+	      	options.animationCompleted() 
+	      }, delay);
       }
     })
   };

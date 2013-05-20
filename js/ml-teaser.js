@@ -73,10 +73,15 @@
 			deferred.notify()
 		$(this).data("transition-started", true)
 	}
+	$.fn.resetTransitions = function() {
+		$(this).data("transition-started", false)
+		$(this).data("deferred", null)
+		$(this).data("lp-transitions", null)
+	}
 	
 	$(function() {
-		var ML_COOKIE = "gpgmail-ml-teaser-displayed"
-		var teaserEnabled = false
+		var ML_COOKIE = "gpgmail-ml-teaser-was-displayed"
+		var teaserEnabled = true
 		var forceShowTeaser = document.location.href.search(/teaser=1/) == -1 ? false : true;
 		if((!$.cookie(ML_COOKIE) && teaserEnabled) || forceShowTeaser) {
 			showMLTeaser()
@@ -96,10 +101,22 @@ function showMLTeaser() {
 				 .delayedTransition($textSection.find("h1"), "scaleFade")
 				 .delayedTransition($(".ml-new"), "scaleFade")
 				 .delayedTransition($textSectionParts.eq(0), function(next) {
+					if($(this).data("old-html")) {
+						$(this).html($(this).data("old-html"))
+						var options = $(this).data("textillate").options
+						if(typeof options != 'undefined')
+							clearTimeout(options.in.completedTimeout)
+						$(this).data("textillate", null)
+					}
+					$(this).data("old-html", $(this).html())
 					$(this).textillate({in: {effect: "fadeIn", delayScale: 1.4, animationCompleted: next}})
 				 })
 				 .delayedTransition($textSectionParts.eq(1), "scaleFade")
 				 .delayedTransition($textSectionParts.eq(2), function(next) {
+					 if($(this).data("old-html")) {
+					    $(this).html($(this).data("old-html"))
+					 }
+					 $(this).data("old-html", $(this).html())
 					 $(this).textillate({in: {effect: "fadeIn", delayScale: 1.4, animationCompleted: next}})
 				 })
 				 .delayedTransition($textSection.find("p").not(".call-for-donation"), function(next) {
@@ -133,8 +150,10 @@ function showMLTeaser() {
 		})
 	})
 	
-	
-	
+	$(".ml-launch-teaser").unbind("click").click(function(evt) {
+		evt.preventDefault()
+		showMLTeaser()
+	})
 	$continue.find("a").unbind("click").click(function(evt) {
 		evt.preventDefault()
 		
@@ -146,5 +165,9 @@ function showMLTeaser() {
 }
 
 function hideMLTeaser() {
-	$("#gpgmail-ml-teaser, #gpgmail-ml-overlay").fadeOut()
+	$("#gpgmail-ml-teaser, #gpgmail-ml-overlay").fadeOut(function() {
+		$("#gpgmail-ml-teaser").find(".animated").removeClass("animated").removeClass("lightSpeedIn").removeClass("scaleFade").removeClass("fadeIn").removeClass("fade").css("visibility", "hidden").css("opacity", "1")
+		$(".ml-logo").resetTransitions()
+	})
+	
 }

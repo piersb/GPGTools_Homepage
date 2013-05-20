@@ -8,7 +8,7 @@
     <div id="main">
         <div id="m_content">
         <div id="announcement">
-        <b>We've got big news tomorrow!</b> Stay tuned.<br>
+        <b>GPGMail for OS X 10.8 Mountain Lion is finally here!</b> <a href="/index.html?teaser=1">Launch the Teaser.</a><br>
         <!-- Transifex announcment: <b>Wanna enjoy GPGTools in your local language:</b> help translate <a href="https://www.transifex.net/projects/p/GPGMail/" title="TransGPGMail">GPGMail</a> and <a href="https://www.transifex.net/projects/p/GPGKeychainAccess/" title="TransGKA">GPG Keychain Access</a> -->
         
         </div>
