@@ -2,6 +2,6 @@
 	"tool-name": "GPGPreferences",
 	"short-name": "gpgreferences",
 	"version-info": {
-		"versions": "./gpgreferences-versions.json"
+		"versions": "./gpgpreferences-versions.json"
 	}
 }
