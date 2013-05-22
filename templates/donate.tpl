@@ -237,6 +237,7 @@ BIC COBADEHD055</p>
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
             <li>Florian Stocker</li>
+            <li>Floris Meester</li>
             <li>Francesco Lannutti</li>
             <li>Francis Hwang</li>
             <li>Francis Lata</li>
@@ -659,6 +660,7 @@ BIC COBADEHD055</p>
                   <li>Kombinat</li>
                   <li>Libertad</li>
                   <li>LMG Security</li>
+                  <li>Linuxwerkstatt e.K.</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems</li>
