@@ -98,6 +98,7 @@ BIC COBADEHD055</p>
             <li>Alexander Nouak</li>
             <li>Alexander Sallamon</li>
             <li>Alexander Sulzberger</li>
+            <li>Alexander Tolkachev</li>
             <li>Alexandre Harano</li>
             <li>Alexandru Balan</li>
             <li>Alfonso Carrillo</li>
@@ -186,6 +187,7 @@ BIC COBADEHD055</p>
             <li>Daniel Kullman</li>
             <li>Daniel Potts</li>
             <li>Daniel Roig</li>
+            <li>Daniel Teunis</li>
             <li>Daniel Valfridsson</li>
             <li>Darrell Malick</li>
             <li>Darren McLeod</li>
@@ -232,6 +234,7 @@ BIC COBADEHD055</p>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
             <li>Eugene Myers</li>
+            <li>Eva-Maria Haag</li>
             <li>Fabian Zeindl</li>
             <li>Federico Hatoum</li>
             <li>Felix Hermann</li>
@@ -318,6 +321,7 @@ BIC COBADEHD055</p>
             <li>John-Paul Mead</li>
             <li>John Wunderlich</li>
             <li>John Young</li>
+            <li>Joji Montelibano</li>
             <li>Jon Whipple</li>
             <li>Jonas Beckman</li>
             <li>Jonas Karlsson</li>
@@ -325,6 +329,7 @@ BIC COBADEHD055</p>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Phebus</li>
             <li>Jonathan Picht</li>
+            <li>Jonathon Brandt Buckley</li>
             <li>Jörg Bühmann</li>
             <li>Jörg Quak</li>
             <li>Jorge Valencia Alvarez</li>
@@ -371,6 +376,7 @@ BIC COBADEHD055</p>
             <li>Lukas Spieß</li>
             <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
+            <li>Lutz Schnell</li>
             <li>Marcel Seeber</li>
             <li>Magne Larsen</li>
             <li>Magnus Hellmark</li>
@@ -493,6 +499,7 @@ BIC COBADEHD055</p>
             <li>Richard Carver</li>
             <li>Richard Forno</li>
             <li>Richard Livingston</li>
+            <li>Richard Luciano</li>
             <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
             <li>Rick Hobbs</li>
