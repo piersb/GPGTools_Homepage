@@ -211,6 +211,7 @@ BIC COBADEHD055</p>
             <li>Dirk Pape</li>
             <li>Dirk Riemekasten</li>
             <li>Dirk Ruediger</li>
+            <li>Dirk Suske</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Dmitry Paranyushkin</li>
@@ -259,6 +260,7 @@ BIC COBADEHD055</p>
             <li>Gabe Hammersmith</li>
             <li>Gary Greene</li>
             <li>Gavin Reid</li>
+            <li>Geoff Garside</li>
             <li>Georges Rodriguez</li>
             <li>Gerhard Eberlein</li>
             <li>Gernot Starke</li>
@@ -659,6 +661,7 @@ BIC COBADEHD055</p>
                   <li>Ilscipio</li>
                   <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
+                  <li>iPanacea</li>
                   <li>IPNED Networks & Security</li>
                   <li>IS.Star SPRL</li>
                   <li>Jirasek Security Consulting</li>
