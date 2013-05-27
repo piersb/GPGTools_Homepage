@@ -298,6 +298,7 @@ BIC COBADEHD055</p>
             <li>James Mecham</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
+            <li>James W</li>
             <li>James Wissick</li>
             <li>Jameson Farrell</li>
             <li>Jamie MacIsaac</li>
@@ -527,6 +528,7 @@ BIC COBADEHD055</p>
             <li>Ryan Maple</li>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
+            <li>Satkiranjeet Sahota</li>
             <li>Scott Blystone</li>
             <li>Scott Brenner</li>
             <li>Scott Davies</li>
@@ -564,6 +566,7 @@ BIC COBADEHD055</p>
             <li>Tax Return Team</li>
             <li>Teodor Cimpoesu</li>
             <li>Terrence OConnor</li>
+            <li>Th.S</li>
             <li>Theresa ONeill</li>
             <li>Thilo Hospe</li>
             <li>Thomas Bruehl</li>
@@ -637,6 +640,7 @@ BIC COBADEHD055</p>
                   <li>CogniSec Inc</li>
                   <li>Cominvent AS</li>
                   <li>Consoltec</li>
+                  <li>Cryptocat</li>
                   <li>Cube IT SRL</li>
                   <li>d.k.d internet service</li>
                   <li>Data in Transit</li>
