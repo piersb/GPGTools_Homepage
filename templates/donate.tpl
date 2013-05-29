@@ -228,9 +228,10 @@ BIC COBADEHD055</p>
             <li>Enguerrand Dibanda</li>
             <li>Eric Baur</li>
             <li>Eric Brown</li>
-            <li>Eric Fitzgerald</li>
-            <li>Eric McMillen</li>
             <li>Eric Burger</li>
+            <li>Eric Fitzgerald</li>
+            <li>Eric Knudson</li>
+            <li>Eric McMillen</li>
             <li>Erich Neuwirth</li>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
@@ -368,6 +369,7 @@ BIC COBADEHD055</p>
             <li>Laradji Nacer</li>
             <li>Lars Uffmann</li>
             <li>Laurens Bonnema</li>
+            <li>Le Nik</li>
             <li>Leonard Libitz</li>
             <li>Lincoln Bertin</li>
             <li>Linwood Ma</li>
