@@ -530,7 +530,6 @@ BIC COBADEHD055</p>
             <li>Ryan Maple</li>
             <li>Sam Hulick</li>
             <li>Sanjana Hattotuwa</li>
-            <li>Satkiranjeet Sahota</li>
             <li>Scott Blystone</li>
             <li>Scott Brenner</li>
             <li>Scott Davies</li>
@@ -620,6 +619,7 @@ BIC COBADEHD055</p>
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li>1000°Digital</li>
+                  <li>604 Security</li>
                   <li>A. Martin IT-Consulting</li>
                   <li>Acuron</li>
                   <li>Advanced Biocomputing</li>
