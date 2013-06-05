@@ -83,9 +83,21 @@
 		var ML_COOKIE = "gpgmail-ml-teaser-was-displayed"
 		var teaserEnabled = true
 		var forceShowTeaser = document.location.href.search(/teaser=1/) == -1 ? false : true;
-		if((!$.cookie(ML_COOKIE) && teaserEnabled) || forceShowTeaser) {
+		var removeTeaserCookie = document.location.href.search(/reset=1/) == -1 ? false : true;
+		
+		var ec = new evercookie()
+		
+		if(forceShowTeaser)
 			showMLTeaser()
-			$.cookie(ML_COOKIE, '1')
+		else if(removeTeaserCookie)
+			ec.remove(ML_COOKIE)
+		else {
+			ec.get(ML_COOKIE, function(value) {
+				if(value == null && teaserEnabled) {
+					showMLTeaser()
+					ec.set(ML_COOKIE, "1")
+				}
+			})
 		}
 	})
 })(jQuery)
