@@ -26,7 +26,7 @@ html, body { height: 100%; min-height: 100%; }
 #gpgmail-ml-teaser .ml-text h1, 
 #gpgmail-ml-teaser .ml-text h2,
 #gpgmail-ml-teaser .ml-text h3,
-#gpgmail-ml-teaser .ml-text .ml-description p { font-family: "futura-pt", "Futura", Arial, sans-serif;
+#gpgmail-ml-teaser .ml-text .ml-description p { font-family: "futura-pt", "Futura", Calibri, Arial, sans-serif;
 	font-size: 26px; font-weight: 400;
 }
 
@@ -79,7 +79,7 @@ a.action-button, a.action-button:link, a.action-button:visited, a.action-button:
 	background-image: -webkit-linear-gradient(top, #a34767 0%, #471123 64.65%, #471123 100%); /* gradient overlay */
 	background-image: linear-gradient(top, #a34767 0%, #471123 64.65%, #471123 100%); /* gradient overlay */
 
-	font-family: "futura-pt-condensed", "Helvetica Neue", "Lucida Grande", Helvetica, Arial, sans-serif !important; 
+	font-family: "futura-pt-condensed", "Helvetica Neue", "Lucida Grande", Helvetica, Calibri, Arial, sans-serif !important; 
 	font-size: 20px; line-height: 48px; font-weight: normal;
 	padding: 0px 12px; padding-right: 14px; color: #fff; text-transform: uppercase; letter-spacing: 3px; text-decoration: none;
 	display: block; position: absolute; top: 430px;

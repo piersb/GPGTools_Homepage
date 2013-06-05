@@ -98,6 +98,7 @@ BIC COBADEHD055</p>
             <li>Alexander Nouak</li>
             <li>Alexander Sallamon</li>
             <li>Alexander Sulzberger</li>
+            <li>Alexander Tolkachev</li>
             <li>Alexandre Harano</li>
             <li>Alexandru Balan</li>
             <li>Alfonso Carrillo</li>
@@ -186,6 +187,7 @@ BIC COBADEHD055</p>
             <li>Daniel Kullman</li>
             <li>Daniel Potts</li>
             <li>Daniel Roig</li>
+            <li>Daniel Teunis</li>
             <li>Daniel Valfridsson</li>
             <li>Darrell Malick</li>
             <li>Darren McLeod</li>
@@ -209,6 +211,7 @@ BIC COBADEHD055</p>
             <li>Dirk Pape</li>
             <li>Dirk Riemekasten</li>
             <li>Dirk Ruediger</li>
+            <li>Dirk Suske</li>
             <li>Dirk Zurawski</li>
             <li>Dmitry Nedospasov</li>
             <li>Dmitry Paranyushkin</li>
@@ -225,18 +228,21 @@ BIC COBADEHD055</p>
             <li>Enguerrand Dibanda</li>
             <li>Eric Baur</li>
             <li>Eric Brown</li>
-            <li>Eric Fitzgerald</li>
-            <li>Eric McMillen</li>
             <li>Eric Burger</li>
+            <li>Eric Fitzgerald</li>
+            <li>Eric Knudson</li>
+            <li>Eric McMillen</li>
             <li>Erich Neuwirth</li>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
             <li>Eugene Myers</li>
+            <li>Eva-Maria Haag</li>
             <li>Fabian Zeindl</li>
             <li>Federico Hatoum</li>
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
             <li>Florian Stocker</li>
+            <li>Floris Meester</li>
             <li>Francesco Lannutti</li>
             <li>Francis Hwang</li>
             <li>Francis Lata</li>
@@ -255,6 +261,7 @@ BIC COBADEHD055</p>
             <li>Gabe Hammersmith</li>
             <li>Gary Greene</li>
             <li>Gavin Reid</li>
+            <li>Geoff Garside</li>
             <li>Georges Rodriguez</li>
             <li>Gerhard Eberlein</li>
             <li>Gernot Starke</li>
@@ -292,6 +299,7 @@ BIC COBADEHD055</p>
             <li>James Mecham</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
+            <li>James W</li>
             <li>James Wissick</li>
             <li>Jameson Farrell</li>
             <li>Jamie MacIsaac</li>
@@ -317,13 +325,16 @@ BIC COBADEHD055</p>
             <li>John-Paul Mead</li>
             <li>John Wunderlich</li>
             <li>John Young</li>
+            <li>Joji Montelibano</li>
             <li>Jon Whipple</li>
             <li>Jonas Beckman</li>
             <li>Jonas Karlsson</li>
             <li>Jonathan Care</li>
+            <li>Jonathan Jacobs</li>
             <li>Jonathan Jaffe</li>
             <li>Jonathan Phebus</li>
             <li>Jonathan Picht</li>
+            <li>Jonathon Brandt Buckley</li>
             <li>Jörg Bühmann</li>
             <li>Jörg Quak</li>
             <li>Jorge Valencia Alvarez</li>
@@ -359,6 +370,7 @@ BIC COBADEHD055</p>
             <li>Laradji Nacer</li>
             <li>Lars Uffmann</li>
             <li>Laurens Bonnema</li>
+            <li>Le Nik</li>
             <li>Leonard Libitz</li>
             <li>Lincoln Bertin</li>
             <li>Linwood Ma</li>
@@ -370,11 +382,13 @@ BIC COBADEHD055</p>
             <li>Lukas Spieß</li>
             <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
+            <li>Lutz Schnell</li>
             <li>Marcel Seeber</li>
             <li>Magne Larsen</li>
             <li>Magnus Hellmark</li>
             <li>Manuel Tiedtke</li>
             <li>Marc Ahr</li>
+            <li>Marc Blinder</li>
             <li>Marc DeLegge</li>
             <li>Marc Eubanks</li>
             <li>Marc Radtke</li>
@@ -452,6 +466,7 @@ BIC COBADEHD055</p>
             <li>Ole Hermansen</li>
             <li>Oleg Pak</li>
             <li>Omer Holzinger</li>
+            <li>On</li>
             <li>Onno Johan van Dommelen</li>
             <li>Oscar Koeroo</li>
             <li>Olivier Melcher</li>
@@ -492,6 +507,7 @@ BIC COBADEHD055</p>
             <li>Richard Carver</li>
             <li>Richard Forno</li>
             <li>Richard Livingston</li>
+            <li>Richard Luciano</li>
             <li>Richard Outerbridge</li>
             <li>Richard Valk</li>
             <li>Rick Hobbs</li>
@@ -554,6 +570,7 @@ BIC COBADEHD055</p>
             <li>Tax Return Team</li>
             <li>Teodor Cimpoesu</li>
             <li>Terrence OConnor</li>
+            <li>Th.S</li>
             <li>Theresa ONeill</li>
             <li>Thilo Hospe</li>
             <li>Thomas Bruehl</li>
@@ -568,6 +585,7 @@ BIC COBADEHD055</p>
             <li>Todd Kuebler</li>
             <li>Tom DeLozier</li>
             <li>Tomáš Kohút</li>
+            <li>Tomoyuki Sahara</li>
             <li>Tony Di Bernardo</li>
             <li>Toshinao Ishii</li>
             <li>Troy Murray</li>
@@ -605,6 +623,7 @@ BIC COBADEHD055</p>
                 <h4>Companies</h4>
                 <ul class="sub">
                   <li>1000°Digital</li>
+                  <li>604 Security</li>
                   <li>A. Martin IT-Consulting</li>
                   <li>Acuron</li>
                   <li>Advanced Biocomputing</li>
@@ -627,6 +646,7 @@ BIC COBADEHD055</p>
                   <li>CogniSec Inc</li>
                   <li>Cominvent AS</li>
                   <li>Consoltec</li>
+                  <li>Cryptocat</li>
                   <li>Cube IT SRL</li>
                   <li>d.k.d internet service</li>
                   <li>Data in Transit</li>
@@ -651,6 +671,7 @@ BIC COBADEHD055</p>
                   <li>Ilscipio</li>
                   <li>Incon Research</li>
                   <li>innoQ Deutschland</li>
+                  <li>iPanacea</li>
                   <li>IPNED Networks & Security</li>
                   <li>IS.Star SPRL</li>
                   <li>Jirasek Security Consulting</li>
@@ -659,6 +680,7 @@ BIC COBADEHD055</p>
                   <li>Kombinat</li>
                   <li>Libertad</li>
                   <li>LMG Security</li>
+                  <li>Linuxwerkstatt e.K.</li>
                   <li>Loopshot</li>
                   <li>Loosh Labs</li>
                   <li>Lovely Systems</li>
