@@ -138,6 +138,7 @@ BIC COBADEHD055</p>
             <li>Beat Stehrenberger</li>
             <li>Benjamin Bosum</li>
             <li>Benjamin Wilson</li>
+            <li>Bernd Werner Hennig</li>
             <li>Bernd Wiese</li>
             <li>Bill Bohlman</li>
             <li>Bill Woodcock</li>
@@ -145,6 +146,7 @@ BIC COBADEHD055</p>
             <li>Björn Heller</li>
             <li>Bjørn Olav Listog</li>
             <li>Boris-Michael Steinke</li>
+            <li>Brad Bielenberg</li>
             <li>Brian Bodemann</li>
             <li>Brian Farrell</li>
             <li>Brian Flores</li>
@@ -236,6 +238,7 @@ BIC COBADEHD055</p>
             <li>Ermakov Ivan</li>
             <li>Erwin Kooi</li>
             <li>Eugene Myers</li>
+            <li>Eva</li>
             <li>Eva-Maria Haag</li>
             <li>Fabian Zeindl</li>
             <li>Federico Hatoum</li>
@@ -364,6 +367,7 @@ BIC COBADEHD055</p>
             <li>Kenneth R Van Wyk</li>
             <li>Kinash Ivan</li>
             <li>Kitazawa</li>
+            <li>Klas Meder Boqvist</li>
             <li>Konstantin Krauter</li>
             <li>Kurt Erik Lindqvist</li>
             <li>Lantao Liu</li>
@@ -734,6 +738,7 @@ BIC COBADEHD055</p>
                   <li>Tall Poppy Group</li>
                   <li>team A design</li>
                   <li>TeKnack</li>
+                  <li>Teledyol</li>
                   <li>Tradeo</li>
                   <li>train4media</li>
                   <li>Translucent ApS</li>
