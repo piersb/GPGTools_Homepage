@@ -57,12 +57,13 @@
     // Generate the appcast for the requested tool.
     // The appcast will only include the latest version, since older
     // versions are irrelevant.
-    $app->get('/releases/:name/appcast.xml', function($name) use($app, $config) {
+    $app->get('/releases/:name/:type.xml', function($name, $type) use($app, $config) {
         $section = $config->get('sections')->get($name);
         if(!$section)
             exit();
         
         $version_info = $section->get('version-info');
+        
         if(!$version_info)
             exit();
         
@@ -72,11 +73,11 @@
         
         $app->response()->header("Content-Type", "text/xml");
         ob_start();
-        $app->render("release/appcast:xml", array("version_info" => $version_info, "tool" => $section, 
+        $app->render("release/$type:xml", array("version_info" => $version_info, "tool" => $section, 
                                                "name" => $name, "newest_version" => $newest_version));
         $output = ob_get_flush();
         // Cache the output so it only has to be regenerated if the file changes.
-        static_file_with_content("releases/$name/appcast.xml", $output);
+        static_file_with_content("releases/$name/$type.xml", $output);
     });
     
     // Generate the release notes for a tool from its version file.
