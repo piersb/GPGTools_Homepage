@@ -1,4 +1,5 @@
 {
+	"url-name": "installer",
 	"version-info": {
 		"versions": "./gpgtools-versions.json"
 	},

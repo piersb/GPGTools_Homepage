@@ -1,5 +1,6 @@
 {
 	"tool-name": "GPG Keychain Access",
+	"url-name": "keychain",
 	"main-section-intro": "Manage your<br>GPG Keychain<br>with ease.",
 	"short-name": "gka",
 	"title": "Manage your GPG Keychain.",

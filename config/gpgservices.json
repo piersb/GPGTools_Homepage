@@ -1,5 +1,6 @@
 {
 	"tool-name": "GPGServices",
+	"url-name": "gpgservices",
 	"main-section-intro": "Perform GPG<br>operations from the<br>OS X Service Menu.",
 	"short-name": "gpgservices",
 	"title": "Perform GPG operations from the OS X Service Menu.",
