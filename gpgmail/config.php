@@ -186,7 +186,7 @@ $changelog = array(
         'sparkle_size' => '3371463',
 		'sparkle_version' => '1.4.1b',
         'a' => 'Fix: Fixed compatibility with final OS X 10.6.8 release',
-        'sha' => 'Checksum: ddd5709be9ae83481dbc3aa01a6dd2b7dab31dc9 (SHA-1)',
+        'sha' => 'Checksum: ca0329ab56acd6f4bfb66327e914be39f2d70fad (SHA-1)',
         )),
     '1.3.3' => array(date('d. F Y', $release['1.3.3']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.3.3']),
