@@ -1,0 +1,25 @@
+[
+    {
+        "build": "68",
+        "checksum": "0b44f785cdcba1586a59dfe23a154bcdc6b21c47",
+        "info": {
+            "features": [
+                {
+                    "description": [
+                        "Show version and build."
+                    ],
+                    "title": "Show installed versions of the GPGTools."
+                }
+            ],
+            "fixes": []
+        },
+        "newest-version": true,
+        "release_date": 1369136828,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 2824865,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGPreferences-0.9.4.dmg"
+        },
+        "version": "0.9.4"
+    }
+]
