@@ -717,6 +717,7 @@ BIC COBADEHD055</p>
                   <li class="premium">NORDUnet</li>
                   <li>Nutri s.r.o.</li>
                   <li>Octarine Labs</li>
+                  <li>OpenNMS</li>
                   <li>Operation Mobilisation</li>
                   <li>OSNet</li>
                   <li>PID1 Technical Services</li>
