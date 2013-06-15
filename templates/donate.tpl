@@ -110,6 +110,7 @@ BIC COBADEHD055</p>
             <li>Anders Rayner-Karlsson</li>
             <li>Andreas Hahn</li>
             <li>Andreas Karsten</li>
+            <li>Andreas Oppermann</li>
             <li>Andreas Wenzel</li>
             <li>Andreas Wuerl</li>
             <li>Andrew Frangopoulos</li>
@@ -244,6 +245,7 @@ BIC COBADEHD055</p>
             <li>Federico Hatoum</li>
             <li>Felix Hermann</li>
             <li>Florian Blaser</li>
+            <li>Florian Hanke</li>
             <li>Florian Stocker</li>
             <li>Floris Meester</li>
             <li>Francesco Lannutti</li>
@@ -718,6 +720,7 @@ BIC COBADEHD055</p>
                   <li>Nutri s.r.o.</li>
                   <li>Octarine Labs</li>
                   <li>OpenNMS</li>
+                  <li>OpenTechFund
                   <li>Operation Mobilisation</li>
                   <li>OSNet</li>
                   <li>PID1 Technical Services</li>
