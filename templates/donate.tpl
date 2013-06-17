@@ -432,6 +432,7 @@ BIC COBADEHD055</p>
             <li>Michael Krzyzanski</li>
             <li>Michael Langford</li>
             <li>Michael Lenk</li>
+            <li>Michael Lesniak</li>
             <li>Michael Prewitt</li>
             <li>Michael Ruse</li>
             <li>Michael Sarabosing</li>
@@ -722,7 +723,7 @@ BIC COBADEHD055</p>
                   <li>Nutri s.r.o.</li>
                   <li>Octarine Labs</li>
                   <li>OpenNMS</li>
-                  <li>OpenTechFund
+                  <li>Open Technology Fund</li>
                   <li>Operation Mobilisation</li>
                   <li>OSNet</li>
                   <li>PID1 Technical Services</li>
