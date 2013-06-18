@@ -308,6 +308,7 @@ BIC COBADEHD055</p>
             <li>James Wissick</li>
             <li>Jameson Farrell</li>
             <li>Jamie MacIsaac</li>
+            <li>Jan Lolling</li>
             <li>Jannis Leidel</li>
             <li>Jarbas de Freitas Peixoto</li>
             <li>Jason Waldhelm</li>
@@ -323,6 +324,7 @@ BIC COBADEHD055</p>
             <li>Joël Brogniart</li>
             <li>Johann Dinges</li>
             <li>Johannes Koller</li>
+            <li>John Athayde</li>
             <li>John Duggins</li>
             <li>John Grimes</li>
             <li>John Hritz</li>
@@ -378,6 +380,7 @@ BIC COBADEHD055</p>
             <li>Lars Uffmann</li>
             <li>Laurens Bonnema</li>
             <li>Le Nik</li>
+            <li>Leo Laporte</li>
             <li>Leonard Libitz</li>
             <li>Lincoln Bertin</li>
             <li>Linwood Ma</li>
