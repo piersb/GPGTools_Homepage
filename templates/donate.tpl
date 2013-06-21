@@ -151,6 +151,7 @@ BIC COBADEHD055</p>
             <li>Brian Bodemann</li>
             <li>Brian Farrell</li>
             <li>Brian Flores</li>
+            <li>Brian G R Hughes</li>
             <li>Brian Long</li>
             <li>Brian S Poe</li>
             <li>Bruce Alan Johnson</li>
@@ -176,6 +177,7 @@ BIC COBADEHD055</p>
             <li>Christian Van Heurck</li>
             <li>Christer Klasson</li>
             <li>Christoph Deinhard</li>
+            <li>Christoph Fischer</li>
             <li>Christoph Stasch</li>
             <li>Christopher Gibson</li>
             <li>Christopher Snyder</li>
@@ -302,6 +304,7 @@ BIC COBADEHD055</p>
             <li>James Manley</li>
             <li>James Martin</li>
             <li>James Mecham</li>
+            <li>James Mulvenon</li>
             <li>James Moya</li>
             <li>James Rigsbee</li>
             <li>James W</li>
@@ -647,6 +650,7 @@ BIC COBADEHD055</p>
                   <li>Amerandus Research</li>
                   <li>American Registry for Internet Numbers</li>
                   <li>anykey GmbH</li>
+                  <li>Akamai</li>
                   <li>Artistic Hosting</li>
 				  <li>Audeo Inc</li>
                   <li>Basic Internet Security Manual</li>
