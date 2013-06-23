@@ -440,6 +440,7 @@ BIC COBADEHD055</p>
             <li>Michael Lenk</li>
             <li>Michael Lesniak</li>
             <li>Michael Prewitt</li>
+            <li>Michael Richardson</li>
             <li>Michael Ruse</li>
             <li>Michael Sarabosing</li>
             <li>Michael Weiß</li>
