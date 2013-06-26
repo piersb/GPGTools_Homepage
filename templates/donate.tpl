@@ -156,6 +156,7 @@ BIC COBADEHD055</p>
             <li>Brian S Poe</li>
             <li>Bruce Alan Johnson</li>
             <li>Bruce Robinson</li>
+            <li>Bruno Mattarollo</li>
             <li>Bryan Whitehead</li>
             <li>Burnsitech</li>
             <li>Cabo Pay</li>
@@ -375,6 +376,7 @@ BIC COBADEHD055</p>
             <li>Kenneth R Van Wyk</li>
             <li>Kinash Ivan</li>
             <li>Kitazawa</li>
+            <li>KJ Blacker</li>
             <li>Klas Meder Boqvist</li>
             <li>Konstantin Krauter</li>
             <li>Kurt Erik Lindqvist</li>
@@ -399,6 +401,7 @@ BIC COBADEHD055</p>
             <li>Marcel Seeber</li>
             <li>Magne Larsen</li>
             <li>Magnus Hellmark</li>
+            <li>Manfred Karrer</li>
             <li>Manuel Tiedtke</li>
             <li>Marc Ahr</li>
             <li>Marc Blinder</li>
@@ -738,6 +741,7 @@ BIC COBADEHD055</p>
                   <li>PC Universe</li>
                   <li>phone4</li>
                   <li>pyfidelity UG</li>
+                  <li>Quoin Inc</li>
                   <li>Rayzon Technologies</li>
                   <li>Redbee Internet</li>
                   <li>Reflektis</li>
