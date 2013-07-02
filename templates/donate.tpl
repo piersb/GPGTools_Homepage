@@ -394,6 +394,7 @@ BIC COBADEHD055</p>
             <li>Luca Bertagnolio</li>
             <li>Luca Carettoni</li>
             <li>Lucas Fowler</li>
+            <li>Luis McDougall</li>
             <li>Lukas Spieß</li>
             <li>Lukas Zabrocki</li>
             <li>Lutz Krebs</li>
@@ -417,7 +418,9 @@ BIC COBADEHD055</p>
             <li>Mark Vriesenga</li>
             <li>Markus Kuhnt</li>
             <li>Markus Talas</li>
+            <li>Martin Falada</li>
             <li>Martin Grellmann</li>
+            <li>Martin Wandel</li>
             <li>Martin Waschbüsch</li>
             <li>Martin Wildgruber</li>
             <li>Massimo Fabio</li>
@@ -578,6 +581,7 @@ BIC COBADEHD055</p>
             <li>Steve Zipfel</li>
             <li>Steven Crow</li>
             <li>Steven Herr</li>
+            <li>Steven J Block</li>
             <li>Stijn Jonker</li>
             <li>Stuart Rosner</li>
             <li>Svein Tjemsland</li>
@@ -686,6 +690,7 @@ BIC COBADEHD055</p>
                   <li>Forced Web</li>
                   <li>freistil IT GbR</li>
                   <li>Freshworx</li>
+                  <li>Freudenreich Media</li>
                   <li>friends4net</li>
                   <li>Gekko IT</li>
                   <li>Hacking Team</li>
