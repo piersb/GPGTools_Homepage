@@ -608,6 +608,7 @@ BIC COBADEHD055</p>
             <li>Timo Achilles</li>
             <li>TJ Marbois</li>
             <li>Todd Kuebler</li>
+            <li>Todd Zervas</li>
             <li>Tom DeLozier</li>
             <li>Tomáš Kohút</li>
             <li>Tommi Linnakangas</li>
@@ -744,6 +745,7 @@ BIC COBADEHD055</p>
                   <li>OSNet</li>
                   <li>PID1 Technical Services</li>
                   <li>PC Universe</li>
+                  <li>PGA Conseil&Participation</li>
                   <li>phone4</li>
                   <li>pyfidelity UG</li>
                   <li>Quoin Inc</li>
