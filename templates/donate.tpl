@@ -570,6 +570,8 @@ BIC COBADEHD055</p>
             <li>Shlok Datye</li>
             <li>Simon Entwistle</li>
             <li>Simon Schlachter</li>
+            <li>Sinetris</li>
+            <li>Spyros Karavas</li>
             <li>Stefan Larsson</li>
             <li>Steffen Gebert</li>
             <li>Steffen W Soerensen</li>
