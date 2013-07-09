@@ -138,6 +138,7 @@ BIC COBADEHD055</p>
             <li>Bartosz Rybinski</li>
             <li>Beat Stehrenberger</li>
             <li>Benjamin Bosum</li>
+            <li>Benjamin-Gaylor Paul</li>
             <li>Benjamin Wilson</li>
             <li>Bernd Werner Hennig</li>
             <li>Bernd Wiese</li>
