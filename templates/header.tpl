@@ -45,9 +45,7 @@
 		<div class="ml-description">
 		  <h2><span>The new GPGMail is here with full support for</span><span class="highlight">OS X 10.8 Mountain Lion.</span></span><span>We couldn't be more excited to finally share it with you!</span></h2>
 		  <h2 class="call-for-donation"><span class="highlight">Thank you for downloading GPGMail.</span> <span>We really hope you like it as much as we do!</span></h2>
-		  <p>Please note that while this version is working really well,
-		     we still consider it to be a beta. Expect the occasional crash
-		     and please report any bugs on our <a href="http://support.gpgtools.org">Support Platform</a>.</p>
+		  <p>Every software has bugs, so please if you find one, report it on our <a href="http://support.gpgtools.org">Support Platform</a>.</p>
 		  <p class="call-for-donation">We couldn't have done this without our fantastic donators!<br>If you like our apps, please consider donating, so we can keep on making them even better for you.<br><br>We really appreciate it.</p>
 		  <a href="https://s3.amazonaws.com/gpgtools/GPGTools-2013.5.20.dmg" class="action-button download-ml"><span>GET IT NOW!</span></a>
 		  <a class="call-for-donation donate-creditcard action-button" href="http://gum.co/support-gpgtools-dev">Donate via Credit Card</a>
