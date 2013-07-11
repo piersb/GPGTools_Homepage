@@ -564,8 +564,9 @@ BIC COBADEHD055</p>
             <li>Scott Stonefield</li>
             <li>Sean McAvoy</li>
             <li>Sean Moss-Pultz</li>
-            <li>Sebastian Gutierrez</li>
             <li>Sebastiaan Kruit</li>
+            <li>Sebastian Gutierrez</li>
+            <li>Sebastian Marski</li>
             <li>Shaun Johnson</li>
             <li>Shawn Becker</li>
             <li>Shlok Datye</li>
@@ -635,6 +636,7 @@ BIC COBADEHD055</p>
             <li>Walter Dula</li>
             <li>Warren Alexander</li>
             <li>Wayne Veilleux</li>
+            <li>Werner Janjic</li>
             <li>Wilbert Leeper</li>
             <li>William Bloom</li>
             <li>William Buchaus</li>
