@@ -83,6 +83,7 @@ BIC COBADEHD055</p>
                 <h4>Private Persons</h4>
                 <ul class="sub">
             <li>A Chase Turner</li>
+            <li>A. Franz</li>
             <li>Aaron Ash</li>  
             <li>Abel O Nelson</li>
             <li>Adam Bishop</li>
@@ -110,6 +111,7 @@ BIC COBADEHD055</p>
             <li>Anders Rayner-Karlsson</li>
             <li>Andreas Hahn</li>
             <li>Andreas Karsten</li>
+            <li>Andreas Kollmann</li>
             <li>Andreas Oppermann</li>
             <li>Andreas Wenzel</li>
             <li>Andreas Wuerl</li>
@@ -214,6 +216,7 @@ BIC COBADEHD055</p>
             <li>Demetri Mouratis</li>
             <li>Dennis Wegner</li>
             <li>Derek Curry</li>
+            <li>Dieter Schmitt</li>
             <li>Dietmar Borgards</li>
             <li>Dirk Pape</li>
             <li>Dirk Riemekasten</li>
@@ -257,6 +260,7 @@ BIC COBADEHD055</p>
             <li>Francis Lata</li>
             <li>Francisco Craig</li>
             <li>Franco Fichtner</li>
+            <li>Frank Ehrsam</li>
             <li>Frank Reta</li>
             <li>Fred Faber</li>
             <li>Frederic Jacobs</li>
@@ -280,6 +284,7 @@ BIC COBADEHD055</p>
             <li>Greg Hetrick</li>
             <li>Greg Smith</li>
             <li>Gregory Panera</li>
+            <li>Gregory Rosenberg</li>
             <li>Guido de Cuba</li>
             <li>Guido Viarengo</li>
             <li>Guillaume Destuynder</li>
@@ -300,6 +305,7 @@ BIC COBADEHD055</p>
             <li>Isabelle Bettez</li>
             <li>Ivan Stojcevic</li>
             <li>Ivan Storck</li>
+            <li>Jacob M. Dawson</li>
             <li>James Conroy-Finn</li>
             <li>James Hart</li>
             <li>James Lyne</li>
@@ -342,6 +348,7 @@ BIC COBADEHD055</p>
             <li>Jon Whipple</li>
             <li>Jonas Beckman</li>
             <li>Jonas Karlsson</li>
+            <li>Jonathan Butler</li>
             <li>Jonathan Care</li>
             <li>Jonathan Jacobs</li>
             <li>Jonathan Jaffe</li>
@@ -366,6 +373,7 @@ BIC COBADEHD055</p>
             <li>Julio Sangrador-Paton</li>
             <li>Kamil Shakirov</li>
             <li>Karl Pietrzak</li>
+            <li>Karl Young</li>
             <li>Kaspar Vollenweider</li>
             <li>Kay Fricke</li>
             <li>Keith McCammon</li>
@@ -451,6 +459,8 @@ BIC COBADEHD055</p>
             <li>Michael Ruse</li>
             <li>Michael Sarabosing</li>
             <li>Michael Weiß</li>
+            <li>Michael Weyres</li>
+            <li>MichaelW</li>
             <li>Miguel Cordas</li>
             <li>Mika Goeckel</li>
             <li>Mike Davis</li>
