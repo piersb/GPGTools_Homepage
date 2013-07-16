@@ -659,6 +659,7 @@ BIC COBADEHD055</p>
             <li>Wolfgang Müller</li>
             <li>Yann Philipp Kraetzschmann</li>
             <li>Zaid Ali Kahn</li>
+            <li>Ляпичев Андрей</li>
                 </ul>
             </div>
             <div class="table right">
