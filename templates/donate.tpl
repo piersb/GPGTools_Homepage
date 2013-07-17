@@ -333,6 +333,7 @@ BIC COBADEHD055</p>
             <li>Joakim Norbäck</li>
             <li>Joe Abley</li>
             <li>Joël Brogniart</li>
+            <li>Joern Thiemann</li>
             <li>Johann Dinges</li>
             <li>Johannes Koller</li>
             <li>John Athayde</li>
@@ -684,6 +685,7 @@ BIC COBADEHD055</p>
                   <li>BPRAgency</li>
                   <li>Brattoo Propaganda Software</li>
                   <li>BTC24 Ltd.</li>
+                  <li>Cellular Networking Perspectives Ltd.</li>
                   <li>CertCenter AG</li>
                   <li>CheckSec</li>
                   <li class="premium">Clockwork Active Media Systems</li>
