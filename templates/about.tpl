@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><h2>Contact</h2></div>
+      <div id="o_content"><h2>About</h2></div>
     </div>
     <div id="spacer">
     </div>
