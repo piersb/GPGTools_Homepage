@@ -440,6 +440,7 @@ BIC COBADEHD055</p>
             <li>Matthew David Stears</li>
             <li>Matthias Dörfler</li>
             <li>Matthias Jantzen</li>
+            <li>Matthias Selbach</li>
             <li>Max Jaudas</li>
             <li>Max Sikström</li>
             <li>Meit</li>
@@ -494,6 +495,7 @@ BIC COBADEHD055</p>
             <li>Niko Auer</li>
             <li>Nishal Goburdhan</li>
             <li>Noel Ambroise Spinec</li>
+            <li>Norbert Bornfeld</li>
             <li>Odo Wolbers</li>
             <li>Olaf Kolkman</li>
             <li>Olav Seyfarth</li>
