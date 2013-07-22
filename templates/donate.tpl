@@ -569,6 +569,7 @@ BIC COBADEHD055</p>
             <li>Ryan Brooks</li>
             <li>Ryan Maple</li>
             <li>Sam Hulick</li>
+            <li>Sami Pantzar</li>
             <li>Sanjana Hattotuwa</li>
             <li>Scott Blystone</li>
             <li>Scott Brenner</li>
@@ -660,6 +661,7 @@ BIC COBADEHD055</p>
             <li>Wolfgang Kilian</li>
             <li>Wolfgang Klimt</li>
             <li>Wolfgang Müller</li>
+            <li>wolle</li>
             <li>Yann Philipp Kraetzschmann</li>
             <li>Zaid Ali Kahn</li>
             <li>Ляпичев Андрей</li>
@@ -745,6 +747,7 @@ BIC COBADEHD055</p>
                   <li>Mnemonic Communication</li>
                   <li>MobileActive</li>
                   <li>MojoLingo</li>
+                  <li>Mondon Design</li>
                   <li>Multimage</li>
                   <li>NakamuraSystem</li>
                   <li>National Lawyers Guild</li>
