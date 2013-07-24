@@ -70,7 +70,7 @@ o
 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" style="border:0px;">
 </form>
 <p><b>Bitcoin</b><br><br>
-<a href="http://www.weusecoins.com"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="we use coins" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
+<a href="bitcoin:14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97?label=Support%20GPGTools%20development&amount=0.2"><img src="{$root}/images/bitcoins.png" alt="bitcoins" title="donate using bitcoin" id="bitcoins"/>14rDamyE53BNLPSj4cku6ZXiW6xbBdMJ97</a>
 <br><br>
 <p><b>Wire transfer</b><br><br>
 IBAN DE20200411550787916600<br>
@@ -648,6 +648,7 @@ BIC COBADEHD055</p>
             <li>Volker Thieme</li>
             <li>Volodia Sascho</li>
             <li>Walter Dula</li>
+            <li>Walter Höchtl</li>
             <li>Warren Alexander</li>
             <li>Wayne Veilleux</li>
             <li>Werner Janjic</li>
