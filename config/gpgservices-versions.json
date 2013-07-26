@@ -1,5 +1,20 @@
 [
     {
+        "build": "505",
+        "checksum": "f733552c2d299460da1751d4806bbc341cb6b6b1",
+        "info": {
+            "fixes": []
+        },
+        "newest-version": true,
+        "release_date": 1374874800,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 2349355,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGServices-1.9.dmg"
+        },
+        "version": "1.9"
+    },
+    {
         "build": "109",
         "checksum": "5836bf9585b89db2f65f08673a7110453f32e5d0",
         "info": {
@@ -20,7 +35,7 @@
                 "Something Else describing a fix"
             ]
         },
-        "newest-version": true,
+        "newest-version": false,
         "release_date": 1364326929,
         "sparkle": {
             "minOS": "10.6",

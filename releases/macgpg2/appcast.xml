@@ -6,10 +6,10 @@
         <description>Release Notes for the latest versions of MacGPG 2</description>
         <language>en</language>
         <item>
-            <title>MacGPG 2 v2.0.19</title>
+            <title>MacGPG 2 v2.0.20</title>
             <sparkle:releaseNotesLink>https://gpgtools.org/releases/macgpg2/release-notes.html</sparkle:releaseNotesLink>
-            <pubDate>Sat, 30 Mar 2013 15:19:40 +0100</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.19.dmg" sparkle:version="87" sparkle:shortVersionString="2.0.19" length="4850527" type="application/octet-stream"/>
+            <pubDate>Fri, 26 Jul 2013 23:40:00 +0200</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.20.dmg" sparkle:version="505" sparkle:shortVersionString="2.0.20" length="4911788" type="application/octet-stream"/>
             <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
                                 </item>
     </channel>

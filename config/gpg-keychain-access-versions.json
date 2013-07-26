@@ -1,5 +1,22 @@
 [
     {
+        "build": "505",
+        "checksum": "803fe030b8d9925223ba9e15b073c03ed612b16e",
+        "info": {
+            "fixes": [
+                "Some crashes"
+            ]
+        },
+        "newest-version": true,
+        "release_date": 1374874800,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 4007532,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGKeychainAccess-1.1.dmg"
+        },
+        "version": "1.1"
+    },
+    {
         "build": "196",
         "checksum": "8fd8268094865ec278ac60f2bfdd01a23be180d0",
         "info": {
@@ -28,7 +45,7 @@
                 "'Choose another...' now let's you select another photo. <a href=\"https://gpgtools.lighthouseapp.com/projects/65684-gpg-keychain-access/tickets/145-key-inspector-photos-ignores-choose-another\">#145</a>."
             ]
         },
-        "newest-version": true,
+        "newest-version": false,
         "release_date": 1364594484,
         "sparkle": {
             "minOS": "10.6",

@@ -6,10 +6,10 @@
         <description>Release Notes for the latest versions of GPGMail</description>
         <language>en</language>
         <item>
-            <title>GPGMail v2.0b6</title>
+            <title>GPGMail v2.0</title>
             <sparkle:releaseNotesLink>https://gpgtools.org/releases/gpgmail/release-notes.html</sparkle:releaseNotesLink>
-            <pubDate>Mon, 20 May 2013 01:28:31 +0200</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGMail-2.0b6.dmg" sparkle:version="140b" sparkle:shortVersionString="2.0b6" length="4022189" type="application/octet-stream"/>
+            <pubDate>Fri, 26 Jul 2013 23:40:00 +0200</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGMail-2.0.dmg" sparkle:version="505" sparkle:shortVersionString="2.0" length="7980898" type="application/octet-stream"/>
             <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
                                 </item>
     </channel>

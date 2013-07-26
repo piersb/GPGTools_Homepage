@@ -1,5 +1,20 @@
 [
     {
+        "build": "505",
+        "checksum": "b5c54226f050942d0e05e6256de859fc288cb08d",
+        "info": {
+            "fixes": []
+        },
+        "newest-version": true,
+        "release_date": 1374874800,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 4911788,
+            "url": "https://s3.amazonaws.com/gpgtools/MacGPG2-2.0.20.dmg"
+        },
+        "version": "2.0.20"
+    },
+    {
         "build": "87",
         "checksum": "3fda54bbb5df5a8c00b5857a7c8ee9f0b29408f9",
         "info": {

@@ -1,5 +1,21 @@
 [
     {
+        "build": "505",
+        "checksum": "924d63f264016e891d23cdddd00fc0502f68866d",
+        "info": {
+            "features": [],
+            "fixes": []
+        },
+        "newest-version": true,
+        "release_date": 1374874800,
+        "sparkle": {
+            "minOS": "10.6",
+            "size": 3350832,
+            "url": "https://s3.amazonaws.com/gpgtools/GPGPreferences-1.0.dmg"
+        },
+        "version": "1.0"
+    },
+    {
         "build": "68",
         "checksum": "0b44f785cdcba1586a59dfe23a154bcdc6b21c47",
         "info": {
@@ -13,7 +29,7 @@
             ],
             "fixes": []
         },
-        "newest-version": true,
+        "newest-version": false,
         "release_date": 1369136828,
         "sparkle": {
             "minOS": "10.6",

@@ -6,10 +6,10 @@
         <description>Release Notes for the latest versions of </description>
         <language>en</language>
         <item>
-            <title> v2013.5.20</title>
+            <title> v2013.07.26</title>
             <sparkle:releaseNotesLink>https://gpgtools.org/releases/gpgtools/release-notes.html</sparkle:releaseNotesLink>
-            <pubDate>Mon, 20 May 2013 16:52:54 +0200</pubDate>
-            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGTools-2013.5.20.dmg" sparkle:version="277" sparkle:shortVersionString="2013.5.20" length="16558134" type="application/octet-stream"/>
+            <pubDate>Fri, 26 Jul 2013 23:40:00 +0200</pubDate>
+            <enclosure url="https://s3.amazonaws.com/gpgtools/GPGTools-2013.07.26.dmg" sparkle:version="505" sparkle:shortVersionString="2013.07.26" length="19435241" type="application/octet-stream"/>
             <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
                                 </item>
     </channel>
