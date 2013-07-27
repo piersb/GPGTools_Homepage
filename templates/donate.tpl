@@ -226,6 +226,7 @@ BIC COBADEHD055</p>
             <li>Dmitry Nedospasov</li>
             <li>Dmitry Paranyushkin</li>
             <li>Dennis Otte</li>
+            <li>Dennis Roscetti</li>
             <li>Dominik Miklaszewski</li>
             <li>Doug Laakso</li>
             <li>Douglas Hewes</li>
