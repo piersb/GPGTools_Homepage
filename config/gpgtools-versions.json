@@ -1,7 +1,7 @@
 [
     {
         "build": "505",
-        "checksum": "17009460f60ffb864327b1a873b01e8cbe11ffd8",
+        "checksum": "45976a228ca13447a4a366f1b9742e44807f9a6e",
         "info": {
             "features": [
                 {
@@ -18,13 +18,13 @@
             "fixes": []
         },
         "newest-version": true,
-        "release_date": 1374874800,
+        "release_date": 1374929000,
         "sparkle": {
             "minOS": "10.6",
             "size": 19435241,
-            "url": "https://s3.amazonaws.com/gpgtools/GPGTools-2013.07.26.dmg"
+            "url": "https://s3.amazonaws.com/gpgtools/GPG%20Suite%20-%202013.07.27.dmg"
         },
-        "version": "2013.07.26"
+        "version": "2013.07.27"
     },
     {
         "build": "277",
